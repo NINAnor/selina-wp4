@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: v0.2.5
+_src_path: gh:ninanor/python-template
+author_name: ninanor
+debug: false
+default_branch_name: main'
+docker: false
+email: ninanor@nina.no
+notebook: false
+project_name: Selina WP4
+project_slug: selina_wp4
+repo_name: selina_wp4
+repo_org: ninanor
+template_type: python
+type_annotations: true
