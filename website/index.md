@@ -1,1 +1,4 @@
-# Chapter 1
+# Home
+
+- [Infos](/informative-survey)
+- [Survey](/survey)

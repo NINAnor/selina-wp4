@@ -1,0 +1,61 @@
+<html>
+<head>
+    <link href="https://unpkg.com/survey-core/survey-core.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <title>Survey</title>
+</head>
+</head>
+<body>
+    <div id="survey"></div>
+    <script>
+        const config = {{ config|tojson|safe }};
+        console.log(config);
+
+        async function surveyComplete (survey) {
+            try {
+                const response = await fetch("/submit", {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json;charset=UTF-8'
+                    },
+                    body: JSON.stringify(survey.data)
+                })
+
+                console.log(response)
+
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const objectUrl = URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = objectUrl;
+                    link.download = "survey-result";
+                    link.style.display = 'none';
+                    document.body.appendChild(link);
+                    link.click();
+                    URL.revokeObjectURL(objectUrl);
+                } else {
+                    // TODO: Handle error
+                }
+            } catch (error) {
+
+                // TODO: Handle error
+                console.error(error)
+            };
+        }
+
+        const survey = new Survey.Model(config);
+        survey.onComplete.add(surveyComplete);
+
+        document.addEventListener("DOMContentLoaded", function() {
+            survey.render(document.getElementById("survey"));
+        });
+    </script>
+</body>
+</html>
