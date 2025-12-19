@@ -20,4 +20,3 @@ Add markdown pages in `website`, the name of the file will be the url of the pag
 Modify `static/survey-config.json` with a valid configuration from [SurveyJS Form Creator]().
 
 Modify `templates/survey-render.md.jinja` to render a valid markdown content
-

@@ -1,3 +1,9 @@
+[dependency-groups]
+dev = [
+  "deptry",
+  "ty>=0.0.3"
+]
+
 [project]
 authors = [
   {name = "ninanor", email = "ninanor@nina.no"}
@@ -8,7 +14,8 @@ dependencies = [
   "django-environ",
   "pandoc>=2.4,<3",
   "fastapi[standard]>=0.125.0,<0.126",
-  "mistune>=3.1.4", "structlog>=25.5.0,<26",
+  "mistune>=3.1.4",
+  "structlog>=25.5.0,<26"
 ]
 description = ""
 license = "GPL-3.0+"
@@ -20,11 +27,24 @@ version = "0.1.0"
 [project.scripts]
 selina_wp4 = "main:start"
 
-[dependency-groups]
-dev = [
-  "deptry",
-  "ty>=0.0.3",
-]
+[tool.pixi.dependencies]
+mistune = ">=3.1.4,<4"
+pandoc = ">=3.8.3,<4"
+
+[tool.pixi.environments]
+default = {solve-group = "default"}
+dev = {features = ["dev"], solve-group = "default"}
+
+[tool.pixi.pypi-dependencies]
+selina_wp4 = {path = ".", editable = true}
+
+[tool.pixi.tasks]
+dev = "fastapi dev src/selina_wp4/main.py"
+prod = "fastapi run src/selina_wp4/main.py"
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
 
 [tool.ruff]
 fix = true
@@ -32,22 +52,3 @@ fix = true
 [tool.ruff.lint]
 ignore = ["COM812"]
 select = ["E", "W", "I", "F", "UP", "S", "B", "A", "COM", "LOG", "PTH", "Q"]
-
-[tool.pixi.workspace]
-channels = ["conda-forge"]
-platforms = ["linux-64"]
-
-[tool.pixi.pypi-dependencies]
-selina_wp4 = { path = ".", editable = true }
-
-[tool.pixi.environments]
-default = { solve-group = "default" }
-dev = { features = ["dev"], solve-group = "default" }
-
-[tool.pixi.tasks]
-dev = "fastapi dev src/selina_wp4/main.py"
-prod = "fastapi run src/selina_wp4/main.py"
-
-[tool.pixi.dependencies]
-pandoc = ">=3.8.3,<4"
-mistune = ">=3.1.4,<4"
