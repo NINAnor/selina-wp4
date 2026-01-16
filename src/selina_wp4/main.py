@@ -53,9 +53,30 @@ SURVEY_CONFIG = json.load((BASE_DIR / "static" / "survey-config.json").open("r")
 log.debug("using survey config", config=SURVEY_CONFIG)
 
 
+SURVEY_DEBUG_PATH = BASE_DIR / "survey.json"
+
+
+@app.get("/survey-debug")
+def preview(request: Request):
+    if not SURVEY_DEBUG_PATH.exists():
+        return "create a file survey.json in the root of the project with the data you want to debug"  # noqa: E501
+
+    with SURVEY_DEBUG_PATH.open("r") as f:
+        survey = templates.get_template("survey-render.md.jinja").render(json.load(f))
+
+    return templates.TemplateResponse(
+        request=request,
+        name="index.html.jinja",
+        context={"content": mistune.html(survey)},
+    )
+
+
 @app.post("/submit")
 def submit(request_body: dict[Any, Any]):
     log.debug("submitted", data=request_body)
+
+    with SURVEY_DEBUG_PATH.open("w") as f:
+        json.dump(request_body, f)
 
     survey = templates.get_template("survey-render.md.jinja").render(**request_body)
 
