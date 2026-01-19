@@ -1,6 +1,11 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
 [dependency-groups]
 dev = [
   "deptry",
+  "pytailwindcss>=0.2.0",
   "ty>=0.0.3"
 ]
 
@@ -15,7 +20,8 @@ dependencies = [
   "pandoc>=2.4,<3",
   "fastapi[standard]>=0.125.0,<0.126",
   "mistune>=3.1.4",
-  "structlog>=25.5.0,<26"
+  "structlog>=25.5.0,<26",
+  "pyyaml>=6.0.3"
 ]
 description = ""
 license = "GPL-3.0+"
@@ -28,8 +34,8 @@ version = "0.1.0"
 selina_wp4 = "main:start"
 
 [tool.pixi.dependencies]
-mistune = ">=3.1.4,<4"
 pandoc = ">=3.8.3,<4"
+pnpm = ">=10.28.0,<11"
 
 [tool.pixi.environments]
 default = {solve-group = "default"}
@@ -39,7 +45,7 @@ dev = {features = ["dev"], solve-group = "default"}
 selina_wp4 = {path = ".", editable = true}
 
 [tool.pixi.tasks]
-dev = "fastapi dev src/selina_wp4/main.py"
+dev = "uvicorn --reload selina_wp4.main:app"
 prod = "fastapi run src/selina_wp4/main.py"
 
 [tool.pixi.workspace]

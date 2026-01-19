@@ -1,7 +1,31 @@
+<!doctype html>
 <html>
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/app.css" rel="stylesheet">
 </head>
+
 <body>
-    {{ content|safe }}
+    <div class="bg-base-100 shadow-sm mb-2">
+        <div class="max-w-screen-xl mx-auto navbar">
+            <div class="flex-1">
+                <a class="btn btn-ghost text-xl">{{ config['title'] }}</a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1">
+                    {% for e in config['nav'] %}
+                    <li><a href="{{e.link}}">{{ e.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-screen-xl mx-auto">
+        <div class="prose">
+            {{ content|safe }}
+        </div>
+    </div>
 </body>
 </html>

@@ -10,6 +10,7 @@ import environ
 import mistune
 import pandoc
 import structlog
+import yaml
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -42,6 +43,9 @@ log = structlog.get_logger()
 
 templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
+
+with (BASE_DIR / "config.yml").open(mode="r") as f:
+    templates.env.globals["config"] = yaml.load(f, yaml.SafeLoader)
 
 
 WEBSITE_PATH = BASE_DIR / "website"

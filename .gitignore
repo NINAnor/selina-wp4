@@ -179,3 +179,4 @@ pyrightconfig.json
 !.pixi/config.toml
 
 survey.json
+node_modules

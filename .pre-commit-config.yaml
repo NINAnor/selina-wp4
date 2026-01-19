@@ -29,7 +29,7 @@ repos:
     rev: v1.5.0
     hooks:
     - id: detect-secrets
-      args: [--exclude-files=django/src/fixtures/users.json]
+      args: [--exclude-files=django/src/fixtures/users.json,--exclude-files=pnpm-lock.yaml]
 
   - repo: local
     hooks:

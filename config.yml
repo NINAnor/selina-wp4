@@ -1,0 +1,10 @@
+title: Selina WP4
+nav:
+  - name: Home
+    link: /
+  - name: Infos
+    link: /informative-survey
+  - name: Survey
+    link: /survey
+  - name: Last submission
+    link: /survey-debug
