@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="288.82278mm"
+   height="164.91505mm"
+   viewBox="0 0 288.82278 164.91505"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Interlinkages_DT.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0396254"
+     inkscape:cx="665.62435"
+     inkscape:cy="392.92998"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="1.5550812e-39"
+       y="0"
+       width="288.82278"
+       height="164.91505"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.80000001"
+       markerHeight="0.80000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="userSpaceOnUse">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-2-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-7-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-1-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-3-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-2-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-7-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-1-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-3-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-1-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-3-7-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-2-4-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.80000001"
+       markerHeight="0.80000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="userSpaceOnUse">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-7-8-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.80000001"
+       markerHeight="0.80000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="userSpaceOnUse">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-2-4-6-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.80000001"
+       markerHeight="0.80000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="userSpaceOnUse">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-7-8-0-3" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.5617223,-21.394298)">
+    <g
+       id="g19">
+      <rect
+         style="fill:#ececec;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect13"
+         width="288.32278"
+         height="164.41507"
+         x="2.811722"
+         y="21.644299"
+         ry="3.853478" />
+      <g
+         id="g11"
+         transform="translate(-4.5483403,15.597394)">
+        <rect
+           style="fill:#e9c6af;stroke-width:0.162063"
+           id="rect1-8"
+           width="54.697884"
+           height="21.058104"
+           x="18.72353"
+           y="65.458092"
+           ry="5.1782222" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:0.3"
+           x="46.699047"
+           y="73.220306"
+           id="text1-5"><tspan
+             sodipodi:role="line"
+             id="tspan1-5"
+             style="font-size:8.81944px;fill:#000000;stroke-width:0.3"
+             x="46.699047"
+             y="73.220306">Ecosystems </tspan><tspan
+             sodipodi:role="line"
+             style="font-size:8.81944px;fill:#000000;stroke-width:0.3"
+             x="46.699047"
+             y="84.244606"
+             id="tspan9">condition</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:0.3"
+         x="27.485857"
+         y="30.476347"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-size:8.81944px;fill:#000000;stroke-width:0.3"
+           x="27.485857"
+           y="30.476347">Uncertainty</tspan></text>
+      <g
+         id="g10"
+         transform="translate(-3.2157543,18.236001)">
+        <rect
+           style="fill:#e9c6af;stroke-width:0.199265"
+           id="rect1-8-6"
+           width="82.692741"
+           height="21.058104"
+           x="92.02256"
+           y="62.819489"
+           ry="5.1782222" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1a1a1a;stroke-width:0.3"
+           x="132.24931"
+           y="69.909904"
+           id="text3"><tspan
+             sodipodi:role="line"
+             id="tspan3"
+             style="fill:#1a1a1a;stroke-width:0.3"
+             x="132.24931"
+             y="69.909904">Ecosystem services</tspan><tspan
+             sodipodi:role="line"
+             style="fill:#1a1a1a;stroke-width:0.3"
+             x="132.24931"
+             y="80.934204"
+             id="tspan5">supply, use, demand</tspan></text>
+      </g>
+      <g
+         id="g9"
+         transform="translate(8.2198704,21.312462)">
+        <rect
+           style="fill:#e9c6af;stroke-width:0.2059"
+           id="rect1-8-6-3"
+           width="88.291718"
+           height="21.058104"
+           x="183.21341"
+           y="59.743027"
+           ry="5.1782222" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1a1a1a;stroke-width:0.3"
+           x="227.1982"
+           y="66.990623"
+           id="text4"><tspan
+             sodipodi:role="line"
+             id="tspan4"
+             style="stroke-width:0.3"
+             x="227.1982"
+             y="66.990623">Economic valuation of</tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.3"
+             x="227.1982"
+             y="78.014923"
+             id="tspan6">ecosystem services</tspan></text>
+      </g>
+      <g
+         id="g13"
+         transform="translate(57.932565,12.391442)">
+        <rect
+           style="fill:#f4e3d7;stroke-width:0.166892"
+           id="rect1-8-68"
+           width="58.006367"
+           height="21.058104"
+           x="46.971329"
+           y="113.06784"
+           ry="5.1782222" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1a1a1a;stroke-width:0.3"
+           x="76.164627"
+           y="126.57259"
+           id="text7"><tspan
+             sodipodi:role="line"
+             id="tspan7"
+             style="stroke-width:0.3"
+             x="76.164627"
+             y="126.57259">Health benefits</tspan></text>
+      </g>
+      <g
+         id="g12"
+         transform="translate(-30.752722,37.846085)">
+        <rect
+           style="fill:#f4e3d7;stroke-width:0.166892"
+           id="rect1-8-68-1"
+           width="58.006367"
+           height="21.058104"
+           x="135.65662"
+           y="111.28158"
+           ry="5.1782222" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1a1a1a;stroke-width:0.3"
+           x="164.68564"
+           y="124.78632"
+           id="text8"><tspan
+             sodipodi:role="line"
+             id="tspan8"
+             style="stroke-width:0.3"
+             x="164.68564"
+             y="124.78632">Social benefits</tspan></text>
+      </g>
+      <path
+         style="fill:#4d4d4d;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+         d="M 53.606086,60.958674 V 74.192606"
+         id="path13" />
+      <g
+         id="g15"
+         transform="translate(5.5058272,-4.741348)">
+        <path
+           style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-1)"
+           d="m 48.201271,111.75533 42.027796,23.01986"
+           id="path13-7" />
+        <path
+           style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-1-7)"
+           d="M 47.104487,111.17207 93.2831,154.61228"
+           id="path13-7-3" />
+      </g>
+      <g
+         id="g15-8"
+         transform="matrix(-1.0035745,0,0,1.0000179,261.63596,-4.7437488)">
+        <path
+           style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-1-0)"
+           d="m 48.201271,111.75533 42.027796,23.01986"
+           id="path13-7-9" />
+        <path
+           style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-1-7-6)"
+           d="M 47.104487,111.17207 93.2831,154.61228"
+           id="path13-7-3-3" />
+      </g>
+      <path
+         style="fill:#4d4d4d;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-2)"
+         d="M 131.90646,60.958674 V 74.192606"
+         id="path13-5" />
+      <path
+         style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-2-4)"
+         d="m 131.40553,105.75724 v 13.23393"
+         id="path13-5-5" />
+      <path
+         style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#RoundedArrow-2-4-6)"
+         d="m 185.01143,92.400514 h -7.95088"
+         id="path13-5-5-6" />
+      <path
+         style="fill:#4d4d4d;stroke:#deaa87;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow-4);marker-end:url(#RoundedArrow-2-4-6-6)"
+         d="m 83.402631,92.310362 h -7.95088"
+         id="path13-5-5-6-8" />
+      <path
+         style="fill:#4d4d4d;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-2-1)"
+         d="M 225.75764,60.958674 V 74.192606"
+         id="path13-5-3" />
+      <path
+         style="fill:none;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 274.3496,50.899742 h 10.68896 v 99.763498 h -79.4036"
+         id="path15" />
+      <path
+         style="fill:none;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 19.341902,50.899742 H 6.1079691 V 151.42673 H 45.55527"
+         id="path16" />
+      <path
+         style="fill:none;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow-2);marker-end:url(#RoundedArrow-1-0)"
+         d="m 195.83676,132.84833 h 8.52571 v 31.55784 h -9.16196"
+         id="path17" />
+      <path
+         style="fill:none;stroke:#d38d5f;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow-2);marker-end:url(#RoundedArrow-2)"
+         d="M 68.205656,135.5231 H 47.208564 v 31.55784 h 21.25159"
+         id="path17-8" />
+      <rect
+         style="fill:#deaa87;stroke:#d38d5f;stroke-width:0.3"
+         id="rect1"
+         width="254.24422"
+         height="15.524422"
+         x="20.012257"
+         y="42.755783"
+         ry="3.8174808" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.81944px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:0.3"
+         x="147.16014"
+         y="52.733624"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-size:8.81944px;fill:#000000;stroke-width:0.3"
+           x="147.16014"
+           y="52.733624">Spatial &amp; temporal scales</tspan></text>
+    </g>
+  </g>
+</svg>
