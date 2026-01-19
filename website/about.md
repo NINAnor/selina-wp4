@@ -10,7 +10,9 @@ Are you scoping for the needs of your own ecosystem services assessment?
 
 Are writing some part of a tender for an ecosystem service assessment?
 
-Or are you evaluating proposals from contractors for an ecosystem service assessment?
+Are you evaluating proposals from contractors for an ecosystem service assessment?
+
+Or you want to do an ecosystem service assessment yourself but are unsure how you should proceed?
 
 Then this website is for you! 
 
