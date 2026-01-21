@@ -4,6 +4,9 @@ nav:
     link: /
   - name: Infos
     link: /informative-survey
+    children:
+      - name: test
+        link: /test
   - name: Survey
     link: /survey
   - name: Last submission
