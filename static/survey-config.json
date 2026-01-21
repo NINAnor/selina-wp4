@@ -1,7 +1,1424 @@
 {
-    "elements": [{
-        "name": "FirstName",
-        "title": "Enter your first name:",
-        "type": "text"
-    }]
+  "title": "Ecosystem service assessment: Terms of Reference online survey",
+  "logo": "https://surveyjs.io/Content/Images/examples/logo.png",
+  "logoHeight": "60px",
+  "completedHtml": "<h3>Thank you for your feedback</h3>",
+  "pages": [
+    {
+      "name": "page18",
+      "title": "A. Introduction",
+      "description": "Welcome to the creation of your Terms of Reference through an online survey!\n\nWe will ask you some questions to automatically generate the Frame & Scope, and Methodology sections of a Terms of Reference based on your answers.\n\nThis survey only covers part of the overall guidance to write Terms of Reference. The full guidance is available here: (link)",
+      "elements": [
+        {
+          "type": "html",
+          "name": "question24"
+        }
+      ]
+    },
+    {
+      "name": "page19",
+      "title": "B. Frame & Scope",
+      "description": "This section focuses on the frame and scope of your ecosystem service assessment. It addresses (i) the context and purpose of the assessment; (ii) general characteristics such as the time period and geographical location; and (iii) the involvement of stakeholders.\n\n",
+      "elements": [
+        {
+          "type": "html",
+          "name": "question25"
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "description": "B.1 Context and Purpose ",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Question 1.a",
+          "title": "What is(are) the purpose(s) of the ecosystem service assessment? Is it part of a decision-making process? If so, at which step(s) of this process is the assessment needed?",
+          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n*Your response will be visible in the [Terms of reference.](/informative-survey#test-1)"
+        },
+        {
+          "type": "text",
+          "name": "Question 1.c",
+          "title": "Which relevant policies should be considered for the ecosystem service assessment given the decision-making step and primary objective?",
+          "description": "Identify the international and national policies that should be considered in the ecosystem service assessment.\n\n*Your response will be visible as written here in the Terms of Reference.\n"
+        },
+        {
+          "type": "text",
+          "name": "Question 1.d",
+          "title": "What is the social / demographic context of the ecosystem service assessment?\n",
+          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n*Your response will be visible in the Terms of reference.\n"
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "description": "B.2 Ecosystem type(s) and service(s)",
+      "elements": [
+        {
+          "type": "multipletext",
+          "name": "Question 3.1.a",
+          "title": "What ecosystem type(s) is(are) of interest in the ecosystem service assessment?\n",
+          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. Ecosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n",
+          "items": [
+            {
+              "name": "text1",
+              "title": "Ecosystem type (s)"
+            },
+            {
+              "name": "text2",
+              "title": "Classification to be used (if known)"
+            }
+          ]
+        },
+        {
+          "type": "multipletext",
+          "name": "Question 3.1.b",
+          "title": "What ecosystem service(s) is(are) of interest in the ecosystem service assessment?\n",
+          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. Ecosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.",
+          "items": [
+            {
+              "name": "text1",
+              "title": "Ecosystem service (s)"
+            },
+            {
+              "name": "text2",
+              "title": "Classification to be used (if known)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "description": "B.3 Spatial characteristics",
+      "elements": [
+        {
+          "type": "multipletext",
+          "name": "Question 3.2.a",
+          "title": "What is(are) the geographical location(s) and total area(s) (i.e., spatial extent) of the ecosystem service assessment?\n",
+          "description": "Identify the geographical location(s) and total area of each location (e.g., 5,000 m2, 1 km2, 10 ha) in which the assessment should be conducted. The geographical location and the total area form the spatial extent.",
+          "items": [
+            {
+              "name": "text1",
+              "title": "Geographical location"
+            },
+            {
+              "name": "text2",
+              "title": "Spatial extent"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "Question 3.2.b",
+          "title": "At which spatial scale(s) should the results of the ecosystem service assessment be presented (e.g., results aggregated to administrative scales such as regions and counties)?\n",
+          "description": "Select what applies. The spatial scales apply within the geographical location and spatial extent chosen of the ecosystem service assessment.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Fully spatially explicit: the assessment maps detailed spatial patterns and interactions to support site-specific management but demands more resources."
+            },
+            {
+              "value": "Item 2",
+              "text": "Aggregation at ecological scale: the assessment aggregates ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure."
+            },
+            {
+              "value": "Item 3",
+              "text": "Aggregation at administrative scale: the assessment averages ecosystem service results by administrative areas, making it useful for policy, governance, and resource management decisions at those levels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page4",
+      "description": "B.4 Temporal characteristics",
+      "elements": [
+        {
+          "type": "multipletext",
+          "name": "Question 3.3.a",
+          "title": "What is the time period and temporal scale(s) to be considered in the ecosystem service assessment?\n",
+          "description": "Identify the total time period (or interval) for which the ecosystem service assessment is to be conducted. It may also be a single (e.g., annual) assessment without repetition. Then specify the temporal scale, in which you need the results reported. The temporal scale represents the unit of time in which the results should be presented (aggregated if needed) such as by year, by quarter, by month, etc.\n",
+          "items": [
+            {
+              "name": "text1",
+              "title": "Time period of the assessment"
+            },
+            {
+              "name": "text2",
+              "title": "Temporal scale (results reported by year, quarter, month…)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page5",
+      "description": "B.5 Valuation of ecosystem services",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "biophysical_valuation_needed",
+          "title": "Should the ecosystem service(s) be measured in biophysical terms?",
+          "description": "Valuing, or quantifying, ecosystem services in biophysical terms means that the assessment measures the physical quantity of the ecosystem service (e.g., tonnes of crops produced, tonnes of carbon sequestrated, number of recreational visitors).",
+          "isRequired": true,
+          "choices": [
+            "Yes",
+            "No",
+            "Maybe",
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "Please confirm",
+          "visibleIf": "{biophysical_valuation_needed} = 'no' or {biophysical_valuation_needed} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "biophysical_valuation_confirmation",
+              "visibleIf": "{biophysical_valuation_needed} = 'no' or {biophysical_valuation_needed} = 'dontknow'",
+              "title": "Measuring ecosystem services in biophysical terms is at the foundation of all other measures of ecosystems services such as economic valuation, or health and social benefits of these services. Do you confirm that you do not wish any biophysical measure of ecosystems services?",
+              "isRequired": true,
+              "choices": [
+                {
+                  "value": "Item 1",
+                  "text": "Yes"
+                },
+                {
+                  "value": "Item 2",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "economic_valuation_needed",
+          "title": "Should the ecosystem service(s) be measured in terms of their economic value in monetary units? \n",
+          "description": "Economic value is a measure of the contribution of the ecosystem service(s) to human wellbeing. It is generally measured in monetary units to facilitate direct comparison and aggregation with the values of other goods and services (e.g., for inclusion in decision support frameworks such as cost-benefit analysis). It is recommended to first value service in biophysical terms before valuing them in monetary terms.",
+          "choices": [
+            "Yes",
+            {
+              "value": "no",
+              "text": "No"
+            },
+            "Maybe",
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel1",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "economic_valuation_confirmation",
+              "visibleIf": "{economic_valuation_needed} = 'no' or {economic_valuation_needed} = 'dontknow'",
+              "title": "Your answer to this questions means that we will not ask you any further questions on economic valuation. Your Terms of Reference will then not include any sections on economic valuation of ecosystem service. Do you confirm this corresponds to your needs?",
+              "choices": [
+                "Yes",
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "ecosystem_services_matrix",
+          "title": "What aspects of ecosystem services should be measured?",
+          "description": "Select what applies.\nEcosystem service supply refers to the quantity of ecosystem service being supplied. \nEcosystem service use refers to the quantity of ecosystem service being used.\nEcosystem service demand refers to the quantity of an ecosystem service needed. \n\n",
+          "columns": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "essupply",
+              "text": "Ecosystem service supply"
+            },
+            {
+              "value": "esdemand",
+              "text": "Ecosystem service demand"
+            },
+            {
+              "value": "esuse",
+              "text": "Ecosystem service use"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel2",
+          "visibleIf": "{ecosystem_services_matrix.essupply} = 'no' or\n{ecosystem_services_matrix.essupply} = 'dontknow' or\n{ecosystem_services_matrix.esdemand} = 'no' or\n{ecosystem_services_matrix.esdemand} = 'dontknow' or\n{ecosystem_services_matrix.esuse} = 'no' or\n{ecosystem_services_matrix.esuse} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "question2",
+              "visibleIf": "{ecosystem_services_matrix.essupply} = 'no' or\n{ecosystem_services_matrix.essupply} = 'dontknow' or\n{ecosystem_services_matrix.esdemand} = 'no' or\n{ecosystem_services_matrix.esdemand} = 'dontknow' or\n{ecosystem_services_matrix.esuse} = 'no' or\n{ecosystem_services_matrix.esuse} = 'dontknow'",
+              "title": "Your answer to this question means that we will not ask you any further questions on this aspect of economic service measurement. Your Terms of Reference will then not include any sections on the selected aspect of ecosystem service measurement. Do you confirm this corresponds to your needs?",
+              "choices": [
+                {
+                  "value": "Item 1",
+                  "text": "Yes"
+                },
+                {
+                  "value": "Item 2",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "society_equity_needed",
+          "title": "Should the ecosystem service assessment address social benefits and equity goals?",
+          "description": "Social benefits are improvements in people’s quality of life. Equity goals focus on guaranteeing that these are fairly distributed among social groups. Social benefit is a measure of the contribution of ecosystem services to societal well-being and equity. It can be quantified using metrics such as availability and access to ecosystem services, reduction in social vulnerabilities, social inclusion, etc.",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel3",
+          "visibleIf": "{society_equity_needed} = 'no' or {society_equity_needed} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "question1",
+              "visibleIf": "{society_equity_needed} = 'no' or {society_equity_needed} = 'dontknow'",
+              "title": "Your answer to this question means that we will not ask you any further questions on social benefits and equity goals. Your Terms of Reference will then not include any sections on social benefits and equity goals. Do you confirm this corresponds to your needs?",
+              "choices": [
+                {
+                  "value": "yes",
+                  "text": "Yes"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "health_needed",
+          "title": "Should the ecosystem services be valued in terms of their relevance to health? If yes, should the assessment look at human, animal, or plant health, or take a One Health approach combining all three with ecosystem health?",
+          "description": "Ecosystem services are crucial to health, including the health dimension in an ecosystem service assessment allows to take into account the wider impacts of changes in ecosystem services on the society and the environment. The health scope will inform the selection of assessment methodology, stakeholder engagement and reporting. The One Health approach is an approach that recognises the interconnection between people, animals, plants and their shared environment.",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel4",
+          "visibleIf": "{health_needed} = 'no' or {health_needed} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "question3",
+              "visibleIf": "{health_needed} = 'no' or {health_needed} = 'dontknow'",
+              "title": "Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?” Answer: YES/NO ",
+              "choices": [
+                {
+                  "value": "yes",
+                  "text": "Yes"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "conservation_needed",
+          "title": "Should the ecosystem service assessment evaluate the conservation, sustainable supply and / or use of the ecosystem service(s) of interest?\n",
+          "description": "Sustainable use of ecosystem services means that the services will be maintained and won’t be used until depletion, but will be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided in the long term and be available for future generations. The assessment of sustainable levels of supply and use facilitates the evaluation of sustainability of use, management and conservation measures.\n",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel5",
+          "visibleIf": "{conservation_needed} = 'no' or {conservation_needed} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "question4",
+              "visibleIf": "{conservation_needed} = 'no' or {conservation_needed} = 'dontknow'",
+              "title": "Your answer to this question means that we will not ask you any further questions on conservation and the sustainable use and supply of ecosystem services. Your Terms of Reference will then not include any sections on conservation and sustainable use and supply of ecosystem services. Do you confirm this corresponds to your needs?",
+              "choices": [
+                {
+                  "value": "Item 1",
+                  "text": "Yes"
+                },
+                {
+                  "value": "Item 2",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "conditions_needed",
+          "title": "Should the ecosystem service assessment include an evaluation of ecosystem condition?",
+          "description": "Ecosystem condition characterises the state of health of ecosystems. Ecosystem services are sensitive to a change in condition of the ecosystem that provides the service. Ecosystems in bad condition might have less capacity to provide \necosystem services.",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel6",
+          "visibleIf": "{conditions_needed} = 'no' or {conditions_needed} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "question5",
+              "visibleIf": "{conditions_needed} = 'no' or {conditions_needed} = 'dontknow'",
+              "title": "Your answer to the previous questions means that we will not ask you any further questions on ecosystem conditions. Your Terms of Reference will then not include any sections on the ecological conditions of ecosystems. Do you confirm this corresponds to your needs?",
+              "choices": [
+                {
+                  "value": "yes",
+                  "text": "Yes"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page6",
+      "description": "B.6 Scenarios",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "scenarios_needed",
+          "title": "Are future scenarios required in the ecosystem service assessment?\n",
+          "description": "Identify if there is a need to conduct the assessment while taking into account scenarios reflecting a change in policy, climate or other environmental conditions, change in governance etc. In modelling, future scenarios represent a range of potential futures that one would like to predict.",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question27",
+          "visibleIf": "{scenarios_needed} = 'no' or {scenarios_needed} = 'dontknow'",
+          "title": "Your answer to this questions means that we will not ask you any further questions on future scenarios. Your Terms of Reference will then not include any sections on futures scenarios. Do you confirm this corresponds to your needs?",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page7",
+      "description": "B.7 Stakeholder Engagement",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "stakeholder_needed",
+          "title": "Should the contractor conduct a stakeholder analysis?\n",
+          "description": "A stakeholder analysis aims at identifying and understanding third parties (i.e., individuals, groups, organisations/institutions) who are interested in or are expected to have an impact on the process of the ecosystem service assessment and / or its results.",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "Question 4.b",
+          "title": "Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?",
+          "description": "Stakeholder engagement means that key parties will be consulted during the development of the assessment and the evaluation of the results and deliverables.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "Question 4.c",
+          "title": "If key stakeholders have already been identified for direct involvement in the ecosystem service assessment: who are they and why have they been selected?\n",
+          "description": "Identify the stakeholders who should be consulted during the development of the assessment. This can be based on an earlier stakeholder analysis or primary considerations that are important from the commissioners’ perspective.\n"
+        }
+      ]
+    },
+    {
+      "name": "page20",
+      "title": "C. Methodology",
+      "description": "This section focuses on the methodology of your ecosystem service assessment. It identifies the methodological features of your ecosystem service assessment based on the answers you provided in the Frame & Scope section.\n\n",
+      "elements": [
+        {
+          "type": "html",
+          "name": "question26"
+        }
+      ]
+    },
+    {
+      "name": "page8",
+      "description": "C.1 Economic valuation  ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "expertise_needed",
+          "visibleIf": "{economic_valuation_needed} = 'yes' or {economics_valuation_needed} = 'maybe'",
+          "title": "Do you have the expertise to choose the economic valuation methods you would like to be applied in your assessment?",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel7",
+          "visibleIf": "{expertise_needed} = 'yes' ",
+          "elements": [
+            {
+              "type": "matrix",
+              "name": "econ_valuation_needed",
+              "visibleIf": "{expertise_needed} = 'yes' ",
+              "title": "Which economic valuation method(s) should be applied in the ecosystem service assessment?\n",
+              "description": "Select what applies. Choosing the type of primary valuation methods is voluntary, if the commissioners don’t have sufficient knowledge. \nValue transfer methods use existing study results to estimate values for new sites, usually faster and cheaper alternative to primary valuation. \r\nPrimary valuation methods produce new or original information generally using primary data for the specific location of the assessment. \n",
+              "columns": [
+                {
+                  "value": "yes",
+                  "text": "Yes"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                },
+                {
+                  "value": "maybe",
+                  "text": "Maybe"
+                },
+                {
+                  "value": "dontknow",
+                  "text": "I don't know"
+                }
+              ],
+              "rows": [
+                {
+                  "value": "Row 1",
+                  "text": "Value transfer methods"
+                },
+                {
+                  "value": "prim",
+                  "text": "Primary valuation methods"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel8",
+          "visibleIf": "{econ_valuation_needed.prim} = 'yes' ",
+          "elements": [
+            {
+              "type": "matrix",
+              "name": "question6",
+              "visibleIf": "{econ_valuation_needed.prim} = 'yes' ",
+              "title": "Please select from the following primary valuation methods",
+              "showCommentArea": true,
+              "columns": [
+                {
+                  "value": "yes",
+                  "text": "Yes"
+                },
+                {
+                  "value": "no",
+                  "text": "No"
+                },
+                {
+                  "value": "maybe",
+                  "text": "Maybe"
+                },
+                {
+                  "value": "dontknow",
+                  "text": "I don't know/prefer not to answer"
+                }
+              ],
+              "rows": [
+                {
+                  "value": "Row 1",
+                  "text": "Revealed preference methods"
+                },
+                {
+                  "value": "Row 2",
+                  "text": "Stated preference methods"
+                },
+                {
+                  "value": "Row 3",
+                  "text": "Market prices"
+                },
+                {
+                  "value": "Row 4",
+                  "text": "Replacement cost"
+                },
+                {
+                  "value": "Row 5",
+                  "text": "Damage cost avoided"
+                },
+                {
+                  "value": "Row 6",
+                  "text": "Social cost of carbon"
+                },
+                {
+                  "value": "Row 7",
+                  "text": "Net factor income"
+                },
+                {
+                  "value": "Row 8",
+                  "text": "Production function"
+                },
+                {
+                  "value": "Row 9",
+                  "text": "Hedonic pricing"
+                },
+                {
+                  "value": "Row 10",
+                  "text": "Travel cost method"
+                },
+                {
+                  "value": "Row 11",
+                  "text": "Contingent valuation"
+                },
+                {
+                  "value": "Row 12",
+                  "text": "Choice modelling"
+                },
+                {
+                  "value": "Row 13",
+                  "text": "Other (specify)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "econdev",
+          "title": "Should the assessment include indicators of the contribution of ecosystem service(s) to economic development such as employment and growth?\n",
+          "description": "If yes and if commissioners have the knowledge, they can specify the type of economic indicator of interest. The economic importance of ecosystem services can be quantified through indicators such as the contribution to economic development, sectors of the economy, or employment. These indicators can be useful for communicating the importance of ecosystem services to decision makers and the general public.",
+          "showCommentArea": true,
+          "commentText": "If yes, please specify the type of economic indicator here:",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page9",
+      "visibleIf": "{ecosystem_services_matrix} = 'yes' or {ecosystem_services_matrix} = 'maybe'",
+      "description": "C.2 Sustainability and ecosystem condition   ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?",
+          "description": "Ecosystem condition relates to the quality of an ecosystem. The levels of ecosystem service(s) supply and use may vary depending on changes in condition of the ecosystem that provides the service. Ecosystem service(s) supply is the provision of service(s) by the ecosystem(s). Ecosystem service(s) use is the utilisation of service(s) by those who benefit from them.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?\r",
+          "description": "Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use that is compatible with the supply of ecosystem services. If these levels are respected, the ecosystem condition and ability to deliver services for future generations is maintained.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "expert_needed",
+          "title": "Do you have the expertise to choose the condition indicators you would like to be applied in your assessment?",
+          "choices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "question10",
+          "visibleIf": "{expert_needed} = 'yes' ",
+          "title": "What aspects of ecosystem condition are you interested in? ",
+          "description": "Ecosystem condition encompasses a lot of different dimensions. Select those of interest in this assessment.",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 2",
+              "text": "No"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Column 4",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Index of general ecosystem condition: overarching measure of ecosystem condition combining several condition indicators."
+            },
+            {
+              "value": "Row 2",
+              "text": "Biotic indicators – species: show how well species are doing in an ecosystem"
+            },
+            {
+              "value": "Row 3",
+              "text": "Biotic indicators – structure: show how well the physical structure of an ecosystem is doing"
+            },
+            {
+              "value": "Row 4",
+              "text": "Biotic indicators – function: inform about the level of specific ecological functions and processes of an ecosystem"
+            },
+            {
+              "value": "Row 5",
+              "text": "Abiotic - physical indicators: show levels of non-living physical components of an ecosystem (e.g., soil pH, water temperature)"
+            },
+            {
+              "value": "Row 6",
+              "text": "Abiotic - chemical indicators: show the chemical properties in water, soil and air of an ecosystem"
+            },
+            {
+              "value": "Row 7",
+              "text": "Landscape-level characteristics: assess how an ecosystem is physically organised in space."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page10",
+      "visibleIf": "{society_equity_needed} = 'yes' or {society_equity_needed} = 'maybe'",
+      "description": "\nC.3 Social characteristics  ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Should the ecosystem service assessment results be disaggregated by social groups to better understand who benefits from ecosystem services?",
+          "description": "Understanding who benefits from the ecosystem services guarantees that inequities are identified and addressed. This approach highlights who benefits, who is excluded, and how interventions can improve well-being and equity. Examples of social groups are: gender, age, race, ethnicity, (dis)ability, income status, etc.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards ecosystem services?\n",
+          "description": "This allows to investigate whether the ecosystem service assessment will document how different social groups perceive, value, and prioritize ecosystem services.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page11",
+      "visibleIf": "{health_needed} = 'yes' or {health_needed} = 'maybe'",
+      "description": "C.4 Health characteristics ",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "question12",
+          "title": "What aspects of health are you interested in?\r ",
+          "description": "Select what applies.\n",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 2",
+              "text": "No"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Column 4",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Health benefits: include goods or services promoting good health or offer avenues for positive health interventions."
+            },
+            {
+              "value": "Row 2",
+              "text": "Health risks: potential threats to good health, including drivers of disease emergence."
+            },
+            {
+              "value": "Row 3",
+              "text": "Health outcomes: status of health as a result of an intervention or exposure to one or more conditions."
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question13",
+          "title": "Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards health-relevant ecosystem services?",
+          "description": "Investigate whether the ecosystem service assessment will document how different social groups perceive, value, and prioritize ecosystem services. These perceptions may include cultural significance, recreational use, or economic reliance.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question14",
+          "title": "Should the ecosystem service assessment establish health links with specific ecosystem types and / or ecosystem services?\r",
+          "description": "This determines whether the ecosystem service assessment will consider general relationships between environmental compartments (e.g. air, water, soil, urban environments, rural landscapes etc.) and health, or aim to provide a more detailed understanding of the impact of defined ecosystems types and / or their services on specific health issues.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page12",
+      "description": "\nC.5 Relationships between ecosystem services  ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question15",
+          "title": "Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?",
+          "description": "Interrelationships between ecosystem services, between benefits, or between ecosystem services and their benefits means that the services and / or benefits are related and affect each other. There are a number of ways ecosystems services and / or benefits can be related such as interdependencies, synergies, and trade-offs.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page13",
+      "description": "C.6 Spatial and temporal characteristics   ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question16",
+          "title": "Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?",
+          "description": "This helps determine whether the assessment should quantify and track how the ecosystem service supply, use, demand but also the benefits derived from them vary across the geographic areas and spatial scales (e.g., continental, national, regional, local) considered in the assessment. For example, this could allow to identify differences in supply and / or benefits between different countries, regions, \nmunicipalities, or other relevant areas.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question17",
+          "title": "Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?",
+          "description": "This allows for quantifying and tracking how the ecosystem service(s) supply, use, demand but also the benefits derived from them vary over time due to management actions, environmental factors, or policy changes.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page15",
+      "visibleIf": "{scenarios_needed} = 'yes' or {scenarios_needed} = 'maybe'",
+      "description": "C.7 Scenario characteristics  ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question18",
+          "title": "What scenarios should be taken into account in the ecosystem service assessments?",
+          "description": "Identify the previously chosen metrics for which a scenario analysis is required. List and describe the scenarios that should be taken into account. Even a broad description of goals for which the scenarios are required is sufficient. In modelling, future scenarios represent a range of potential futures that one would like to predict.",
+          "showCommentArea": true,
+          "commentPlaceholder": "Please specify scenarios here",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page14",
+      "description": "C.8 Uncertainty ",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "uncertain_needed",
+          "title": "Should the uncertainties inherent to the ecosystem service assessment be assessed and documented for the purpose of the decision-making?",
+          "description": "Uncertainty is present in all ecosystem service assessments. It is essential that both the commissioners and potential contractors are conscious of the sources of uncertainty that matter for a particular purpose. We recommend that commissioners ask for the assessment and documentation of uncertainties pertaining to any results of their requested assessment.",
+          "choices": [
+            "Yes",
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "question19",
+          "visibleIf": "{uncertain_needed} = 'yes' ",
+          "title": "What is the preferred reporting format to document uncertainties?",
+          "description": "Select what applies. ",
+          "showCommentArea": true,
+          "commentPlaceholder": "Please specify here",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 2",
+              "text": "No"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Column 4",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Uncertainty section/report: separate uncertainty section of the main report or a separate short deliverable"
+            },
+            {
+              "value": "Row 2",
+              "text": "Visual summary: visuals showing results reliability (e.g., green-orange-red system)"
+            },
+            {
+              "value": "Row 3",
+              "text": "Decision-relevant summary: designed for decision-making and can take different forms"
+            },
+            {
+              "value": "Row 4",
+              "text": "Scenario-based documentation: relevant only if a scenario analysis is requested"
+            },
+            {
+              "value": "Row 5",
+              "text": "Participatory documentation: qualitative approach relying on expert and stakeholder judgments"
+            },
+            {
+              "value": "Row 6",
+              "text": "Technical appendices: advanced technical documentation"
+            },
+            {
+              "value": "Row 7",
+              "text": "Other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page16",
+      "description": "C.9 Validation ",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "question20",
+          "title": "How should the methodology and results of the ecosystem service assessment be validated?",
+          "description": "Select what applies. Validating the methodology means ensuring that the metrics, data, choice of scenarios and analyses, and stakeholder involvement plan chosen meet the goals of the commissioners. Validating the results of the assessment means verifying that the findings are accurate, reliable, and answer the goals of the commissioners.",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 2",
+              "text": "No"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Column 4",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Internal validation: does not involve third parties such as external stakeholders"
+            },
+            {
+              "value": "Row 2",
+              "text": "External validation: involve external third parties such as stakeholders"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question21",
+          "title": "Should the results be compared to other published reference data in the validation process?\r",
+          "description": "Reference data are baseline or benchmark datasets or already published figures that will be used to compare the results of the ecosystem service assessment. Commissioners might want to list some key datasets or figures they would like the results to be comparable with. Alternatively, stakeholders can be consulted to identify these references",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Item 2",
+              "text": "No"
+            },
+            {
+              "value": "Item 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Item 4",
+              "text": "I don't know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page17",
+      "description": "C.10 Stakeholder engagement ",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "question22",
+          "title": "At which step(s) of the ecosystem service assessment should the stakeholders be informed, consulted, or participate?\r",
+          "description": "Identify when the stakeholders should be informed, consulted or participate in the ecosystem service assessment. Stakeholders are any group, organisation or individual who are interested in and / or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:",
+          "showCommentArea": true,
+          "commentPlaceholder": "Please specify here",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 2",
+              "text": "No"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Column 4",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 3",
+              "text": "Development of the methodology"
+            },
+            {
+              "value": "Row 5",
+              "text": "Validation of the methodology (e.g., metrics, indicators, data, choice of scenarios and analyses)"
+            },
+            {
+              "value": "Row 6",
+              "text": "Validation of the results"
+            },
+            {
+              "value": "Row 7",
+              "text": "Data collection"
+            },
+            {
+              "value": "Row 8",
+              "text": "Interpretation of the results"
+            },
+            {
+              "value": "Row 4",
+              "text": "Communication and dissemination of the results"
+            },
+            {
+              "value": "Row 2",
+              "text": "Other (specify)"
+            }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "question23",
+          "title": "What methods should be used for involving stakeholders in the ecosystem service assessment?",
+          "description": "Describe how the stakeholders should be involved. Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:",
+          "showCommentArea": true,
+          "commentPlaceholder": "Please specify here",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 2",
+              "text": "No"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            },
+            {
+              "value": "Column 4",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Newsletters or email updates"
+            },
+            {
+              "value": "Row 2",
+              "text": "Websites"
+            },
+            {
+              "value": "Row 3",
+              "text": "Webinars"
+            },
+            {
+              "value": "Row 4",
+              "text": "Stakeholder events such as forums"
+            },
+            {
+              "value": "Row 8",
+              "text": "Advisory boards, expert groups, focus groups, or steering committees"
+            },
+            {
+              "value": "Row 9",
+              "text": "Public consultations"
+            },
+            {
+              "value": "Row 10",
+              "text": "Workshops"
+            },
+            {
+              "value": "Row 6",
+              "text": "Other (specify)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "headerView": "advanced"
 }
