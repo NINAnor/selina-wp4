@@ -10,5 +10,12 @@ nav:
         link: /informative-survey#test
   - name: Survey
     link: /survey
+    highlight: true
   - name: Last submission
     link: /survey-debug
+
+home:
+  title: Selina
+  subtitle: test
+  cta_text: Survey
+  cta_url: /survey

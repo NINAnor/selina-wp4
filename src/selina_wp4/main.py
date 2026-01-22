@@ -80,7 +80,7 @@ def preview(request: Request):
 
     return templates.TemplateResponse(
         request=request,
-        name="page.html.jinja",
+        name="pages.html.jinja",
         context={"content": markdown_html(survey)},
     )
 

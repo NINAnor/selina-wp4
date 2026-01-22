@@ -1,4 +1,18 @@
 {% extends "base.html.jinja" %}
 
 {% block content %}
+<section id="hero" class="pt-5">
+    <div class="flex justify-content-center items-center h-full">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-primary-content md:text-5xl lg:text-6xl">{{CONFIG.home.title}}</h1>
+            <p class="mb-8 text-lg font-normal text-primary-content lg:text-xl sm:px-16 xl:px-48 ">{{ CONFIG.home.subtitle}}</p>
+            <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="{{ CONFIG.home.cta_url }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-accent-content rounded-lg bg-accent hover:bg-accent focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                    {{ CONFIG.home.cta_text }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 {% endblock %}
