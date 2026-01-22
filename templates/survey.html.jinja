@@ -14,48 +14,12 @@
 </head>
 <body>
     <div id="survey"></div>
+    <script src="https://unpkg.com/dompurify@3.2.4/dist/purify.min.js"></script>
+    <script src="https://unpkg.com/marked@15.0.7/marked.min.js"></script>
+    <script src="https://unpkg.com/marked@4.1.3/marked-gfm-heading-id"></script>
     <script>
-        const config = {{ config|tojson|safe }};
-        console.log(config);
-
-        async function surveyComplete (survey) {
-            try {
-                const response = await fetch("/submit", {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json;charset=UTF-8'
-                    },
-                    body: JSON.stringify(survey.data)
-                })
-
-                console.log(response)
-
-                if (response.ok) {
-                    const blob = await response.blob();
-                    const objectUrl = URL.createObjectURL(blob);
-                    const link = document.createElement('a');
-                    link.href = objectUrl;
-                    link.download = "survey-result";
-                    link.style.display = 'none';
-                    document.body.appendChild(link);
-                    link.click();
-                    URL.revokeObjectURL(objectUrl);
-                } else {
-                    // TODO: Handle error
-                }
-            } catch (error) {
-
-                // TODO: Handle error
-                console.error(error)
-            };
-        }
-
-        const survey = new Survey.Model(config);
-        survey.onComplete.add(surveyComplete);
-
-        document.addEventListener("DOMContentLoaded", function() {
-            survey.render(document.getElementById("survey"));
-        });
+        window.config = {{ config|tojson|safe }};
     </script>
+    <script src="/static/app.js"></script>
 </body>
 </html>
