@@ -3,7 +3,11 @@ nav:
   - name: Home
     link: /
   - name: Infos
-    link: /informative-survey
+    children:
+      - name: test
+        link: /informative-survey
+      - name: test 2
+        link: /informative-survey#test
   - name: Survey
     link: /survey
   - name: Last submission

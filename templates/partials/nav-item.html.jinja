@@ -1,0 +1,27 @@
+{% if item.children %}
+{% if depth > 0 %}
+<details>
+    <summary class="text-primary hover:font-bold">{{ item.name }}</summary>
+    <ul>
+        {% for i in item.children %}
+        {% with item = i, depth=depth+1 %}
+        {% include 'partials/nav-item.html.jinja' %}
+        {% endwith %}
+        {% endfor %}
+    </ul>
+</details>
+{% else %}
+<li class="dropdown">
+  <div tabindex="0" role="button" class="text-primary hover:font-bold">{{ item.name }}</div>
+  <ul tabindex="-1" class="dropdown-content menu bg-accent text-accent-content rounded-box z-1 min-w-56 p-2 shadow-sm">
+    {% for i in item.children %}
+    {% with item = i, depth=depth+1 %}
+    {% include 'partials/nav-item.html.jinja' %}
+    {% endwith %}
+    {% endfor %}
+  </ul>
+</li>
+{% endif %}
+{% else %}
+<li class="text-primary hover:font-bold"><a href="{{item.link}}">{{ item.name }}</a></li>
+{% endif %}

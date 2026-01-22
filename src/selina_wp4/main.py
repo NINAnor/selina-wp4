@@ -46,7 +46,7 @@ templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 with (BASE_DIR / "config.yml").open(mode="r") as f:
-    templates.env.globals["config"] = yaml.load(f, yaml.SafeLoader)
+    templates.env.globals["CONFIG"] = yaml.load(f, yaml.SafeLoader)
 
 
 WEBSITE_PATH = BASE_DIR / "website"
@@ -80,7 +80,7 @@ def preview(request: Request):
 
     return templates.TemplateResponse(
         request=request,
-        name="index.html.jinja",
+        name="page.html.jinja",
         context={"content": markdown_html(survey)},
     )
 
@@ -112,14 +112,16 @@ async def survey(request: Request):
 
 @app.get("/{page_name:path}", response_class=HTMLResponse)
 async def index(request: Request, page_name: str):
-    if page_name in ALLOWED_PAGES or page_name == "":
+    if page_name == "":
+        return templates.TemplateResponse(request=request, name="index.html.jinja")
+    elif page_name in ALLOWED_PAGES:
         content = markdown_html(
-            (WEBSITE_PATH / (pathlib.Path(page_name or "index").with_suffix(".md")))
+            (WEBSITE_PATH / (pathlib.Path(page_name).with_suffix(".md")))
             .open("r")
             .read()
         )
         return templates.TemplateResponse(
-            request=request, name="index.html.jinja", context={"content": content}
+            request=request, name="pages.html.jinja", context={"content": content}
         )
     else:
         raise HTTPException(status_code=404, detail="Page not found")

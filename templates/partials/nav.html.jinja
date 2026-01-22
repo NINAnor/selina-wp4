@@ -1,0 +1,18 @@
+<div class="bg-base-100 shadow-sm px-5">
+        <div class="navbar">
+            <div class="flex-1">
+                <a class="" href="/">
+                    <img src="/static/logo.svg" alt="{{ CONFIG['title'] }}" class="h-24" />
+                </a>
+            </div>
+            <div class="flex align-items-center">
+                <ul class="menu menu-horizontal px-1">
+                    {% for e in CONFIG['nav'] %}
+                        {% with item=e, depth=0 %}
+                        {% include 'partials/nav-item.html.jinja'  %}
+                        {% endwith %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>

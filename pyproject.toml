@@ -46,8 +46,9 @@ dev = {features = ["dev"], solve-group = "default"}
 selina_wp4 = {path = ".", editable = true}
 
 [tool.pixi.tasks]
-dev = "uvicorn --reload selina_wp4.main:app"
+dev = "uvicorn --reload selina_wp4.main:app --reload-dir ."
 prod = "fastapi run src/selina_wp4/main.py"
+theme = "npm run dev"
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
