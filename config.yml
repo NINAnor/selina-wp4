@@ -2,12 +2,32 @@ title: Selina WP4
 nav:
   - name: Home
     link: /
-  - name: Infos
-    link: /informative-survey
-    children:
-      - name: test
-        link: /test
-  - name: Survey
-    link: /survey
+  - name: About
+    link: /about
+  - name: Learn more about
+    link: /
+    children: 
+      - name: Our writing guidance
+        link: /intro-writing-guidance
+    children: 
+      - name: Commissionning with our guidance
+        link: /intro-commissioning
+    children: 
+      - name: Concepts behind ecosystem service assessments
+        link: /intro-es-concepts
+  - name: Create your Terms of Reference
+    children: 
+      - name: Read me first
+        link: /intro-writing-guidance
+    children: 
+      - name: Survey
+        link: /survey
+    children: 
+      - name: Survey FAQ
+        link: /informative-survey
+  - name: Examples
+    link: /examples-tor
+  - name: Caveats and limitations
+    link: /caveats-limitations
   - name: Last submission
     link: /survey-debug
