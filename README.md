@@ -12,6 +12,11 @@ Open your browser at http://localhost:8000
 
 
 ## Customization
+### Development with docker
+A basic docker image is already provided, run:
+```bash
+docker compose up --build watch
+```
 
 ### Website content
 Add markdown pages in `website`, the name of the file will be the url of the page
