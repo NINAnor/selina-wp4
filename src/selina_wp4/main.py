@@ -62,14 +62,55 @@ log.debug("using survey config", config=SURVEY_CONFIG)
 
 SURVEY_DEBUG_PATH = BASE_DIR / "survey.json"
 
+STOP_WORDS = [
+    "What",
+    "is",
+    "are",
+    "which",
+    "should",
+    "the",
+    "a",
+    "an",
+    "of",
+    "in",
+    "for",
+    "as",
+    "s",
+    "if",
+    "or",
+    "it",
+    "she",
+    "he",
+    "all",
+    "to",
+    "this",
+    "that",
+    "these",
+    "those",
+    "at",
+    "and",
+    "how",
+    "e",
+    "g",
+    "i",
+    "be",
+]
+
 
 class CustomRenderer(mistune.HTMLRenderer):
     def __init__(self, escape: bool = True):
         super().__init__(escape=False)
 
     def heading(self, text: str, level: int, **attrs: Any) -> str:
+        header_id = attrs.get("id") or slugify(
+            text,
+            stopwords=STOP_WORDS,
+            lowercase=True,
+            word_boundary=True,
+            max_length=50,
+        )
         # Use attrs from processed tokens if available
-        return f'<h{level} id="{slugify(text)[:25]}">{text}</h{level}>\n'
+        return f'<h{level} id="{header_id}">{text}</h{level}>\n'
 
 
 markdown_html = mistune.create_markdown(
