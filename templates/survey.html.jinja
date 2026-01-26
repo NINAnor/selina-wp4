@@ -1,61 +1,22 @@
-<html>
-<head>
-    <link href="https://unpkg.com/survey-core/survey-core.min.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
-    <style>
-        html, body {
-            padding: 0;
-            margin: 0;
-        }
-    </style>
-    <title>Survey</title>
-</head>
-</head>
-<body>
-    <div id="survey"></div>
-    <script>
-        const config = {{ config|tojson|safe }};
-        console.log(config);
+{% extends "base.html.jinja" %}
 
-        async function surveyComplete (survey) {
-            try {
-                const response = await fetch("/submit", {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json;charset=UTF-8'
-                    },
-                    body: JSON.stringify(survey.data)
-                })
+{% block content %}
+    <div id="survey" class="mt-5"></div>
+{% endblock %}
 
-                console.log(response)
+{% block head %}
+<link href="https://unpkg.com/survey-core/survey-core.min.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+{% endblock %}
 
-                if (response.ok) {
-                    const blob = await response.blob();
-                    const objectUrl = URL.createObjectURL(blob);
-                    const link = document.createElement('a');
-                    link.href = objectUrl;
-                    link.download = "survey-result";
-                    link.style.display = 'none';
-                    document.body.appendChild(link);
-                    link.click();
-                    URL.revokeObjectURL(objectUrl);
-                } else {
-                    // TODO: Handle error
-                }
-            } catch (error) {
+{% block scripts %}
+<script src="https://unpkg.com/dompurify@3.2.4/dist/purify.min.js"></script>
+<script src="https://unpkg.com/marked@15.0.7/marked.min.js"></script>
 
-                // TODO: Handle error
-                console.error(error)
-            };
-        }
-
-        const survey = new Survey.Model(config);
-        survey.onComplete.add(surveyComplete);
-
-        document.addEventListener("DOMContentLoaded", function() {
-            survey.render(document.getElementById("survey"));
-        });
-    </script>
-</body>
-</html>
+<script>
+    window.config = {{ config|tojson|safe }};
+</script>
+<script src="/static/survey-theme.js"></script>
+<script src="/static/app.js"></script>
+{% endblock %}

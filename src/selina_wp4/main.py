@@ -15,6 +15,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from slugify import slugify
 
 app = FastAPI()
 
@@ -45,7 +46,7 @@ templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 with (BASE_DIR / "config.yml").open(mode="r") as f:
-    templates.env.globals["config"] = yaml.load(f, yaml.SafeLoader)
+    templates.env.globals["CONFIG"] = yaml.load(f, yaml.SafeLoader)
 
 
 WEBSITE_PATH = BASE_DIR / "website"
@@ -60,6 +61,15 @@ log.debug("using survey config", config=SURVEY_CONFIG)
 SURVEY_DEBUG_PATH = BASE_DIR / "survey.json"
 
 
+class CustomRenderer(mistune.HTMLRenderer):
+    def heading(self, text: str, level: int, **attrs: Any) -> str:
+        # Use attrs from processed tokens if available
+        return f'<h{level} id="{slugify(text)}">{text}</h{level}>\n'
+
+
+markdown_html = mistune.create_markdown(renderer=CustomRenderer())
+
+
 @app.get("/survey-debug")
 def preview(request: Request):
     if not SURVEY_DEBUG_PATH.exists():
@@ -70,8 +80,8 @@ def preview(request: Request):
 
     return templates.TemplateResponse(
         request=request,
-        name="index.html.jinja",
-        context={"content": mistune.html(survey)},
+        name="pages.html.jinja",
+        context={"content": markdown_html(survey)},
     )
 
 
@@ -102,14 +112,16 @@ async def survey(request: Request):
 
 @app.get("/{page_name:path}", response_class=HTMLResponse)
 async def index(request: Request, page_name: str):
-    if page_name in ALLOWED_PAGES or page_name == "":
-        content = mistune.html(
-            (WEBSITE_PATH / (pathlib.Path(page_name or "index").with_suffix(".md")))
+    if page_name == "":
+        return templates.TemplateResponse(request=request, name="index.html.jinja")
+    elif page_name in ALLOWED_PAGES:
+        content = markdown_html(
+            (WEBSITE_PATH / (pathlib.Path(page_name).with_suffix(".md")))
             .open("r")
             .read()
         )
         return templates.TemplateResponse(
-            request=request, name="index.html.jinja", context={"content": content}
+            request=request, name="pages.html.jinja", context={"content": content}
         )
     else:
         raise HTTPException(status_code=404, detail="Page not found")

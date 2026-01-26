@@ -31,3 +31,9 @@ nav:
     link: /caveats-limitations
   - name: Last submission
     link: /survey-debug
+
+home:
+  title: Selina
+  subtitle: test
+  cta_text: Survey
+  cta_url: /survey

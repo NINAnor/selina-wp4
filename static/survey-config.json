@@ -1,8 +1,8 @@
 {
   "title": "Ecosystem service assessment: Terms of Reference online survey",
-  "logo": "https://surveyjs.io/Content/Images/examples/logo.png",
+  "logo": "",
   "logoHeight": "60px",
-  "completedHtml": "<h3>Thank you for your feedback</h3>",
+  "completedHtml": "<h3>Thank you for your feedback</h3><a href='/'>back to home page</a>",
   "pages": [
     {
       "name": "page18",
@@ -1420,5 +1420,7 @@
       ]
     }
   ],
-  "headerView": "advanced"
+  "headerView": "advanced",
+  "showPreviewBeforeComplete": true,
+  "previewMode": "answeredQuestions"
 }
