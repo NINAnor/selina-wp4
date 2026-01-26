@@ -26,6 +26,8 @@ env = environ.Env()
 BASE_DIR = pathlib.Path(__file__).parent.parent.parent
 environ.Env.read_env(str(BASE_DIR / ".env"))
 
+MODE = env("MODE", default="dev")
+
 structlog.configure(
     processors=[
         structlog.contextvars.merge_contextvars,
@@ -45,6 +47,8 @@ structlog.configure(
 log = structlog.get_logger()
 
 templates = Jinja2Templates(directory="templates")
+templates.env.globals["MODE"] = MODE
+
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 with (BASE_DIR / "config.yml").open(mode="r") as f:
@@ -60,7 +64,7 @@ SURVEY_CONFIG = json.load((BASE_DIR / "static" / "survey-config.json").open("r")
 log.debug("using survey config", config=SURVEY_CONFIG)
 
 
-SURVEY_DEBUG_PATH = BASE_DIR / "survey.json"
+SURVEY_DEBUG_PATH = BASE_DIR / "survey.json" if MODE == "dev" else None
 
 STOP_WORDS = [
     "What",
@@ -127,27 +131,32 @@ markdown_html = mistune.create_markdown(
 )
 
 
-@app.get("/survey-debug")
-def preview(request: Request):
-    if not SURVEY_DEBUG_PATH.exists():
-        return "create a file survey.json in the root of the project with the data you want to debug"  # noqa: E501
+if SURVEY_DEBUG_PATH:
 
-    with SURVEY_DEBUG_PATH.open("r") as f:
-        survey = templates.get_template("survey-render.md.jinja").render(json.load(f))
+    @app.get("/survey-debug")
+    def preview(request: Request):
+        if not SURVEY_DEBUG_PATH.exists():
+            return "create a file survey.json in the root of the project with the data you want to debug"  # noqa: E501
 
-    return templates.TemplateResponse(
-        request=request,
-        name="pages.html.jinja",
-        context={"content": markdown_html(survey)},
-    )
+        with SURVEY_DEBUG_PATH.open("r") as f:
+            survey = templates.get_template("survey-render.md.jinja").render(
+                json.load(f)
+            )
+
+        return templates.TemplateResponse(
+            request=request,
+            name="pages.html.jinja",
+            context={"content": markdown_html(survey)},
+        )
 
 
 @app.post("/submit")
 def submit(request_body: dict[Any, Any]):
     log.debug("submitted", data=request_body)
 
-    with SURVEY_DEBUG_PATH.open("w") as f:
-        json.dump(request_body, f)
+    if SURVEY_DEBUG_PATH:
+        with SURVEY_DEBUG_PATH.open("w") as f:
+            json.dump(request_body, f)
 
     survey = templates.get_template("survey-render.md.jinja").render(**request_body)
 
