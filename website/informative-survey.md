@@ -5,7 +5,7 @@ This page gives more information on the questions asked in theonline survey incl
 ## Context and purpose
 ### What is(are) the purpose(s) of the ecosystem service assessment? If it is part of a decision-making process, at which step(s) of this process is the assessment needed?
 
-<b><u>Why is this question relevant to me?</b></u>
+<b><u>**Why is this question relevant to me?**</u></b>
 Identifying where and why an ecosystem service assessment is needed is the essential first step. It might be that the assessment is needed as part of a decision-process. Depending on where the commissioners are in the decision-making process, the purpose of the ecosystem service assessment will be different: is it to inform a decision? Is it to plan a decision? Is it to monitor the result of a decision? 
 
 The overall purpose for conducting an ecosystem service assessment influences the objectives of the assessment, the outputs and its overall process of conducting an assessment including stakeholder engagement. See the decision-making steps for public and private sectors in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
@@ -35,7 +35,7 @@ Two policies are of relevance in our context:
 
 ### What is the social / demographic context of the ecosystem service assessment?
 
-<b><u>Why is this question relevant to me?</b></u>
+<b><u>Why is this question relevant to me?</u></b>
 The ecosystem service assessment may consider the social and demographic context to ensure that it reflects the needs and realities of the people and communities interacting with the ecosystems. Doing so can reveal social or economic challenges, highlight vulnerable or priority groups, and identify population trends that influence the relevance and use of the assessment’s outputs. This information further supports tailored communication, inclusive engagement, and more effective, equitable reporting.
 
 <b><u>Give me an example answer</b></u>
