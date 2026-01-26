@@ -14,7 +14,8 @@
   color-scheme: "light";
   --color-base-100: oklch(100% 0 0);
   --color-base-200: oklch(98% 0 0);
-  --color-base-300: oklch(95% 0 0);
+  /* --color-base-00: oklch(95% 0 0); */
+  --color-base-300: rgb(0, 48, 64);
   --color-base-content: #2f2f2f;
   --color-primary: #065A6B;
   --color-primary-content: #fff;

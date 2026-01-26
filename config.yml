@@ -6,7 +6,7 @@ nav:
     link: /about
   - name: Learn more about
     link: /
-    children: 
+    children:
       - name: Our writing guidance
         link: /intro-writing-guidance
       - name: Commissionning with our guidance
@@ -14,7 +14,7 @@ nav:
       - name: Concepts behind ecosystem service assessments
         link: /intro-es-concepts
   - name: Create your Terms of Reference
-    children: 
+    children:
       - name: Read me first
         link: /intro-writing-guidance
       - name: Survey
@@ -33,3 +33,6 @@ home:
   subtitle: test
   cta_text: Survey
   cta_url: /survey
+
+footer:
+  text: SELINA receives funding from the European Union's Horizon Europe research and innovation programme under grant agreement No 101060415. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission. Neither the EU nor the EC can be held responsible for them.
