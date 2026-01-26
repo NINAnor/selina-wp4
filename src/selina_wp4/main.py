@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import io
 import json
 import logging
@@ -15,7 +14,10 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from mistune.directives import Admonition, RSTDirective, TableOfContents
 from slugify import slugify
+
+from .directives import Accordion, Join
 
 app = FastAPI()
 
@@ -62,12 +64,26 @@ SURVEY_DEBUG_PATH = BASE_DIR / "survey.json"
 
 
 class CustomRenderer(mistune.HTMLRenderer):
+    def __init__(self, escape: bool = True):
+        super().__init__(escape=False)
+
     def heading(self, text: str, level: int, **attrs: Any) -> str:
         # Use attrs from processed tokens if available
-        return f'<h{level} id="{slugify(text)}">{text}</h{level}>\n'
+        return f'<h{level} id="{slugify(text)[:25]}">{text}</h{level}>\n'
 
 
-markdown_html = mistune.create_markdown(renderer=CustomRenderer())
+markdown_html = mistune.create_markdown(
+    renderer=CustomRenderer(),
+    plugins=[
+        "footnotes",
+        "url",
+        "superscript",
+        "subscript",
+        "def_list",
+        "table",
+        RSTDirective([Admonition(), TableOfContents(), Accordion(), Join()]),
+    ],
+)
 
 
 @app.get("/survey-debug")

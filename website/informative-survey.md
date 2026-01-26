@@ -5,18 +5,23 @@ This page gives more information on the questions asked in theonline survey incl
 ## Context and purpose
 ### What is(are) the purpose(s) of the ecosystem service assessment? If it is part of a decision-making process, at which step(s) of this process is the assessment needed?
 
-<b><u>**Why is this question relevant to me?**</u></b>
-Identifying where and why an ecosystem service assessment is needed is the essential first step. It might be that the assessment is needed as part of a decision-process. Depending on where the commissioners are in the decision-making process, the purpose of the ecosystem service assessment will be different: is it to inform a decision? Is it to plan a decision? Is it to monitor the result of a decision? 
+.. join_accordion::
 
-The overall purpose for conducting an ecosystem service assessment influences the objectives of the assessment, the outputs and its overall process of conducting an assessment including stakeholder engagement. See the decision-making steps for public and private sectors in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+.. accordion:: Why is this question relevant to me?
+    Identifying where and why an ecosystem service assessment is needed is the essential first step. It might be that the assessment is needed as part of a decision-process. Depending on where the commissioners are in the decision-making process, the purpose of the ecosystem service assessment will be different: is it to inform a decision? Is it to plan a decision? Is it to monitor the result of a decision?
 
-<b><u>Give me an example answer</b></u>
-The ecosystem assessment is needed for a combination of strategic and operational purposes. It is both demonstrating the importance of a National Park label for nature and society and monitoring that the decisions taken are contributing to the goals set in the Masterplan of the National Park Mainland.
+    The overall purpose for conducting an ecosystem service assessment influences the objectives of the assessment, the outputs and its overall process of conducting an assessment including stakeholder engagement. See the decision-making steps for public and private sectors in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+.. accordion:: Give me an example answer
+    The ecosystem assessment is needed for a combination of strategic and operational purposes. It is both demonstrating the importance of a National Park label for nature and society and monitoring that the decisions taken are contributing to the goals set in the Masterplan of the National Park Mainland.
+
+.. join_accordion::
+    :close: true
 
 ### Within this(these) purpose(s) or decision-making step(s), what is the primary objective of the ecosystem service assessment?
 
 <b><u>Why is this question relevant to me?</b></u>
-The primary objective of an ecosystem service assessment will condition the key outputs and methodological needs. 
+The primary objective of an ecosystem service assessment will condition the key outputs and methodological needs.
 
 <b><u>Give me an example answer</b></u>
 The primary objective of the ecosystem assessment is to report on the progress towards the goals of the National Park Mainland. Ecosystem services are also an important part to communicate and value the impact of the National Park label.
@@ -29,7 +34,7 @@ Once the decision-making step and the primary objective have been identified, it
 <b><u>Give me an example answer</b></u>
 Two policies are of relevance in our context:
 
-- The nature area is selected as National Park with subsidies from the Flemish government. 6-yearly reporting of the status to the National Park Bureau is obliged. It is important that the assessment looks at criteria that needs to be in the Status report. 
+- The nature area is selected as National Park with subsidies from the Flemish government. 6-yearly reporting of the status to the National Park Bureau is obliged. It is important that the assessment looks at criteria that needs to be in the Status report.
 
 - Flemish biodiversity plan.
 
@@ -59,7 +64,7 @@ An ecosystem service assessment aims at evaluating the current status of ecosyst
 If the commissioners are not clear on which ecosystem types should be focused on, a brief description of the area of interest is sufficient. Alternatively, it might also be considered to refer to experts to identify and define them, or leave the call of tender open for suggestions from potential contractors.
 
 <b><u>Give me an example answer</b></u>
-Ecosystem types are all types found within National Park Mainland: 
+Ecosystem types are all types found within National Park Mainland:
 
 - Forests
 
@@ -69,7 +74,7 @@ Ecosystem types are all types found within National Park Mainland:
 
 - Inland wetlands
 
-- Sparsely vegetated areas/land dunes 
+- Sparsely vegetated areas/land dunes
 
 For the condition assessment only forests will be assessed.
 
@@ -102,10 +107,10 @@ The assessment takes place on the geographical location and local scale of the N
 ### At which spatial scale(s) should the results of the ecosystem service assessment be presented (e.g., results aggregated to administrative scales such as regions and counties)?
 
 <b><u>Additional description of terms</b></u>
-- <u>A fully spatially explicit</u> ecosystem service assessment does not aggregate the results. It displays ecosystem types and services with fine-grained spatial detail. This is useful to capture fine-scale spatial patterns and interactions that influence ecosystem services, and to inform site-specific management actions or interventions. 
-Use when you need detailed analyses that account for spatial heterogeneity and variability. Careful, it usually requires more time and resources and data availability may be a limiting factor. 
+- <u>A fully spatially explicit</u> ecosystem service assessment does not aggregate the results. It displays ecosystem types and services with fine-grained spatial detail. This is useful to capture fine-scale spatial patterns and interactions that influence ecosystem services, and to inform site-specific management actions or interventions.
+Use when you need detailed analyses that account for spatial heterogeneity and variability. Careful, it usually requires more time and resources and data availability may be a limiting factor.
 
-- <u>An ecosystem service assessment aggregated at ecological scale(s)</u> means that results aggregate ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure. For example, forests can be grouped into deciduous and coniferous forests. This is useful to understand the supply of ecosystem services across natural boundaries (e.g., carbon sequestration in a forest ecosystem depends among others on the species composition ). 
+- <u>An ecosystem service assessment aggregated at ecological scale(s)</u> means that results aggregate ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure. For example, forests can be grouped into deciduous and coniferous forests. This is useful to understand the supply of ecosystem services across natural boundaries (e.g., carbon sequestration in a forest ecosystem depends among others on the species composition ).
 Use when the natural boundaries of the ecosystem processes are more relevant than administrative divisions. Particularly useful for ecosystem service dependent on ecological units, such as hydrological services, nutrient cycling, or habitat connectivity.
 
 
@@ -114,14 +119,14 @@ Use when the focus is on governance, policy-making, or management actions that a
 
 
 <b><u>Why is this question relevant to me?</b></u>
-The spatial distribution of ecosystem services supply and use, but also the benefits from ecosystem services are highly variable, hence this is a crucial aspect to consider in decision-making. Identifying discrepancies in space is important to better manage inequalities (e.g., in distribution of or access to ecosystem services), but also manage synergies, interdependencies and trade-offs between different ecosystem services and / or their associated benefits. 
+The spatial distribution of ecosystem services supply and use, but also the benefits from ecosystem services are highly variable, hence this is a crucial aspect to consider in decision-making. Identifying discrepancies in space is important to better manage inequalities (e.g., in distribution of or access to ecosystem services), but also manage synergies, interdependencies and trade-offs between different ecosystem services and / or their associated benefits.
 
 As for the definition of the geographical location and spatial extent, when defining the spatial scale(s) at which the assessment will be carried out, it is important to be aware of possible misalignments between the spatial scales at which the ecosystem services are provided and the ones at which people benefit from them. Benefits from ecosystem services can sometimes occur at spatial scales at which the ecosystem services are provided.
 
-Sometimes, a multi-scale approach may be necessary to address different aspects of ecosystem supply and use.  For example, ecological and administrative spatial scales can be used in conjunction if the decision-making context is directed at specific ecosystem types within certain administrative boundaries.  
+Sometimes, a multi-scale approach may be necessary to address different aspects of ecosystem supply and use.  For example, ecological and administrative spatial scales can be used in conjunction if the decision-making context is directed at specific ecosystem types within certain administrative boundaries.
 
-For decision-making purposes or computation reasons, a fully spatially explicit assessment may not be relevant. If the decision-making only requires county or municipal values to be informed or decided on, aggregating the results of the assessment to these units is sufficient. Also, fully spatially explicit analyses can be resource-intensive in terms of data acquisition, processing, and analysis. Using aggregated data where high resolution is unnecessary can save time and 
-resources while still providing useful insights. 
+For decision-making purposes or computation reasons, a fully spatially explicit assessment may not be relevant. If the decision-making only requires county or municipal values to be informed or decided on, aggregating the results of the assessment to these units is sufficient. Also, fully spatially explicit analyses can be resource-intensive in terms of data acquisition, processing, and analysis. Using aggregated data where high resolution is unnecessary can save time and
+resources while still providing useful insights.
 
 Considering the (appropriate) level of spatial representation ensures that an ecosystem service assessment is both precise and relevant to the contexts and scales at which management and policy decisions are made. The disaggregation through the spatial scales chosen should be restricted to the geographical location and spatial extent chosen.
 
@@ -174,7 +179,7 @@ The demand may not be equal to the use, as needing ecosystem services doesn’t 
 
 
 <b><u>Why is this question relevant to me?</b></u>
-An ecosystem service assessment aims at evaluating the current status of ecosystem service(s) in a specific ecosystem types and the change(s) in supply, use and / or demand of this service over space and time. To do so, the supply (i.e., provision) of the ecosystem services of interest should be quantified whether it is in biophysical and / or economic values. The supply is the basic first information that should be reported in an ecosystem service assessment to be relevant for decision-making. 
+An ecosystem service assessment aims at evaluating the current status of ecosystem service(s) in a specific ecosystem types and the change(s) in supply, use and / or demand of this service over space and time. To do so, the supply (i.e., provision) of the ecosystem services of interest should be quantified whether it is in biophysical and / or economic values. The supply is the basic first information that should be reported in an ecosystem service assessment to be relevant for decision-making.
 
 However, focusing only on the supply does not inform on who is consuming the ecosystem services, neither on how the quantity of services is being used by the consumers / users. We recommend the supply to be assessed and reported together with the use to understand the full flow of ecosystem services: how much is being produced? And who is using and how much is being used? Identifying who is using / benefitting from the ecosystem services and how much of the provision of these services is being consumed by users / beneficiaries is central to any decision-making. This allows to identify who will be impacted by a change in provision of the services and how they will be affected.
 
@@ -205,13 +210,13 @@ Yes, if information is available on social benefits, such as nature contact and 
 <b><u>Why is this question relevant to me?</b></u>
 This ecosystem service assessment may consider the importance of ecosystem services to:
 
-- health benefits, health risks and / or health outcomes, 
+- health benefits, health risks and / or health outcomes,
 
-- relationships between ecosystems, their services and specific priority health issues, 
+- relationships between ecosystems, their services and specific priority health issues,
 
 - delivery of health services or planning of health interventions,
 
-- economic importance to private sector health entities, 
+- economic importance to private sector health entities,
 
 - the benefits of the assessment to health sciences, etc.
 
@@ -222,13 +227,13 @@ It is important to identify the specific dimensions of health to be included, an
 Visit our advanced content on health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
 
 <b><u>Give me an example answer</b></u>
-Yes. Impacts on human health should be taken into account qualitatively and where possible quantitatively. Ecosystem health is embedded in the ecosystem condition assessment requested in this tender. 
+Yes. Impacts on human health should be taken into account qualitatively and where possible quantitatively. Ecosystem health is embedded in the ecosystem condition assessment requested in this tender.
 
 
 ### Should the ecosystem service assessment evaluate the conservation, sustainable supply and / or use of the ecosystem service(s) of interest?
 
 <b><u>Why is this question relevant to me?</b></u>
-Since the UN Convention of Biological Diversity was opened for signature in 1992, the conservation and sustainable use of biodiversity and the benefits it provides has been the central focus of nature policy in Europe and beyond. Looking at sustainability of supply and use of ecosystem services allows for long-term planning, putting in place adaptation and mitigation strategies. 
+Since the UN Convention of Biological Diversity was opened for signature in 1992, the conservation and sustainable use of biodiversity and the benefits it provides has been the central focus of nature policy in Europe and beyond. Looking at sustainability of supply and use of ecosystem services allows for long-term planning, putting in place adaptation and mitigation strategies.
 
 Conservation and sustainable use are critical as they link to ecosystem condition, ecosystem capacity and ecosystem service supply, which are relevant to all services.
 
@@ -242,7 +247,7 @@ Yes, it would be relevant to assess the sustainable use of the ecosystem service
 ### Should the ecosystem service assessment include an evaluation of ecosystem condition?
 
 <b><u>Why is this question relevant to me?</b></u>
-Ecosystem condition is the state of health of ecosystems and directly influences the supply of ecosystem services as it determines whether or not ecosystems can effectively provide services. Indeed an ecosystem in poor condition might result in poor provision of ecosystem services such as a fewer number of services provided, or small provision of the services. While an ecosystem in good condition may lead to a higher level provision of ecosystem services. 
+Ecosystem condition is the state of health of ecosystems and directly influences the supply of ecosystem services as it determines whether or not ecosystems can effectively provide services. Indeed an ecosystem in poor condition might result in poor provision of ecosystem services such as a fewer number of services provided, or small provision of the services. While an ecosystem in good condition may lead to a higher level provision of ecosystem services.
 
 It is important to take into account ecosystem condition together with ecosystem services to have a more complete picture and identify the potential risks in the provision of the ecosystem services and where they could occur.
 
@@ -257,7 +262,7 @@ Yes, the assessment should include an evaluation of ecosystem condition, specifi
 <b><u>Why is this question relevant to me?</b></u>
 Future scenarios can be important to request if the overall purpose of the ecosystem service assessment is to inform. Broadly, scenarios help assessing ecosystem services and their associated benefits in different conditions such as policy context, climate change, land uses, land management etc. Looking at scenarios in ecosystem service assessment can also help with identifying different trade-offs between scenarios but also how trade-offs between ecosystem services and /or their benefits change over the scenarios considered.
 
-Scenarios are a way of dealing with uncertainties about the future. They also allow to identify risk and facilitate long-term planning and adaptation. 
+Scenarios are a way of dealing with uncertainties about the future. They also allow to identify risk and facilitate long-term planning and adaptation.
 
 <b><u>Where can I find more questions to be more detailed in my Terms of Reference?</b></u>
 Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
@@ -294,7 +299,7 @@ Yes, stakeholders are expected to be involved, especially in identifying the rel
 ### Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?
 
 <b><u>Why is this question relevant to me?</b></u>
-Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows. 
+Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows.
 Stakeholders have different expertise and perspectives. It is useful to think about what the commissioners need and how stakeholders are expected to be impacted by the assessment and / or use the results of the assessment. This makes the assessment process more inclusive and ensures for quality, legitimacy and feasibility.
 
 <b><u>Give me an example answer</b></u>
@@ -312,7 +317,7 @@ It is expected that the three municipalities on which the National Park Mainland
 
 Among primary valuation methods, one can find the following methods:
 
-- <u>Revealed preference methods</u> observe the behaviour of beneficiaries and their use of ecosystem services to elicit values. These methods are applicable to valuing a narrow set of ecosystem services including recreation, tourism, visual amenity, and moderation of hazards (e.g., flooding, air pollution). 
+- <u>Revealed preference methods</u> observe the behaviour of beneficiaries and their use of ecosystem services to elicit values. These methods are applicable to valuing a narrow set of ecosystem services including recreation, tourism, visual amenity, and moderation of hazards (e.g., flooding, air pollution).
 
 - <u>Stated preference methods</u> use public surveys to ask beneficiaries to state their preferences for, generally hypothetical, changes in the provision of ecosystem services. These methods are widely applicable to value all ecosystem services but can suffer from bias due to survey design and the hypothetical nature of recorded preferences.
 
@@ -324,9 +329,9 @@ Among primary valuation methods, one can find the following methods:
 
 - <u>The social cost of carbon (SCC)</u> is a special case of the damage cost avoided method used to value global climate regulation. The SCC is the monetary value of damages caused by emitting one tonne of CO2 in a given year. The SCC therefore also represents the value of damages avoided by reducing the emission or sequestering one tonne of CO2.
 
-- <u>The net factor income method</u> estimates the value of ecosystem services that are inputs into the production of marketed goods (e.g., filtration of drinking water, nursery for fisheries) as revenue from sales of the good minus the cost of other inputs.  
+- <u>The net factor income method</u> estimates the value of ecosystem services that are inputs into the production of marketed goods (e.g., filtration of drinking water, nursery for fisheries) as revenue from sales of the good minus the cost of other inputs.
 
-- <u>The production function method</u> estimates the value of ecosystem services that are inputs into the production of marketed goods (e.g., filtration of drinking water, nursery for fisheries) by estimating a statistical function that models the value of different inputs into production.  
+- <u>The production function method</u> estimates the value of ecosystem services that are inputs into the production of marketed goods (e.g., filtration of drinking water, nursery for fisheries) by estimating a statistical function that models the value of different inputs into production.
 
 - <u>Hedonic pricing</u> is a revealed preference method that estimates the influence of ecosystem services on the prices of marketed goods (usually residential property). It is applicable for valuing recreational use, visual amenity and filtration of air pollution by urban green.
 
@@ -359,7 +364,7 @@ Yes. Measures of the contribution of the ecosystem services to the economic impo
 
 ### Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?
 <b><u>Why is this question relevant to me?</b></u>
-Ecosystem condition assessments are based on the evaluation of the levels of ecosystem properties. The properties of the ecosystem  will, in turn, determine the levels of ecosystem services supply and use. Degraded ecosystems may have lost their capacity to supply ecosystem services. Maintaining ecosystems in good condition is central to sustainability. This question is relevant if we wish to assess, for example, the  consequences of protecting ecosystems from current levels of use, or of ecosystem restoration actions in terms of ecosystem services supply and use.  
+Ecosystem condition assessments are based on the evaluation of the levels of ecosystem properties. The properties of the ecosystem  will, in turn, determine the levels of ecosystem services supply and use. Degraded ecosystems may have lost their capacity to supply ecosystem services. Maintaining ecosystems in good condition is central to sustainability. This question is relevant if we wish to assess, for example, the  consequences of protecting ecosystems from current levels of use, or of ecosystem restoration actions in terms of ecosystem services supply and use.
 
 <b><u>Where can I find more questions to be more detailed in my Terms of Reference?</b></u>
 Visit our advanced content on sustainability and condition in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
