@@ -1,2 +1,7 @@
-# Title
-{{ FirstName }}
+# Title 2
+
+{% if biophysical_valuation_needed|lower == 'no' %}[
+    no](https://google.com)
+    {% else %}
+    yes
+    {% endif %}
