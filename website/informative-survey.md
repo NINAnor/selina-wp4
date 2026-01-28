@@ -677,7 +677,7 @@ A first important choice is between “primary valuation methods” and “value
 
     - **Scenario-based documentation**: This documentation is relevant only if a scenario analysis is requested. Commissioners can ask for comparative tables, best- and worst-case outcomes, or qualitative scenario narratives to explore uncertainties and alternative results.
 
-    - **Participatory documentation*: This is a basic, qualitative approach to documenting uncertainties, relying on expert and stakeholder judgments. Engaging stakeholders helps capture their perceptions of uncertainties and their potential impact on results.
+    - **Participatory documentation**: This is a basic, qualitative approach to documenting uncertainties, relying on expert and stakeholder judgments. Engaging stakeholders helps capture their perceptions of uncertainties and their potential impact on results.
 
     - **Technical appendices**: Commissioners can request advanced technical documentation as appendices, detailing data, models, and uncertainty analysis. This should include model structure, parameters, assumptions, and sensitivity analysis to show how input changes affect results.
 
