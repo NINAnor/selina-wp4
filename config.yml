@@ -3,7 +3,11 @@ nav:
   - name: Home
     link: /
   - name: About
-    link: /about
+    children:
+      - name: Is this website for you?
+        link: /about-website
+      - name: What is EU SELINA project?
+        link: /about-selina
   - name: Learn more about
     link: /
     children:
