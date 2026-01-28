@@ -315,7 +315,7 @@ Stakeholders have different expertise and perspectives. It is useful to think ab
 ## Methodological characteristics
 ### Which economic valuation method(s) should be applied in the ecosystem service assessment?
 
-.. accordion:: Additional description of terms
+.. accordion:: Mini-glossary of terms
 
 - <u>Value transfer</u> is the use of results from existing primary studies to predict values or related information for other sites or policy contexts. Using value transfer methods is generally faster, less resource intensive and can be applied over larger geographic scales in comparison with primary valuation methods.
 
@@ -369,18 +369,333 @@ A first important choice is between “primary valuation methods” and “value
 	Yes. Measures of the contribution of the ecosystem services to the economic importance should be complied, particularly indicators for recreation sector and local employment.
 
 ### Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?
+.. join_accordion::
+
 .. accordion:: Why is this question relevant to me?
-	Ecosystem condition assessments are based on the evaluation of the levels of ecosystem properties. The properties of the ecosystem  will, in turn, determine the levels of ecosystem services supply and use. Degraded ecosystems may have lost their capacity to supply ecosystem services. Maintaining ecosystems in good condition is central to sustainability. This question is relevant if we wish to assess, for example, the  consequences of protecting ecosystems from current levels of use, or of ecosystem restoration actions in terms of ecosystem services supply and use.
+    Ecosystem condition assessments are based on the evaluation of the levels of ecosystem properties. The properties of the ecosystem  will, in turn, determine the levels of ecosystem services supply and use. Degraded ecosystems may have lost their capacity to supply ecosystem services. Maintaining ecosystems in good condition is central to sustainability. This question is relevant if we wish to assess, for example, the  consequences of protecting ecosystems from current levels of use, or of ecosystem restoration actions in terms of ecosystem services supply and use.
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
-	Visit our advanced content on sustainability and condition in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+    Visit our advanced content on sustainability and condition in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
 
 .. accordion:: Give me an example answer
-	Maybe. As we ask for a forest ecosystem condition it would be nice to link the forest condition to the supply of ecosystem services, depending on the variables used in the biophysical assessment.
+    Maybe. As we ask for a forest ecosystem condition it would be nice to link the forest condition to the supply of ecosystem services, depending on the variables used in the biophysical assessment.
 
-### 1.2.b
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Protecting and preserving the biodiversity that underpins ecosystem services helps maintain ecosystems resilience and ensures long-term service provision. Evaluating and defining the need for protection of ecosystems and their restoration along with levels of use ensure that ecosystem services are not overused, helping to maintain the ability of ecosystems to provide ecosystem services for future generations. It supports informed decision-making for long-term ecosystem health and resilience.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on sustainability and condition in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes, especially the sustainable use of wood needs to be analysed.
+
+.. join_accordion::
+    :close: true
+
+### What aspects of ecosystem condition are you interested in? 
+
+.. join_accordion::
+
+.. accordion:: Mini-glossary of terms
+
+    - **Index of general ecosystem condition**: This kind of index is an overarching measure of ecosystem condition. It is usually a combination of all or some of the indicators mentioned below. It is useful to give an overview of the condition of an ecosystem. It can also help in broad scale assessments of the linkages between levels of pressures and use, and trade-off analysis between ecosystem condition and ecosystem services.
+
+    - **Biotic indicators - Species**: Species condition indicators show how well species are doing in an ecosystem such as the size of the population, the reproductive success or their spatial distribution within the ecosystem. It can be very important to measure them to identify whether the level of use of ecosystem service exceeds the supply. For instance, species condition indicators based on  population recruitment will help determine whether harvest levels in fisheries and game are sustainable.
+
+    - **Biotic indicators - structure**: Structural condition indicators show how well the physical structure of an ecosystem (i.e., whether a forest consists of tree, shrub and herb layers, and dead wood) is doing. For example, the amount of dead wood can inform on the supply of ecosystem services such as habitat provision for native biodiversity and vegetation cover on  soil retention and erosion control.
+
+
+    - **Biotic indicators - function**: Functional condition indicators can inform about the level of specific ecological functions and processes of an ecosystem. These indicators are based on identifying and grouping species with similar ecological functional characteristics. For example, pollinators, organic matter decomposers, and herbivores. Diversity of functional groups is related to ecosystems’ multifunctionality, and the potential supply of multiple ecosystem services. Diversity within functional groups can ensure ecosystem resilience, which is key in facilitating sustainable supply of ecosystem services.
+
+    - **Abiotic - Physical indicators**: Abiotic physical condition indicators show levels of non-living physical components of an ecosystem such as the pH of the soil, or the salinity and temperature of water.  If affected, they can have an impact on the supply of ecosystem services. Abiotic physical indicators include for instance, the levels of the water table of wetlands and the water holding capacity of the soil. If these levels change, this will result in an impact on ecosystem services provided by wetlands including  changes in carbon storage and resilience to drought spells of croplands, respectively.
+
+    - **Abiotic - Chemical indicators**: Abiotic chemical condition indicators show the chemical properties in water, soil and air of an ecosystem. Examples are levels of nitrates in soil and water  through the addition of fertilizers, or particulate matters in the air through pollution.  Changes in the chemical properties of an ecosystem impact the supply of their services such as habitat provision for biodiversity. These indicators can help with identifying areas with chemical imbalances to be addressed, or target areas for depollution.
+
+
+    - **Landscape-level characteristics**: Landscape condition indicators help assess how an ecosystem is physically organised in space. They help with identifying whether ecosystems are fragmented in space, or support a good connectivity allowing species to move between different patches. This is notably critical to ensure the supply of ecosystem services such as habitat provision for biodiversity. These indicators are particularly helpful to guide landscape level land-use planning, conservation and restoration.
+
+
+.. accordion:: Why is this question relevant to me?
+    Ecosystem condition indicators represent properties of an ecosystem. They allow to evaluate which aspects of an ecosystem are in good or bad condition. As there are different families of condition indicators measuring different aspects of an ecosystem condition, it is important to measure several types of condition properties to have a holistic overview of the condition of an ecosystem. On the other hand, measuring specific ecosystem properties (e.g. population recruitment, occurrence of functional groups, chemical properties), can help establish cause-effect relationships between ecosystem properties and levels of ecosystem service supply, thus enabling quantitative assessments of ecosystem services change. 
+
+    To summarise several indicators, they can be assembled in so-called indices. These indices are composite measures representing the overall state or condition of an ecosystem. Indices are particularly useful when  the purpose is to assess how the general ecosystem condition state relates to the levels of supply of ecosystem service(s).
+
+    ndicators and indices can be compared to values in  a reference state of condition. Such comparisons help provide a general overview of how the properties of an ecosystem have evolved compared to a known reference state, thus indicating an increase or a decrease. These comparisons are useful to, for example, assess the general need for ecosystem restoration or to measure the effect of restoration actions.
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on sustainability and condition in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    The evaluation of ecosystem condition in this assessment should encompass the following aspects: biotic and abiotic indicators, fragmentation and combine this in a general index.
+
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment results be disaggregated by social groups to better understand who benefits from ecosystem services?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Identifying social groups most reliant on ecosystem services highlights the populations at greatest risk from any reduction in access or supply. Understanding access barriers provides actionable insights for addressing inequities and ensuring that specific groups are not excluded from the benefits of ecosystem services.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on social benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    No. The focus lays on the supply of ecosystem services rather than demand.
+
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards ecosystem services?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Attitudes, perceptions, and values provide insights into how ecosystem services are viewed and prioritized. This helps align the assessment with the needs/ expectations of (relevant) stakeholders/actors. This is of particular relevance if the assessment aims at delivering recommendations.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on social benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes, stakeholders will be involved in the selection of relevant ecosystem services.
+
+.. join_accordion::
+    :close: true
+
+### What aspects of health are you interested in?
+
+.. join_accordion::
+
+.. accordion:: Mini-glossary of terms
+
+    - **Health benefits**: Health benefits include goods or services which promote good health or offer avenues for positive health interventions. Considering health benefits (e.g., supplied by salutogenic environments, or provided by medicinal resources) in an ecosystem service assessment can identify important resources for maintaining or enhancing health. For example, access to high quality green areas in cities can help to reduce stress and encourage physical activity among urban residents.
+
+    - **Health risks**: Health risks refers to potential threats to good health, including drivers of disease emergence. Considering actual or potential health risks (e.g., of exposure to pathogens or natural hazards) in an ecosystem service assessment can greatly enhance health promotion efforts and related prevention and preparedness efforts. For example, changes in ecosystem structure and function can alter the ecology of infectious diseases, leading to increased risk of disease emergence in wild or domesticated species, and humans. Another example is how loss of coastal ecosystem condition can increase exposure of coastal communities to risk of coastal flooding, storm surges and tsunamis, with significant, social and economic implications.
+
+
+    - **Health outcomes**: Health outcomes refers to the status of health as a result of an intervention or exposure to one or more conditions. Considering health outcomes (e.g., the incidence or prevalence of positive or negative health status at varying population scales, and / or across time) in an ecosystem service assessment can help to quantify the social, cultural and economic aspects of ecosystem condition and ecosystem change. While health risks and benefits refer generally to the ways in which ecosystem types and /or services may impact or improve health, health outcomes refer more specifically to the measurable health effects associated with access to (or changes to) ecosystem services. For example, an assessment of health outcomes arising from an increase in high quality green and blue urban environments might quantify reductions in mental health visits to primary care services in a specific population across multiple years. Another example would be a determination of the rise or fall in incidence of water-borne disease in a specific community within a specific period after changes to aquatic ecosystems used for potable water supply.
+
+.. accordion:: Why is this question relevant to me?
+    Assessments considering health benefits, risks, and / or outcomes can identify the likelihood and consequences of impacts associated with specific development or management strategies. However, the criteria by which ecosystem-health relationships are to be assessed will inform the selection of assessment methodology, stakeholder engagement and reporting, and the utility of the assessment outputs.
+
+    For example, a generalised assessment of health benefits or risks might focus on qualitative methods such as community self-reporting as well as a general understanding of the relationships between health and specific ecosystem services, and the opinions of health care providers and civil society organisations, whilst an assessment of health outcomes may require more detailed use of epidemiological methods and engagement with medical scientists or health economists.  General assessments of benefits or risks may be most useful in broad communications of the linkages between ecosystems and health, for public engagement or wider mainstreaming efforts, and to provide a general health context for decision makers. Detailed assessments of health outcomes can help quantify costs and risks in social, cultural, and / or economic terms, inform health strategies and action plans and design of targeted interventions, or support the development of a more robust evidence base for the link between ecosystems and well-being and the implications of environmental change.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes, the three aspects of health should be considered if possible and if data are available. Health benefits of interest are more specifically the potential for reduction of stress and improvement of mental health associated with access to the natural area of National Park Mainland.
+
+.. join_accordion::
+    :close: true
+	
+### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards health-relevant ecosystem services?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    The relationships between ecosystems and health can be highly dependent upon prevailing social and cultural contexts, traditions, worldviews or experiences. Understanding diverse perceptions ensures that the assessment results better account for community values and cultural priorities, and can add important detail to the assessment of health risks, benefits or outcomes. it is also key to ensuring that assessments of health-relevant ecosystem services address issues of health equity, and can also help avoid or resolve conflicts by revealing  broader contexts and  balancing competing interests.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes, the consideration of the health benefits of National Park Mainland should consider the ability of different age groups to access the areas as well as their specific preferences in terms of the location, routes of access to, and overall design of green areas.
+
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment establish health links with specific ecosystem types and / or ecosystem services?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    This seeks to clarify the extent to which an assessment should explore the relationships between ecosystems, their services and health, which in turn will inform stakeholder engagement and the selection of assessment methods. It asks commissioners to decide whether an assessment should identify general, non-specific connections between the natural environment and health (e.g., “managed forests provide recreational opportunities which can support good mental and physical well-being”) or aim to explore more detailed cause-effect relationships between specific ecosystems and health (e.g., “mixed native woodland ecosystems are preferred by a majority of outdoor enthusiasts for their diversity of flora and fauna, which visitors describe as being important for relaxation and inspiration and therefore more attractive for physical activity such as hiking and cycling”).  
+
+    The decision will usually be informed by the policy, social and cultural context of the assessment, and depend upon the intended audiences for the results. Detailed assessments may be important for public health planners to identify ecological drivers of health status, to inform health policies and markets, or to strengthen the evidence base for nature-based solutions. However, a more general assessment may be preferred if the aim is to  provide signposts for future research and policy, or to help mainstream ecosystem service approaches into the health sector at a higher level. The choice will influence the methodological approach, notably the type and scope of data and the appropriate metrics and indicators to use, and guide engagement with stakeholders and other experts.
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes, the assessment will seek to provide evidence for the specific ecosystems or ecosystem services which may influence the health of the local community.
+
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    There are a number of ways by which ecosystem services and /or their benefits can be linked to each other. Some examples are:
+
+    - **Interdependency**: this means that ecosystem services and / or their benefits rely on other ecosystem services and / or benefits. For example, the provision of pollinator-dependent food depends on the pollination service, which in turn depends on habitat provision services (i.e., habitats providing nesting and flower resources). An example of interdependency between a benefit and an ecosystem service would be the mental and physical health benefit supplied by green spaces which depend on the recreation service these areas can provide.
+
+    - **Trade-offs**: this means that  improving one service and / or a benefit might reduce one or several  service(s) and / or benefit(s), because they are responding to the same driver of change, or because they are causal related. For example, draining wetlands for agriculture increases the provision of food but decreases flood mitigation, water filtration and retention, and carbon storage  services. An example of trade-offs between ecosystem services and benefits would be the increase of recreational access to a natural area which might impact its cultural or spiritual significance to local communities, which in turn can have negative implications for social and mental health.
+
+    -**Synergies**: this means that enhancing one ecosystem service will enhance (an)other ecosystem service(s). For example, coral reefs provide habitat maintenance for native biodiversity and nursery services to fisheries at the same time that their conservation provides coastal protection. Likewise for benefits,  synergies mean that receiving one benefit will strengthen another benefit. For example, urban green spaces supply urban cooling which provides health benefits by reducing heat-related illnesses, this in turn also provides a social benefit by improving social well-being.
+
+    These relationships between ecosystem services and between the benefits they provide are crucial to take into account for decision-making. They are necessary to understand when assessing sustainability, as well as for identifying and analysing situations where maximizing certain benefits may inadvertently diminish others.
+
+    Recognising trade-offs between services helps understanding, in a holistic way, the possible impacts of a certain intervention aiming at one service on other services. Such evaluations also help balance competing priorities, ensuring equitable access to benefits.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on sustainability and condition, as well a social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes. We would like to have an insight in the synergies and trade-offs between ecosystem services.
+
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Ecosystem services are the ecological process by which benefits are provided. For example water filtration, urban cooling, and pollination of crops are ecosystem services, while the associated benefits are the availability of clean drinking water, the reduction of heat-related illnesses, and food production.
+
+    Ecosystem services are not evenly distributed across geographic areas and spatial scales. This means that their supply, use, demand but also associated benefits vary across both geographic areas and spatial scales. Studying the spatial variation of the ecosystem services supply support decision-making by identifying where the services are available to beneficiaries and where they are not. Overlapping this with the spatial distribution of use and demand also allows to highlight whether the demand for ecosystem services meet the actual need for them. This also allows to reveal trends in supply and access, supporting strategic decisions on sustainable supply and use of the services. From a social benefits perspective, this is particularly relevant as it helps identifying underserved locations and prioritize interventions where they have the greatest impact. 
+
+    Regarding health benefits, accounting for the spatial variation is crucial as these benefits can occur outside of the spatial scale and geographical area in which the ecosystem types and their service are. For example, the restoration of wetlands enhances the capacity to retain water and mitigate floodings, which in turn reduces incidence of waterborne diseases and disaster fatalities in downstream communities due to avoided floodings.  
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on spatial and temporal characteristics, as well as social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes. The assessment should look for the supply of ecosystem services only to the geographical scale of the National Park Mainland. For the benefits such as recreation and climate mitigation, it will go beyond this scale as the area attracts visitors from outside the geographical scale of the National Park Mainland. Also, the effects of climate mitigation are not necessary visible on the local scale.
+
+.. join_accordion::
+    :close: true
+
+### Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    The supply, use and demand of ecosystem services are not constant over time. Depending on the selected ecosystem services, it may be reasonable to consider temporal fluctuations in the assessment. 
+
+    For example, the pollination service in European countries is only supplied over late spring to the beginning of fall. This means that pollinator-dependent crops for food production will be strongly dependent on seasonality. In some regions, due to a combination of climatic factors, there can be a mismatch between the flowering period and the time interval when pollinators are active. Assessing the activity patterns of pollinator species along the season will determine temporal variation of pollination services for different crops. Studying this temporal variation of the ecosystem services supports decision-making by identifying when the services are available to beneficiaries and when they are not. This also allows to reveal trends in supply and access, supporting strategic decisions on sustainable supply and use of the services.
+
+    From a social benefits perspective, it is particularly relevant to consider changes over time as it ensures that strategies are designed to sustain or enhance social benefits in the long term. Likewise, monitoring changes in health benefits over time helps decision-makers understand the long-term impacts of ecosystem service management on societal well-being and adjust strategies accordingly.
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on spatial and temporal characteristics, as well as social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes, the intention of the assessment is to see how the actions taken in the National Park Mainland help in reaching the goals of the Masterplan. The assessment should evaluate the temporal variations in the level of supply of the ecosystem services and related benefits over the time period and temporal scale considered in the assessment.
+
+.. join_accordion::
+    :close: true
+
+### What scenarios should be taken into account in the ecosystem service assessments?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Future scenarios can be important to request if the overall purpose of the ecosystem service assessment is to inform, guide or to request for recommendations. They are a way of dealing with uncertainty about the future. Scenarios allow to identify risk and facilitate long-term planning and adaptation. 
+    
+    There are different types of scenarios such as:
+
+    - land use and land cover change including restoration, deforestation management plans, etc.;
+
+    - climate change including different level of global warming, changes in rainfall and drought patterns, etc.
+
+    - changes in policy and governance including environmental policies and incentives, etc.;
+
+    - disaster risk reduction and resilience including adaptative planning to extreme events, development of green infrastructure and nature-based solutions, etc;
+
+    - etc.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    The assessment needs to consider land use and land cover changes and development of nature based solutions.
+
+.. join_accordion::
+    :close: true
+
 
 ## Uncertainty
+
+### Should the uncertainties inherent to the ecosystem service assessment be assessed and documented for the purpose of the decision-making?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Various uncertainties are inherent in the assessment of ecosystem services and their translation to decision-makers. This means that any results and decisions taken from them will be associated with a degree of uncertainty. Uncertainties have different sources, they can come from the data sources used, the choice of the model and their parameters, as well as the interpretation that commissioners will have of the results. Broadly, Uncertainties can be classified in three families: decision uncertainties, model uncertainties, scenario uncertainties. For more information refer to [Concepts behind ecosystem service assessments](/intro-es-concepts)
+
+    Informed decision-making needs to take into account these uncertainties as they pertain to the robustness, relevance, and reliability of the results upon which they rely.
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes
+
+.. join_accordion::
+    :close: true
+
+### What is the preferred reporting format to document uncertainties?
+
+.. join_accordion::
+
+.. accordion:: Mini-glossary of terms
+
+    - **Uncertainty section/report**: Ask the potential contractors to document uncertainties in a separate section of the main report or as a separate short deliverable. A structured report can use clear language and summary tables to highlight uncertainties across results, data sources, and models.
+
+    - **Visual summary**: Contractors should report uncertainties using visual tools like confidence maps, interval bars in plots, or a traffic light system (green-orange-red) to show result reliability. These visual cues make uncertainties easier to understand, especially for those with less experience.
+
+
+    - **Decision-relevant summary**: These summaries are designed for decision-making and can take different forms based on commissioners' needs. Options include **executive highlights** for key uncertainties, **risk profiles** outlining risks in management choices, and an **assumption register** listing critical assumptions and their impacts.
+
+    - **Scenario-based documentation**: This documentation is relevant only if a scenario analysis is requested. Commissioners can ask for comparative tables, best- and worst-case outcomes, or qualitative scenario narratives to explore uncertainties and alternative results.
+
+    - **Participatory documentation*: This is a basic, qualitative approach to documenting uncertainties, relying on expert and stakeholder judgments. Engaging stakeholders helps capture their perceptions of uncertainties and their potential impact on results.
+
+    - **Technical appendices**: Commissioners can request advanced technical documentation as appendices, detailing data, models, and uncertainty analysis. This should include model structure, parameters, assumptions, and sensitivity analysis to show how input changes affect results.
+
+.. accordion:: Why is this question relevant to me?
+    Documenting uncertainty can be costly, but neglecting it may lead to even greater costs in the long term, potentially resulting in unintended consequences and unfavourable outcomes. Sources of uncertainties are numerous, potential contractors need to be aware of the expectations of the commissioners and what the results will be used for to choose the best assessment and reporting of uncertainties.
+
+    Being aware of the minimum documentation requirements to support a decision, and having a conscious approach to whether there are uncertainty thresholds that may stop a decision, is part of rational decision-making.
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Uncertainty can be reported in the format of  a Participatory documentation based on expert judgement. We aim for a qualitative assessment of uncertainties. Assumptions taken in the modelling need to be clearly reported.
+
+.. join_accordion::
+    :close: true
 
 ## Validation
 
