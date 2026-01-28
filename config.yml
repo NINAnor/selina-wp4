@@ -27,9 +27,9 @@ nav:
     link: /caveats-limitations
 
 home:
-  title: Selina test
-  subtitle: test
-  cta_text: Survey
+  title: Understand what you need to get what you want 
+  subtitle: Welcome to your discovery of ecosystem service assessment, a clear guide to write a tender tailored to your needs. 
+  cta_text: Start creating your Terms fo Reference now!
   cta_url: /survey
 
 footer:
