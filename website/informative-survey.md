@@ -668,10 +668,9 @@ A first important choice is between “primary valuation methods” and “value
 
 .. accordion:: Mini-glossary of terms
 
-    - **Uncertainty section/report**: Ask the potential contractors to document uncertainties in a separate section of the main report or as a separate short deliverable. A structured report can use clear language and summary tables to highlight uncertainties across results, data sources, and models.
+    - **Uncertainty section / report**: Ask the potential contractors to document uncertainties in a separate section of the main report or as a separate short deliverable. A structured report can use clear language and summary tables to highlight uncertainties across results, data sources, and models.
 
     - **Visual summary**: Contractors should report uncertainties using visual tools like confidence maps, interval bars in plots, or a traffic light system (green-orange-red) to show result reliability. These visual cues make uncertainties easier to understand, especially for those with less experience.
-
 
     - **Decision-relevant summary**: These summaries are designed for decision-making and can take different forms based on commissioners' needs. Options include **executive highlights** for key uncertainties, **risk profiles** outlining risks in management choices, and an **assumption register** listing critical assumptions and their impacts.
 
@@ -699,4 +698,154 @@ A first important choice is between “primary valuation methods” and “value
 
 ## Validation
 
+### How should the methodology and results of the ecosystem service assessment be validated?
+
+.. join_accordion::
+
+.. accordion:: Mini-glossary of terms
+
+    - **Internal validation of the methodology and / or results**: The validation process will not involve third parties such as external stakeholders. 
+    
+        Examples of internal validation of the methodology can be planning a pilot to test the methodology before scaling it up. It can also be peer-reviews within the contractor’s team of the assumptions, models or code that are planned to be used. More simply, it can be indicating that there will be ground-truthing.
+
+        Examples of internal validation of the results can be peer-review within the contractor’s team, or comparison with similar ecosystem service assessment conducted previously. It can also include the use of published reference data to compare how the results differ from publicly acknowledged references or benchmarks.
+
+
+    - **External validation of the methodology and / or results**: The validation process will involve external third parties such as stakeholders. Stakeholders can be involved in numerous ways such as advisory boards, public consultations or workshops. Section on [Stakeholder Engagement](/informative-survey#Methodology survey question##Stakeholder engagement) below expands more on this.
+
+.. accordion:: Why is this question relevant to me?
+    Validating the methodology helps avoiding biases, ensures transparency, and confirms that appropriate methods are used to meet the commissioners’ goals.
+
+    Validating results ensures that the conclusions drawn are based on accurate, representative data. This step is essential to avoid misleading commissioners and other potential stakeholders with incorrect information that could lead to improper decision-making.
+
+    Validation improves credibility, transparency and accountability in an ecosystem service assessment. It ensures that the assessment is accurate, trustworthy, and applicable to real-world decision-making. By validating an ecosystem service assessment at different steps, we also ensure comparability with previous work done, and can identify important caveats and limitations that commissioners and potential other stakeholders should be aware of when using the results of the assessment.
+
+    Involving third parties in the validation process can be more costly as it implies using more resources such as time and organisation of meetings and events. It is important for the contractor to know how the commissioners would prefer the validation to be carried out to prepare the workplan accordingly and select relevant stakeholders if required.
+
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Validation of the results will be done internally and externally. Internally by comparing the results with available literature and externally through a workshop with different stakeholders.
+
+.. join_accordion::
+    :close: true
+
+### Should the results be compared to other published reference data in the validation process?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    Comparing results to other published data can give an estimation of the quality of the results. If they are expected to be close to some already published figures but are very different, it is an indication that the methodological approach chosen might have some flaws or can significantly improve the approach taken in previously published reports.
+
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    The results of the assessment can be compared with specific studies done on certain ecosystem services in parts of National Park Mainland.
+
+.. join_accordion::
+    :close: true
+
 ## Stakeholder engagement
+
+### How should the methodology and results of the ecosystem service assessment be validated?
+
+.. join_accordion::
+
+.. accordion:: Mini-glossary of terms
+
+    - **Development of the methodology**: 
+
+        - <u>Consult / participate</u>: stakeholders have a direct role in designing the approach. It might be relevant to involve stakeholders with key technical expertise to overcome some very specific technical difficulties in the methodological approach.
+
+        - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
+
+    - **Validation of the methodology** (*e.g.,* metrics, indicators, data, choice of scenarios and analyses): 
+
+        - <u>Consult / participate</u>: stakeholders have an advisory role as the method has already been selected by the potential contractors and / or commissioners. It might be relevant to involve stakeholders with key technical expertise to quality ensure that the methodology that will be applied meets the minimum technical requirements for the objective(s) of the assessment.
+
+        - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
+
+    - **Validation of the results**: 
+
+        - <u>Consult / participate</u>: stakeholders with specific and different source of expertise may be a strong support for validating the results of the an assessment. This gives more credibility and legitimacy to the results. It also ensures that they are understood by future potential users and compliant with their use(s).
+
+        - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
+
+    - **Data collection**: 
+
+        - <u>Consult / participate</u>: stakeholders can directly participate in data collection as respondents, and / or can help disseminate the means of collecting data such as surveys. This notably facilitates the inclusion of local knowledge in the assessment.
+
+        - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
+        
+    - **Interpretation of the results**: 
+
+        - <u>Consult / participate</u>: stakeholders have local and practical knowledge that can help contextualise the results, avoid misinterpretation and identify gaps. This also supports a sense of ownership of the results of the assessment by other stakeholders. 
+
+        - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
+
+    - **Communication and dissemination of the results*: 
+
+        - <u>Consult / participate</u>: stakeholders can directly participate in the co-creation and dissemination of the key messages from the results of the assessment. Alternatively, they can also be used as channels of dissemination and communication of the results to a larger audience. 
+
+        - <u>Inform</u>: support a communication that directly speaks to stakeholders, hwich in turn can help with a potential uptake of the results of the assessment.
+
+.. accordion:: Why is this question relevant to me?
+    Stakeholder involvement provides legitimacy to the assessment process, it also ensures that results are communicated properly and that everyone impacted by the assessment is being included. Finally, it facilitates continuous feedback on methods, results and data used, which participates in the validation of the assessment.
+
+    Involving stakeholders can however be costly and it is important to do it strategically and identify the steps at which their involvement is necessary to choose the most adapted format of engagement. 
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty and social benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Stakeholders should participate in the validation of the results and communication of the results.
+
+.. join_accordion::
+    :close: true
+
+
+### What methods should be used for involving stakeholders in the ecosystem service assessment?
+
+.. join_accordion::
+
+.. accordion:: Mini-glossary of terms
+
+    - **Newsletters or email updates**: This format is very relevant to inform the stakeholders on the progress of the assessment.
+
+    - **Websites**: This format is very relevant to inform the stakeholders on the progress of the assessment, the events to come, or the communicating and disseminating the results.
+
+    - **Webinars**: This format facilitates direct communication and interaction with stakeholders. It helps inform stakeholders on the progress of the assessment, the events to come, or communicating and disseminating results.
+
+    - **Stakeholders events such as forums**: This format brings stakeholders together, which  can facilitate discussions between them and with the commissioners and / or contractors of the assessment. It helps with directly integrating the stakeholders and shows a higher level of consideration of their feedback and inputs.
+
+    - **Advisory boards, expert groups, focus groups, or steering committees**: These formats are direct channels of inputs and feedback from the stakeholders throughout the assessment process. It may be relevant to create an advisory group of stakeholders with specific expert or local knowledge to ensure the robust and safe development of the assessment.
+
+    - **Public consultations**: This format is very inclusive as it is not aimed at specific stakeholders only, but is open to all. Public consultations can take place in meetings, written forms, organised debates, deliberative groups etc. Note that Environmental Impact Assessment regulations may require certain procedure for public hearing.
+
+    - **Workshops**: This format allows a direct interaction with stakeholders and facilitates knowledge transfer but also the collection of local and expert knowledge relevant to the assessment.
+
+.. accordion:: Why is this question relevant to me?
+    Stakeholder involvement provides legitimacy to the assessment process, it also ensures that results are communicated properly and that everyone impacted by the assessment is being included. Finally, it facilitates continuous feedback on methods, results and data used, which participates in the validation of the assessment.
+
+    Involving stakeholders can however be costly and it is important to do it strategically and choose the most adapted format of engagement. 
+
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on uncertainty and social benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Stakeholders will be involved through advisory boards, expert groups, focus groups, or steering committees. Workshops should also be organised around the validation process. Public consultation is also a possibility on ecosystem services and other benefits that cannot be quantified.
+
+.. join_accordion::
+    :close: true
