@@ -1,5 +1,5 @@
 {
-  "title": "Ecosystem service assessment: Terms of Reference online survey",
+  "title": "Create your Terms of Reference for a tailored ecosystem service assessment",
   "logo": "",
   "logoHeight": "60px",
   "completedHtml": "<h3>Thank you for your feedback</h3><a href='/'>back to home page</a>",
@@ -7,7 +7,7 @@
     {
       "name": "page18",
       "title": "A. Introduction",
-      "description": "Welcome to the creation of your Terms of Reference through an online survey!\n\nWe will ask you some questions to automatically generate the Frame & Scope, and Methodology sections of a Terms of Reference based on your answers.\n\nThis survey only covers part of the overall guidance to write Terms of Reference. The full guidance is available here: (link)",
+      "description": "Welcome to the creation of your Terms of Reference through an online survey!\n\nWe will ask you some questions to automatically generate the Frame & Scope, and Methodology sections of a Terms of Reference based on your answers.\n\n<b>Warning:</b> This survey does not cover the entirety of our writing guidance, see [Caveats and limitations](/caveats-limitations)",
       "elements": [
         {
           "type": "html",
@@ -18,7 +18,7 @@
     {
       "name": "page19",
       "title": "B. Frame & Scope",
-      "description": "This section focuses on the frame and scope of your ecosystem service assessment. It addresses (i) the context and purpose of the assessment; (ii) general characteristics such as the time period and geographical location; and (iii) the involvement of stakeholders.\n\n",
+      "description": "This section focuses on <b>framing and scoping</b> your ecosystem service assessment. It addresses:\n\n(1) the context and purpose of the assessment;\n\n(2) general characteristics such as the time period and geographical location; and\n\n(3) the involvement of stakeholders.\n\n<b>Note:</b> In our full writing guidance, this section also covers the intended impacts and the format of the outputs.",
       "elements": [
         {
           "type": "html",
@@ -28,31 +28,31 @@
     },
     {
       "name": "page1",
-      "description": "B.1 Context and Purpose ",
+      "description": "<b>B.1 Your context and purpose</b> ",
       "elements": [
         {
           "type": "text",
           "name": "Question 1.a",
           "title": "What is(are) the purpose(s) of the ecosystem service assessment? Is it part of a decision-making process? If so, at which step(s) of this process is the assessment needed?",
-          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n*Your response will be visible in the [Terms of reference.](/informative-survey#test-1)"
+          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n<b>*Warning:</b> Your response will be visible in the [Terms of reference.](/informative-survey#test-1)"
         },
         {
           "type": "text",
           "name": "Question 1.c",
           "title": "Which relevant policies should be considered for the ecosystem service assessment given the decision-making step and primary objective?",
-          "description": "Identify the international and national policies that should be considered in the ecosystem service assessment.\n\n*Your response will be visible as written here in the Terms of Reference.\n"
+          "description": "Identify the international and national policies that should be considered in the ecosystem service assessment.\n\n<b>*Warning:</b> Your response will be visible as written here in the Terms of Reference.\n"
         },
         {
           "type": "text",
           "name": "Question 1.d",
           "title": "What is the social / demographic context of the ecosystem service assessment?\n",
-          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n*Your response will be visible in the Terms of reference.\n"
+          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n"
         }
       ]
     },
     {
       "name": "page2",
-      "description": "B.2 Ecosystem type(s) and service(s)",
+      "description": "<b>B.2 Ecosystem type(s) and service(s) of interest</b>",
       "elements": [
         {
           "type": "multipletext",
@@ -90,7 +90,7 @@
     },
     {
       "name": "page3",
-      "description": "B.3 Spatial characteristics",
+      "description": "<b>B.3 Spatial characteristics</b>",
       "elements": [
         {
           "type": "multipletext",
@@ -116,15 +116,15 @@
           "choices": [
             {
               "value": "Item 1",
-              "text": "Fully spatially explicit: the assessment maps detailed spatial patterns and interactions to support site-specific management but demands more resources."
+              "text": "Fully spatially explicit: <i>the assessment maps detailed spatial patterns and interactions to support site-specific management but demands more resources.</i>"
             },
             {
               "value": "Item 2",
-              "text": "Aggregation at ecological scale: the assessment aggregates ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure."
+              "text": "Aggregation at ecological scale: <i>the assessment aggregates ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure.</i>"
             },
             {
               "value": "Item 3",
-              "text": "Aggregation at administrative scale: the assessment averages ecosystem service results by administrative areas, making it useful for policy, governance, and resource management decisions at those levels."
+              "text": "Aggregation at administrative scale: <i>the assessment averages ecosystem service results by administrative areas, making it useful for policy, governance, and resource management decisions at those levels.</i>"
             }
           ]
         }
@@ -132,7 +132,7 @@
     },
     {
       "name": "page4",
-      "description": "B.4 Temporal characteristics",
+      "description": "<b>B.4 Temporal characteristics</b>",
       "elements": [
         {
           "type": "multipletext",
@@ -154,7 +154,7 @@
     },
     {
       "name": "page5",
-      "description": "B.5 Valuation of ecosystem services",
+      "description": "<b>B.5 Valuation of ecosystem services</b>",
       "elements": [
         {
           "type": "radiogroup",
@@ -222,7 +222,7 @@
               "type": "radiogroup",
               "name": "economic_valuation_confirmation",
               "visibleIf": "{economic_valuation_needed} = 'no' or {economic_valuation_needed} = 'dontknow'",
-              "title": "Your answer to this questions means that we will not ask you any further questions on economic valuation. Your Terms of Reference will then not include any sections on economic valuation of ecosystem service. Do you confirm this corresponds to your needs?",
+              "title": "Your answer to this question means that we will not ask you any further question on economic valuation. Your Terms of Reference will then not include any sections on economic valuation of ecosystem services. Do you confirm this corresponds to your needs?",
               "choices": [
                 "Yes",
                 {
@@ -486,7 +486,7 @@
     },
     {
       "name": "page6",
-      "description": "B.6 Scenarios",
+      "description": "<b>B.6 Scenarios</b>",
       "elements": [
         {
           "type": "radiogroup",
@@ -532,7 +532,7 @@
     },
     {
       "name": "page7",
-      "description": "B.7 Stakeholder Engagement",
+      "description": "<b>B.7 Stakeholder Engagement</b>",
       "elements": [
         {
           "type": "radiogroup",
