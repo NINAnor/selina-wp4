@@ -6,6 +6,8 @@ nav:
     children:
       - name: Is this website for you?
         link: /about-website
+      - name: What is the goal of this website?
+        link: /about-website-goal
       - name: What is EU SELINA project?
         link: /about-selina
   - name: Learn more about
