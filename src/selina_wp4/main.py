@@ -4,7 +4,7 @@ import json
 import logging
 import pathlib
 from typing import Any
-
+from collections import defaultdict
 import environ
 import mistune
 import pandoc
@@ -16,6 +16,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from mistune.directives import Admonition, RSTDirective, TableOfContents
 from slugify import slugify
+import random
 
 from .directives import Accordion, Join
 
@@ -101,12 +102,24 @@ STOP_WORDS = [
 ]
 
 
+class Slugifier:
+    def __init__(self):
+        self.__ids = defaultdict(lambda: 0)
+
+    def run(self, *args, **kwargs):
+        result = slugify(*args, **kwargs)
+        
+        self.__ids[result] += 1
+        return result if self.__ids.get(result) < 2 else f"{result}-{self.__ids.get(result)}"
+
+
 class CustomRenderer(mistune.HTMLRenderer):
-    def __init__(self, escape: bool = True):
+    def __init__(self, slugifier: Slugifier, escape: bool = True):
         super().__init__(escape=False)
+        self.slugifier = slugifier
 
     def heading(self, text: str, level: int, **attrs: Any) -> str:
-        header_id = attrs.get("id") or slugify(
+        header_id = attrs.get("id") or self.slugifier.run(
             text,
             stopwords=STOP_WORDS,
             lowercase=True,
@@ -117,18 +130,20 @@ class CustomRenderer(mistune.HTMLRenderer):
         return f'<h{level} id="{header_id}">{text}</h{level}>\n'
 
 
-markdown_html = mistune.create_markdown(
-    renderer=CustomRenderer(),
-    plugins=[
-        "footnotes",
-        "url",
-        "superscript",
-        "subscript",
-        "def_list",
-        "table",
-        RSTDirective([Admonition(), TableOfContents(), Accordion(), Join()]),
-    ],
-)
+def get_markdown(content: str):
+    slugifier = Slugifier()
+    return mistune.create_markdown(
+        renderer=CustomRenderer(slugifier=slugifier),
+        plugins=[
+            "footnotes",
+            "url",
+            "superscript",
+            "subscript",
+            "def_list",
+            "table",
+            RSTDirective([Admonition(), TableOfContents(), Accordion(), Join()]),
+        ],
+    )(content)
 
 
 if SURVEY_DEBUG_PATH:
@@ -146,7 +161,7 @@ if SURVEY_DEBUG_PATH:
         return templates.TemplateResponse(
             request=request,
             name="pages.html.jinja",
-            context={"content": markdown_html(survey)},
+            context={"content": get_markdown(survey)},
         )
 
 
@@ -181,7 +196,7 @@ async def index(request: Request, page_name: str):
     if page_name == "":
         return templates.TemplateResponse(request=request, name="index.html.jinja")
     elif page_name in ALLOWED_PAGES:
-        content = markdown_html(
+        content = get_markdown(
             (WEBSITE_PATH / (pathlib.Path(page_name).with_suffix(".md")))
             .open("r")
             .read()
