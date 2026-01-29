@@ -1,9 +1,9 @@
 # Survey FAQ
 This page gives more information on the questions asked in theonline survey including addtitional explanation on the relevance of the question and an example of answer. The overal example taken to ansewr all of the questions is the [Belgian case study](/link) described in [Examples](/link)
 
-# Frame & Scope survey questions
-## Context and purpose
-### What is(are) the purpose(s) of the ecosystem service assessment? If it is part of a decision-making process, at which step(s) of this process is the assessment needed?
+## Frame & Scope survey questions
+### Context and purpose
+#### What is(are) the purpose(s) of the ecosystem service assessment? If it is part of a decision-making process, at which step(s) of this process is the assessment needed?
 
 .. join_accordion::
 
@@ -18,7 +18,7 @@ This page gives more information on the questions asked in theonline survey incl
 .. join_accordion::
     :close: true
 
-### Within this(these) purpose(s) or decision-making step(s), what is the primary objective of the ecosystem service assessment?
+#### Within this(these) purpose(s) or decision-making step(s), what is the primary objective of the ecosystem service assessment?
 
 .. join_accordion::
 .. accordion:: Why is this question relevant to me?
@@ -31,7 +31,7 @@ This page gives more information on the questions asked in theonline survey incl
     :close: true
 
 
-### Which relevant policies should be considered for the ecosystem service assessment given the decision-making step and primary objective?
+#### Which relevant policies should be considered for the ecosystem service assessment given the decision-making step and primary objective?
 
 .. join_accordion::
 .. accordion:: Why is this question relevant to me?
@@ -44,7 +44,7 @@ This page gives more information on the questions asked in theonline survey incl
 .. join_accordion::
     :close: true
 
-### What is the social / demographic context of the ecosystem service assessment?
+#### What is the social / demographic context of the ecosystem service assessment?
 
 .. accordion::  Why is this question relevant to me?
     The ecosystem service assessment may consider the social and demographic context to ensure that it reflects the needs and realities of the people and communities interacting with the ecosystems. Doing so can reveal social or economic challenges, highlight vulnerable or priority groups, and identify population trends that influence the relevance and use of the assessment’s outputs. This information further supports tailored communication, inclusive engagement, and more effective, equitable reporting.
@@ -52,7 +52,7 @@ This page gives more information on the questions asked in theonline survey incl
 .. accordion:: Give me an example answer
 	Recreational development and industrialisation led to prosperity in the region. The social and demographic context of the project is quite broad. The National Park Mainland lays in the perimeter of three municipalities with a wide range of age groups, economic status and ethnic composition. Furthermore, the area attracts visitors from all over the country.
 
-### Should the ecosystem service assessment aim at providing recommendations within the decision-making and policy context?
+#### Should the ecosystem service assessment aim at providing recommendations within the decision-making and policy context?
 
 .. accordion:: Why is this question relevant to me?
 	The need for recommendations influences a number of aspects in an ecosystem service assessment around the engagement of stakeholders.
@@ -60,9 +60,9 @@ This page gives more information on the questions asked in theonline survey incl
 .. accordion:: Give me an example answer
 	Maybe. The purpose of the assessment is reporting but based on the results of the assessment, recommendations could be derived for the development of the next Operational plan.
 
-## General methodological characteristics
+### General methodological characteristics
 
-### What ecosystem type(s) is(are) of interest in the ecosystem service assessment?
+#### What ecosystem type(s) is(are) of interest in the ecosystem service assessment?
 
 .. accordion:: Why is this question relevant to me?
 	An ecosystem service assessment aims at evaluating the current status of ecosystem service(s) in a specific ecosystem types and the change(s) in provision of this service over space and time. To do so, the ecosystem types providing the ecosystem services of interest should be identified and defined. A number of standard classifications exists. If the purpose of the assessment is restricted to national uses and impacts, national classifications can be preferred. International classifications can also be used such as [European Nature Information System](https://capitalscoalition.org/capitals-approach/frameworkintegrated/), [International Union for Conservation of Nature Global Ecosystem Typology](https://cices.eu/resources/) or the [System of Environmental Economic Accounting – Ecosystem Accounting](https://seea.un.org/ecosystem-accounting) ecosystem type reference classification.
@@ -84,7 +84,7 @@ This page gives more information on the questions asked in theonline survey incl
 
 For the condition assessment only forests will be assessed.
 
-### What ecosystem service(s) is(are) of interest in the ecosystem service assessment?
+#### What ecosystem service(s) is(are) of interest in the ecosystem service assessment?
 
 .. accordion:: Why is this question relevant to me?
 	An ecosystem service assessment aims at evaluating the current status of ecosystem service(s) in a specific ecosystem types and the change(s) in provision of this service over space and time. To do so, the ecosystem services of interest should be identified and defined. As for ecosystem types, a number of standard classifications exist. Such as  [Classification of Ecosystem Services (CICES)](https://cices.eu/), the [System of Environmental Economic Accounting – Ecosystem Accounting (SEEA-EA)](https://seea.un.org/ecosystem-accounting), the [National Ecosystem Services Classification System (NESCS Plus)](https://www.epa.gov/eco-research/national-ecosystem-services-classification-system-nescs-plus), the [Economics of Ecosystems and Biodiversity (TEEB)](https://www.teebweb.org/wp-content/uploads/Study%20and%20Reports/Reports/Synthesis%20report/TEEB%20Synthesis%20Report%202010.pdf), the [Millenium Ecosystem Assessment (MEA)](https://www.millenniumassessment.org/en/index.html), or the [Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)](https://www.ipbes.net/). If the commissioners wish to use their own definition, it is recommended to underline the reasons behind this change from more official definitions. The differences between the official and in-house definition should be clearly highlighted.
@@ -95,7 +95,7 @@ If the commissioners are not clear on which ecosystem services should be focused
 .. accordion:: Give me an example answer
 	Inherent to the ecosystem service approach it is best to assess the total bundle of ecosystem services relevant for National Park Mainland. The relevance will be defined together with different stakeholders in the area.
 
-### What is(are) the geographical location(s) and total area(s) (i.e., spatial extent) of the ecosystem service assessment?
+#### What is(are) the geographical location(s) and total area(s) (i.e., spatial extent) of the ecosystem service assessment?
 
 .. accordion:: Why is this question relevant to me?
 	These are basic information of an ecosystems service assessment. The geographical location and spatial extent of the assessment will influence the data to be used and the overall methodological approaches.
@@ -110,7 +110,7 @@ If the assessment is carried out at several spatial scales, this can support the
 .. accordion:: Give me an example answer
 	The assessment takes place on the geographical location and local scale of the National Park Mainland. If possible regional scale for ecosystems such as flood protection.
 
-### At which spatial scale(s) should the results of the ecosystem service assessment be presented (e.g., results aggregated to administrative scales such as regions and counties)?
+#### At which spatial scale(s) should the results of the ecosystem service assessment be presented (e.g., results aggregated to administrative scales such as regions and counties)?
 
 .. accordion:: Additional description of terms
 	- <u>A fully spatially explicit</u> ecosystem service assessment does not aggregate the results. It displays ecosystem types and services with fine-grained spatial detail. This is useful to capture fine-scale spatial patterns and interactions that influence ecosystem services, and to inform site-specific management actions or interventions.
@@ -142,7 +142,7 @@ Considering the (appropriate) level of spatial representation ensures that an ec
 .. accordion:: Give me an example answer
 	The assessment needs to be as spatially explicit as possible within the context of the available data. If not possible, at the least aggregation per biotope is needed.
 
-### What is the time period and temporal scale(s) to be considered in the ecosystem service assessment?
+#### What is the time period and temporal scale(s) to be considered in the ecosystem service assessment?
 
 .. accordion:: Why is this question relevant to me?
 	As ecosystem services (supply, use, and demand) and their benefits vary across time, vary across time, it is important to clearly indicate the period of time the ecosystem service assessment needs to cover (e.g., 2020-2025). In a second step, it is also necessary to specify the temporal scale in which the results should be reported such as annual average, quarterly or monthly averages. An overall example would be an assessment conducted for the time period 2020-2025 with results broken down by quarters.
@@ -153,7 +153,7 @@ Considering the (appropriate) level of spatial representation ensures that an ec
 .. accordion:: Give me an example answer
 	The assessment should be conducted over the years 2024-2030. Results should be reported for each year within this time period.
 
-### Should the ecosystem service(s) be measured in biophysical terms?
+#### Should the ecosystem service(s) be measured in biophysical terms?
 
 .. accordion:: Why is this question relevant to me?
 	Biophysical valuation enables us to assess the physical/material contribution of ecosystems to human well-being as well as helps to identify how ecosystem characteristics affect the level of ecosystem services. Biophysical ecosystem service assessments can also enable us to evaluate whether the levels of use of ecosystem services correspond with those of the ecosystem’s capacity to supply services.
@@ -161,7 +161,7 @@ Considering the (appropriate) level of spatial representation ensures that an ec
 .. accordion:: Give me an example answer
 	Yes, ecosystem services need  to be measured in biophysical terms.
 
-### Should the ecosystem service(s) be measured in terms of their economic value in monetary units?
+#### Should the ecosystem service(s) be measured in terms of their economic value in monetary units?
 
 .. accordion:: Why is this question relevant to me?
 	Economic value in monetary terms facilitates a more direct link to the economy and provides a measure of the importance of ecosystem services to human wellbeing.
@@ -172,7 +172,7 @@ Considering the (appropriate) level of spatial representation ensures that an ec
 .. accordion:: Give me an example answer
 	Yes, where possible the economic value of ecosystem services should be quantified in monetary units.
 
-### What aspects of ecosystem services should be measured?
+#### What aspects of ecosystem services should be measured?
 
 .. accordion:: Additional description of terms
 
@@ -199,7 +199,7 @@ It is important to note that the demand does not equal the use. In the example a
 .. accordion:: Give me an example answer
 	Supply and use should be measured. The demand is not necessarily requested but could be interesting to know for certain ecosystem services such as pollination and recreation in order to detect deficits.
 
-### Should the ecosystem service assessment address social benefits and equity goals?
+#### Should the ecosystem service assessment address social benefits and equity goals?
 
 .. accordion:: Why is this question relevant to me?
 	Including social and equity metrics ensures that the assessment addresses inequalities, particularly for vulnerable or underserved populations.
@@ -210,7 +210,7 @@ It is important to note that the demand does not equal the use. In the example a
 .. accordion:: Give me an example answer
 	Yes, if information is available on social benefits, such as nature contact and nature connectedness (i.e., the way people connect to nature and social cohesion), need to be taken into account.
 
-### Should the ecosystem services be valued in terms of their relevance to health? If yes, should the assessment look at human, animal, or plant health, or take a One Health approach combining all three with ecosystem health?
+#### Should the ecosystem services be valued in terms of their relevance to health? If yes, should the assessment look at human, animal, or plant health, or take a One Health approach combining all three with ecosystem health?
 
 
 .. accordion:: Why is this question relevant to me?
@@ -236,7 +236,7 @@ It is important to identify the specific dimensions of health to be included, an
 	Yes. Impacts on human health should be taken into account qualitatively and where possible quantitatively. Ecosystem health is embedded in the ecosystem condition assessment requested in this tender.
 
 
-### Should the ecosystem service assessment evaluate the conservation, sustainable supply and / or use of the ecosystem service(s) of interest?
+#### Should the ecosystem service assessment evaluate the conservation, sustainable supply and / or use of the ecosystem service(s) of interest?
 
 .. accordion:: Why is this question relevant to me?
 	Since the UN Convention of Biological Diversity was opened for signature in 1992, the conservation and sustainable use of biodiversity and the benefits it provides has been the central focus of nature policy in Europe and beyond. Looking at sustainability of supply and use of ecosystem services allows for long-term planning, putting in place adaptation and mitigation strategies.
@@ -250,7 +250,7 @@ Conservation and sustainable use are critical as they link to ecosystem conditio
 .. accordion:: Give me an example answer
 	Yes, it would be relevant to assess the sustainable use of the ecosystem service especially for wood production and recreation. Important to avoid too much impact on the condition of the forest.
 
-### Should the ecosystem service assessment include an evaluation of ecosystem condition?
+#### Should the ecosystem service assessment include an evaluation of ecosystem condition?
 
 .. accordion:: Why is this question relevant to me?
 	Ecosystem condition is the state of health of ecosystems and directly influences the supply of ecosystem services as it determines whether or not ecosystems can effectively provide services. Indeed an ecosystem in poor condition might result in poor provision of ecosystem services such as a fewer number of services provided, or small provision of the services. While an ecosystem in good condition may lead to a higher level provision of ecosystem services.
@@ -263,7 +263,7 @@ It is important to take into account ecosystem condition together with ecosystem
 .. accordion:: Give me an example answer
 	Yes, the assessment should include an evaluation of ecosystem condition, specifically for the forests.
 
-### Are future scenarios required in the ecosystem service assessment?
+#### Are future scenarios required in the ecosystem service assessment?
 
 .. accordion:: Why is this question relevant to me?
 	Future scenarios can be important to request if the overall purpose of the ecosystem service assessment is to inform. Broadly, scenarios help assessing ecosystem services and their associated benefits in different conditions such as policy context, climate change, land uses, land management etc. Looking at scenarios in ecosystem service assessment can also help with identifying different trade-offs between scenarios but also how trade-offs between ecosystem services and /or their benefits change over the scenarios considered.
@@ -277,8 +277,8 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 	Yes, the assessment takes land use changes due to the implementation of the operational plan  into account. This way the impact of the restoration can be measured and the actions of the plan revised if necessary.
 
 
-## Stakeholder engagement
-### Should the contractor conduct a stakeholder analysis?
+### Stakeholder engagement
+#### Should the contractor conduct a stakeholder analysis?
 
 .. accordion:: Why is this question relevant to me?
 	Although commissioners might know which stakeholders should be involved in the ecosystem service assessment, conducting a stakeholder analysis will help with identifying other stakeholders that haven’t been identified before, especially when it comes to minority and / or vulnerable social groups.
@@ -288,7 +288,7 @@ The results of a stakeholder analysis should be reviewed throughout the assessme
 .. accordion:: Give me an example answer
 	Yes, it is interesting to do a stakeholder analysis to identify the key stakeholders.
 
-### Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?
+#### Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?
 
 .. accordion:: Why is this question relevant to me?
 	Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows. Involving key stakeholders is essential to have an inclusive and integration ecosystem service assessment. There are several other reasons including:
@@ -302,7 +302,7 @@ The results of a stakeholder analysis should be reviewed throughout the assessme
 .. accordion:: Give me an example answer
 	Yes, stakeholders are expected to be involved, especially in identifying the relevant ecosystem services in National Park Mainland.
 
-### Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?
+#### Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?
 
 .. accordion:: Why is this question relevant to me?
 	Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows.
@@ -311,9 +311,9 @@ Stakeholders have different expertise and perspectives. It is useful to think ab
 .. accordion:: Give me an example answer
 	It is expected that the three municipalities on which the National Park Mainland lays , Nature organisations and farmers should be involved. It will enhance the integration of local knowledge and legitimacy of the results. Other scientists doing research in National Park Mainland should also be involved in order to exchange data and validate results of the assessment.
 
-# Methodology survey questions
-## Methodological characteristics
-### Which economic valuation method(s) should be applied in the ecosystem service assessment?
+## Methodology survey questions
+### Methodological characteristics
+#### Which economic valuation method(s) should be applied in the ecosystem service assessment?
 
 .. accordion:: Mini-glossary of terms
 
@@ -358,7 +358,7 @@ A first important choice is between “primary valuation methods” and “value
 .. accordion:: Give me an example answer
 	Considering our knowledge of economic valuation and the foreseen budgets, we would use value transfer methods, adjusted to the characteristics of the study site.
 
-### Should the assessment include indicators of the contribution of ecosystem service(s) to economic development such as employment and growth?
+#### Should the assessment include indicators of the contribution of ecosystem service(s) to economic development such as employment and growth?
 .. accordion:: Why is this question relevant to me?
 	This question is relevant if commissioners want the ecosystem service assessment to quantify indicators of economic importance. Potentially relevant indicators include the contribution of ecosystem services to economic development, specific sectors of the economy, or local employment. These indicators can be useful for communicating the importance of ecosystem services to decision makers and the general public.
 
@@ -368,7 +368,7 @@ A first important choice is between “primary valuation methods” and “value
 .. accordion:: Give me an example answer
 	Yes. Measures of the contribution of the ecosystem services to the economic importance should be complied, particularly indicators for recreation sector and local employment.
 
-### Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?
+#### Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?
@@ -383,7 +383,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?
+#### Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?
 
 .. join_accordion::
 
@@ -400,7 +400,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### What aspects of ecosystem condition are you interested in? 
+#### What aspects of ecosystem condition are you interested in? 
 
 .. join_accordion::
 
@@ -441,7 +441,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment results be disaggregated by social groups to better understand who benefits from ecosystem services?
+#### Should the ecosystem service assessment results be disaggregated by social groups to better understand who benefits from ecosystem services?
 
 .. join_accordion::
 
@@ -458,7 +458,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards ecosystem services?
+#### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards ecosystem services?
 
 .. join_accordion::
 
@@ -475,7 +475,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### What aspects of health are you interested in?
+#### What aspects of health are you interested in?
 
 .. join_accordion::
 
@@ -503,7 +503,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 	
-### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards health-relevant ecosystem services?
+#### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards health-relevant ecosystem services?
 
 .. join_accordion::
 
@@ -520,7 +520,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment establish health links with specific ecosystem types and / or ecosystem services?
+#### Should the ecosystem service assessment establish health links with specific ecosystem types and / or ecosystem services?
 
 .. join_accordion::
 
@@ -540,7 +540,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?
+#### Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?
 
 .. join_accordion::
 
@@ -567,7 +567,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?
+#### Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?
 
 .. join_accordion::
 
@@ -588,7 +588,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?
+#### Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?
 
 .. join_accordion::
 
@@ -610,7 +610,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### What scenarios should be taken into account in the ecosystem service assessments?
+#### What scenarios should be taken into account in the ecosystem service assessments?
 
 .. join_accordion::
 
@@ -640,9 +640,9 @@ A first important choice is between “primary valuation methods” and “value
     :close: true
 
 
-## Uncertainty
+### Uncertainty
 
-### Should the uncertainties inherent to the ecosystem service assessment be assessed and documented for the purpose of the decision-making?
+#### Should the uncertainties inherent to the ecosystem service assessment be assessed and documented for the purpose of the decision-making?
 
 .. join_accordion::
 
@@ -662,7 +662,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### What is the preferred reporting format to document uncertainties?
+#### What is the preferred reporting format to document uncertainties?
 
 .. join_accordion::
 
@@ -696,9 +696,9 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-## Validation
+### Validation
 
-### How should the methodology and results of the ecosystem service assessment be validated?
+#### How should the methodology and results of the ecosystem service assessment be validated?
 
 .. join_accordion::
 
@@ -711,7 +711,7 @@ A first important choice is between “primary valuation methods” and “value
         Examples of internal validation of the results can be peer-review within the contractor’s team, or comparison with similar ecosystem service assessment conducted previously. It can also include the use of published reference data to compare how the results differ from publicly acknowledged references or benchmarks.
 
 
-    - **External validation of the methodology and / or results**: The validation process will involve external third parties such as stakeholders. Stakeholders can be involved in numerous ways such as advisory boards, public consultations or workshops. Section on [Stakeholder Engagement](/informative-survey#Methodology survey question##Stakeholder engagement) below expands more on this.
+    - **External validation of the methodology and / or results**: The validation process will involve external third parties such as stakeholders. Stakeholders can be involved in numerous ways such as advisory boards, public consultations or workshops. Section on [Stakeholder Engagement](/informative-survey##Methodology survey question###Stakeholder engagement) below expands more on this.
 
 .. accordion:: Why is this question relevant to me?
     Validating the methodology helps avoiding biases, ensures transparency, and confirms that appropriate methods are used to meet the commissioners’ goals.
@@ -734,7 +734,7 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-### Should the results be compared to other published reference data in the validation process?
+#### Should the results be compared to other published reference data in the validation process?
 
 .. join_accordion::
 
@@ -753,9 +753,9 @@ A first important choice is between “primary valuation methods” and “value
 .. join_accordion::
     :close: true
 
-## Stakeholder engagement
+### Stakeholder engagement
 
-### How should the methodology and results of the ecosystem service assessment be validated?
+#### How should the methodology and results of the ecosystem service assessment be validated?
 
 .. join_accordion::
 
@@ -813,7 +813,7 @@ A first important choice is between “primary valuation methods” and “value
     :close: true
 
 
-### What methods should be used for involving stakeholders in the ecosystem service assessment?
+#### What methods should be used for involving stakeholders in the ecosystem service assessment?
 
 .. join_accordion::
 
