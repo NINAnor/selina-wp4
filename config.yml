@@ -22,7 +22,7 @@ nav:
   - name: Create your Terms of Reference
     children:
       - name: Read me first
-        link: /intro-writing-guidance
+        link: /writing-tor
       - name: Survey
         link: /survey
       - name: Survey FAQ
@@ -33,7 +33,7 @@ nav:
     link: /caveats-limitations
 
 home:
-  title: Understand what you need to get what you want 
+  title: Understand what you need, to get what you want 
   subtitle: Welcome to your discovery of ecosystem service assessment, a clear guide to write a tender tailored to your needs. 
   cta_text: Start creating your Terms fo Reference now!
   cta_url: /survey
