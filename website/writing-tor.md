@@ -3,9 +3,9 @@
 
 ## Before you start... 4 points to check!
 
-1. Have you been through the [What does our writing support look like?](LINK!!)? Just take a quick look before choosing any of the two options below to create your survey.
+1. Have you been through the [What does our writing support look like?](/intro-writing-guidance) Just take a quick look before choosing any of the two options below to create your survey.
 
-2. Have you had a look at our [Caveats and limitations](/caveats-and-limitations)? Maybe it's worth checking very briefly... This section is very short!
+2. Have you had a look at our [Caveats and limitations](/caveats-limitations)? Maybe it's worth checking very briefly... This section is very short!
 
 3. Have you read the information we have about the key concepts of ecosystem service assessment? To maximise the support of our guidance, it is best to be aware of these key concepts so you undestand them and know what features would best suit your assessment. And who knows, you might learn a thing or two?
 
@@ -29,4 +29,4 @@ You have two options to create you Terms of Reference:
 
 
 ## References
-[^1] [System of Environmental Economic Accounting – Ecosystem Accounting](https://seea.un.org/ecosystem-accounting), United Nations, 2024.
+[^1]: [System of Environmental Economic Accounting – Ecosystem Accounting](https://seea.un.org/ecosystem-accounting), United Nations, 2024.
