@@ -3,8 +3,9 @@ import io
 import json
 import logging
 import pathlib
-from typing import Any
 from collections import defaultdict
+from typing import Any
+
 import environ
 import mistune
 import pandoc
@@ -16,7 +17,6 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from mistune.directives import Admonition, RSTDirective, TableOfContents
 from slugify import slugify
-import random
 
 from .directives import Accordion, Join
 
@@ -108,15 +108,27 @@ class Slugifier:
 
     def run(self, *args, **kwargs):
         result = slugify(*args, **kwargs)
-        
+
         self.__ids[result] += 1
-        return result if self.__ids.get(result) < 2 else f"{result}-{self.__ids.get(result)}"
+        return (
+            result
+            if self.__ids.get(result) < 2
+            else f"{result}-{self.__ids.get(result)}"
+        )
 
 
 class CustomRenderer(mistune.HTMLRenderer):
-    def __init__(self, slugifier: Slugifier, escape: bool = True):
+    def __init__(
+        self,
+        slugifier: Slugifier,
+        escape: bool = True,
+        debug=False,
+        page_name: str = "",
+    ):
         super().__init__(escape=False)
         self.slugifier = slugifier
+        self.debug = debug
+        self.page_name = page_name
 
     def heading(self, text: str, level: int, **attrs: Any) -> str:
         header_id = attrs.get("id") or self.slugifier.run(
@@ -126,14 +138,15 @@ class CustomRenderer(mistune.HTMLRenderer):
             word_boundary=True,
             max_length=50,
         )
-        # Use attrs from processed tokens if available
+        if self.debug:
+            return f'<div class="flex flex-col gap-4"><h{level} id="{header_id}">{text}</h{level}><small>/{self.page_name}#{header_id}</small></div>\n'  # noqa: E501
         return f'<h{level} id="{header_id}">{text}</h{level}>\n'
 
 
-def get_markdown(content: str):
+def get_markdown(content: str, debug: bool = False, page_name: str = "") -> str:
     slugifier = Slugifier()
     return mistune.create_markdown(
-        renderer=CustomRenderer(slugifier=slugifier),
+        renderer=CustomRenderer(slugifier=slugifier, debug=debug, page_name=page_name),
         plugins=[
             "footnotes",
             "url",
@@ -192,14 +205,17 @@ async def survey(request: Request):
 
 
 @app.get("/{page_name:path}", response_class=HTMLResponse)
-async def index(request: Request, page_name: str):
+async def index(request: Request, page_name: str, debug: bool = False):
     if page_name == "":
         return templates.TemplateResponse(request=request, name="index.html.jinja")
     elif page_name in ALLOWED_PAGES:
         content = get_markdown(
             (WEBSITE_PATH / (pathlib.Path(page_name).with_suffix(".md")))
             .open("r")
-            .read()
+            .read(),
+            # Use attrs from processed tokens if available
+            debug=debug,
+            page_name=page_name,
         )
         return templates.TemplateResponse(
             request=request, name="pages.html.jinja", context={"content": content}
