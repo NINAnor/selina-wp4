@@ -21,4 +21,4 @@ RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["uv", "run", "--frozen", "--no-reinstall", "fastapi", "run", "src/selina_wp4/main.py"]
+CMD ["/app/.venv/bin/fastapi", "run", "src/selina_wp4/main.py"]
