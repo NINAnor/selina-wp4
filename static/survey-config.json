@@ -256,6 +256,7 @@
               "name": "fs_meth_econo_confirmation",
               "visibleIf": "{fs_meth_econo_34b} = 'no' or {fs_meth_econo_34b} = 'dontknow' or {fs_meth_econo_34b} = 'maybe'",
               "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further question on economic valuation. Your Terms of Reference will then not include any sections on economic valuation of ecosystem services. Do you confirm this corresponds to your needs?",
+              "isRequired": true,
               "choices": [
                 "Yes",
                 {
@@ -309,12 +310,13 @@
           "type": "panel",
           "name": "panel2",
           "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'no' or\n{fs_meth_es_measure_34c.essupply} = 'dontknow' or\n{fs_meth_es_measure_34c.esdemand} = 'no' or\n{fs_meth_es_measure_34c.esdemand} = 'dontknow' or\n{fs_meth_es_measure_34c.esuse} = 'no' or\n{fs_meth_es_measure_34c.esuse} = 'dontknow'",
+          "isRequired": true,
           "elements": [
             {
               "type": "radiogroup",
               "name": "fs_meth_es_confirmation",
-              "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'no' or\n{fs_meth_es_measure_34c.essupply} = 'dontknow' or\n{fs_meth_es_measure_34c.essupply} = 'maybe' or\n{fs_meth_es_measure_34c.esdemand} = 'no' or\n{fs_meth_es_measure_34c.esdemand} = 'dontknow' or\n{fs_meth_es_measure_34c.esdemand}= 'maybe' or\n{fs_meth_es_measure_34c.esuse} = 'no' or\n{fs_meth_es_measure_34c.esuse} = 'dontknow' or\n{fs_meth_es_measure_34c.esuse} = 'maybe'\n",
-              "title": "Your answer to this question means that we will not ask you any further questions on this aspect of economic service measurement. Your Terms of Reference will then not include any sections on the selected aspect of ecosystem service measurement. Do you confirm this corresponds to your needs?",
+              "visibleIf": "{fs_meth_es_measure_34c.essupply} != 'yes' and {fs_meth_es_measure_34c.essupply} != 'maybe' and {fs_meth_es_measure_34c.esdemand} != 'yes' and {fs_meth_es_measure_34c.esdemand} != 'maybe' and {fs_meth_es_measure_34c.esuse} != 'yes' and {fs_meth_es_measure_34c.esuse} != 'maybe'",
+              "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on this aspect of economic service measurement. Your Terms of Reference will then not include any sections on the selected aspect of ecosystem service measurement. Do you confirm this corresponds to your needs?",
               "choices": [
                 {
                   "value": "Item 1",
@@ -331,6 +333,7 @@
               "name": "question1",
               "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'no' and\n{fs_meth_es_measure_34c.essupply} = 'dontknow' and\n{fs_meth_es_measure_34c.essupply} = 'maybe' and\n{fs_meth_es_measure_34c.esdemand} = 'no' and\n{fs_meth_es_measure_34c.esdemand} = 'dontknow' and\n{fs_meth_es_measure_34c.esdemand}= 'maybe' and\n{fs_meth_es_measure_34c.esuse} = 'no' and\n{fs_meth_es_measure_34c.esuse} = 'dontknow' and\n{fs_meth_es_measure_34c.esuse} = 'maybe'\n",
               "title": "<b>*Warning:</b> Your answer to this question means that the contractor will not know what aspect of ecosystem service(s) to measure. Think about your context and purpose and select the feature that would be the most relevant to you. If you still don’t know, please select the answer below.",
+              "isRequired": true,
               "choices": [
                 {
                   "value": "dontknow",
@@ -375,6 +378,7 @@
               "name": "fs_meth_social_confirmation",
               "visibleIf": "{fs_meth_social_34d} = 'no' or {fs_meth_social_34d} = 'dontknow' or {fs_meth_social_34d} = 'maybe'",
               "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on social benefits and equity goals. Your Terms of Reference will then not include any sections on social benefits and equity goals. Do you confirm this corresponds to your needs?",
+              "isRequired": true,
               "choices": [
                 {
                   "value": "yes",
@@ -423,6 +427,7 @@
               "name": "fs_meth_health_confirmation",
               "visibleIf": "{fs_meth_health_34e} = 'no' or {fs_meth_health_34e} = 'dontknow' or {fs_meth_health_34e} = 'maybe'",
               "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?” Answer: YES/NO ",
+              "isRequired": true,
               "choices": [
                 {
                   "value": "yes",
@@ -471,6 +476,7 @@
               "name": "fs_meth_sust_confirmation",
               "visibleIf": "{fs_meth_sust_34f} = 'no' or {fs_meth_sust_34f} = 'dontknow' or {fs_meth_sust_34f} = 'maybe'",
               "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on ecosystem services conservation and sustainability. Your Terms of Reference will then not include any sections on ecosystem services conservation and sustainability. Do you confirm this corresponds to your needs?",
+              "isRequired": true,
               "choices": [
                 {
                   "value": "Item 1",
@@ -519,6 +525,7 @@
               "name": "fs_meth_cond_confirmation",
               "visibleIf": "{fs_meth_cond_34g} = 'no' or {fs_meth_cond_34g} = 'dontknow' or {fs_meth_cond_34g} = 'maybe'",
               "title": "<b>*Warning:</b> Your answer to the previous question means that we will not ask you any further questions on ecosystem condition. Your Terms of Reference will then not include any sections on the ecological condition of ecosystems. Do you confirm this corresponds to your needs? ",
+              "isRequired": true,
               "choices": [
                 {
                   "value": "yes",
@@ -567,6 +574,7 @@
           "name": "fs_meth_scenario_confirmation",
           "visibleIf": "{fs_meth_scenario_35a} = 'no' or {fs_meth_scenario_35a} = 'dontknow'",
           "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on future scenarios. Your Terms of Reference will then not include any sections on futures scenarios. Do you confirm this corresponds to your needs?",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -610,25 +618,10 @@
         },
         {
           "type": "radiogroup",
-          "name": "fs_meth_stakeholder_confirmation",
-          "visibleIf": "{fs_stake_analysis_4a} = 'no' or {fs_stake_analysis_4a} = 'dontknow'",
-          "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on stakeholder engagement. Your Terms of Reference will then not include any sections on stakeholder engagement. Do you confirm this corresponds to your needs?",
-          "choices": [
-            {
-              "value": "yes",
-              "text": "Yes"
-            },
-            {
-              "value": "no",
-              "text": "No"
-            }
-          ]
-        },
-        {
-          "type": "radiogroup",
           "name": "fs_stake_involv_4b",
           "title": "Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?",
           "description": "Stakeholder engagement means that key parties will be consulted during the development of the assessment and the evaluation of the results and deliverables.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -645,6 +638,23 @@
             {
               "value": "Item 4",
               "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "fs_meth_stakeholder_confirmation",
+          "visibleIf": "{fs_stake_analysis_4b} = 'no' or {fs_stake_analysis_4b} = 'dontknow'",
+          "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on stakeholder engagement. Your Terms of Reference will then not include any sections on stakeholder engagement. Do you confirm this corresponds to your needs?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
             }
           ]
         },
@@ -1232,7 +1242,6 @@
           "name": "me_scenarios_17a",
           "title": "What scenarios should be taken into account in the ecosystem service assessments?",
           "description": "List and describe the scenarios that should be taken into account, for example scenario description 1, scenario description 2, etc. If you are unsure, leave the answer blank. Even a broad description of goals for which the scenarios are required is sufficient. In modelling, future scenarios represent a range of potential futures that one would like to predict.",
-          "isRequired": true,
           "commentText": "",
           "commentPlaceholder": "Please specify scenarios here"
         }
@@ -1264,9 +1273,74 @@
           ]
         },
         {
+          "type": "radiogroup",
+          "name": "question3",
+          "visibleIf": "{me_uncertainties_2a} = 'no' or\n{me_uncertainties_2a} = 'dontknow'",
+          "title": "<b>*Warning:</b> Informed decision-making needs to take into account these uncertainties as they pertain to the robustness, relevance, and reliability of the results upon which they rely. Your answer to this question means that the results of the ecosystem service assessment will be presented without any indication on the degree of confidence. The section will thus be absent from your Terms of Reference. Do you confirm that this corresponds to your needs?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "idontknow",
+              "text": "I really don't know"
+            }
+          ]
+        },
+        {
           "type": "matrix",
           "name": "me_uncertainties_2b",
-          "visibleIf": "({me_uncertainties_2a} = 'yes') or ({me_uncertainties_2a} = 'maybe')",
+          "visibleIf": "({fs_meth_scenario_35a} = 'no' or {fs_meth_scenario_35a} = 'dontknow') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe')",
+          "title": "What is the preferred reporting format to document uncertainties?",
+          "description": "Select what applies.",
+          "commentText": "",
+          "columns": [
+            {
+              "value": "Column 1",
+              "text": "Yes"
+            },
+            {
+              "value": "Column 3",
+              "text": "Maybe"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Row 1",
+              "text": "Uncertainty section/report: separate uncertainty section of the main report or a separate short deliverable"
+            },
+            {
+              "value": "Row 2",
+              "text": "Visual summary: visuals showing results reliability (e.g., green-orange-red system)"
+            },
+            {
+              "value": "Row 3",
+              "text": "Decision-relevant summary: designed for decision-making and can take different forms"
+            },
+            {
+              "value": "Row 4",
+              "text": "Participatory documentation: qualitative approach relying on expert and stakeholder judgments"
+            },
+            {
+              "value": "Row 5",
+              "text": "Technical appendices: advanced technical documentation"
+            },
+            {
+              "value": "other",
+              "text": "Other"
+            }
+          ]
+        },
+        { 
+          "type": "matrix",
+          "name": "me_uncertainties_2b_dup",
+          "visibleIf": "({fs_meth_scenario_35a} = 'yes' or {fs_meth_scenario_35a} = 'maybe') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe')",
           "title": "What is the preferred reporting format to document uncertainties?",
           "description": "Select what applies.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference. ",
           "isRequired": true,
@@ -1313,79 +1387,10 @@
           ]
         },
         {
-          "type": "radiogroup",
-          "name": "question3",
-          "visibleIf": "{me_uncertainties_2a} = 'no' or\n{me_uncertainties_2a} = 'dontknow'",
-          "title": "<b>*Warning:</b> Informed decision-making needs to take into account these uncertainties as they pertain to the robustness, relevance, and reliability of the results upon which they rely. Your answer to this question means that the results of the ecosystem service assessment will be presented without any indication on the degree of confidence. The section will thus be absent from your Terms of Reference. Do you confirm that this corresponds to your needs?",
-          "choices": [
-            {
-              "value": "yes",
-              "text": "Yes"
-            },
-            {
-              "value": "no",
-              "text": "No"
-            },
-            {
-              "value": "idontknow",
-              "text": "I really don't know"
-            }
-          ]
-        },
-        {
           "type": "comment",
           "name": "question4",
-          "visibleIf": "{me_uncertainties_2b.other} = 'yes' or\n{me_uncertainties_2b.other} = 'maybe'",
-          "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment."
-        },
-        {
-          "type": "matrix",
-          "name": "me_uncertainties_dup_2b",
-          "visibleIf": "({me_uncertainties_2a} = 'no') or ({me_uncertainties_2a} = 'dontknow')",
-          "title": "What is the preferred reporting format to document uncertainties?",
-          "description": "Select what applies.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference. ",
-          "columns": [
-            {
-              "value": "yes",
-              "text": "Yes"
-            },
-            {
-              "value": "maybe",
-              "text": "Maybe"
-            }
-          ],
-          "rows": [
-            {
-              "value": "Row 1",
-              "text": "Uncertainty section/report: separate uncertainty section of the main report or a separate short deliverable"
-            },
-            {
-              "value": "Row 2",
-              "text": "Visual summary: visuals showing results reliability (e.g., green-orange-red system)"
-            },
-            {
-              "value": "Row 3",
-              "text": "Decision-relevant summary: designed for decision-making and can take different forms"
-            },
-            {
-              "value": "Row 4",
-              "text": "Participatory documentation: qualitative approach relying on expert and stakeholder judgments"
-            },
-            {
-              "value": "Row 5",
-              "text": "Technical appendices: advanced technical documentation"
-            },
-            {
-              "value": "other",
-              "text": "Other"
-            }
-          ]
-        },
-        {
-          "type": "comment",
-          "name": "question5",
-          "visibleIf": "{me_uncertainties_dup_2b.other} = 'yes' or\n{me_uncertainties_dup_2b.other} = 'maybe'",
-          "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment."
+          "visibleIf": "({me_uncertainties_2b.other} = 'other') or ({me_uncertainties_2b_dup.other} = 'other')",
+          "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
       ]
     },
