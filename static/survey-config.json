@@ -426,7 +426,7 @@
               "type": "radiogroup",
               "name": "fs_meth_health_confirmation",
               "visibleIf": "{fs_meth_health_34e} = 'no' or {fs_meth_health_34e} = 'dontknow' or {fs_meth_health_34e} = 'maybe'",
-              "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?” Answer: YES/NO ",
+              "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?",
               "isRequired": true,
               "choices": [
                 {
@@ -848,7 +848,6 @@
           "title": "Should the assessment include indicators of the contribution of ecosystem service(s) to economic development such as employment and growth?\n",
           "description": "If yes and if commissioners have the knowledge, they can specify the type of economic indicator of interest. The economic importance of ecosystem services can be quantified through indicators such as the contribution to economic development, sectors of the economy, or employment. These indicators can be useful for communicating the importance of ecosystem services to decision makers and the general public.",
           "showCommentArea": true,
-          "commentText": "",
           "choices": [
             {
               "value": "yes",
