@@ -129,11 +129,11 @@
           "isRequired": true,
           "items": [
             {
-              "name": "question30",
+              "name": "geo_loc",
               "title": "Geographical location"
             },
             {
-              "name": "question31",
+              "name": "sp_extent",
               "title": "Spatial extent"
             }
           ]
@@ -146,18 +146,30 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "full_sp",
               "text": "Fully spatially explicit: <i>the assessment maps detailed spatial patterns and interactions to support site-specific management but demands more resources.</i>"
             },
             {
-              "value": "Item 2",
+              "value": "ecolo",
               "text": "Aggregation at ecological scale: <i>the assessment aggregates ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure.</i>"
             },
             {
-              "value": "Item 3",
+              "value": "admin",
               "text": "Aggregation at administrative scale: <i>the assessment averages ecosystem service results by administrative areas, making it useful for policy, governance, and resource management decisions at those levels.</i>"
             }
           ]
+        },
+        {
+          "type": "comment",
+          "name": "fs_meth_sp_agg_ecolo",
+          "visibleIf": "(({fs_meth_sp_scale_32b} = 'ecolo'))",
+          "title": "You indicated that the results should be aggregated at ecological scales. Please specify the ecological groups that are meaningful to the assessement. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
+        },
+        {
+          "type": "comment",
+          "name": "fs_meth_sp_agg_admin",
+          "visibleIf": "(({fs_meth_sp_scale_32b} = 'admin'))",
+          "title": "You indicated that the results should be aggregated at administrative scales. Please specify the administrative groups that are meaningful to the assessement. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
       ]
     },
@@ -172,11 +184,11 @@
           "description": "Identify the total time period (or interval) for which the ecosystem service assessment is to be conducted. It may also be a single (e.g., annual) assessment without repetition. Then specify the temporal scale, in which you need the results reported. The temporal scale represents the unit of time in which the results should be presented (aggregated if needed) such as by year, by quarter, by month, etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
           "items": [
             {
-              "name": "question32",
+              "name": "time_period",
               "title": "Time period of the assessment"
             },
             {
-              "name": "question33",
+              "name": "time_scale",
               "title": "Temporal scale (results reported by year, quarter, month…)"
             }
           ]
