@@ -45,6 +45,19 @@ This page gives more information on the questions asked in theonline survey incl
 .. join_accordion::
     :close: true
 
+#### Should the ecosystem service assessment aim at providing recommendations within the decision-making and policy context?
+
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    The need for recommendations influences a number of aspects in an ecosystem service assessment around the engagement of stakeholders.
+
+.. accordion:: Give me an example answer
+    Maybe. The purpose of the assessment is reporting but based on the results of the assessment, recommendations could be derived for the development of the next Operational plan.
+
+.. join_accordion::
+    :close: true
+
 #### What is the social / demographic context of the ecosystem service assessment?
 
 .. join_accordion::
