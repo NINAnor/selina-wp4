@@ -1,5 +1,12 @@
 # Terms of Reference
 
+<i> This Terms of Reference has been automatically-generated based on a writing guidance developed by SELINA. In this document:</i>
+
+- <i> <b>Commissioner</b> refers to decision-makers or users commissioning an ecosystem service assessment through a call for tender with Terms of Reference;</i>
+
+- <i> <b>Contractor</b> refers to the applicants answering the call for tender and sending proposals to the commissioners </i>
+
+
 ## 1. Frame & Scope
 ### 1.1 Context and Purpose
 {% if fs_purpose_1a and fs_context_policy_1b and fs_context_social_1d %} {# if none of the answers are empty #}
@@ -10,7 +17,7 @@
 
 {% elif fs_purpose_1a or fs_context_policy_1b or fs_context_social_1d %} {# if one of the answers is empty #}
 
-   <i><b>*Warning:</b> The survey doesn't have enough information, so this section has only be partially written.</i>
+   <i><b>*Warning:</b> The answers provided did not give enough information, so this section has only be partially written.</i>
 
    {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
 
@@ -20,34 +27,193 @@
 
 {% if fs_context_decision_1e|lower == 'yes' %} {# if asking for recommandations is yes #}
 
-   Based on the results, the ecosystem service assessment should aim at providing recommendations on <i><b>[text to be completed by the commissioner]</i></b>
+   Based on the results, the ecosystem service assessment should aim at providing recommendations on <i><b>[text to be completed by the Commissioner]</i></b>.
 
 {% elif fs_context_decision_1e|lower == 'maybe' %} {# if asking for recommandations is maybe #}
 
-   Based on the results, the ecosystem service assessment might aim at providing recommendations on <i><b>[text to be completed by the commissioner]</i></b>
+   Based on the results, the ecosystem service assessment might aim at providing recommendations on <i><b>[text to be completed by the Commissioner]</i></b>.
    
 {% endif %}
 
 ### 1.2 Intended impacts and outputs
 <i><b>*Warning:</b> The survey doesn't cover this section, we recommend our users to refer to our [PDF templates](/static/pdf-templates.pdf) to complete this section.</i>
+
 #### 1.2.1 Intended users and uses
+<i><b>[text to be added by the Commissioner]</i></b>
+
 #### 1.2.2 Intended impacts
+<i><b>[text to be added by the Commissioner]</i></b>
+
 #### 1.2.3 Formats of the deliverables
+<i><b>[text to be added by the Commissioner]</i></b>
 
 
 ### 1.3 General methodological characteristics
-#### 1.3.1 Ecosystem type(s) and service(s)
 
+{# 1.3.1 Ecosystem type(s) and service(s) #}
+{% if fs_meth_et_31a.et_list and  fs_meth_et_31a.et_class and fs_meth_es_31b.es_list and fs_meth_es_31b.es_class %} {# if none of the answers are empty #}
+
+#### 1.3.1 Ecosystem type(s) and service(s)
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. {{fs_meth_es_31b.es_class}} should be preferrably used to define them.
+
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. {{fs_meth_et_31a.et_class}} should be preferrably used to define them.
+
+
+{% elif fs_meth_et_31a.et_list and not fs_meth_et_31a.et_class and fs_meth_es_31b.es_list and fs_meth_es_31b.es_class %} {# if ET classification missing #}
+
+#### 1.3.1 Ecosystem type(s) and service(s)
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. {{fs_meth_es_31b.es_class}} should be preferrably used to define them.
+
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. The ecosystem typology to be used is left to the choice of the Contractor. In their proposal, the Contractor will explain the relevance of the chosen classification(s) for the decision-making context and purpose of the assessment.
+
+{% elif fs_meth_et_31a.et_list and fs_meth_et_31a.et_class and fs_meth_es_31b.es_list and not fs_meth_es_31b.es_class %} {# if ES classification missing #}
+
+#### 1.3.1 Ecosystem type(s) and service(s)
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. The ecosystem service classification to be used is left to the choice of the Contractor. In their proposal, the Contractor will explain the relevance of the chosen classification(s) for the decision-making context and purpose of the assessment.
+
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. {{fs_meth_et_31a.et_class}} should be preferrably used to define them.
+
+
+{% elif fs_meth_et_31a.et_list and not fs_meth_et_31a.et_class and fs_meth_es_31b.es_list and not fs_meth_es_31b.es_class %} {# if both classifications are missing #}
+
+#### 1.3.1 Ecosystem type(s) and service(s)
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. 
+
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. 
+
+The choice of both the ecosystem type and ecosystem service classifications to be used to define the ecosystem type(s) and service(s) of interest is left to the Contractor. In their proposal, the Contractor will explain the relevance of the chosen classifications for the decision-making context and purpose of the assessment.
+
+
+{% elif not fs_meth_et_31a.et_list and not fs_meth_et_31a.et_class and fs_meth_es_31b.es_list and not fs_meth_es_31b.es_class %} {# if ET missing #}
+
+#### 1.3.1 Ecosystem type(s) and service(s)
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. 
+
+The choice of the ecosystem types to be included as well as the choice of both the ecosystem type and ecosystem service classifications to be used to define the ecosystem type(s) and service(s) of interest are left to the Contractor. In their proposal, the Contractor will explain their choices in regards to the decision-making context and purpose of the assessment,  as well as limitations in data availability.
+
+{% endif %}
+
+
+{# 1.3.1 Spatial and temporal characteristics #}
+
+{% if fs_meth_sp_ext_32a.geo_loc and fs_meth_sp_ext_32a.sp_extent and fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
 #### 1.3.2 Spatial and temporal characteristics
+The ecosystem service assessment is to be conducted in {{fs_meth_sp_ext_32a.geo_loc}}, covering a total spatial area of {{fs_meth_sp_ext_32a.sp_extent}}. The assessment should be conducted for {{ fs_meth_temp_33a.time_period }}.
+
+
+{% elif fs_meth_sp_ext_32a.geo_loc and not fs_meth_sp_ext_32a.sp_extent and fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
+#### 1.3.2 Spatial and temporal characteristics
+The ecosystem service assessment is to be conducted in {{fs_meth_sp_ext_32a.geo_loc}}. The assessment should be conducted for {{ fs_meth_temp_33a.time_period }}.
+
+
+
+{% elif not fs_meth_sp_ext_32a.geo_loc and fs_meth_sp_ext_32a.sp_extent and fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
+#### 1.3.2 Spatial and temporal characteristics
+<i><b>*Warning:</b> The answers provided did not mention the the geographical location of the assessment. We advise the Commissioner to complete this information below.</i>
+
+The ecosystem service assessment is to be conducted in [text to be completed by the Commissioner], covering a total spatial area of {{fs_meth_sp_ext_32a.sp_extent}}. The assessment should be conducted for {{ fs_meth_temp_33a.time_period }}.
+
+
+
+{% elif fs_meth_sp_ext_32a.geo_loc and fs_meth_sp_ext_32a.sp_extent and not fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
+#### 1.3.2 Spatial and temporal characteristics
+<i><b>*Warning:</b> The answers provided did not mention the time period of the assessment. We advise the Commissioner to complete this information below.</i>
+
+The ecosystem service assessment is to be conducted in {{fs_meth_sp_ext_32a.geo_loc}}, covering a total spatial area of {{fs_meth_sp_ext_32a.sp_extent}}. The assessment should be conducted for is <i><b>[text to be completed by the Commissioner]</i></b>.
+
+
+
+{% elif fs_meth_sp_ext_32a.geo_loc and not fs_meth_sp_ext_32a.sp_extent and not fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
+#### 1.3.2 Spatial and temporal characteristics
+<i><b>*Warning:</b> The answers provided did not mention the time period of the assessment. We advise the Commissioner to complete this information below.</i>
+
+The ecosystem service assessment is to be conducted in {{fs_meth_sp_ext_32a.geo_loc}}. The assessment should be conducted for <i><b>[text to be completed by the Commissioner]</i></b>.
+
+
+
+{% elif not fs_meth_sp_ext_32a.geo_loc and not fs_meth_sp_ext_32a.sp_extent and fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
+#### 1.3.2 Spatial and temporal characteristics
+<i><b>*Warning:</b> The answers provided did not mention the geographical location of the assessment. We advise the Commissioner to complete this information below.</i>
+
+The ecosystem service assessment is to be conducted in <i><b>[text to be completed by the Commissioner]</i></b>. The assessment should be conducted for {{ fs_meth_temp_33a.time_period }}.
+
+
+
+{% elif not fs_meth_sp_ext_32a.geo_loc and fs_meth_sp_ext_32a.sp_extent and not fs_meth_temp_33a.time_period %} {# spatial extent and temporal period first #}
+#### 1.3.2 Spatial and temporal characteristics
+<i><b>*Warning:</b> The answers provided did not mention the geographical location and the time period of the assessment. We advise the Commissioner to complete this information below.</i>
+
+The ecosystem service assessment is to be conducted in <i><b>[text to be completed by the Commissioner]</i></b>.covering a total spatial area of {{fs_meth_sp_ext_32a.sp_extent}}. The assessment should be conducted for <i><b>[text to be completed by the Commissioner]</i></b>.
+
+{% endif %}
+
+
+{% if fs_meth_sp_scale_32b == "full_sp" and fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+The results should be fully spatially explicit and reported {{fs_meth_temp_33a.time_scale}}.
+
+
+
+{% elif (fs_meth_sp_scale_32b == "full_sp") and not fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+<i><b>*Warning:</b> The answers provided did not mention the temporal aggregation (<i>e.g.,</i> monthly, quaterly, yearly...) at which the results should be reported. We advise the Commissioner to complete this information below.</i>
+
+The results should be fully spatially explicit and reported <i><b>[text to be completed by the Commissioner]</i></b>.
+
+
+
+{% elif not fs_meth_sp_scale_32b and fs_fs_meth_temp_33atemp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+<i><b>*Warning:</b> The answers provided did not mention the spatial aggregation (<i>i.e.,</i> fully spatially explicit, aggregation at ecological or administrative scales.) at which the results should be reported. We advise the Commissioner to complete this information below.</i>
+
+The results should be <i><b>[text to be completed by the Commissioner]</i></b> and reported {{fs_meth_temp_33a.time_scale}}.
+
+
+
+{% elif (fs_meth_sp_scale_32b == "ecolo") and fs_meth_sp_agg_ecolo and fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+The results should be reported {{fs_meth_temp_33a.time_scale}}, and aggregated at the following ecological scales: {{fs_meth_sp_agg_ecolo}}.
+
+
+
+{% elif (fs_meth_sp_scale_32b == "ecolo") and fs_meth_sp_agg_ecolo and not fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+<i><b>*Warning:</b> The answers provided did not mention the temporal aggregation (<i>e.g.,</i> monthly, quaterly, yearly...) at which the results should be reported. We advise the Commissioner to complete this information below.</i>
+
+The results should be reported <i><b>[text to be completed by the Commissioner]</i></b>, and aggregated at the following ecological scale(s): {{fs_meth_sp_agg_ecolo}}.
+
+
+
+{% elif (fs_meth_sp_scale_32b == "ecolo") and not fs_meth_sp_agg_ecolo and fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+
+The results should be reported {{fs_meth_temp_33a.time_scale}}, and aggregated at ecological scales. The choice of the ecological scale(s) of relevance is left to the Contractor. In their proposal, the Contractor will justify their choice in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
+
+
+
+{% elif (fs_meth_spfs_meth_sp_scale_32b_ext_32a == "ecolo") and not fs_meth_sp_agg_ecolo and not fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+<i><b>*Warning:</b> The answers provided did not mention the temporal aggregation (<i>e.g.,</i> monthly, quaterly, yearly...) at which the results should be reported. We advise the Commissioner to complete this information below.</i>
+
+The results should be reported <i><b>[text to be completed by the Commissioner]</i></b>, and aggregated at ecological scales. The choice of the ecological scale(s) of relevance is left to the Contractor. In their proposal, the Contractor will justify their choice in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
+
+
+{% elif (fs_meth_sp_scale_32b == "admin") and fs_meth_sp_agg_ecolo and not fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+<i><b>*Warning:</b> The answers provided did not mention the temporal aggregation (<i>e.g.,</i> monthly, quaterly, yearly...) at which the results should be reported. We advise the Commissioner to complete this information below.</i>
+
+The results should be reported <i><b>[text to be completed by the Commissioner]</i></b>, and aggregated at the following adminstrative scales: {{fs_meth_sp_agg_ecolo}}.
+
+
+
+{% elif (fs_meth_sp_scale_32b == "admin") and not fs_meth_sp_agg_ecolo and fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+
+The results should be reported {{fs_meth_temp_33a.time_scale}}, and aggregated at administrative scales. The choice of the relevant administrative scale(s) is left to the Contractor. In their proposal, the Contractor will justify their choice in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
+
+
+
+{% elif (fs_meth_sp_ext_32a == "admin") and not fs_meth_sp_agg_ecolo and not fs_meth_temp_33a.time_scale %} {# spatial and temporal scales of aggregation second #}
+<i><b>*Warning:</b> The answers provided did not mention the temporal aggregation (<i>e.g.,</i> monthly, quaterly, yearly...) at which the results should ne reported. We advise the Commissioner to complete this information below.</i>
+
+The results should be reported <i><b>[text to be completed by the Commissioner]</i></b>, and aggregated at administrative scales. The choice of the relevant administrative scale(s) is left to the Contractor. In their proposal, the Contractor will justify their choice in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
+
+{% endif %}
+
 
 #### 1.3.3 Valuation of ecosystem services
 
 #### 1.3.4 Scenarios
 
 
-
-    {% if fs_purpose_1a|lower == 'no' %}[
-    no](https://google.com)
-    {% else %}
-    yes
-    {% endif %}
