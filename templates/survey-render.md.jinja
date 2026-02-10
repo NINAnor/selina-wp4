@@ -1,6 +1,52 @@
-# Title 2
+# Terms of Reference
 
-{% if biophysical_valuation_needed|lower == 'no' %}[
+## 1. Frame & Scope
+### 1.1 Context and Purpose
+{% if fs_purpose_1a and fs_context_policy_1b and fs_context_social_1d %} {# if none of the answers are empty #}
+
+   {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
+
+   {{ fs_context_social_1d }}  
+
+{% elif fs_purpose_1a or fs_context_policy_1b or fs_context_social_1d %} {# if one of the answers is empty #}
+
+   <i><b>*Warning:</b> The survey doesn't have enough information, so this section has only be partially written.</i>
+
+   {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
+
+   {{ fs_context_social_1d }} 
+   
+{% endif %}
+
+{% if fs_context_decision_1e|lower == 'yes' %} {# if asking for recommandations is yes #}
+
+   Based on the results, the ecosystem service assessment should aim at providing recommendations on <i><b>[text to be completed by the commissioner]</i></b>
+
+{% elif fs_context_decision_1e|lower == 'maybe' %} {# if asking for recommandations is maybe #}
+
+   Based on the results, the ecosystem service assessment might aim at providing recommendations on <i><b>[text to be completed by the commissioner]</i></b>
+   
+{% endif %}
+
+### 1.2 Intended impacts and outputs
+<i><b>*Warning:</b> The survey doesn't cover this section, we recommend our users to refer to our [PDF templates](/static/pdf-templates.pdf) to complete this section.</i>
+#### 1.2.1 Intended users and uses
+#### 1.2.2 Intended impacts
+#### 1.2.3 Formats of the deliverables
+
+
+### 1.3 General methodological characteristics
+#### 1.3.1 Ecosystem type(s) and service(s)
+
+#### 1.3.2 Spatial and temporal characteristics
+
+#### 1.3.3 Valuation of ecosystem services
+
+#### 1.3.4 Scenarios
+
+
+
+    {% if fs_purpose_1a|lower == 'no' %}[
     no](https://google.com)
     {% else %}
     yes
