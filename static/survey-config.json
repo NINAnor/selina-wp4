@@ -59,19 +59,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
