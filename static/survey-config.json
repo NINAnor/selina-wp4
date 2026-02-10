@@ -84,38 +84,37 @@
       "elements": [
         {
           "type": "multipletext",
-          "name": "fs_meth_et_31a",
-          "title": "What ecosystem type(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. Ecosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
-          "isRequired": true,
-          "items": [
-            {
-              "name": "text1",
-              "title": "Ecosystem type (s)"
-            },
-            {
-              "name": "text2",
-              "title": "Classification to be used (if known)"
-            }
-          ]
-        },
-        {
-          "type": "multipletext",
           "name": "fs_meth_es_31b",
           "title": "What ecosystem service(s) is(are) of interest in the ecosystem service assessment?\n",
           "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. Ecosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
           "isRequired": true,
           "items": [
             {
-              "name": "question28",
+              "name": "es_list",
               "title": "Ecosystem service (s)"
             },
             {
-              "name": "question29",
+              "name": "es_class",
               "title": "Classification to be used (if known)"
             }
           ]
-        }
+        },
+        {
+          "type": "multipletext",
+          "name": "fs_meth_et_31a",
+          "title": "What ecosystem type(s) is(are) of interest in the ecosystem service assessment?\n",
+          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. Ecosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
+          "items": [
+            {
+              "name": "et_list",
+              "title": "Ecosystem type (s)"
+            },
+            {
+              "name": "et_class",
+              "title": "Classification to be used (if known)"
+            }
+          ]
+        }        
       ]
     },
     {
