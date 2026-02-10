@@ -55,7 +55,7 @@
           "type": "radiogroup",
           "name": "fs_context_decision_1e",
           "title": "Should the ecosystem service assessment aim at providing recommendations within the decision-making and policy context?",
-          "description": "Providing recommendations means identifying and describing actionable suggestions to improve or bridge an existing gap of a strategy or situation.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n\n",
+          "description": "Providing recommendations means identifying and describing actionable suggestions to improve or bridge an existing gap of a strategy or situation.",
           "isRequired": true,
           "choices": [
             {
@@ -143,7 +143,7 @@
           "type": "radiogroup",
           "name": "fs_meth_sp_scale_32b",
           "title": "At which spatial scale(s) should the results of the ecosystem service assessment be presented (e.g., results aggregated to administrative scales such as regions and counties)?\n",
-          "description": "Select what applies. The spatial scales apply within the geographical location and spatial extent chosen of the ecosystem service assessment.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Select what applies. The spatial scales apply within the geographical location and spatial extent chosen of the ecosystem service assessment.",
           "isRequired": true,
           "choices": [
             {
@@ -192,7 +192,7 @@
           "type": "radiogroup",
           "name": "fs_meth_biophy_34a",
           "title": "Should the ecosystem service(s) be measured in biophysical terms?",
-          "description": "Valuing, or quantifying, ecosystem services in biophysical terms means that the assessment measures the physical quantity of the ecosystem service (e.g., tonnes of crops produced, tonnes of carbon sequestrated, number of recreational visitors).\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Valuing, or quantifying, ecosystem services in biophysical terms means that the assessment measures the physical quantity of the ecosystem service (e.g., tonnes of crops produced, tonnes of carbon sequestrated, number of recreational visitors).",
           "isRequired": true,
           "choices": [
             "Yes",
@@ -271,7 +271,7 @@
           "type": "matrix",
           "name": "fs_meth_es_measure_34c",
           "title": "What aspects of ecosystem services should be measured?",
-          "description": "Select what applies.\nEcosystem service supply refers to the quantity of ecosystem service being supplied. \nEcosystem service use refers to the quantity of ecosystem service being used.\nEcosystem service demand refers to the quantity of an ecosystem service needed. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n\n",
+          "description": "Select what applies.",
           "isRequired": true,
           "columns": [
             {
@@ -294,15 +294,15 @@
           "rows": [
             {
               "value": "essupply",
-              "text": "Ecosystem service supply"
+              "text": "Ecosystem service supply: <i>quantity of ecosystem service being supplied.</i>"
             },
             {
               "value": "esdemand",
-              "text": "Ecosystem service demand"
+              "text": "Ecosystem service demand: <i>quantity of ecosystem service being used.</i>"
             },
             {
               "value": "esuse",
-              "text": "Ecosystem service use"
+              "text": "Ecosystem service use: <i>quantity of ecosystem service being needed.</i>"
             }
           ]
         },
@@ -624,19 +624,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -644,7 +644,7 @@
         {
           "type": "radiogroup",
           "name": "fs_meth_stakeholder_confirmation",
-          "visibleIf": "{fs_stake_analysis_4b} = 'no' or {fs_stake_analysis_4b} = 'dontknow'",
+          "visibleIf": "{fs_stake_involv_4b} = 'no' or {fs_stake_involv_4b} = 'dontknow'",
           "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on stakeholder engagement. Your Terms of Reference will then not include any sections on stakeholder engagement. Do you confirm this corresponds to your needs?",
           "isRequired": true,
           "choices": [
