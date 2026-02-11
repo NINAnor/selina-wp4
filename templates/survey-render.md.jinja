@@ -412,12 +412,10 @@ Finally, the assessment should include an evaluation of the condition of the eco
 
 
 
-
-
-#####################################
-{% if (fs_meth_scenario_35a == "yes") %} {# Scenarios #}
+{# 1.3.4 Scenarios #}
+{% if (fs_meth_scenario_35a in ["yes", "maybe"]) or (fs_meth_scenario_confirmation == "no") %} {# Scenarios #}
 #### 1.3.4 Scenarios
-The ecosystem service assessment should include a scenario analysis to [describe reason(s) why a scenario analysis should be conducted].
+The ecosystem service assessment should include a scenario analysis to <b><i>[if possible, the Commissioner should describe the reason(s) why a scenario analysis should be conducted]</i></b>.
 
 {% endif %}
 
