@@ -206,9 +206,18 @@
           "description": "Valuing, or quantifying, ecosystem services in biophysical terms means that the assessment measures the physical quantity of the ecosystem service (e.g., tonnes of crops produced, tonnes of carbon sequestrated, number of recreational visitors).",
           "isRequired": true,
           "choices": [
-            "Yes",
-            "No",
-            "Maybe",
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
             {
               "value": "dontknow",
               "text": "I don't know"
@@ -228,12 +237,16 @@
               "isRequired": true,
               "choices": [
                 {
-                  "value": "Item 1",
+                  "value": "yes",
                   "text": "Yes"
                 },
                 {
-                  "value": "Item 2",
+                  "value": "no",
                   "text": "No"
+                },
+                {
+                  "value": "dontknow",
+                  "text": "I really don't know"
                 }
               ]
             }
@@ -260,19 +273,27 @@
         },
         {
           "type": "panel",
-          "name": "panel1",
+          "name": "Please confirm",
+          "visibleIf": "{fs_meth_econo_34b} = 'no' or {fs_meth_econo_34b} = 'dontknow'",
           "elements": [
             {
               "type": "radiogroup",
               "name": "fs_meth_econo_confirmation",
-              "visibleIf": "{fs_meth_econo_34b} = 'no' or {fs_meth_econo_34b} = 'dontknow' or {fs_meth_econo_34b} = 'maybe'",
+              "visibleIf": "(({fs_meth_econo_34b} = 'no') or ({fs_meth_econo_34b} = 'dontknow'))",
               "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further question on economic valuation. Your Terms of Reference will then not include any sections on economic valuation of ecosystem services. Do you confirm this corresponds to your needs?",
               "isRequired": true,
               "choices": [
-                "Yes",
+                {
+                  "value": "yes",
+                  "text": "Yes"
+                },
                 {
                   "value": "no",
                   "text": "No"
+                },
+                {
+                  "value": "dontknow",
+                  "text": "I really don't know"
                 }
               ]
             }
