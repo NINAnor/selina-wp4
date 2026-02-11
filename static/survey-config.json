@@ -226,7 +226,7 @@
         },
         {
           "type": "panel",
-          "name": "Please confirm",
+          "name": "panelbiophy",
           "visibleIf": "{fs_meth_biophy_34a} = 'no' or {fs_meth_biophy_34a} = 'dontknow'",
           "elements": [
             {
@@ -273,7 +273,7 @@
         },
         {
           "type": "panel",
-          "name": "Please confirm",
+          "name": "panelecono",
           "visibleIf": "{fs_meth_econo_34b} = 'no' or {fs_meth_econo_34b} = 'dontknow'",
           "elements": [
             {
@@ -348,25 +348,66 @@
               "type": "radiogroup",
               "name": "fs_meth_es_confirmation",
               "visibleIf": "{fs_meth_es_measure_34c.essupply} != 'yes' and {fs_meth_es_measure_34c.essupply} != 'maybe' and {fs_meth_es_measure_34c.esdemand} != 'yes' and {fs_meth_es_measure_34c.esdemand} != 'maybe' and {fs_meth_es_measure_34c.esuse} != 'yes' and {fs_meth_es_measure_34c.esuse} != 'maybe'",
-              "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on this aspect of economic service measurement. Your Terms of Reference will then not include any sections on the selected aspect of ecosystem service measurement. Do you confirm this corresponds to your needs?",
+              "title": "Your answer to this question means that the contractor will not know what aspect of ecosystem service(s) to measure. Think about your context and purpose and select the feature that would be the most relevant to you. If you are sure of your answers or still don’t know, please select one of the answers below.",
               "choices": [
                 {
-                  "value": "Item 1",
+                  "value": "sure",
+                  "text": "I am sure of my answers"
+                },
+                {
+                  "value": "dontknow",
+                  "text": "I really don't know"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "fs_meth_sust_34f",
+          "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'yes' or\n{fs_meth_es_measure_34c.essupply} = 'maybe' or\n{fs_meth_es_measure_34c.esuse} = 'yes' or\n{fs_meth_es_measure_34c.esuse} = 'maybe'",
+          "title": "Should the ecosystem service assessment evaluate the conservation, sustainable supply and / or use of the ecosystem service(s) of interest?\n",
+          "description": "Sustainable use of ecosystem services means that the services will be maintained and won’t be used until depletion, but will be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided in the long term and be available for future generations. The assessment of sustainable levels of supply and use facilitates the evaluation of sustainability of use, management and conservation measures.\n",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel5",
+          "visibleIf": "{fs_meth_sust_34f} = 'no' or {fs_meth_sust_34f} = 'dontknow'",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "fs_meth_sust_confirmation",
+              "visibleIf": "{fs_meth_sust_34f} = 'no' or {fs_meth_sust_34f} = 'dontknow'",
+              "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on ecosystem services conservation and sustainability. Your Terms of Reference will then not include any sections on ecosystem services conservation and sustainability. Do you confirm this corresponds to your needs?",
+              "isRequired": true,
+              "choices": [
+                {
+                  "value": "yes",
                   "text": "Yes"
                 },
                 {
-                  "value": "Item 2",
+                  "value": "no",
                   "text": "No"
-                }
-              ]
-            },
-            {
-              "type": "radiogroup",
-              "name": "question1",
-              "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'no' and\n{fs_meth_es_measure_34c.essupply} = 'dontknow' and\n{fs_meth_es_measure_34c.essupply} = 'maybe' and\n{fs_meth_es_measure_34c.esdemand} = 'no' and\n{fs_meth_es_measure_34c.esdemand} = 'dontknow' and\n{fs_meth_es_measure_34c.esdemand}= 'maybe' and\n{fs_meth_es_measure_34c.esuse} = 'no' and\n{fs_meth_es_measure_34c.esuse} = 'dontknow' and\n{fs_meth_es_measure_34c.esuse} = 'maybe'\n",
-              "title": "<b>*Warning:</b> Your answer to this question means that the contractor will not know what aspect of ecosystem service(s) to measure. Think about your context and purpose and select the feature that would be the most relevant to you. If you still don’t know, please select the answer below.",
-              "isRequired": true,
-              "choices": [
+                },
                 {
                   "value": "dontknow",
                   "text": "I really don't know"
@@ -419,18 +460,22 @@
                 {
                   "value": "no",
                   "text": "No"
+                },
+                {
+                  "value": "dontknow",
+                  "text": "I really don't know"
                 }
               ]
             }
           ]
         },
         {
-          "type": "radiogroup",
+          "type": "matrix",
           "name": "fs_meth_health_34e",
           "title": "Should the ecosystem services be valued in terms of their relevance to health? If yes, should the assessment look at human, animal, or plant health, or take a One Health approach combining all three with ecosystem health?",
           "description": "Ecosystem services are crucial to health, including the health dimension in an ecosystem service assessment allows to take into account the wider impacts of changes in ecosystem services on the society and the environment. The health scope will inform the selection of assessment methodology, stakeholder engagement and reporting. The One Health approach is an approach that recognises the interconnection between people, animals, plants and their shared environment.",
           "isRequired": true,
-          "choices": [
+          "columns": [
             {
               "value": "yes",
               "text": "Yes"
@@ -447,17 +492,35 @@
               "value": "dontknow",
               "text": "I don't know"
             }
+          ],
+          "rows": [
+            {
+              "value": "human_health",
+              "text": "Human health</i>"
+            },
+            {
+              "value": "plant_health",
+              "text": "Plant health</i>"
+            },
+            {
+              "value": "animal_health",
+              "text": "Animal health</i>"
+            },
+            {
+              "value": "one_health",
+              "text": "One health: <i>recognises the interconnection between people, animals, plants and their shared environment</i>"
+            }
           ]
         },
         {
           "type": "panel",
-          "name": "panel4",
-          "visibleIf": "{fs_meth_health_34e} = 'no' or {fs_meth_health_34e} = 'dontknow'",
+          "name": "panel1",
+          "visibleIf": "{fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} ianyofn ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow']",
           "elements": [
             {
               "type": "radiogroup",
               "name": "fs_meth_health_confirmation",
-              "visibleIf": "{fs_meth_health_34e} = 'no' or {fs_meth_health_34e} = 'dontknow' or {fs_meth_health_34e} = 'maybe'",
+              "visibleIf": "{fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow']",
               "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?",
               "isRequired": true,
               "choices": [
@@ -467,55 +530,6 @@
                 },
                 {
                   "value": "no",
-                  "text": "No"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "radiogroup",
-          "name": "fs_meth_sust_34f",
-          "title": "Should the ecosystem service assessment evaluate the conservation, sustainable supply and / or use of the ecosystem service(s) of interest?\n",
-          "description": "Sustainable use of ecosystem services means that the services will be maintained and won’t be used until depletion, but will be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided in the long term and be available for future generations. The assessment of sustainable levels of supply and use facilitates the evaluation of sustainability of use, management and conservation measures.\n",
-          "isRequired": true,
-          "choices": [
-            {
-              "value": "yes",
-              "text": "Yes"
-            },
-            {
-              "value": "no",
-              "text": "No"
-            },
-            {
-              "value": "maybe",
-              "text": "Maybe"
-            },
-            {
-              "value": "dontknow",
-              "text": "I don't know"
-            }
-          ]
-        },
-        {
-          "type": "panel",
-          "name": "panel5",
-          "visibleIf": "{fs_meth_sust_34f} = 'no' or {fs_meth_sust_34f} = 'dontknow'",
-          "elements": [
-            {
-              "type": "radiogroup",
-              "name": "fs_meth_sust_confirmation",
-              "visibleIf": "{fs_meth_sust_34f} = 'no' or {fs_meth_sust_34f} = 'dontknow' or {fs_meth_sust_34f} = 'maybe'",
-              "title": "<b>*Warning:</b> Your answer to this question means that we will not ask you any further questions on ecosystem services conservation and sustainability. Your Terms of Reference will then not include any sections on ecosystem services conservation and sustainability. Do you confirm this corresponds to your needs?",
-              "isRequired": true,
-              "choices": [
-                {
-                  "value": "Item 1",
-                  "text": "Yes"
-                },
-                {
-                  "value": "Item 2",
                   "text": "No"
                 }
               ]
@@ -555,7 +569,7 @@
             {
               "type": "radiogroup",
               "name": "fs_meth_cond_confirmation",
-              "visibleIf": "{fs_meth_cond_34g} = 'no' or {fs_meth_cond_34g} = 'dontknow' or {fs_meth_cond_34g} = 'maybe'",
+              "visibleIf": "{fs_meth_cond_34g} = 'no' or {fs_meth_cond_34g} = 'dontknow'",
               "title": "<b>*Warning:</b> Your answer to the previous question means that we will not ask you any further questions on ecosystem condition. Your Terms of Reference will then not include any sections on the ecological condition of ecosystems. Do you confirm this corresponds to your needs? ",
               "isRequired": true,
               "choices": [
