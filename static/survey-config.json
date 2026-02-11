@@ -631,12 +631,16 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "yes",
               "text": "No"
+            },
+            {
+              "value": "dontknow",
+              "text": "I really don't know"
             }
           ]
         }
