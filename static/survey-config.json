@@ -945,55 +945,55 @@
     },
     {
       "name": "page9",
-      "visibleIf": "{fs_meth_es_measure_34c} = 'yes' or {fs_meth_es_measure_34c} = 'maybe' or\n{fs_meth_es_confirmation} = 'no' or\n{fs_meth_es_measure_34c.essupply} = 'maybe' and {fs_meth_es_measure_34c.esdemand} = 'maybe' and {fs_meth_es_measure_34c.esuse} = 'maybe' ",
+      "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] or\n{fs_meth_es_confirmation} = 'no' or\n{fs_meth_cond_34g} anyof ['yes', 'maybe'] or\n{fs_meth_cond_confirmation} = 'no']",
       "description": "<b>C.2 Sustainability and ecosystem condition</b>",
       "elements": [
         {
           "type": "radiogroup",
-          "name": "me_eco_con_12a",
-          "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'yes' or\n{fs_meth_es_measure_34c.essupply} = 'maybe' or\n{fs_meth_es_measure_34c.esuse} = 'yes' or\n{fs_meth_es_measure_34c.esuse} = 'maybe' or\n{fs_meth_sust_34f} = 'yes' or\n{fs_meth_sust_34f} = 'maybe'",
-          "title": "Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?",
-          "description": "Ecosystem condition relates to the quality of an ecosystem. The levels of ecosystem service(s) supply and use may vary depending on changes in condition of the ecosystem that provides the service. Ecosystem service(s) supply is the provision of service(s) by the ecosystem(s). Ecosystem service(s) use is the utilisation of service(s) by those who benefit from them.",
+          "name": "me_sust_level_12b",
+          "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] or\n{fs_meth_es_confirmation} = 'no'",
+          "title": "Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?\n",
+          "description": "Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use that is compatible with the supply of ecosystem services. If these levels are respected, the ecosystem condition and ability to deliver services for future generations is maintained.",
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
         },
         {
           "type": "radiogroup",
-          "name": "me_sust_level_12b",
-          "visibleIf": "{fs_meth_es_measure_34c.essupply} = 'yes' or\n{fs_meth_es_measure_34c.essupply} = 'maybe' or\n{fs_meth_es_measure_34c.esuse} = 'yes' or\n{fs_meth_es_measure_34c.esuse} = 'maybe' or\n{fs_meth_sust_34f} = 'yes' or\n{fs_meth_sust_34f} = 'maybe'",
-          "title": "Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?\n",
-          "description": "Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use that is compatible with the supply of ecosystem services. If these levels are respected, the ecosystem condition and ability to deliver services for future generations is maintained.",
+          "name": "me_eco_con_12a",
+          "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] and ({fs_meth_cond_34g} anyof ['yes', 'maybe'] or\n{fs_meth_cond_confirmation} = 'no')",
+          "title": "Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?",
+          "description": "Ecosystem condition relates to the quality of an ecosystem. The levels of ecosystem service(s) supply and use may vary depending on changes in condition of the ecosystem that provides the service. Ecosystem service(s) supply is the provision of service(s) by the ecosystem(s). Ecosystem service(s) use is the utilisation of service(s) by those who benefit from them.",
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1001,7 +1001,7 @@
         {
           "type": "radiogroup",
           "name": "me_expertise_needed",
-          "visibleIf": "{fs_meth_cond_34g} = 'yes' or\n{fs_meth_cond_34g} = 'maybe'",
+          "visibleIf": "{fs_meth_cond_34g} = 'yes' or\n{fs_meth_cond_34g} = 'maybe' or\n{fs_meth_cond_confirmation} = 'no'",
           "title": "Do you have the expertise to choose the condition indicators you would like to be applied in your assessment?",
           "choices": [
             "Yes",
@@ -1020,16 +1020,8 @@
               "text": "Yes"
             },
             {
-              "value": "Column 2",
-              "text": "No"
-            },
-            {
               "value": "Column 3",
               "text": "Maybe"
-            },
-            {
-              "value": "Column 4",
-              "text": "I don't know"
             }
           ],
           "rows": [
@@ -1371,11 +1363,11 @@
           "commentText": "",
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             }
           ],
@@ -1416,11 +1408,11 @@
           "commentText": "",
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             }
           ],
@@ -1458,7 +1450,7 @@
         {
           "type": "comment",
           "name": "question4",
-          "visibleIf": "({me_uncertainties_2b.other} = 'yes') or ({me_uncertainties_2b_dup.other} = 'yes')",
+          "visibleIf": "({me_uncertainties_2b.other} anyof ['yes', 'other']) or ({me_uncertainties_2b_dup.other} anyof ['yes', 'other'])",
           "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
       ]
@@ -1550,7 +1542,7 @@
     },
     {
       "name": "page17",
-      "visibleIf": "{fs_stake_analysis_4a} = 'yes' or {fs_stake_analysis_4a} = 'maybe' or\n{fs_meth_stakeholder_confirmation} = 'no'",
+      "visibleIf": "{fs_stake_involv_4b} anyof ['yes', 'maybe'] or\n{fs_meth_stakeholder_confirmation} = 'no'",
       "description": "<b>C.10 Stakeholder engagement</b>",
       "elements": [
         {
@@ -1559,7 +1551,6 @@
           "title": "At which step(s) of the ecosystem service assessment should the stakeholders be informed, consulted, or participate?\r",
           "description": "Identify when the stakeholders should be informed, consulted or participate in the ecosystem service assessment. Stakeholders are any group, organisation or individual who are interested in and / or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
           "isRequired": true,
-          "commentPlaceholder": "Please specify here",
           "columns": [
             {
               "value": "yes",
@@ -1621,7 +1612,6 @@
           "title": "What methods should be used for involving stakeholders in the ecosystem service assessment?",
           "description": "Describe how the stakeholders should be involved. Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
           "isRequired": true,
-          "commentPlaceholder": "Please specify here",
           "columns": [
             {
               "value": "Column 1",
