@@ -441,3 +441,123 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 Stakeholders are expected to be involved throughout the ecosystem service assessment. Key stakeholders who could be involved are {{fs_stake_id_4c}}.
 
 {% endif %}
+
+
+
+
+
+
+## 2. Methodology
+### 2.1 Methodological characteristics
+{% set meth_subsection_counter = meth_subsection_counter|default(0) + 1 %}
+
+
+{# Economic valuation #}
+{# Identify valuartion method #}
+
+{% if me_econ_valuation_11a.prim == "yes" %} 
+{% set val_meth_list = [] %}
+
+   {% if me_valuation_methods.rev_prev in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Revealed prefence methods"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.stat_pref in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Stated preference methods"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.mark_price in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Market prices"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.repl_cost in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Replacement cost"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.dam_cost in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Damage cost avoided"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.soc_cost in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Social cost of carbon"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.net_fact in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Net factor income"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.prod_fn in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Production function"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.hed_pric in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Hedonic pricing"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.trav_cost in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Travel cost method"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.cont_val in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Contingent valuation"] %}
+   {% endif %}
+
+   {% if me_valuation_methods.choice_mod in ["yes", "maybe"] %} 
+   {% set val_meth_list = val_meth_list + ["Choice modelling"] %}
+   {% endif %}
+
+{% endif %}
+
+{# Economic valuation ToR text #}
+
+{# No methods #}
+{% if me_expertise_needed_1 == "no" or (me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %} 
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
+
+
+
+{# Both valuation methods #}
+{% elif me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+The study should design and apply both value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service. 
+
+<b>For value transfer methods</b>, transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
+
+<b>For primary valuation methods</b>, preferrence is given to: {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+
+
+{# Transfer methods only #}
+{% elif me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["no", "dontknow"] %} 
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+The study should design and apply value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service. Transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
+
+
+{# Primary methods only #}
+{% elif me_econ_valuation_11a.value in ["no", "dontknow"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. Preferrence is given to {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+
+
+{# Other #}
+{% elif me_econ_valuation_11a.value == "no" and me_econ_valuation_11a.prim == "no" %} 
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+The study should design and apply {{other_valuation}} to estimate the economic value of each identified ecosystem service. 
+
+{% endif %}
+
+
+{# Economic indicators #}
+{% if me_econo_id %} 
+In addition, the results of the assessment should measure the contribution of the ecosystem service(s) of interest to the economic development of the area of interest. Particular economic indicators of interest are {{me_econo_id}}.
+
+{% elif (me_econ_dev_11b in ["yes", "mabe"]) and me_econo_id == "" %} 
+In addition, the results of the assessment should measure the contribution of the ecosystem service(s) of interest to the economic development of the area of interest. The choice of the economic indicators are left to the Contrator. In their proposal, the Contractor should clearly describe and justify the economic indicators that will be used, with regards to the decision-making and purpose of the assessment.
+{% endif %}
+
+The Contractor may deviate from the suggestions described above. In that case, the Contractor shall describe and justify the new approach in relation to the decision-making and purpose of the assessment, as well as the data availability if relevant.
+
+
