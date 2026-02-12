@@ -830,7 +830,7 @@
               "visibleIf": "{me_econ_valuation_11a.value} = 'no' and\n{me_econ_valuation_11a.prim} = 'no'",
               "title": "You answered “No” to both methods proposed above. Please specify the methods you would like to recommend for you assessment.\n\n",
               "description": "<b>*Warning:</b> Your response will be visible in the Terms of reference.",
-              "isRequired": true,
+              "isRequired": true
             },
             {
               "type": "radiogroup",
