@@ -921,23 +921,23 @@
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
         },
         {
           "type": "comment",
-          "name": "question2",
-          "visibleIf": "{me_econ_dev_11b} = 'yes'",
+          "name": "me_econo_id",
+          "visibleIf": "{me_econ_dev_11b} anyof ['yes', 'maybe']",
           "title": "Please specify the economic indicator(s) that are of interest in the assessment:",
           "description": "<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
