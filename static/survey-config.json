@@ -329,12 +329,12 @@
               "text": "Ecosystem service supply: <i>quantity of ecosystem service being supplied.</i>"
             },
             {
-              "value": "esdemand",
-              "text": "Ecosystem service demand: <i>quantity of ecosystem service being used.</i>"
+              "value": "esuse",
+              "text": "Ecosystem service use: <i>quantity of ecosystem service being used.</i>"
             },
             {
-              "value": "esuse",
-              "text": "Ecosystem service use: <i>quantity of ecosystem service being needed.</i>"
+              "value": "esdemand",
+              "text": "Ecosystem service demand: <i>quantity of ecosystem service being needed.</i>"
             }
           ]
         },
@@ -515,7 +515,7 @@
         {
           "type": "panel",
           "name": "panel1",
-          "visibleIf": "{fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} ianyofn ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow']",
+          "visibleIf": "{fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow']",
           "elements": [
             {
               "type": "radiogroup",
@@ -713,6 +713,10 @@
             {
               "value": "no",
               "text": "No"
+            },
+            {
+              "value": "dontknow",
+              "text": "I really don't know"
             }
           ]
         },
@@ -800,14 +804,14 @@
             {
               "type": "comment",
               "name": "me_econ_valuation_condition",
-              "visibleIf": "{me_expertise_needed_1.value} = 'no' and\n{me_expertise_needed_1.prim} = 'no'",
+              "visibleIf": "{me_econ_valuation_11a.value} = 'no' and\n{me_econ_valuation_11a.prim} = 'no'",
               "title": "You answered “No” to both methods proposed above. Please specify the methods you would like to recommend for you assessment.\n\n",
               "description": "<b>*Warning:</b> Your response will be visible in the Terms of reference."
             },
             {
               "type": "radiogroup",
               "name": "me_primary_valuation_condition",
-              "visibleIf": "{me_expertise_needed_1.prim} = 'yes' ",
+              "visibleIf": "{me_econ_valuation_11a.prim} = 'yes' ",
               "title": "You selected that primary valuation methods should be applied, do you wish to specify which primary valuation methods?",
               "choices": [
                 {
@@ -832,7 +836,6 @@
               "name": "me_valuation_methods",
               "visibleIf": "{me_primary_valuation_condition} = 'yes' ",
               "title": "Please select the relevant primary valuation method(s) from the list below",
-              "showCommentArea": true,
               "columns": [
                 {
                   "value": "yes",
@@ -845,55 +848,55 @@
               ],
               "rows": [
                 {
-                  "value": "Row 1",
+                  "value": "rev_prev",
                   "text": "Revealed preference methods"
                 },
                 {
-                  "value": "Row 2",
+                  "value": "stat_pref",
                   "text": "Stated preference methods"
                 },
                 {
-                  "value": "Row 3",
+                  "value": "mark_price",
                   "text": "Market prices"
                 },
                 {
-                  "value": "Row 4",
+                  "value": "repl_cost",
                   "text": "Replacement cost"
                 },
                 {
-                  "value": "Row 5",
+                  "value": "dam_cost",
                   "text": "Damage cost avoided"
                 },
                 {
-                  "value": "Row 6",
+                  "value": "soc_cost",
                   "text": "Social cost of carbon"
                 },
                 {
-                  "value": "Row 7",
+                  "value": "net_fact",
                   "text": "Net factor income"
                 },
                 {
-                  "value": "Row 8",
+                  "value": "prod_fn",
                   "text": "Production function"
                 },
                 {
-                  "value": "Row 9",
+                  "value": "hed_pric",
                   "text": "Hedonic pricing"
                 },
                 {
-                  "value": "Row 10",
+                  "value": "trav_cost",
                   "text": "Travel cost method"
                 },
                 {
-                  "value": "Row 11",
+                  "value": "cont_val",
                   "text": "Contingent valuation"
                 },
                 {
-                  "value": "Row 12",
+                  "value": "choice_mod",
                   "text": "Choice modelling"
                 },
                 {
-                  "value": "Row 13",
+                  "value": "other",
                   "text": "Other (specify)"
                 }
               ]
@@ -901,11 +904,17 @@
           ]
         },
         {
+          "type": "comment",
+          "name": "other_valuation",
+          "visibleIf": "{me_valuation_methods.other} anyof ['yes', 'maybe']", 
+          "title": "You selected 'Other', please specify the economic valuation method(s) that are of interest in the assessment:",
+          "description": "<b>*Warning:</b> Your response will be visible in the Terms of reference."
+        },
+        {
           "type": "radiogroup",
           "name": "me_econ_dev_11b",
           "title": "Should the assessment include indicators of the contribution of ecosystem service(s) to economic development such as employment and growth?\n",
           "description": "If yes and if commissioners have the knowledge, they can specify the type of economic indicator of interest. The economic importance of ecosystem services can be quantified through indicators such as the contribution to economic development, sectors of the economy, or employment. These indicators can be useful for communicating the importance of ecosystem services to decision makers and the general public.",
-          "showCommentArea": true,
           "choices": [
             {
               "value": "yes",
@@ -1314,7 +1323,10 @@
           "title": "Should the uncertainties inherent to the ecosystem service assessment be assessed and documented for the purpose of the decision-making?",
           "description": "Uncertainty is present in all ecosystem service assessments. It is essential that both the commissioners and potential contractors are conscious of the sources of uncertainty that matter for a particular purpose. We recommend that commissioners ask for the assessment and documentation of uncertainties pertaining to any results of their requested assessment.",
           "choices": [
-            "yes",
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
             {
               "value": "no",
               "text": "No"
@@ -1446,7 +1458,7 @@
         {
           "type": "comment",
           "name": "question4",
-          "visibleIf": "({me_uncertainties_2b.other} = 'other') or ({me_uncertainties_2b_dup.other} = 'other')",
+          "visibleIf": "({me_uncertainties_2b.other} = 'yes') or ({me_uncertainties_2b_dup.other} = 'yes')",
           "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
       ]
@@ -1463,19 +1475,19 @@
           "isRequired": true,
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Column 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ],
@@ -1497,19 +1509,19 @@
           "description": "Reference data are baseline or benchmark datasets or already published figures that will be used to compare the results of the ecosystem service assessment. Commissioners might want to list some key datasets or figures they would like the results to be comparable with. Alternatively, stakeholders can be consulted to identify these references",
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1550,45 +1562,45 @@
           "commentPlaceholder": "Please specify here",
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Column 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ],
           "rows": [
             {
-              "value": "Row 3",
+              "value": "dev_meth",
               "text": "Development of the methodology"
             },
             {
-              "value": "Row 5",
+              "value": "val_meth",
               "text": "Validation of the methodology (e.g., metrics, indicators, data, choice of scenarios and analyses)"
             },
             {
-              "value": "Row 6",
+              "value": "val_res",
               "text": "Validation of the results"
             },
             {
-              "value": "Row 7",
+              "value": "data_col",
               "text": "Data collection"
             },
             {
-              "value": "Row 8",
+              "value": "inter_res",
               "text": "Interpretation of the results"
             },
             {
-              "value": "Row 4",
+              "value": "com_res",
               "text": "Communication and dissemination of the results"
             },
             {
