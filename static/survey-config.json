@@ -1557,16 +1557,8 @@
               "text": "Yes"
             },
             {
-              "value": "no",
-              "text": "No"
-            },
-            {
               "value": "maybe",
               "text": "Maybe"
-            },
-            {
-              "value": "dontknow",
-              "text": "I don't know"
             }
           ],
           "rows": [
@@ -1618,16 +1610,8 @@
               "text": "Yes"
             },
             {
-              "value": "Column 2",
-              "text": "No"
-            },
-            {
               "value": "Column 3",
               "text": "Maybe"
-            },
-            {
-              "value": "Column 4",
-              "text": "I don't know"
             }
           ],
           "rows": [
