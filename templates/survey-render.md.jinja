@@ -62,6 +62,7 @@
 
 ### 1.3 General methodological characteristics
 
+{#ET and ES #}
 {# 1.3.1 Ecosystem type(s) and service(s) #}
 {% if fs_meth_et_31a.et_list and  fs_meth_et_31a.et_class and fs_meth_es_31b.es_list and fs_meth_es_31b.es_class %} {# if none of the answers are empty #}
 
@@ -428,15 +429,15 @@ The ecosystem service assessment should include a scenario analysis to <b><i>[if
 ### 1.4 Stakeholder Engagement
 Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project. Key stakeholders who could be involved are {{fs_stake_analysis_4c}}.
 
-{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["yes", "maybe"]) and (fs_stake_id_4c == "") %} {# Stakeholders #}
+{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["yes", "maybe"]) and (not fs_stake_id_4c) %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project. 
 
-{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["no", "dontknow"]) and (fs_stake_id_4c == "") %} {# Stakeholders #}
+{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and ((fs_stake_analysis_4a in ["no", "dontknow"]) or (not fs_stake_analysis_4a)) and (not fs_stake_id_4c) %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 Stakeholders are expected to be involved throughout the ecosystem service assessment. The choice of the key stakeholders to be involved is left to the Contractor. In their proposal, the Contractor shall explain the main reason for choosing a particular stakeholder.
 
-{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and  (fs_stake_analysis_4a in ["no", "dontknow"]) and fs_stake_id_4c %} {# Stakeholders #}
+{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and  ((fs_stake_analysis_4a in ["no", "dontknow"]) or (not fs_stake_analysis_4a)) and fs_stake_id_4c %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 Stakeholders are expected to be involved throughout the ecosystem service assessment. Key stakeholders who could be involved are {{fs_stake_id_4c}}.
 
@@ -455,7 +456,8 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 {# Economic valuation #}
 {# Identify valuartion method #}
 
-{% if me_econ_valuation_11a.prim == "yes" %} 
+{% if not me_econ_valuation_11a.prim %} {%%} {# Nee dto add this as if skipped, the variable is not in th eoutput datasets and everything bugs #}
+{% elif me_econ_valuation_11a.prim == "yes" %} 
 {% set val_meth_list = [] %}
 
    {% if me_valuation_methods.rev_prev in ["yes", "maybe"] %} 
@@ -511,13 +513,19 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 {# Economic valuation ToR text #}
 
 {# No methods #}
-{% if me_expertise_needed_1 == "no" or (me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %} 
+{% if me_expertise_needed_1 == "no" %} {# I ned to cut in 2 conditions instead of one as me_expertise_needed_1 is mandatory and if no, the other questions are skipped. So it bugs if I keep the names of the variables #}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
+
+{% elif (me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %} 
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
+{% endif %}
 
 
 
 {# Both valuation methods #}
+{% if me_expertise_needed_1 == "yes" %} 
 {% elif me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -559,5 +567,28 @@ In addition, the results of the assessment should measure the contribution of th
 {% endif %}
 
 The Contractor may deviate from the suggestions described above. In that case, the Contractor shall describe and justify the new approach in relation to the decision-making and purpose of the assessment, as well as the data availability if relevant.
+
+
+######################WIP##############################333
+
+{# Sustainability and condition #}
+
+{# Sustainable levels only #}
+{% if me_sust_level_12b in ["yes", "maybe"] and  me_eco_con_12a in [""]%} 
+#### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+The ecosystem service assessment should define the sustainable levels for the {{aspect}} of the ecosystem service(s) of interest. In their proposal, the contractor will clearly describe and justify the methodology that will be used to identify and define these levels.
+
+{% elif me_sust_level_12b in ["yes", "maybe"] and me_eco_con_12a in ["yes", "maybe"] %} 
+#### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+The ecosystem service assessment should define the sustainable levels for the {{aspect}} of the ecosystem service(s) of interest, and .
+
+ In their proposal, the contractor will clearly describe and justify the methodology that will be used to identify and define these levels.
+
+
+
+The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the [supply, use] of the ecosystem service(s) of interest. In their proposal, the contractor will clearly describe and justify the methodology that will be used.
+
+{% endif %}
+
 
 
