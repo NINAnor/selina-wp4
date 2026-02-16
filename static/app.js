@@ -1,7 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
   console.log('starting survey...')
+
+  function downloadFile(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    link.style.display = "none";
+    document.body.appendChild(link);
+    link.click();
+    URL.revokeObjectURL(url);
+    document.body.removeChild(link);
+  }
+
   async function surveyComplete(survey) {
     try {
+      // First, download the survey data as JSON
+      const surveyDataJson = JSON.stringify(survey.data, null, 2);
+      const jsonBlob = new Blob([surveyDataJson], { type: "application/json" });
+      downloadFile(jsonBlob, "survey-data.json");
+
+      // Then, send the POST request
       const response = await fetch("/submit", {
         method: "POST",
         headers: {
@@ -14,14 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (response.ok) {
         const blob = await response.blob();
-        const objectUrl = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = objectUrl;
-        link.download = "survey-result";
-        link.style.display = "none";
-        document.body.appendChild(link);
-        link.click();
-        URL.revokeObjectURL(objectUrl);
+        downloadFile(blob, "survey-result");
       } else {
         // TODO: Handle error
       }
