@@ -143,6 +143,20 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  survey.addNavigationItem({
+    id: "sv-nav-clear-all",
+    title: "Clear All",
+    action: () => {
+      if (confirm("Are you sure you want to clear all survey data? This action cannot be undone.")) {
+        survey.clear();
+        localStorage.removeItem(STORAGE_ITEM_DATA_KEY);
+        localStorage.removeItem(STORAGE_ITEM_UI_STATE_KEY);
+      }
+    },
+    css: "nav-button",
+    innerCss: "sd-btn"
+  });
+
   survey.onTextMarkdown.add((_, options) => {
     const sanitized = DOMPurify.sanitize(marked.parse(options.text));
     if (sanitized.startsWith("<p>")) {
