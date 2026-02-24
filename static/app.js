@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function surveyComplete(survey) {
     try {
-      // Then, send the POST request
       const response = await fetch("/submit", {
         method: "POST",
         headers: {
@@ -46,17 +45,17 @@ document.addEventListener("DOMContentLoaded", function () {
         body: JSON.stringify(survey.data),
       });
 
-      console.log(response);
-
       if (response.ok) {
         const blob = await response.blob();
         downloadFile(blob, "survey-result");
       } else {
-        // TODO: Handle error
+        const errorText = await response.text();
+        console.error("Submission failed:", response.status, errorText);
+        alert(`Failed to submit survey: ${response.status} ${response.statusText}\n${errorText}`);
       }
     } catch (error) {
-      // TODO: Handle error
-      console.error(error);
+      console.error("Submission error:", error);
+      alert(`An error occurred while submitting the survey: ${error.message}`);
     }
   }
 
