@@ -537,7 +537,7 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
 
-{% elif (me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %} 
+{% elif (me_econ_valuation_11a and me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %} 
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
 {% endif %}
@@ -546,7 +546,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 {# Methods #}
 {# Both valuation methods #}
 {% if me_expertise_needed_1 == "yes" %} 
-   {% if me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
+   {% if me_econ_valuation_11a and me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
    #### 2.1.{{meth_subsection_counter}} Economic valuation
 
    The study should design and apply both value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service. 
@@ -557,21 +557,21 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 
    {# Transfer methods only #}
-   {% elif me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["no", "dontknow"] %} 
+   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["no", "dontknow"] %} 
    #### 2.1.{{meth_subsection_counter}} Economic valuation
 
    The study should design and apply value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service. Transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
 
 
    {# Primary methods only #}
-   {% elif me_econ_valuation_11a.value in ["no", "dontknow"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
+   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value in ["no", "dontknow"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
    #### 2.1.{{meth_subsection_counter}} Economic valuation
 
    The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. Preferrence is given to {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
 
 
    {# Other #}
-   {% elif me_econ_valuation_11a.value == "no" and me_econ_valuation_11a.prim == "no" %} 
+   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value == "no" and me_econ_valuation_11a.prim == "no" %} 
    #### 2.1.{{meth_subsection_counter}} Economic valuation
    The study should design and apply {{other_valuation}} to estimate the economic value of each identified ecosystem service. 
 
