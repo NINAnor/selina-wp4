@@ -1,3 +1,6 @@
+const STORAGE_ITEM_DATA_KEY = "my-survey-data";
+const STORAGE_ITEM_UI_STATE_KEY = "my-survey-state";
+
 document.addEventListener("DOMContentLoaded", function () {
   console.log('starting survey...')
 
@@ -13,13 +16,27 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.removeChild(link);
   }
 
+  function restoreSurveyProgress(survey) {
+    const savedData = localStorage.getItem(STORAGE_ITEM_DATA_KEY);
+    const savedUIState = localStorage.getItem(STORAGE_ITEM_UI_STATE_KEY);
+
+    if (savedData) {
+        survey.data = JSON.parse(savedData);
+    }
+    if (savedUIState) {
+        const uiState = JSON.parse(savedUIState);
+        survey.currentPageNo = uiState.currentPageNo;
+    }
+  }
+
+  function downloadSurveyData(survey) {
+    const surveyDataJson = JSON.stringify(survey.data, null, 2);
+    const jsonBlob = new Blob([surveyDataJson], { type: "application/json" });
+    downloadFile(jsonBlob, "survey-data.json");
+  }
+
   async function surveyComplete(survey) {
     try {
-      // First, download the survey data as JSON
-      const surveyDataJson = JSON.stringify(survey.data, null, 2);
-      const jsonBlob = new Blob([surveyDataJson], { type: "application/json" });
-      downloadFile(jsonBlob, "survey-data.json");
-
       // Then, send the POST request
       const response = await fetch("/submit", {
         method: "POST",
@@ -47,6 +64,38 @@ document.addEventListener("DOMContentLoaded", function () {
   survey.onComplete.add(surveyComplete);
   survey.applyTheme(THEME);
 
+  survey.onValueChanged.add((sender, options) => {
+    const data = sender.data;
+    localStorage.setItem(STORAGE_ITEM_DATA_KEY, JSON.stringify(data));
+  });
+
+  survey.onCurrentPageChanged.add((sender, options) => {
+    const uiState = { currentPageNo: sender.currentPageNo };
+    localStorage.setItem(STORAGE_ITEM_UI_STATE_KEY, JSON.stringify(uiState));
+  });
+
+  survey.addNavigationItem({
+    id: "sv-nav-clear-page",
+    title: "Clear Page",
+    action: () => {
+      survey.currentPage.questions.forEach((question) => {
+          question.value = undefined;
+      });
+    },
+    css: "nav-button",
+    innerCss: "sd-btn"
+  });
+
+  survey.addNavigationItem({
+    id: "sv-nav-download-page",
+    title: "Download survey configuration",
+    action: () => {
+      downloadSurveyData(survey);
+    },
+    css: "nav-button",
+    innerCss: "sd-btn"
+  });
+
   DOMPurify.addHook("afterSanitizeAttributes", function (node) {
     // set all elements owning target to target=_blank
     if ("target" in node) {
@@ -70,6 +119,8 @@ document.addEventListener("DOMContentLoaded", function () {
       options.html = sanitized;
     }
   });
+
+  restoreSurveyProgress(survey);
 
   survey.render(document.getElementById("survey"));
 });
