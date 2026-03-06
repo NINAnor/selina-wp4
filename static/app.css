@@ -2603,6 +2603,9 @@
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
+  }
   .status {
     @layer daisyui.l1.l2.l3 {
       display: inline-block;
@@ -2794,9 +2797,6 @@
   .min-w-\[10rem\] {
     min-width: 10rem;
   }
-  .min-w-\[20rem\] {
-    min-width: 20rem;
-  }
   .flex-1 {
     flex: 1;
   }
@@ -2878,6 +2878,9 @@
   }
   .gap-0 {
     gap: calc(var(--spacing) * 0);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);

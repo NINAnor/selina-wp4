@@ -29,6 +29,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function appendInfoLink(text, element) {
+    // encodeURIComponent doesn't encode - & , which have special meaning in text fragments
+    const textFragment = encodeURIComponent(text.trim())
+      .replace(/-/g, '%2D')
+      .replace(/&/g, '%26')
+      .replace(/,/g, '%2C');
+    const infoLink = document.createElement('a');
+    infoLink.href = `/informative-survey#:~:text=${textFragment}`;
+    infoLink.target = '_blank';
+    infoLink.rel = 'noopener noreferrer';
+    infoLink.className = 'inline-flex ml-2';
+    infoLink.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>';
+    infoLink.title = 'More information';
+    element.appendChild(infoLink);
+  }
+
   function downloadSurveyData(survey) {
     const surveyDataJson = JSON.stringify(survey.data, null, 2);
     const jsonBlob = new Blob([surveyDataJson], { type: "application/json" });
@@ -164,6 +180,16 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       options.html = sanitized;
     }
+  });
+
+  survey.onAfterRenderQuestion.add((sender, options) => {
+    const questionElement = options.htmlElement;
+    let titleElement = questionElement.querySelector('.sd-question__title');
+
+      if (titleElement && options.question.title) {
+        titleElement = titleElement.querySelector('.sv-title-actions__title') || titleElement;
+        appendInfoLink(options.question.title, titleElement);
+      }
   });
 
   restoreSurveyProgress(survey);
