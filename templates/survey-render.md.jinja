@@ -719,30 +719,31 @@ In their proposal, the Contractor will clearly describe and justify the methodol
 {% set health_aspect = [] %}
 
 {% if me_health_aspects_14a.h_benefits in ["yes", "maybe"] %}
-   {% set cond_idx = cond_idx + ["health benefits"] %}
+   {% set health_aspect = health_aspect + ["health benefits"] %}
 {% endif %}
 
 {% if me_health_aspects_14a.h_risks in ["yes", "maybe"] %}
- {% set cond_idx = cond_idx + ["shealth risks"] %}
+ {% set health_aspect = health_aspect + ["health risks"] %}
 {% endif %}
 
 {% if me_health_aspects_14a.h_outcomes in ["yes", "maybe"] %}
-   {% set cond_idx = cond_idx + ["health outcomes"] %}
+   {% set health_aspect = health_aspect + ["health outcomes"] %}
 {% endif %}
 
 
 {# Health dimensions alone #}
-{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%} 
+{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
 
-{% elif me_health_aspects_14a.h_risks in ["no", "dontknow"] and  me_health_aspects_14a.h_benefits in ["no", "don't know"] and me_health_aspects_14a.h_outcomes in ["no", "dontknow"] and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%} 
+{% elif (me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 The ecosystem service assessment should consider the health dimension. The choice of the appropriate health dimension(s) and their associated indicators is left to the Contractor. In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
+
 {% endif %}
 
 
@@ -750,15 +751,15 @@ The ecosystem service assessment should consider the health dimension. The choic
 
 {# Health dimensions and attitudes #}
 
-{% if me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"] and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"]%} 
+{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"]%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
 
 The ecosystem service assessment should capture social groups' attitudes, perceptions, and values toward specific ecosystem services of relevance to the health dimension(s) defined above, focusing on their social, cultural, and economic importance.
 
-{% elif me_health_aspects_14a.h_risks in ["no", "dontknow", ""] and  me_health_aspects_14a.h_benefits in ["no", "dontknow", ""] and me_health_aspects_14a.h_outcomes in ["no", "dontknow", ""] and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"] %} 
+{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"] %} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -774,12 +775,12 @@ The choice of the appropriate health dimension(s) and their associated indicator
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
 
 In this assessment, we are interested in identifying linkages between the health dimension(s) described above and the ecosystem services and / or types. The strength, direction and / or sustainability of these linkages should also be clearly highlighted and described. In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
 
 
-{% elif me_health_aspects_14a.h_risks in ["no", "dontknow", ""] and me_health_aspects_14a.h_benefits in ["no", "don't know", ""] and me_health_aspects_14a.h_outcomes in ["no", "dontknow", ""] and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["yes", "maybe"]%} 
+{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["yes", "maybe"]%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -797,7 +798,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
 
 In this assessment, we are interested to:
 
@@ -808,7 +809,7 @@ In this assessment, we are interested to:
 In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
 
 
-{% elif me_health_aspects_14a.h_risks in ["no", "dontknow", ""] and  me_health_aspects_14a.h_benefits in ["no", "don't know", ""] and me_health_aspects_14a.h_outcomes in ["no", "dontknow", ""] and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["yes", "maybe"]%} 
+{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["yes", "maybe"]%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -831,10 +832,53 @@ The choice of the appropriate health dimension(s) and their associated indicator
 {% if me_eco_relations_15a in ["yes", "maybe"] %} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
-#### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
-The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the <i><b>[text to be chosen and completed by the Commissioner among: ecosystem service(s) of interest, benefits provided by ecosystem services, ecosystem services and the benefits they provide]</i></b>. In their proposal, the contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs.
+   {% if (me_eco_relations_15b.inter_es in ["no", "dontknow"] or not me_eco_relations_15b.inter_es) and (me_eco_relations_15b.inter_benef in ["no", "dontknow"] or not me_eco_relations_15b.inter_benef) and (me_eco_relations_15b.inter_es_benef in ["no", "dontknow", ""] or not me_eco_relations_15b.inter_es_benef) %}
+   #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
+   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the ecosystem service(s) of interest and / or benefits provided by ecosystem services. The choice of the most appropriate type of interrelationship(s): between ecosystem services, betwenn benefits, or between ecosystem services and their benefits, is left to the Contractor.
+   
+   In their proposal, the Contractor will clearly explain their choice of the interrelationship(s) that should be focused on in accordance to the decision-making context and purpose of the assessment. They will also describe and justify their methodology that will be used to identify and quantify these trade-offs. 
+
+   {% else %}
+   {% set inter_aspects = [] %}
+
+      {% if me_eco_relations_15b.inter_es in ["yes", "maybe"] %}
+         {% set inter_aspects = inter_aspects + ["ecosystem services"] %}
+      {% endif %}
+
+      {% if me_eco_relations_15b.inter_benef in ["yes", "maybe"] %}
+      {% set inter_aspects = inter_aspects + ["benefits"] %}
+      {% endif %}
+
+      {% if me_eco_relations_15b.inter_es_benef in ["yes", "maybe"] %}
+         {% set inter_aspects = inter_aspects + ["ecosystem services and their benefits"] %}
+      {% endif %}
+   
+   {% endif %}
+
+
+   #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
+   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. . The choice of the most appropriate type of interrelationship(s): between ecosystem services, betwenn benefits, or between ecosystem services and their benefits, is left to the Contractor.
+   
+   In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs. 
 
 {% endif %}
 
 
+{# Spatial and temporal characteristics #}
+{% if me_spatial_benefits_16a in ["yes", "maybe"] or me_time_benefits_16b in ["yes", "maybe"] %} 
+{% set meth_subsection_counter = meth_subsection_counter + 1 %}
+{% endif %}
+
+
 ######################WIP##############################333
+
+
+The assessment should evaluate the temporal variations in the levels of [supply, use, demand] of the ecosystem service(s) of interest [and their associated benefits] over the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the contractor will clearly describe and justify the methodology that will be used.
+
+[if relevant, add the following sentence] The assessment should also provide recommendations for maintaining or enhancing the [supply, use] of the ecosystem service(s) of interest [and their associated benefits] without negatively affecting the ecosystem condition. [if relevant, add the following sentence] These variations will have to be specifically put in relation with sustainable [supply, use].
+
+
+
+The assessment should evaluate the spatial variations in the levels of [supply, use, demand] of the ecosystem service(s) of interest [and their associated benefits] over the spatial extent and scales considered in this assessment. Results should highlight the trends and identify key drivers of change. [if relevant, add the following sentence] These variations will have to be specifically put in relation with sustainable [supply, use]. In their proposal, the contractor will clearly describe and justify the methodology that will be used.
+
+[if relevant, add the following sentence] The assessment should also provide recommendations for maintaining or enhancing the [supply, use] of the ecosystem service(s) of interest [and their associated benefits] without negatively affecting the ecosystem condition. 
