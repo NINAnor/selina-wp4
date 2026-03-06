@@ -476,7 +476,7 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. join_accordion::
     :close: true
 
-#### What aspects of ecosystem condition are you interested in? 
+#### What aspects of ecosystem condition are you interested in?
 
 .. join_accordion::
 
@@ -500,7 +500,7 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 
 
 .. accordion:: Why is this question relevant to me?
-    Ecosystem condition indicators represent properties of an ecosystem. They allow to evaluate which aspects of an ecosystem are in good or bad condition. As there are different families of condition indicators measuring different aspects of an ecosystem condition, it is important to measure several types of condition properties to have a holistic overview of the condition of an ecosystem. On the other hand, measuring specific ecosystem properties (e.g. population recruitment, occurrence of functional groups, chemical properties), can help establish cause-effect relationships between ecosystem properties and levels of ecosystem service supply, thus enabling quantitative assessments of ecosystem services change. 
+    Ecosystem condition indicators represent properties of an ecosystem. They allow to evaluate which aspects of an ecosystem are in good or bad condition. As there are different families of condition indicators measuring different aspects of an ecosystem condition, it is important to measure several types of condition properties to have a holistic overview of the condition of an ecosystem. On the other hand, measuring specific ecosystem properties (e.g. population recruitment, occurrence of functional groups, chemical properties), can help establish cause-effect relationships between ecosystem properties and levels of ecosystem service supply, thus enabling quantitative assessments of ecosystem services change.
 
     To summarise several indicators, they can be assembled in so-called indices. These indices are composite measures representing the overall state or condition of an ecosystem. Indices are particularly useful when  the purpose is to assess how the general ecosystem condition state relates to the levels of supply of ecosystem service(s).
 
@@ -578,7 +578,7 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 
 .. join_accordion::
     :close: true
-	
+
 #### Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards health-relevant ecosystem services?
 
 .. join_accordion::
@@ -601,7 +601,7 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?
-    This seeks to clarify the extent to which an assessment should explore the relationships between ecosystems, their services and health, which in turn will inform stakeholder engagement and the selection of assessment methods. It asks commissioners to decide whether an assessment should identify general, non-specific connections between the natural environment and health (e.g., “managed forests provide recreational opportunities which can support good mental and physical well-being”) or aim to explore more detailed cause-effect relationships between specific ecosystems and health (e.g., “mixed native woodland ecosystems are preferred by a majority of outdoor enthusiasts for their diversity of flora and fauna, which visitors describe as being important for relaxation and inspiration and therefore more attractive for physical activity such as hiking and cycling”).  
+    This seeks to clarify the extent to which an assessment should explore the relationships between ecosystems, their services and health, which in turn will inform stakeholder engagement and the selection of assessment methods. It asks commissioners to decide whether an assessment should identify general, non-specific connections between the natural environment and health (e.g., “managed forests provide recreational opportunities which can support good mental and physical well-being”) or aim to explore more detailed cause-effect relationships between specific ecosystems and health (e.g., “mixed native woodland ecosystems are preferred by a majority of outdoor enthusiasts for their diversity of flora and fauna, which visitors describe as being important for relaxation and inspiration and therefore more attractive for physical activity such as hiking and cycling”).
 
     The decision will usually be informed by the policy, social and cultural context of the assessment, and depend upon the intended audiences for the results. Detailed assessments may be important for public health planners to identify ecological drivers of health status, to inform health policies and markets, or to strengthen the evidence base for nature-based solutions. However, a more general assessment may be preferred if the aim is to  provide signposts for future research and policy, or to help mainstream ecosystem service approaches into the health sector at a higher level. The choice will influence the methodological approach, notably the type and scope of data and the appropriate metrics and indicators to use, and guide engagement with stakeholders and other experts.
 
@@ -650,9 +650,9 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. accordion:: Why is this question relevant to me?
     Ecosystem services are the ecological process by which benefits are provided. For example water filtration, urban cooling, and pollination of crops are ecosystem services, while the associated benefits are the availability of clean drinking water, the reduction of heat-related illnesses, and food production.
 
-    Ecosystem services are not evenly distributed across geographic areas and spatial scales. This means that their supply, use, demand but also associated benefits vary across both geographic areas and spatial scales. Studying the spatial variation of the ecosystem services supply support decision-making by identifying where the services are available to beneficiaries and where they are not. Overlapping this with the spatial distribution of use and demand also allows to highlight whether the demand for ecosystem services meet the actual need for them. This also allows to reveal trends in supply and access, supporting strategic decisions on sustainable supply and use of the services. From a social benefits perspective, this is particularly relevant as it helps identifying underserved locations and prioritize interventions where they have the greatest impact. 
+    Ecosystem services are not evenly distributed across geographic areas and spatial scales. This means that their supply, use, demand but also associated benefits vary across both geographic areas and spatial scales. Studying the spatial variation of the ecosystem services supply support decision-making by identifying where the services are available to beneficiaries and where they are not. Overlapping this with the spatial distribution of use and demand also allows to highlight whether the demand for ecosystem services meet the actual need for them. This also allows to reveal trends in supply and access, supporting strategic decisions on sustainable supply and use of the services. From a social benefits perspective, this is particularly relevant as it helps identifying underserved locations and prioritize interventions where they have the greatest impact.
 
-    Regarding health benefits, accounting for the spatial variation is crucial as these benefits can occur outside of the spatial scale and geographical area in which the ecosystem types and their service are. For example, the restoration of wetlands enhances the capacity to retain water and mitigate floodings, which in turn reduces incidence of waterborne diseases and disaster fatalities in downstream communities due to avoided floodings.  
+    Regarding health benefits, accounting for the spatial variation is crucial as these benefits can occur outside of the spatial scale and geographical area in which the ecosystem types and their service are. For example, the restoration of wetlands enhances the capacity to retain water and mitigate floodings, which in turn reduces incidence of waterborne diseases and disaster fatalities in downstream communities due to avoided floodings.
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
     Visit our advanced content on spatial and temporal characteristics, as well as social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
@@ -669,7 +669,7 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?
-    The supply, use and demand of ecosystem services are not constant over time. Depending on the selected ecosystem services, it may be reasonable to consider temporal fluctuations in the assessment. 
+    The supply, use and demand of ecosystem services are not constant over time. Depending on the selected ecosystem services, it may be reasonable to consider temporal fluctuations in the assessment.
 
     For example, the pollination service in European countries is only supplied over late spring to the beginning of fall. This means that pollinator-dependent crops for food production will be strongly dependent on seasonality. In some regions, due to a combination of climatic factors, there can be a mismatch between the flowering period and the time interval when pollinators are active. Assessing the activity patterns of pollinator species along the season will determine temporal variation of pollination services for different crops. Studying this temporal variation of the ecosystem services supports decision-making by identifying when the services are available to beneficiaries and when they are not. This also allows to reveal trends in supply and access, supporting strategic decisions on sustainable supply and use of the services.
 
@@ -691,8 +691,8 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?
-    Future scenarios can be important to request if the overall purpose of the ecosystem service assessment is to inform, guide or to request for recommendations. They are a way of dealing with uncertainty about the future. Scenarios allow to identify risk and facilitate long-term planning and adaptation. 
-    
+    Future scenarios can be important to request if the overall purpose of the ecosystem service assessment is to inform, guide or to request for recommendations. They are a way of dealing with uncertainty about the future. Scenarios allow to identify risk and facilitate long-term planning and adaptation.
+
     There are different types of scenarios such as:
 
     - land use and land cover change including restoration, deforestation management plans, etc.;
@@ -780,8 +780,8 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 
 .. accordion:: Mini-glossary of terms
 
-    - **Internal validation of the methodology and / or results**: The validation process will not involve third parties such as external stakeholders. 
-    
+    - **Internal validation of the methodology and / or results**: The validation process will not involve third parties such as external stakeholders.
+
         Examples of internal validation of the methodology can be planning a pilot to test the methodology before scaling it up. It can also be peer-reviews within the contractor’s team of the assumptions, models or code that are planned to be used. More simply, it can be indicating that there will be ground-truthing.
 
         Examples of internal validation of the results can be peer-review within the contractor’s team, or comparison with similar ecosystem service assessment conducted previously. It can also include the use of published reference data to compare how the results differ from publicly acknowledged references or benchmarks.
@@ -837,46 +837,46 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 
 .. accordion:: Mini-glossary of terms
 
-    - **Development of the methodology**: 
+    - **Development of the methodology**:
 
         - <u>Consult / participate</u>: stakeholders have a direct role in designing the approach. It might be relevant to involve stakeholders with key technical expertise to overcome some very specific technical difficulties in the methodological approach.
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
 
-    - **Validation of the methodology** (*e.g.,* metrics, indicators, data, choice of scenarios and analyses): 
+    - **Validation of the methodology** (*e.g.,* metrics, indicators, data, choice of scenarios and analyses):
 
         - <u>Consult / participate</u>: stakeholders have an advisory role as the method has already been selected by the potential contractors and / or commissioners. It might be relevant to involve stakeholders with key technical expertise to quality ensure that the methodology that will be applied meets the minimum technical requirements for the objective(s) of the assessment.
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
 
-    - **Validation of the results**: 
+    - **Validation of the results**:
 
         - <u>Consult / participate</u>: stakeholders with specific and different source of expertise may be a strong support for validating the results of the an assessment. This gives more credibility and legitimacy to the results. It also ensures that they are understood by future potential users and compliant with their use(s).
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
 
-    - **Data collection**: 
+    - **Data collection**:
 
         - <u>Consult / participate</u>: stakeholders can directly participate in data collection as respondents, and / or can help disseminate the means of collecting data such as surveys. This notably facilitates the inclusion of local knowledge in the assessment.
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
-        
-    - **Interpretation of the results**: 
 
-        - <u>Consult / participate</u>: stakeholders have local and practical knowledge that can help contextualise the results, avoid misinterpretation and identify gaps. This also supports a sense of ownership of the results of the assessment by other stakeholders. 
+    - **Interpretation of the results**:
+
+        - <u>Consult / participate</u>: stakeholders have local and practical knowledge that can help contextualise the results, avoid misinterpretation and identify gaps. This also supports a sense of ownership of the results of the assessment by other stakeholders.
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
 
-    - **Communication and dissemination of the results*: 
+    - **Communication and dissemination of the results*:
 
-        - <u>Consult / participate</u>: stakeholders can directly participate in the co-creation and dissemination of the key messages from the results of the assessment. Alternatively, they can also be used as channels of dissemination and communication of the results to a larger audience. 
+        - <u>Consult / participate</u>: stakeholders can directly participate in the co-creation and dissemination of the key messages from the results of the assessment. Alternatively, they can also be used as channels of dissemination and communication of the results to a larger audience.
 
         - <u>Inform</u>: support a communication that directly speaks to stakeholders, hwich in turn can help with a potential uptake of the results of the assessment.
 
 .. accordion:: Why is this question relevant to me?
     Stakeholder involvement provides legitimacy to the assessment process, it also ensures that results are communicated properly and that everyone impacted by the assessment is being included. Finally, it facilitates continuous feedback on methods, results and data used, which participates in the validation of the assessment.
 
-    Involving stakeholders can however be costly and it is important to do it strategically and identify the steps at which their involvement is necessary to choose the most adapted format of engagement. 
+    Involving stakeholders can however be costly and it is important to do it strategically and identify the steps at which their involvement is necessary to choose the most adapted format of engagement.
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
     Visit our advanced content on uncertainty and social benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
@@ -912,7 +912,7 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. accordion:: Why is this question relevant to me?
     Stakeholder involvement provides legitimacy to the assessment process, it also ensures that results are communicated properly and that everyone impacted by the assessment is being included. Finally, it facilitates continuous feedback on methods, results and data used, which participates in the validation of the assessment.
 
-    Involving stakeholders can however be costly and it is important to do it strategically and choose the most adapted format of engagement. 
+    Involving stakeholders can however be costly and it is important to do it strategically and choose the most adapted format of engagement.
 
 
 

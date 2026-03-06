@@ -114,7 +114,7 @@
               "title": "Classification to be used (if known)"
             }
           ]
-        }        
+        }
       ]
     },
     {
@@ -932,7 +932,7 @@
         {
           "type": "comment",
           "name": "other_valuation",
-          "visibleIf": "{me_valuation_methods.other} anyof ['yes', 'maybe']", 
+          "visibleIf": "{me_valuation_methods.other} anyof ['yes', 'maybe']",
           "title": "You selected 'Other', please specify the economic valuation method(s) that are of interest in the assessment:",
           "description": "<b>*Warning:</b> Your response will be visible in the Terms of reference.",
           "clearInvisibleValues": "none"
@@ -1502,7 +1502,7 @@
             }
           ]
         },
-        { 
+        {
           "type": "matrix",
           "name": "me_uncertainties_2b_dup",
           "visibleIf": "({fs_meth_scenario_35a} = 'yes' or {fs_meth_scenario_35a} = 'maybe') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe')",
