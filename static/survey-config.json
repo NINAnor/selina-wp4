@@ -942,6 +942,7 @@
           "name": "me_econ_dev_11b",
           "title": "Should the assessment include indicators of the contribution of ecosystem service(s) to economic development such as employment and growth?\n",
           "description": "If yes and if commissioners have the knowledge, they can specify the type of economic indicator of interest. The economic importance of ecosystem services can be quantified through indicators such as the contribution to economic development, sectors of the economy, or employment. These indicators can be useful for communicating the importance of ecosystem services to decision makers and the general public.",
+          "isRequired": true,
           "choices": [
             {
               "value": "yes",
@@ -982,6 +983,7 @@
           "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] and ({fs_meth_cond_34g} anyof ['yes', 'maybe'] or\n{fs_meth_cond_confirmation} = 'no')",
           "title": "Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?",
           "description": "Ecosystem condition relates to the quality of an ecosystem. The levels of ecosystem service(s) supply and use may vary depending on changes in condition of the ecosystem that provides the service. Ecosystem service(s) supply is the provision of service(s) by the ecosystem(s). Ecosystem service(s) use is the utilisation of service(s) by those who benefit from them.",
+          "isRequired": true,
           "choices": [
             {
               "value": "yes",
@@ -1007,6 +1009,7 @@
           "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] or\n{fs_meth_es_confirmation} = 'no'",
           "title": "Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?\n",
           "description": "Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use that is compatible with the supply of ecosystem services. If these levels are respected, the ecosystem condition and ability to deliver services for future generations is maintained.",
+          "isRequired": true,
           "choices": [
             {
               "value": "yes",
@@ -1033,8 +1036,14 @@
           "title": "Do you have the expertise to choose the condition indicators you would like to be applied in your assessment?",
           "isRequired": true,
           "choices": [
-            "Yes",
-            "No"
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
           ]
         },
         {
@@ -1046,11 +1055,11 @@
           "isRequired": true,
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             }
           ],
@@ -1097,6 +1106,7 @@
           "name": "me_soc_groups_13a",
           "title": "Should the ecosystem service assessment results be disaggregated by social groups to better understand who benefits from ecosystem services?",
           "description": "Understanding who benefits from the ecosystem services guarantees that inequities are identified and addressed. This approach highlights who benefits, who is excluded, and how interventions can improve well-being and equity. Examples of social groups are: gender, age, race, ethnicity, (dis)ability, income status, etc.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1121,6 +1131,7 @@
           "name": "me_soc_groups_13b",
           "title": "Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards ecosystem services?\n",
           "description": "This allows to investigate whether the ecosystem service assessment will document how different social groups perceive, value, and prioritize ecosystem services.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1191,6 +1202,7 @@
           "name": "me_health_social_14b",
           "title": "Should the ecosystem service assessment evaluate and report the attitudes, perceptions, and values of social groups towards health-relevant ecosystem services?",
           "description": "Investigate whether the ecosystem service assessment will document how different social groups perceive, value, and prioritize ecosystem services. These perceptions may include cultural significance, recreational use, or economic reliance.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1215,6 +1227,7 @@
           "name": "me_health_eco_14c",
           "title": "Should the ecosystem service assessment establish health links with specific ecosystem types and / or ecosystem services?\r",
           "description": "This determines whether the ecosystem service assessment will consider general relationships between environmental compartments (e.g. air, water, soil, urban environments, rural landscapes etc.) and health, or aim to provide a more detailed understanding of the impact of defined ecosystems types and / or their services on specific health issues.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1245,6 +1258,7 @@
           "name": "me_eco_relations_15a",
           "title": "Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?",
           "description": "Interrelationships between ecosystem services, between benefits, or between ecosystem services and their benefits means that the services and / or benefits are related and affect each other. There are a number of ways ecosystems services and / or benefits can be related such as interdependencies, synergies, and trade-offs.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1275,6 +1289,7 @@
           "name": "me_spatial_benefits_16a",
           "title": "Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?",
           "description": "This helps determine whether the assessment should quantify and track how the ecosystem service supply, use, demand but also the benefits derived from them vary across the geographic areas and spatial scales (e.g., continental, national, regional, local) considered in the assessment. For example, this could allow to identify differences in supply and / or benefits between different countries, regions, \nmunicipalities, or other relevant areas.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1299,6 +1314,7 @@
           "name": "me_time_benefits_16b",
           "title": "Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?",
           "description": "This allows for quantifying and tracking how the ecosystem service(s) supply, use, demand but also the benefits derived from them vary over time due to management actions, environmental factors, or policy changes.",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
@@ -1552,6 +1568,7 @@
           "name": "question6",
           "visibleIf": "{me_validation_3b} = 'no' and\n{me_validation_3a.intern} = 'no' and\n{me_validation_3a.extern} = 'no'",
           "title": "<b>*Warning:</b> Validation of the results gives an estimation of their quality. Your answer to this question means that the results of the ecosystem service assessment will not be validated. The section will thus be absent from your Terms of Reference. Do you confirm that this corresponds to your needs?",
+          "isRequired": true,
           "choices": [
             {
               "value": "Item 1",
