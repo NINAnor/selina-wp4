@@ -1109,19 +1109,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1134,19 +1134,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1155,7 +1155,7 @@
     },
     {
       "name": "page11",
-      "visibleIf": "{fs_meth_health_34e} = 'yes' or {fs_meth_health_34e} = 'maybe' or {fs_meth_health_confirmation} = 'no'",
+      "visibleIf": "{fs_meth_health_34e.human_health} anyof ['yes','maybe'] or {fs_meth_health_34e.animal_health} anyof ['yes','maybe'] or {fs_meth_health_34e.plant_health} anyof ['yes','maybe'] or {fs_meth_health_34e.one_health} anyof ['yes','maybe'] or {fs_meth_health_confirmation} = 'no' ",
       "description": "<b>C.4 Health characteristics</b>",
       "elements": [
         {
