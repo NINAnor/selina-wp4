@@ -1635,11 +1635,11 @@
           "isRequired": true,
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             }
           ],
@@ -1680,10 +1680,9 @@
         },
         {
           "type": "comment",
-          "name": "question8",
-          "visibleIf": "{me_stakeholder_engage_4b.other} = 'yes' or\n{me_stakeholder_engage_4b.other} = 'maybe'\n",
-          "title": "You selected “Other”. Please specify how the stakeholders should be involved.",
-          "clearInvisibleValues": "none"
+          "name": "me_stakeholder_engage_4b_other",
+          "visibleIf": "{me_stakeholder_engage_4b.other} anyof ['yes', 'maybe']",
+          "title": "You selected “Other”. Please specify how the stakeholders should be involved."
         }
       ]
     }
