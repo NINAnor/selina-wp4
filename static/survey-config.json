@@ -1256,7 +1256,7 @@
         {
           "type": "radiogroup",
           "name": "me_eco_relations_15a",
-          "title": "Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?",
+          "title": "Should the ecosystem service assessment identify potential interrelationships between ecosystem services and / or the benefits they provide?",
           "description": "Interrelationships between ecosystem services, between benefits, or between ecosystem services and their benefits means that the services and / or benefits are related and affect each other. There are a number of ways ecosystems services and / or benefits can be related such as interdependencies, synergies, and trade-offs.",
           "isRequired": true,
           "choices": [
@@ -1304,13 +1304,16 @@
           ],
           "rows": [
             {
-              "value": "Interrelationships bewteen ecosystems services"
+              "value": "inter_es",
+              "text": "Interrelationships bewteen ecosystems services"
             },
             {
-              "value": "Interrelationships bewteen benefits"
+              "value": "inter_benef",
+              "text": "Interrelationships bewteen benefits"
             },
             {
-              "value": "Interrelationships bewteen ecosystem services and their benefits"
+              "value": "inter_es_benef",
+              "text": "Interrelationships bewteen ecosystem services and their benefits"
             }
           ]
         }        
@@ -1321,12 +1324,12 @@
       "description": "<b>C.6 Spatial and temporal characteristics</b>",
       "elements": [
         {
-          "type": "radiogroup",
+          "type": "matrix",
           "name": "me_spatial_benefits_16a",
           "title": "Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?",
-          "description": "This helps determine whether the assessment should quantify and track how the ecosystem service supply, use, demand but also the benefits derived from them vary across the geographic areas and spatial scales (e.g., continental, national, regional, local) considered in the assessment. For example, this could allow to identify differences in supply and / or benefits between different countries, regions, \nmunicipalities, or other relevant areas.",
+          "description": "This helps determine whether the assessment should quantify and track how the ecosystem service supply, use, demand but also the benefits derived from them vary across the geographic areas and spatial scales (e.g., continental, national, regional, local) considered in the assessment. For example, this could allow to identify differences in supply and / or benefits between different countries, regions, municipalities, or other relevant areas.",
           "isRequired": true,
-          "choices": [
+          "columns": [
             {
               "value": "yes",
               "text": "Yes"
@@ -1343,15 +1346,25 @@
               "value": "dontknow",
               "text": "I don't know"
             }
+          ],
+          "rows": [
+            {
+              "value": "space_es",
+              "text": "Spatial variation of ecosystem services"
+            },
+            {
+              "value": "space_benef",
+              "text": "Spatial variation of benefits"
+            }
           ]
         },
         {
-          "type": "radiogroup",
+          "type": "matrix",
           "name": "me_time_benefits_16b",
           "title": "Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?",
           "description": "This allows for quantifying and tracking how the ecosystem service(s) supply, use, demand but also the benefits derived from them vary over time due to management actions, environmental factors, or policy changes.",
           "isRequired": true,
-          "choices": [
+          "columns": [
             {
               "value": "yes",
               "text": "Yes"
@@ -1367,6 +1380,16 @@
             {
               "value": "dontknow",
               "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "time_es",
+              "text": "Temporal variation of ecosystem services"
+            },
+            {
+              "value": "time_benef",
+              "text": "Temporal variation of benefits"
             }
           ]
         }
@@ -1530,7 +1553,7 @@
         {
           "type": "comment",
           "name": "question4",
-          "visibleIf": "({me_uncertainties_2b.other} anyof ['yes', 'other']) or ({me_uncertainties_2b_dup.other} anyof ['yes', 'other'])",
+          "visibleIf": "({me_uncertainties_2b.other} anyof ['yes', 'maybe']) or ({me_uncertainties_2b_dup.other} anyof ['yes', 'maybe'])",
           "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
       ]
