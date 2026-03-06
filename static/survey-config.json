@@ -163,13 +163,13 @@
           "type": "text",
           "name": "fs_meth_sp_agg_ecolo",
           "visibleIf": "(({fs_meth_sp_scale_32b} = 'ecolo'))",
-          "title": "You indicated that the results should be aggregated at ecological scales. Please specify the ecological groups that are meaningful to the assessement. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
+          "title": "You indicated that the results should be aggregated at ecological scales. Please specify the ecological groups that are meaningful to the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         },
         {
           "type": "comment",
           "name": "fs_meth_sp_agg_admin",
           "visibleIf": "(({fs_meth_sp_scale_32b} = 'admin'))",
-          "title": "You indicated that the results should be aggregated at administrative scales. Please specify the administrative groups that are meaningful to the assessement. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
+          "title": "You indicated that the results should be aggregated at administrative scales. Please specify the administrative groups that are meaningful to the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
       ]
     },

@@ -3,7 +3,7 @@ This page gives more information on the questions asked in theonline survey incl
 
 ## Frame & Scope survey questions
 ### Context and purpose
-#### What is(are) the purpose(s) of the ecosystem service assessment? If it is part of a decision-making process, at which step(s) of this process is the assessment needed?
+#### What is(are) the purpose(s) of the ecosystem service assessment? Is it part of a decision-making process? If so, at which step(s) of this process is the assessment needed?
 
 .. join_accordion::
 
@@ -14,18 +14,6 @@ This page gives more information on the questions asked in theonline survey incl
 
 .. accordion:: Give me an example answer
     The ecosystem assessment is needed for a combination of strategic and operational purposes. It is both demonstrating the importance of a National Park label for nature and society and monitoring that the decisions taken are contributing to the goals set in the Masterplan of the National Park Mainland.
-
-.. join_accordion::
-    :close: true
-
-#### Within this(these) purpose(s) or decision-making step(s), what is the primary objective of the ecosystem service assessment?
-
-.. join_accordion::
-.. accordion:: Why is this question relevant to me?
-    The primary objective of an ecosystem service assessment will condition the key outputs and methodological needs.
-
-.. accordion:: Give me an example answer
-    The primary objective of the ecosystem assessment is to report on the progress towards the goals of the National Park Mainland. Ecosystem services are also an important part to communicate and value the impact of the National Park label.
 
 .. join_accordion::
     :close: true
@@ -66,18 +54,6 @@ This page gives more information on the questions asked in theonline survey incl
 
 .. accordion:: Give me an example answer
     Recreational development and industrialisation led to prosperity in the region. The social and demographic context of the project is quite broad. The National Park Mainland lays in the perimeter of three municipalities with a wide range of age groups, economic status and ethnic composition. Furthermore, the area attracts visitors from all over the country.
-
-.. join_accordion::
-    :close: true
-
-#### Should the ecosystem service assessment aim at providing recommendations within the decision-making and policy context?
-
-.. join_accordion::
-.. accordion:: Why is this question relevant to me?
-    The need for recommendations influences a number of aspects in an ecosystem service assessment around the engagement of stakeholders.
-
-.. accordion:: Give me an example answer
-    Maybe. The purpose of the assessment is reporting but based on the results of the assessment, recommendations could be derived for the development of the next Operational plan.
 
 .. join_accordion::
     :close: true
