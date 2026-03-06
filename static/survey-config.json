@@ -1205,19 +1205,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1230,19 +1230,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1261,23 +1261,59 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
-        }
+        },
+        {
+          "type": "matrix",
+          "name": "me_eco_relations_15b",
+          "visibleIf": "{me_eco_relations_15a} anyof ['yes','maybe']",
+          "title": "Which interrelationship(s) is(are) of interest in this assessment?",
+          "isRequired": true,
+          "columns": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Interrelationships bewteen ecosystems services"
+            },
+            {
+              "value": "Interrelationships bewteen benefits"
+            },
+            {
+              "value": "Interrelationships bewteen ecosystem services and their benefits"
+            }
+          ]
+        }        
       ]
     },
     {
@@ -1292,19 +1328,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1317,19 +1353,19 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Item 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1373,7 +1409,7 @@
               "text": "Maybe"
             },
             {
-              "value": "idontknow",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ]
@@ -1394,7 +1430,7 @@
               "text": "No"
             },
             {
-              "value": "idontknow",
+              "value": "dontknow",
               "text": "I really don't know"
             }
           ]
@@ -1418,23 +1454,23 @@
           ],
           "rows": [
             {
-              "value": "Row 1",
+              "value": "unc_report",
               "text": "Uncertainty section/report: separate uncertainty section of the main report or a separate short deliverable"
             },
             {
-              "value": "Row 2",
+              "value": "unc_vis_sum",
               "text": "Visual summary: visuals showing results reliability (e.g., green-orange-red system)"
             },
             {
-              "value": "Row 3",
+              "value": "unc_dm_sum",
               "text": "Decision-relevant summary: designed for decision-making and can take different forms"
             },
             {
-              "value": "Row 4",
+              "value": "unc_par_doc",
               "text": "Participatory documentation: qualitative approach relying on expert and stakeholder judgments"
             },
             {
-              "value": "Row 5",
+              "value": "unc_tech_anx",
               "text": "Technical appendices: advanced technical documentation"
             },
             {
@@ -1462,27 +1498,27 @@
           ],
           "rows": [
             {
-              "value": "Row 1",
+              "value": "unc_report",
               "text": "Uncertainty section/report: separate uncertainty section of the main report or a separate short deliverable"
             },
             {
-              "value": "Row 2",
+              "value": "unc_vis_sum",
               "text": "Visual summary: visuals showing results reliability (e.g., green-orange-red system)"
             },
             {
-              "value": "Row 3",
+              "value": "unc_dm_sum",
               "text": "Decision-relevant summary: designed for decision-making and can take different forms"
             },
             {
-              "value": "Row 4",
+              "value": "unc_scen",
               "text": "Scenario-based documentation: relevant only if a scenario analysis is requested"
             },
             {
-              "value": "Row 5",
+              "value": "unc_par_doc",
               "text": "Participatory documentation: qualitative approach relying on expert and stakeholder judgments"
             },
             {
-              "value": "Row 6",
+              "value": "unc_tech_anx",
               "text": "Technical appendices: advanced technical documentation"
             },
             {
@@ -1571,15 +1607,15 @@
           "isRequired": true,
           "choices": [
             {
-              "value": "Item 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Item 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Item 3",
+              "value": "dontknow",
               "text": "I really don't know"
             }
           ]
@@ -1662,31 +1698,31 @@
           ],
           "rows": [
             {
-              "value": "Row 1",
+              "value": "news_let",
               "text": "Newsletters or email updates"
             },
             {
-              "value": "Row 2",
+              "value": "websites",
               "text": "Websites"
             },
             {
-              "value": "Row 3",
+              "value": "webinars",
               "text": "Webinars"
             },
             {
-              "value": "Row 4",
+              "value": "forums",
               "text": "Stakeholder events such as forums"
             },
             {
-              "value": "Row 8",
+              "value": "advisory",
               "text": "Advisory boards, expert groups, focus groups, or steering committees"
             },
             {
-              "value": "Row 9",
+              "value": "pub_cons",
               "text": "Public consultations"
             },
             {
-              "value": "Row 10",
+              "value": "workshops",
               "text": "Workshops"
             },
             {
