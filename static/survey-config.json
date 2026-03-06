@@ -1166,33 +1166,33 @@
           "isRequired": true,
           "columns": [
             {
-              "value": "Column 1",
+              "value": "yes",
               "text": "Yes"
             },
             {
-              "value": "Column 2",
+              "value": "no",
               "text": "No"
             },
             {
-              "value": "Column 3",
+              "value": "maybe",
               "text": "Maybe"
             },
             {
-              "value": "Column 4",
+              "value": "dontknow",
               "text": "I don't know"
             }
           ],
           "rows": [
             {
-              "value": "Row 1",
+              "value": "h_benefits",
               "text": "Health benefits: include goods or services promoting good health or offer avenues for positive health interventions."
             },
             {
-              "value": "Row 2",
+              "value": "h_risks",
               "text": "Health risks: potential threats to good health, including drivers of disease emergence."
             },
             {
-              "value": "Row 3",
+              "value": "h_outcomes",
               "text": "Health outcomes: status of health as a result of an intervention or exposure to one or more conditions."
             }
           ]
