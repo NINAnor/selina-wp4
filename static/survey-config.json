@@ -978,10 +978,10 @@
       "elements": [
         {
           "type": "radiogroup",
-          "name": "me_sust_level_12b",
-          "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] or\n{fs_meth_es_confirmation} = 'no'",
-          "title": "Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?\n",
-          "description": "Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use that is compatible with the supply of ecosystem services. If these levels are respected, the ecosystem condition and ability to deliver services for future generations is maintained.",
+          "name": "me_eco_con_12a",
+          "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] and ({fs_meth_cond_34g} anyof ['yes', 'maybe'] or\n{fs_meth_cond_confirmation} = 'no')",
+          "title": "Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?",
+          "description": "Ecosystem condition relates to the quality of an ecosystem. The levels of ecosystem service(s) supply and use may vary depending on changes in condition of the ecosystem that provides the service. Ecosystem service(s) supply is the provision of service(s) by the ecosystem(s). Ecosystem service(s) use is the utilisation of service(s) by those who benefit from them.",
           "choices": [
             {
               "value": "yes",
@@ -1003,10 +1003,10 @@
         },
         {
           "type": "radiogroup",
-          "name": "me_eco_con_12a",
-          "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] and ({fs_meth_cond_34g} anyof ['yes', 'maybe'] or\n{fs_meth_cond_confirmation} = 'no')",
-          "title": "Should the ecosystem service assessment evaluate how the condition of ecosystems influences the levels of ecosystem services supply and use?",
-          "description": "Ecosystem condition relates to the quality of an ecosystem. The levels of ecosystem service(s) supply and use may vary depending on changes in condition of the ecosystem that provides the service. Ecosystem service(s) supply is the provision of service(s) by the ecosystem(s). Ecosystem service(s) use is the utilisation of service(s) by those who benefit from them.",
+          "name": "me_sust_level_12b",
+          "visibleIf": "{fs_meth_sust_34f} anyof ['yes', 'maybe'] or\n{fs_meth_es_confirmation} = 'no'",
+          "title": "Should the ecosystem service assessment evaluate and define sustainable levels for the use and / or supply of ecosystem services?\n",
+          "description": "Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations. Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use that is compatible with the supply of ecosystem services. If these levels are respected, the ecosystem condition and ability to deliver services for future generations is maintained.",
           "choices": [
             {
               "value": "yes",
@@ -1056,31 +1056,31 @@
           ],
           "rows": [
             {
-              "value": "Row 1",
+              "value": "general_cond_idx",
               "text": "Index of general ecosystem condition: overarching measure of ecosystem condition combining several condition indicators."
             },
             {
-              "value": "Row 2",
+              "value": "sp_idx",
               "text": "Biotic indicators – species: show how well species are doing in an ecosystem"
             },
             {
-              "value": "Row 3",
+              "value": "structure_idx",
               "text": "Biotic indicators – structure: show how well the physical structure of an ecosystem is doing"
             },
             {
-              "value": "Row 4",
+              "value": "fn_idx",
               "text": "Biotic indicators – function: inform about the level of specific ecological functions and processes of an ecosystem"
             },
             {
-              "value": "Row 5",
+              "value": "phy_idx",
               "text": "Abiotic - physical indicators: show levels of non-living physical components of an ecosystem (e.g., soil pH, water temperature)"
             },
             {
-              "value": "Row 6",
+              "value": "chem_idx",
               "text": "Abiotic - chemical indicators: show the chemical properties in water, soil and air of an ecosystem"
             },
             {
-              "value": "Row 7",
+              "value": "landscape_idx",
               "text": "Landscape-level characteristics: assess how an ecosystem is physically organised in space."
             }
           ]
