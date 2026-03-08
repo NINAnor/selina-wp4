@@ -639,11 +639,11 @@ The Contractor may deviate from the suggestions described above. In that case, t
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
    {% if me_expertise_needed == "no" %}
-   #### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+   #### 2.1.{{meth_subsection_counter}} Sustainability and condition
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor will clearly describe and justify their choice sof indicators and methodology in elation to the deciion-amking context and purpose, as well as the data availability and / or quality.
 
    {% elif me_expertise_needed == "yes"%}
-   #### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+   #### 2.1.{{meth_subsection_counter}} Sustainability and condition
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The condition indicators of relevance are: {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
    In their proposal, the Contractor may deviate from the indicators suggested above. In these cases, they will clearly describe and justify the methodology that will be used.
    {% endif %}
@@ -651,27 +651,27 @@ The Contractor may deviate from the suggestions described above. In that case, t
 {% endif %}
 
 
-{# For sustainbility alone #}
+{# For sustainability alone #}
 
 {% if me_sust_level_12b in ["yes", "maybe"] and (not me_eco_con_12a or me_eco_con_12a in ["", "no", "dontknow"])%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
-#### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+#### 2.1.{{meth_subsection_counter}} Sustainability and condition
 The ecosystem service assessment should define the sustainable levels for [supply, use] of the ecosystem service(s) of interest. In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and define these levels.
 {% endif %}
 
 
-{# For sustainbility and condition #}
+{# For sustainability and condition #}
 {% if me_eco_con_12a in ["yes", "maybe"] and me_sust_level_12b in ["yes", "maybe"]%} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
    {% if me_expertise_needed == "no" %}
-   #### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+   #### 2.1.{{meth_subsection_counter}} Sustainability and condition
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
    The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor will clearly describe and justify their choice sof indicators and methodology in elation to the deciion-amking context and purpose, as well as the data availability and / or quality.
 
    {% elif me_expertise_needed == "yes"%}
-   #### 2.1.{{meth_subsection_counter}} Sustainbility and condition
+   #### 2.1.{{meth_subsection_counter}} Sustainability and condition
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
    
    The condition indicators of relevance are: {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
@@ -870,7 +870,8 @@ The choice of the appropriate health dimension(s) and their associated indicator
 {% endif %}
 
 
-######################WIP##############################333
+
+
 {# Spatial and temporal characteristics #}
 {% if me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"] or me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"] %} 
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
@@ -898,7 +899,6 @@ The choice of the appropriate health dimension(s) and their associated indicator
       {% set time_aspects = time_aspects + ["benefits"] %}
       {% endif %}
 
-{{time_aspects}}
 
 {% endif %}
 
@@ -979,3 +979,28 @@ The above mentioned variations will have to be specifically put in relation with
 The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition. 
 
 {% endif %}
+
+
+
+
+
+{# Scenarios #}
+{% if me_scenarios_17a|length > 0 %} 
+{% set meth_subsection_counter = meth_subsection_counter + 1 %}
+
+#### 2.1.{{meth_subsection_counter}} Scenario(s) characteristics
+The ecosystem service assessment should include a scenario analysis to <i><b>[text to be added by the Commissioner if relevant: reason(s) why a scenario analysis should be conducted]</b></i>. The scenario(s) of relevance are defined as: {{me_scenarios_17a}}
+
+In their proposal, the Contractor may deviate from the proposed scenarios described above. In this case, the Contractor will clearly explain and justify the scenarios in regards to the decision-making context and the purpose of the assessment. The Contractor will also describe the methodology that will be used.
+
+{% elif (fs_meth_scenario_confirmation == "no" or fs_meth_scenario_35a in ["yes","maybe"]) and (me_scenarios_17a|length == 0 or not me_scenarios_17a ) %}
+#### 2.1.{{meth_subsection_counter}} Scenario(s) characteristics
+The ecosystem service assessment should include a scenario analysis to <i><b>[text to be added by the Commissioner if relevant: reason(s) why a scenario analysis should be conducted]</b></i>. The cchoice of the scenarios of relevance is left to the Contractor. In their proposal, the Contractor will clearly explain and justify the scenarios chosen in regards to the decision-making context and the purpose of the assessment, as well as describe the methodology that will be used.
+
+{% endif %}
+
+
+
+
+
+############################# WIP #################################
