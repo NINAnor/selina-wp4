@@ -472,7 +472,7 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 
 
 {# Economic valuation #}
-{# Identify valuartion method #}
+{# Identify valuation method #}
 
 {% if me_econ_valuation_11a %} {# Need to add this as if skipped, the variable is not in the output datasets and everything bugs #}
    {% if me_econ_valuation_11a.prim == "yes" %} 
@@ -834,7 +834,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
    {% if (me_eco_relations_15b.inter_es in ["no", "dontknow"] or not me_eco_relations_15b.inter_es) and (me_eco_relations_15b.inter_benef in ["no", "dontknow"] or not me_eco_relations_15b.inter_benef) and (me_eco_relations_15b.inter_es_benef in ["no", "dontknow", ""] or not me_eco_relations_15b.inter_es_benef) %}
    #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
-   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the ecosystem service(s) of interest and / or benefits provided by ecosystem services. The choice of the most appropriate type of interrelationship(s): between ecosystem services, betwenn benefits, or between ecosystem services and their benefits, is left to the Contractor.
+   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the ecosystem service(s) of interest and / or benefits provided by ecosystem services. The choice of the most appropriate type of interrelationship(s): between ecosystem services, between benefits, or between ecosystem services and their benefits, is left to the Contractor.
    
    In their proposal, the Contractor will clearly explain their choice of the interrelationship(s) that should be focused on in accordance to the decision-making context and purpose of the assessment. They will also describe and justify their methodology that will be used to identify and quantify these trade-offs. 
 
@@ -842,7 +842,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
    {% set inter_aspects = [] %}
 
       {% if me_eco_relations_15b.inter_es in ["yes", "maybe"] %}
-         {% set inter_aspects = inter_aspects + ["ecosystem services"] %}
+      {% set inter_aspects = inter_aspects + ["ecosystem services"] %}
       {% endif %}
 
       {% if me_eco_relations_15b.inter_benef in ["yes", "maybe"] %}
@@ -857,7 +857,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 
    #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
-   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. . The choice of the most appropriate type of interrelationship(s): between ecosystem services, betwenn benefits, or between ecosystem services and their benefits, is left to the Contractor.
+   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. The choice of the most appropriate type of interrelationship(s): between ecosystem services, between benefits, or between ecosystem services and their benefits, is left to the Contractor.
    
    In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs. 
 
@@ -871,14 +871,111 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 
 ######################WIP##############################333
+{# Spatial and temporal characteristics #}
+{% if me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"] or me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"] %} 
+{% set meth_subsection_counter = meth_subsection_counter + 1 %}
+
+ #### 2.1.{{meth_subsection_counter}} Spatial and temporal characteristics
+
+{% set space_aspects = [] %}
+
+      {% if me_spatial_benefits_16a.space_es in ["yes", "maybe"] %}
+         {% set space_aspects = space_aspects + ["ecosystem services"] %}
+      {% endif %}
+
+      {% if me_spatial_benefits_16a.space_benef in ["yes", "maybe"] %}
+      {% set space_aspects = space_aspects + ["benefits"] %}
+      {% endif %}
+   
+
+{% set time_aspects = [] %}
+
+      {% if me_time_benefits_16b.time_es in ["yes", "maybe"] %}
+         {% set time_aspects = time_aspects + ["ecosystem services"] %}
+      {% endif %}
+
+      {% if me_time_benefits_16b.time_benef in ["yes", "maybe"] %}
+      {% set time_aspects = time_aspects + ["benefits"] %}
+      {% endif %}
+
+{{time_aspects}}
+
+{% endif %}
 
 
-The assessment should evaluate the temporal variations in the levels of [supply, use, demand] of the ecosystem service(s) of interest [and their associated benefits] over the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the contractor will clearly describe and justify the methodology that will be used.
+{# Spatial only #}
 
-[if relevant, add the following sentence] The assessment should also provide recommendations for maintaining or enhancing the [supply, use] of the ecosystem service(s) of interest [and their associated benefits] without negatively affecting the ecosystem condition. [if relevant, add the following sentence] These variations will have to be specifically put in relation with sustainable [supply, use].
+{% if me_spatial_benefits_16a.space_es in ["yes", "maybe"] and (not me_time_benefits_16b.time_es or me_time_benefits_16b.time_es in ["no", "dontknow"]) and (not me_time_benefits_16b.time_benef or me_time_benefits_16b.time_benef in ["no", "dontknow"])%}
+The assessment should evaluate the spatial variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scales considered in this assessment. Results should highlight the trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+
+{% elif me_spatial_benefits_16a.space_benef in ["yes", "maybe"] and not me_time_benefits_16b.time_es and not me_time_benefits_16b.time_benef%}
+The assessment should evaluate the spatial variations in the benefits of the ecosystem service(s) of interest over the spatial extent and scales considered in this assessment. Results should highlight the trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+
+{% elif me_spatial_benefits_16a.space_es in ["yes", "maybe"] and me_spatial_benefits_16a.space_benef in ["yes", "maybe"] and not me_time_benefits_16b.time_es and not me_time_benefits_16b.time_benef %}
+The assessment should evaluate the spatial variations in the levels of {{aspect}} of the ecosystem service(s) of interest and their associated benefits over the spatial extent and scales considered in this assessment. Results should highlight the trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+
+{% endif %}
 
 
+{# Temporal only #}
+{% if (me_time_benefits_16b.time_es in ["yes", "maybe"]) and (not me_spatial_benefits_16a.space_es or me_spatial_benefits_16a.space_es in ["no", "dontknow"]) and (not me_spatial_benefits_16a.space_benef or me_spatial_benefits_16a.space_benef in ["no", "dontknow"]) %}
+The assessment should evaluate the temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
 
-The assessment should evaluate the spatial variations in the levels of [supply, use, demand] of the ecosystem service(s) of interest [and their associated benefits] over the spatial extent and scales considered in this assessment. Results should highlight the trends and identify key drivers of change. [if relevant, add the following sentence] These variations will have to be specifically put in relation with sustainable [supply, use]. In their proposal, the contractor will clearly describe and justify the methodology that will be used.
+{% elif (me_time_benefits_16b.time_benef in ["yes", "maybe"]) and (not me_spatial_benefits_16a.space_es  or me_spatial_benefits_16a.space_es in ["no", "dontknow"]) and (not me_spatial_benefits_16a.space_benef or me_spatial_benefits_16a.space_benef in ["no", "dontknow"]) and time_aspects == "benefits" %}
+The assessment should evaluate the temporal variations in the benefits of the ecosystem service(s) of interest over the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
 
-[if relevant, add the following sentence] The assessment should also provide recommendations for maintaining or enhancing the [supply, use] of the ecosystem service(s) of interest [and their associated benefits] without negatively affecting the ecosystem condition. 
+{% elif me_time_benefits_16b.time_es in ["yes", "maybe"] and me_time_benefits_16b.time_benef in ["yes", "maybe"] and (not me_spatial_benefits_16a.space_es  or me_spatial_benefits_16a.space_es in ["no", "dontknow"]) and (not me_spatial_benefits_16a.space_benef or me_spatial_benefits_16a.space_benef in ["no", "dontknow"]) %}
+The assessment should evaluate the temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest and their associated benefits over the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+
+{% endif %}
+
+
+{# Spatial and Temporal #}
+{% if (me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"]) and (me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"]) and time_aspects == space_aspects %}
+The assessment should evaluate the spatial and temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest and their associated benefits over the spatial extent and scale(s) as well as the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+
+{% elif (me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"]) and (me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"]) and not time_aspects == space_aspects %}
+   
+   {% if time_aspects == "ecosystem services" and (space_aspects == "ecosystem services" and  space_aspects == "benefits") %}
+   The assessment should evaluate the spatial and temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scale(s) as well as the time period and temporal scale(s) considered in this assessment. In addition, the spatial variations of the benefits of the ecosystem service(s) of relevance should also be assessed. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+
+   {% elif time_aspects == "benefits" and (space_aspects == "ecosystem services" and  space_aspects == "benefits") %}
+   The assessment should evaluate the spatial variations in the levels of {{aspect}} of the ecosystem service(s) of interest and their associated benefits over the spatial extent and scale(s) considered in this assessment. In addition, both the spatial and temporal variations of the benefits of the ecosystem service(s) of relevance should also be assessed. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+   
+
+   {% elif time_aspects == "ecosystem services" and space_aspects == "benefits" %}
+   The assessment should evaluate the temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the time period and temporal scale(s) considered in this assessment. In addition, the spatial variations of the benefits of the ecosystem service(s) of relevance should also be assessed over the spatial extent and scale(s) defined in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+   
+
+   {% elif time_aspects == "benefits" and space_aspects == "ecosystem services" %}
+   The assessment should evaluate the spatial variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scale(s) considered in this assessment. In addition, the temporal variations of the benefits of the ecosystem service(s) of relevance should also be assessed over the time period and temporal scale(s) defined in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+   
+
+   {% elif (time_aspects == "ecosystem services" and time_aspects == "benefits") and space_aspects == "ecosystem services" %}
+   The assessment should evaluate the spatial and temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scale(s) as well as the time period and temporal scale(s) considered in this assessment. In addition, the temporal variations of the benefits of the ecosystem service(s) of relevance should also be assessed over the time period and temporal scale(s) defined in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+  
+
+   {% elif (time_aspects == "ecosystem services" and time_aspects == "benefits") and space_aspects == "benefits" %}
+   The assessment should evaluate the temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the time period and temporal scale(s) considered in this assessment. In addition, both the temporal and spatial variations of the benefits of the ecosystem service(s) of relevance should also be assessed. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
+  
+
+   {% endif %}
+   
+
+{% endif %}
+
+{# Add recommandations or sustainability #}
+
+{% if me_time_space_sustainability_16c in ["yes", "maybe"] and me_time_space_condition_16d in ["no", "dontknow"] %}
+
+The above mentioned variations will have to be specifically put in relation with sustainable {{aspect}}.
+
+{% elif me_time_space_sustainability_16c in ["yes", "maybe"] and me_time_space_condition_16d in ["yes", "maybe"]%}
+
+The above mentioned variations will have to be specifically put in relation with sustainable {{aspect}}. The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition. 
+
+{% elif me_time_space_sustainability_16c in ["no", "dontknow"] and me_time_space_condition_16d in ["yes", "maybe"]%}
+
+The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition. 
+
+{% endif %}
