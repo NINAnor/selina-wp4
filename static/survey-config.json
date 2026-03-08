@@ -1456,7 +1456,7 @@
           "type": "text",
           "name": "me_scenarios_17a",
           "title": "What scenarios should be taken into account in the ecosystem service assessments?",
-          "description": "List and describe the scenarios that should be taken into account, for example scenario description 1, scenario description 2, etc. If you are unsure, leave the answer blank. Even a broad description of goals for which the scenarios are required is sufficient. In modelling, future scenarios represent a range of potential futures that one would like to predict."
+          "description": "List and describe the scenarios that should be taken into account, for example scenario description 1, scenario description 2, etc. If you are unsure, leave the answer blank. Even a broad description of goals for which the scenarios are required is sufficient. In modelling, future scenarios represent a range of potential futures that one would like to predict. \nSkip this question if you really don't know."
         }
       ]
     },
