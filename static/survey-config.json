@@ -1392,6 +1392,58 @@
               "text": "Temporal variation of benefits"
             }
           ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "me_time_space_sustainability_16c",
+          "visibleIf": "{me_sust_level_12b} anyof ['yes', 'maybe'] and ({me_spatial_benefits_16a.space_es} anyof ['yes','maybe'] or {me_time_benefits_16b.time_es} anyof ['yes','maybe'])",
+          "title": "Should the ecosystem service assessment put the spatial / temporal variations of ecosystem services in relation with the sustainable use / supply?",
+          "description": "This allows to reveal trends in supply and use over time and geographic areas to highlight critical mismatches between the actual levels of use and supply and the levels of use and supply that are considered as sustainable. This is important in prioritising interventions that prevent depletion and ensure long-term supply and use of the services.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "me_time_space_condition_16d",
+          "visibleIf": "{me_sust_level_12b} anyof ['yes', 'maybe'] and ({fs_meth_cond_34g} anyof ['yes','maybe'] or {fs_meth_cond_confirmation} = 'no') and ({me_spatial_benefits_16a.space_es} anyof ['yes','maybe'] or {me_time_benefits_16b.time_es} anyof ['yes','maybe'])",
+          "title": "Should the ecosystem service provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition",
+          "description": "Providing recommendations means identifying and describing actionable suggestions to improve or bridge an existing gap of a strategy or situation.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
         }
       ]
     },
