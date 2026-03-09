@@ -1604,7 +1604,7 @@
         },
         {
           "type": "comment",
-          "name": "question4",
+          "name": "me_uncertainties_2b_other",
           "visibleIf": "({me_uncertainties_2b.other} anyof ['yes', 'maybe']) or ({me_uncertainties_2b_dup.other} anyof ['yes', 'maybe'])",
           "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>*Warning:</b> Your response will be visible in the Terms of reference."
         }
