@@ -686,6 +686,13 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 .. join_accordion::
     :close: true
 
+#### Should the ecosystem service assessment put the spatial / temporal variations of ecosystem services in relation with the sustainable use / supply?
+
+
+#### Should the ecosystem service provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition?
+
+
+
 #### What scenarios should be taken into account in the ecosystem service assessments?
 
 .. join_accordion::
