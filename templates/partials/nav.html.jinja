@@ -10,6 +10,11 @@
                         {% include 'partials/nav-item.html.jinja'  %}
                         {% endwith %}
                     {% endfor %}
+                    {% if MODE == 'dev' %}
+                    {% with item={'name': 'Last submission', 'link': '/survey-debug'}, depth=0 %}
+                    {% include 'partials/nav-item.html.jinja'  %}
+                    {% endwith %}
+                    {% endif %}
                 </ul>
             </div>
         </div>
