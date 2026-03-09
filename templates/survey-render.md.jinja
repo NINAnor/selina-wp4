@@ -1001,22 +1001,16 @@ The ecosystem service assessment should include a scenario analysis to <i><b>[te
 
 
 
-
-
-############################# WIP #################################
-
-
-
 {# Uncertainties #}
-{% if me_uncertainties_2a in ["true", "maybe"] or me_uncertainty_confirmation = "no" %} 
-{% set meth_subsection_counter = meth_subsection_counter + 1 %}
+{% if me_uncertainties_2a in ["yes", "maybe"] or me_uncertainty_confirmation == "no" %} 
 
-#### 2.1.{{meth_subsection_counter}} Uncertainties
+### 3. Uncertainties
+
 {% endif %}
 
 
 {# List the format of uncertainties if you selected scenarios #}
-{% if me_uncertainties_2b_dup in ["yes", "maybe"] %}
+{% if fs_meth_scenario_35a in ["yes", "maybe"] or fs_meth_scenario_confirmation == "no" %}
 
 {% set uncertainties_format = [] %}
 
@@ -1045,11 +1039,14 @@ The ecosystem service assessment should include a scenario analysis to <i><b>[te
    {% endif %}
 
    {% if me_uncertainties_2b_dup.other in ["yes", "maybe"] %}
-   {% set uncertainties_format = uncertainties_format + [{{me_uncertainties_2b_dup.other}}] %}
+   {% set uncertainties_format = uncertainties_format + [me_uncertainties_2b_other] %}
    {% endif %}
 
+The ecosystem service assessment should evaluate and document uncertainty arising in the assessment. The Contractor should clearly discuss the reliability of the methods and results in the context of their uncertainty and what it means for the decision-making that would arise from any of the results of this assessment. The preferred format to report such uncertainties are: {% for method in uncertainties_format %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
-{ elif me_uncertainties_2b in ["yes", "maybe"] %}
+
+
+{% elif fs_meth_scenario_35a in ["no", "dontknow"] or fs_meth_scenario_confirmation in ["yes", "dontknow"] %}
 {% set uncertainties_format = [] %}
 
    {% if me_uncertainties_2b.unc_report in ["yes", "maybe"] %}
@@ -1073,9 +1070,27 @@ The ecosystem service assessment should include a scenario analysis to <i><b>[te
    {% endif %}
 
    {% if me_uncertainties_2b.other in ["yes", "maybe"] %}
-   {% set uncertainties_format = uncertainties_format + [{{me_uncertainties_2b.other}}] %}
+   {% set uncertainties_format = uncertainties_format + [me_uncertainties_2b_other] %}
    {% endif %}
 
+The ecosystem service assessment should evaluate and document uncertainty arising in the assessment. The Contractor should clearly discuss the reliability of the methods and results in the context of their uncertainty and what it means for the decision-making that would arise from any of the results of this assessment. The preferred format to report such uncertainties are: {% for method in uncertainties_format %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
 
 {% endif %}
+
+
+
+############################# WIP #################################
+
+
+{# Validation #}
+{% if me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] or me_validation_3b in ["yes", "maybe"] %} 
+
+### 4. Validation
+{% endif %}
+
+{% if me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] %}
+
+
+
+The ecosystem service assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out [internally to its organisation; externally and involve third parties such as stakeholders; both internally to the contractor’s organisation, and involved third parties such as stakeholders]. The potential contractor should clearly describe the validation process that they expect to put in place during the assessment.
