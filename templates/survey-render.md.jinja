@@ -1004,3 +1004,78 @@ The ecosystem service assessment should include a scenario analysis to <i><b>[te
 
 
 ############################# WIP #################################
+
+
+
+{# Uncertainties #}
+{% if me_uncertainties_2a in ["true", "maybe"] or me_uncertainty_confirmation = "no" %} 
+{% set meth_subsection_counter = meth_subsection_counter + 1 %}
+
+#### 2.1.{{meth_subsection_counter}} Uncertainties
+{% endif %}
+
+
+{# List the format of uncertainties if you selected scenarios #}
+{% if me_uncertainties_2b_dup in ["yes", "maybe"] %}
+
+{% set uncertainties_format = [] %}
+
+   {% if me_uncertainties_2b_dup.unc_report in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a report section or seprate report on uncertainty"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b_dup.unc_vis_sum in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a visual summary"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b_dup.unc_dm_sum in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a summary for decision-making"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b_dup.unc_scen in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a scenario-based documentation"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b_dup.unc_par_doc in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a participatory documentation"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b_dup.unc_tech_anx in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a technical appendices"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b_dup.other in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + [{{me_uncertainties_2b_dup.other}}] %}
+   {% endif %}
+
+
+{ elif me_uncertainties_2b in ["yes", "maybe"] %}
+{% set uncertainties_format = [] %}
+
+   {% if me_uncertainties_2b.unc_report in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a report section or seprate report on uncertainty"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b.unc_vis_sum in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a visual summary"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b.unc_dm_sum in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a summary for decision-making"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b.unc_par_doc in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a participatory documentation"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b.unc_tech_anx in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + ["a technical appendices"] %}
+   {% endif %}
+
+   {% if me_uncertainties_2b.other in ["yes", "maybe"] %}
+   {% set uncertainties_format = uncertainties_format + [{{me_uncertainties_2b.other}}] %}
+   {% endif %}
+
+
+
+{% endif %}
