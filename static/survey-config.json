@@ -1491,7 +1491,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "question3",
+          "name": "me_uncertainty_confirmation",
           "visibleIf": "{me_uncertainties_2a} = 'no' or\n{me_uncertainties_2a} = 'dontknow'",
           "title": "<b>*Warning:</b> Informed decision-making needs to take into account these uncertainties as they pertain to the robustness, relevance, and reliability of the results upon which they rely. Your answer to this question means that the results of the ecosystem service assessment will be presented without any indication on the degree of confidence. The section will thus be absent from your Terms of Reference. Do you confirm that this corresponds to your needs?",
           "isRequired": true,
@@ -1513,7 +1513,7 @@
         {
           "type": "matrix",
           "name": "me_uncertainties_2b",
-          "visibleIf": "({fs_meth_scenario_35a} = 'no' or {fs_meth_scenario_35a} = 'dontknow') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe')",
+          "visibleIf": "({fs_meth_scenario_35a} = 'no' or {fs_meth_scenario_35a} = 'dontknow') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe' or {me_uncertainty_confirmation} = 'no')",
           "title": "What is the preferred reporting format to document uncertainties?",
           "description": "Select what applies.",
           "isRequired": true,
@@ -1557,7 +1557,7 @@
         {
           "type": "matrix",
           "name": "me_uncertainties_2b_dup",
-          "visibleIf": "({fs_meth_scenario_35a} = 'yes' or {fs_meth_scenario_35a} = 'maybe') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe')",
+          "visibleIf": "({fs_meth_scenario_35a} = 'yes' or {fs_meth_scenario_35a} = 'maybe') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe' or {me_uncertainty_confirmation} = 'no')",
           "title": "What is the preferred reporting format to document uncertainties?",
           "description": "Select what applies.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference. ",
           "isRequired": true,
