@@ -5,6 +5,8 @@ environments:
     - url: https://conda.anaconda.org/conda-forge/
     indexes:
     - https://pypi.org/simple
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -91,6 +93,8 @@ environments:
     - url: https://conda.anaconda.org/conda-forge/
     indexes:
     - https://pypi.org/simple
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -929,7 +933,7 @@ packages:
 - pypi: ./
   name: selina-wp4
   version: 0.1.0
-  sha256: b9bc054c1f701c6940d732b025e4c4c701c4630eb2148f3074f1ac3b634261aa
+  sha256: 0e7bddb38aab7d05d13dfc3345130f56c22a640f026bdb0c54d44f6f6128669f
   requires_dist:
   - django-environ
   - pandoc>=2.4,<3
@@ -939,7 +943,6 @@ packages:
   - pyyaml>=6.0.3
   - python-slugify>=8.0.4
   requires_python: '>=3.10'
-  editable: true
 - pypi: https://files.pythonhosted.org/packages/4d/19/8d77f9992e5cbfcaa9133c3bf63b4fbbb051248802e1e803fed5c552fbb2/sentry_sdk-2.48.0-py2.py3-none-any.whl
   name: sentry-sdk
   version: 2.48.0
