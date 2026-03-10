@@ -6,7 +6,8 @@ requires = ["hatchling"]
 dev = [
   "deptry",
   "pytailwindcss>=0.2.0",
-  "ty>=0.0.3"
+  "ty>=0.0.3",
+  "hatchling>=1.28.0"
 ]
 
 [project]
@@ -22,8 +23,7 @@ dependencies = [
   "mistune>=3.1.4",
   "structlog>=25.5.0,<26",
   "pyyaml>=6.0.3",
-  "python-slugify>=8.0.4",
-  "hatchling>=1.28.0"
+  "python-slugify>=8.0.4"
 ]
 description = ""
 license = "GPL-3.0+"

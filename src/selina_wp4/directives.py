@@ -98,4 +98,4 @@ def render_accordion_title(
 
 
 def render_accordion_content(self: Any, text: str) -> str:
-    return f'<div class="collapse-content text-sm">{text}</div>'
+    return f'<div class="collapse-content text-lg">{text}</div>'
