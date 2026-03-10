@@ -87,7 +87,6 @@
           "name": "fs_meth_es_31b",
           "title": "What ecosystem service(s) is(are) of interest in the ecosystem service assessment?\n",
           "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. Ecosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
-          "isRequired": true,
           "items": [
             {
               "name": "es_list",
@@ -1714,8 +1713,16 @@
               "text": "Yes"
             },
             {
+              "value": "no",
+              "text": "No"
+            },
+            {
               "value": "maybe",
               "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
             }
           ],
           "rows": [
@@ -1767,8 +1774,16 @@
               "text": "Yes"
             },
             {
+              "value": "no",
+              "text": "No"
+            },
+            {
               "value": "maybe",
               "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
             }
           ],
           "rows": [
