@@ -426,7 +426,7 @@ The results should be reported ***[text to be completed by the Commissioner: tem
 
 {# Undetermined #}
 {% elif (fs_meth_es_measure_34c.essupply in ["no", "dontknow", ""]) and (fs_meth_es_measure_34c.esdemand in ["no", "dontknow", ""]) and (fs_meth_es_measure_34c.esuse in ["no", "dontknow", ""]) and (fs_meth_es_confirmation == "sure")%} {# biophy and econo first #}
-{% set aspect = "<b><i>[text to be added by the Commissionner]***" %}
+{% set aspect = "***[text to be added by the Commissionner]***" %}
 
 {% endif %}
 
@@ -530,7 +530,7 @@ The assessment should measure the {{aspect}} of the economic value of the ecosys
 {% set health_focus = "plant and animal health" %}
 
 {% elif (fs_meth_health_confirmation == "no") and (fs_meth_health_34e.human_health == "no") and (fs_meth_health_34e.animal_health == "no") and (fs_meth_health_34e.plant_health == "no") and (fs_meth_health_34e.one_health == "no") %} {# undetermined only #}
-{% set health_focus = "<b><i>[the health focus has not be specific, text to be completed by the Commissioner]***" %}
+{% set health_focus = "***[the health focus has not be specific, text to be completed by the Commissioner]***" %}
 
 {% endif %}
 
@@ -564,7 +564,7 @@ Finally, the assessment should include an evaluation of the condition of the eco
 {# 1.3.4 Scenarios #}
 {% if (fs_meth_scenario_35a in ["yes", "maybe"]) or (fs_meth_scenario_confirmation == "no") %} {# Scenarios #}
 #### 1.3.4 Scenarios
-The ecosystem service assessment should include a scenario analysis to <b><i>[if possible, the Commissioner should describe the reason(s) why a scenario analysis should be conducted]***.
+The ecosystem service assessment should include a scenario analysis to ***[if possible, the Commissioner should describe the reason(s) why a scenario analysis should be conducted]***.
 
 {% endif %}
 
