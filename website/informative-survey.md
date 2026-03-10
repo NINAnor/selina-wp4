@@ -627,7 +627,33 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
 
     - **Trade-offs**: this means that  improving one service and / or a benefit might reduce one or several  service(s) and / or benefit(s), because they are responding to the same driver of change, or because they are causal related. For example, draining wetlands for agriculture increases the provision of food but decreases flood mitigation, water filtration and retention, and carbon storage  services. An example of trade-offs between ecosystem services and benefits would be the increase of recreational access to a natural area which might impact its cultural or spiritual significance to local communities, which in turn can have negative implications for social and mental health.
 
-    -**Synergies**: this means that enhancing one ecosystem service will enhance (an)other ecosystem service(s). For example, coral reefs provide habitat maintenance for native biodiversity and nursery services to fisheries at the same time that their conservation provides coastal protection. Likewise for benefits,  synergies mean that receiving one benefit will strengthen another benefit. For example, urban green spaces supply urban cooling which provides health benefits by reducing heat-related illnesses, this in turn also provides a social benefit by improving social well-being.
+    - **Synergies**: this means that enhancing one ecosystem service will enhance (an)other ecosystem service(s). For example, coral reefs provide habitat maintenance for native biodiversity and nursery services to fisheries at the same time that their conservation provides coastal protection. Likewise for benefits,  synergies mean that receiving one benefit will strengthen another benefit. For example, urban green spaces supply urban cooling which provides health benefits by reducing heat-related illnesses, this in turn also provides a social benefit by improving social well-being.
+
+    These relationships between ecosystem services and between the benefits they provide are crucial to take into account for decision-making. They are necessary to understand when assessing sustainability, as well as for identifying and analysing situations where maximizing certain benefits may inadvertently diminish others.
+
+    Recognising trade-offs between services helps understanding, in a holistic way, the possible impacts of a certain intervention aiming at one service on other services. Such evaluations also help balance competing priorities, ensuring equitable access to benefits.
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on sustainability and condition, as well a social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    Yes. We would like to have an insight in the synergies and trade-offs between ecosystem services.
+
+.. join_accordion::
+    :close: true
+
+#### Which interrelationship(s) is(are) of interest in this assessment? 
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    There are a number of ways by which ecosystem services and /or their benefits can be linked to each other. Some examples are:
+
+    - **Interdependency**: this means that ecosystem services and / or their benefits rely on other ecosystem services and / or benefits. For example, the provision of pollinator-dependent food depends on the pollination service, which in turn depends on habitat provision services (i.e., habitats providing nesting and flower resources). An example of interdependency between a benefit and an ecosystem service would be the mental and physical health benefit supplied by green spaces which depend on the recreation service these areas can provide.
+
+    - **Trade-offs**: this means that  improving one service and / or a benefit might reduce one or several  service(s) and / or benefit(s), because they are responding to the same driver of change, or because they are causal related. For example, draining wetlands for agriculture increases the provision of food but decreases flood mitigation, water filtration and retention, and carbon storage  services. An example of trade-offs between ecosystem services and benefits would be the increase of recreational access to a natural area which might impact its cultural or spiritual significance to local communities, which in turn can have negative implications for social and mental health.
+
+    - **Synergies**: this means that enhancing one ecosystem service will enhance (an)other ecosystem service(s). For example, coral reefs provide habitat maintenance for native biodiversity and nursery services to fisheries at the same time that their conservation provides coastal protection. Likewise for benefits,  synergies mean that receiving one benefit will strengthen another benefit. For example, urban green spaces supply urban cooling which provides health benefits by reducing heat-related illnesses, this in turn also provides a social benefit by improving social well-being.
 
     These relationships between ecosystem services and between the benefits they provide are crucial to take into account for decision-making. They are necessary to understand when assessing sustainability, as well as for identifying and analysing situations where maximizing certain benefits may inadvertently diminish others.
 
@@ -687,9 +713,55 @@ Scenarios are a way of dealing with uncertainties about the future. They also al
     :close: true
 
 #### Should the ecosystem service assessment put the spatial / temporal variations of ecosystem services in relation with the sustainable use / supply?
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    If you are interested in spatial variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a>
+
+    If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on spatial and temporal characteristics, as well as social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    If you are interested in spatial variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a>
+
+    If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+.. join_accordion::
+    :close: true
 
 
 #### Should the ecosystem service provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition?
+.. join_accordion::
+
+.. accordion:: Why is this question relevant to me?
+    If you are interested in spatial variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a>
+
+    If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+
+.. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
+    Visit our advanced content on spatial and temporal characteristics, as well as social benefits and health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+
+
+.. accordion:: Give me an example answer
+    If you are interested in spatial variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a>
+
+    If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+
+.. join_accordion::
+    :close: true
 
 
 
