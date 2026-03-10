@@ -315,7 +315,7 @@ This page gives more information on the questions asked in theonline survey incl
 .. accordion:: Why is this question relevant to me?
     Future scenarios can be important to request if the overall purpose of the ecosystem service assessment is to inform. Broadly, scenarios help assessing ecosystem services and their associated benefits in different conditions such as policy context, climate change, land uses, land management etc. Looking at scenarios in ecosystem service assessment can also help with identifying different trade-offs between scenarios but also how trade-offs between ecosystem services and /or their benefits change over the scenarios considered.
 
-Scenarios are a way of dealing with uncertainties about the future. They also allow to identify risk and facilitate long-term planning and adaptation.
+    Scenarios are a way of dealing with uncertainties about the future. They also allow to identify risk and facilitate long-term planning and adaptation.
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
     Visit our advanced content on uncertainty in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
