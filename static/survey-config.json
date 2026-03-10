@@ -1676,7 +1676,7 @@
         },
         {
           "type": "radiogroup",
-          "name": "question6",
+          "name": "me_validation_3b_confirmation",
           "visibleIf": "{me_validation_3b} = 'no' and\n{me_validation_3a.intern} = 'no' and\n{me_validation_3a.extern} = 'no'",
           "title": "<b>*Warning:</b> Validation of the results gives an estimation of their quality. Your answer to this question means that the results of the ecosystem service assessment will not be validated. The section will thus be absent from your Terms of Reference. Do you confirm that this corresponds to your needs?",
           "isRequired": true,
@@ -1751,7 +1751,7 @@
         },
         {
           "type": "comment",
-          "name": "question7",
+          "name": "me_stakeholder_engage_4a_other",
           "visibleIf": "{me_stakeholder_engage_4a.other} = 'yes' or\n{me_stakeholder_engage_4a.other} = 'maybe'\n",
           "title": "You selected “Other”. Please specify when the stakeholders should be involved in the assessment.\n"
         },
