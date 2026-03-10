@@ -189,11 +189,11 @@ def submit(request_body: dict[Any, Any]):
     survey = templates.get_template("survey-render.md.jinja").render(**request_body)
 
     doc = pandoc.read(survey, format="markdown")
-    content = pandoc.write(doc, format="docx")
+    content = pandoc.write(doc, format="odt")
     if isinstance(content, bytes):
         return StreamingResponse(
             io.BytesIO(content),
-            media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            media_type="application/vnd.oasis.opendocument.text",
         )
 
 
