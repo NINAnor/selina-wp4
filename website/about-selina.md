@@ -1,3 +1,3 @@
 
 # What is SELINA?
-All the content available in this website has been developed by the Horizon Europe SELINA project (work package 4). To download the pdf of thereport athering all of website's content, plus addition more advanced material, click [here] (https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines). More information about SELINA can be found [here](https://project-selina.eu/).
+All the content available in this website has been developed by the Horizon Europe SELINA project (work package 4). To download the pdf of the report athering all of website's content, plus addition more advanced material, click [here](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines). More information about SELINA can be found [here](https://project-selina.eu/).
