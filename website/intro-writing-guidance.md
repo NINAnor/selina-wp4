@@ -5,13 +5,13 @@ Our guidance supports you in the writing of a Terms of Reference for a call for 
 
 * The <b><u>Evaluation Criteria template</u></b> presents a series of tables with evaluation criteria that the commissionners can choose from. As previously, preformatted text is available. This template also support very nicely the evaluation of proposals by highlighting the alignement between the criteria the commissionners chose and the ones displayed in the proposals.
 
-We recommend these templates to be used chronologically as Frame & Scope, then Methodology, and finally Evaluation Criteria. The next section [Commissioning an ecosystem service assessment with our guidance] (LINK) details why this is important.
+We recommend these templates to be used chronologically as Frame & Scope, then Methodology, and finally Evaluation Criteria. The next section [Commissioning an ecosystem service assessment with our guidance](/intro-commissionning) details why this is important.
 
 This website operationalise these templates in two ways:
 
-1. Take an online survey that autmatically generates your Terms of Reference based on your answers!
+1. Take an [online survey](/survey) that autmatically generates your Terms of Reference based on your answers!
 
-2. If you prefer having more control, just use our PDF templates and amend the available preformatted text to write your Terms fo Reference yourself :)
+2. If you prefer having more control, just use our [PDF templates](/static/SELINA_ToR_pdf_templates.pdf) and amend the available preformatted text to write your Terms fo Reference yourself :)
 
 Choose the option that suits you the most in [Create your Terms of Reference](/writing-tor).
 

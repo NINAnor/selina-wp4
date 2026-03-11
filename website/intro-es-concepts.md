@@ -1,5 +1,5 @@
 # Important concepts underlying ecosystem service assessments
-Let's beging your journey in the concepts that underlie ecosystem service assessments. There are several key concepts to be aware of and understand when one wants to commission or perform an ecosystem service assessment. Luckily, they can be summarised in five essential questions are essential:
+Let's beging your journey in the concepts underlying ecosystem service assessments. There are several key concepts to be aware of and understand when one wants to commission or perform an ecosystem service assessment. Luckily, they can be summarised in five essential questions are essential:
 
 1. What do we measure in an ecosystem service and why are ecosystem condition and capacity relevant for this?
 2. What are economic, social and health valuation of ecosystem services and why are they important?
@@ -145,7 +145,7 @@ Below, you will find answers to each of these questions. If you wish to know mor
 
 [^3]: [Mapping of Ecosystem Services](https://ab.pensoft.net/article/12837/), Burkhard and Maes, Pensoft, 2017.
 
-[^4]: [Towards a Threat Assessment Framework for Ecosystem Services](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(16)30245-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534716302452%3Fshowall%3Dtrue), Maron et al., Trends in Ecology and Evolution, 2017.
+[^4]:  <a href="https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(16)30245-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534716302452%3Fshowall%3Dtrue">Towards a Threat Assessment Framework for Ecosystem Services</a>, Maron et al., Trends in Ecology and Evolution, 2017.
 
 [^5]: [Ecosystem services supply and demand assessment: Why social-ecological dynamics matter](https://www.sciencedirect.com/science/article/pii/S2212041617305806), Mehring et al., Ecosystem Services, 2018.
 
