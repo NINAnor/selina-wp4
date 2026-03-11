@@ -262,12 +262,18 @@
           "isRequired": true,
           "clearInvisibleValues": "none",
           "choices": [
-            "Yes",
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
             {
               "value": "no",
               "text": "No"
             },
-            "Maybe",
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
             {
               "value": "dontknow",
               "text": "I don't know"
