@@ -1,5 +1,5 @@
 # Survey FAQ
-This page gives more information on the questions asked in theonline survey including addtitional explanation on the relevance of the question and an example of answer. The overall example taken to ansewr all of the questions is the [Belgian case study](/link) described in [Examples](/link)
+This page gives more information on the questions asked in the online survey including addtitional explanations on the relevance of questions and examples of answers. The overall example taken to answer all of the questions is the [Belgian case study](/link) described in [Examples](/link)
 
 ## Frame & Scope survey questions
 ### Context and purpose
