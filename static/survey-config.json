@@ -31,21 +31,22 @@
       "description": "<b>B.1 Your context and purpose</b> ",
       "elements": [
         {
-          "type": "text",
+          "type": "comment",
           "name": "fs_purpose_1a",
           "title": "What is(are) the purpose(s) of the ecosystem service assessment? Is it part of a decision-making process? If so, at which step(s) of this process is the assessment needed?",
           "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n<b>*Warning:</b> Your response will be visible in the [Terms of reference.](/informative-survey#test-1)",
-          "isRequired": true
+          "isRequired": true,
+          "autoGrow": true
         },
         {
-          "type": "text",
+          "type": "comment",
           "name": "fs_context_policy_1b",
           "title": "Which relevant policies should be considered for the ecosystem service assessment given the decision-making step and primary objective?",
           "description": "Identify the international and national policies that should be considered in the ecosystem service assessment.\n\n<b>*Warning:</b> Your response will be visible as written here in the Terms of Reference.\n",
           "isRequired": true
         },
         {
-          "type": "text",
+          "type": "comment",
           "name": "fs_context_social_1d",
           "title": "What is the social / demographic context of the ecosystem service assessment?\n",
           "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n<b>*Warning:</b> Your response will be visible in the Terms of reference.\n",
