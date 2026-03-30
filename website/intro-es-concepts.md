@@ -4,8 +4,8 @@ Let's beging your journey in the concepts underlying ecosystem service assessmen
 1. What do we measure in an ecosystem service and why are ecosystem condition and capacity relevant for this?
 2. What are economic, social and health valuation of ecosystem services and why are they important?
 3. What are spatial and temporal scales and why should they be chosen carefully?
-4. What do we mean by uncertainty of the results and why whould it be quantified?
-5. How do all the the above concepts influence each other?
+4. What do we mean by uncertainty of the results and why should it be quantified?
+5. How do all the above concepts influence each other?
 
 Below, you will find answers to each of these questions. If you wish to know more about them, we recommend you to go through the advanced material of [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
 
