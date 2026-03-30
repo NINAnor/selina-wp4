@@ -17,4 +17,4 @@ Our writing guidance is very handy, user-friendly, and can accommodate a wide va
 
 * Our guidance does not support you in defining an ecosystem service assessment within a specific budget and timelines;
 
-* If you have specific standards requested by international and national reporting. We recommend you to follow the standards specified by the reporting.
+* If you have specific standards requested by international and national reporting, we recommend you to follow the standards specified by the reporting.
