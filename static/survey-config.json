@@ -658,7 +658,7 @@
               "text": "Yes"
             },
             {
-              "value": "yes",
+              "value": "no",
               "text": "No"
             },
             {
@@ -1321,7 +1321,7 @@
               "text": "Interrelationships bewteen ecosystem services and their benefits"
             }
           ]
-        }        
+        }
       ]
     },
     {
