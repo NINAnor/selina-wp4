@@ -7,7 +7,7 @@
 
 2. Have you had a look at our [Caveats and limitations](/caveats-limitations)? Maybe it's worth checking very briefly... This section is very short!
 
-3. Have you read the information we have about the key concepts of ecosystem service assessment? To maximise the support of our guidance, it is best to be aware of these key concepts so you understand them and know what features would best suit your assessment. And who knows, you might learn a thing or two?
+3. Have you read the information we have about the key [concepts behind ecosystem service assessments](/intro-es-concepts)? To maximise the support of our guidance, it is best to be aware of these key concepts so you understand them and know what features would best suit your assessment. And who knows, you might learn a thing or two?
 
 4. In our writing support for the creation of a Terms of Reference, we consistently use the following terms:
 
