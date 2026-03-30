@@ -114,8 +114,11 @@ Below, you will find answers to each of these questions. If you wish to know mor
 .. accordion:: Relevance
     All the concepts presented above are important to know because they are key design features of integrated ecosystem assessments in general. In particular, biophysical ecosystem service assessments are strengthened by adequately considering (i) spatial resolution and scaling, (ii) ecosystem condition, (iii) capacity, potential, supply-use of ecosystem services (iv) and uncertainty analysis and documentation. The integration of plural values in ecosystem assessments is strengthened by considering economic, social and health benefits[^10]. Figure 4 below illustrates that there are linkages between all these assessment design features.
 
-    ![Figure 4 - Interlinkages between main ecosystem service assessments design features](static/website_figure4.svg. "Figure 4 - Interlinkages between main ecosystem service assessments design features")
-
+    <figure>
+    <img src="static/website_figure4.svg" alt="Figure 4 - Interlinkages between main ecosystem service assessments design features.">
+    <figcaption><b>Figure 4 - Interlinkages between main ecosystem service assessments design features.</b></figcaption>
+    </figure>
+    
     The Terms of Reference templates displayed in this document guide commissioners to consider all these assessment design features. These concepts are not stand-alone features. Decisions on certain design features have implications for others. Managing these interdependencies in the design of ecosystem service assessments require some iterations between Terms of Reference templates and their associated questions to ensure consistency in the final Terms of Reference. The Terms of Reference templates hyperlinks allow commissioners to move back and forth between questions and concepts, facilitating reflections and adjustments.
 
 .. accordion:: Examples of interlinkages
