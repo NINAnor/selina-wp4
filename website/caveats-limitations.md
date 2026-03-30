@@ -15,6 +15,6 @@ Our writing guidance is very handy, user-friendly, and can accommodate a wide va
 
 * Our guidance does not provide with indication on how to set up a budget and timelines for an ecosystem service assessment;
 
-* Our guidance does not support you in defining an ecosystem service assessment within a specific budget and timelines.
+* Our guidance does not support you in defining an ecosystem service assessment within a specific budget and timelines;
 
 * If you have specific standards requested by international and national reporting. We recommend you to follow the standards specified by the reporting.
