@@ -1,5 +1,5 @@
 # Examples of Terms of References created with our writing guidance
-Below are six examples of study cases for which the Frame & Scope, Methodology and Evaluation Criteria sections of a Terms of Reference have been produced using our PDF templates. To see how these case studies have answered the PDF template sto create their Terms of Reference, refer to [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+Below are six examples of study cases for which the Frame & Scope, Methodology and Evaluation Criteria sections of a Terms of Reference have been produced using our PDF templates. To see how these case studies have answered the PDF templates to create their Terms of Reference, refer to [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
 
 ## 1. Assessing multiple ecosystems and their trade-offs: a Belgian case study
 .. join_accordion::

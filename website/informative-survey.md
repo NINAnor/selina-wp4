@@ -1,5 +1,5 @@
 # Survey FAQ
-This page gives more information on the questions asked in the online survey including addtitional explanations on the relevance of questions and examples of answers. The overall example taken to answer all of the questions is the [Belgian case study](/examples-tor#:~:text=Assessing%20multiple%20ecosystems%20and%20their%20trade%2Doffs%3A%20a%20Belgian%20case%20study) described in [Examples](/examples-tor)
+This page gives more information on the questions asked in the online survey including additional explanations on the relevance of questions and examples of answers. The overall example taken to answer all of the questions is the [Belgian case study](/examples-tor#:~:text=Assessing%20multiple%20ecosystems%20and%20their%20trade%2Doffs%3A%20a%20Belgian%20case%20study) described in [Examples].(/examples-tor)
 
 ## Frame & Scope survey questions
 ### Context and purpose
@@ -128,7 +128,7 @@ This page gives more information on the questions asked in the online survey inc
     - **A fully spatially explicit** ecosystem service assessment does not aggregate the results. It displays ecosystem types and services with fine-grained spatial detail. This is useful to capture fine-scale spatial patterns and interactions that influence ecosystem services, and to inform site-specific management actions or interventions.
     Use when you need detailed analyses that account for spatial heterogeneity and variability. Careful, it usually requires more time and resources and data availability may be a limiting factor.
 
-    - **An ecosystem service assessment aggregated at ecological scale(s)** means that results aggregate ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure. For example, forests can be grouped into deciduous and coniferous forests. This is useful to understand the supply of ecosystem services across natural boundaries (e.g., carbon sequestration in a forest ecosystem depends among others on the species composition ).
+    - **An ecosystem service assessment aggregated at ecological scale(s)** means that results aggregate ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure. For example, forests can be grouped into deciduous and coniferous forests. This is useful to understand the supply of ecosystem services across natural boundaries (e.g., carbon sequestration in a forest ecosystem depends among others on the species composition).
     Use when the natural boundaries of the ecosystem processes are more relevant than administrative divisions. Particularly useful for ecosystem service dependent on ecological units, such as hydrological services, nutrient cycling, or habitat connectivity.
 
 
@@ -160,7 +160,7 @@ This page gives more information on the questions asked in the online survey inc
 
 .. join_accordion::
 .. accordion:: Why is this question relevant to me?
-    As ecosystem services (supply, use, and demand) and their benefits vary across time, vary across time, it is important to clearly indicate the period of time the ecosystem service assessment needs to cover (e.g., 2020-2025). In a second step, it is also necessary to specify the temporal scale in which the results should be reported such as annual average, quarterly or monthly averages. An overall example would be an assessment conducted for the time period 2020-2025 with results broken down by quarters.
+    As ecosystem services (supply, use, and demand) and their benefits vary across time, it is important to clearly indicate the period of time the ecosystem service assessment needs to cover (e.g., 2020-2025). In a second step, it is also necessary to specify the temporal scale in which the results should be reported such as annual average, quarterly or monthly averages. An overall example would be an assessment conducted for the time period 2020-2025 with results broken down by quarters.
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
     Visit our advanced content on spatial and temporal characteristics in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
@@ -208,7 +208,7 @@ This page gives more information on the questions asked in the online survey inc
     - **The use of ecosystem services** refers to the measure in biophysical units of the utilisation or consumption of the service by users or those who benefit from the services (i.e., what quantity is being used?). It can be further valued in terms of other values such as their economic value in monetary units (i.e., how much does this use represent in the economy?). We recommend the use to be assessed and reported together with the supply.
 
     - **The demand for ecosystem services** is the measure in biophysical units of the need for specific ecosystem service(s) by society, particular stakeholder groups or individuals (i.e., what quantity of an ecosystem service is needed?). For instance, the area of pollination dependent crops is a way of assessing the need for pollination services by farmers. It can be further valued in terms of their economic value in monetary units (i.e., how much does this need represent in the economy?).
-    The demand may not be equal to the use, as needing ecosystem services doesn’t mean that they are supplied,  accessed and used. The assessment of ecosystem service(s) demand can be of interest in scenario analyses or and to identify areas with deficits of ecosystem service(s).
+    The demand may not be equal to the use, as needing ecosystem services doesn’t mean that they are supplied,  accessed and used. The assessment of ecosystem service(s) demand can be of interest in scenario analyses or to identify areas with deficits of ecosystem service(s).
 
 
 .. accordion:: Why is this question relevant to me?
@@ -260,7 +260,7 @@ This page gives more information on the questions asked in the online survey inc
 
     - the benefits of the assessment to health sciences, etc.
 
-    It is important to identify the specific dimensions of health to be included, and consider whether established approaches such as One Health may be useful; this will determine the kinds of data, metrics, indicators and stakeholders to be incorporated into the assessment process. Interlinkages between human health and the health of other biota and of ecosystems are well established and form the basis of the One Health approach; an assessment considering any one compartment in isolation may not provide a sufficiently robust output for some intended uses or users, so this question requires careful consideration
+    It is important to identify the specific dimensions of health to be included, and consider whether established approaches such as One Health may be useful; this will determine the kinds of data, metrics, indicators and stakeholders to be incorporated into the assessment process. Interlinkages between human health and the health of other biota and of ecosystems are well established and form the basis of the One Health approach; an assessment considering any one compartment in isolation may not provide a sufficiently robust output for some intended uses or users, so this question requires careful consideration.
 
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
@@ -277,7 +277,7 @@ This page gives more information on the questions asked in the online survey inc
 
 .. join_accordion::
 .. accordion:: Why is this question relevant to me?
-    Since the UN Convention of Biological Diversity was opened for signature in 1992, the conservation and sustainable use of biodiversity and the benefits it provides has been the central focus of nature policy in Europe and beyond. Looking at sustainability of supply and use of ecosystem services allows for long-term planning, putting in place adaptation and mitigation strategies.
+    Since the UN Convention of Biological Diversity was opened for signature in 1992, the conservation and sustainable use of biodiversity and the benefits it provides have been the central focus of nature policy in Europe and beyond. Looking at sustainability of supply and use of ecosystem services allows for long-term planning, putting in place adaptation and mitigation strategies.
 
     Conservation and sustainable use are critical as they link to ecosystem condition, ecosystem capacity and ecosystem service supply, which are relevant to all services.
 
@@ -362,7 +362,7 @@ This page gives more information on the questions asked in the online survey inc
 .. join_accordion::
     :close: true
 
-#### Is it anticipated that any stakeholder(s) will be involved at any stage of the ecosystem assessment process (e.g., assessment development, practice, review, reporting)?
+#### If key stakeholders have already been identified for direct involvement in the ecosystem service assessment: who are they and why have they been selected?
 
 .. join_accordion::
 
@@ -394,7 +394,7 @@ This page gives more information on the questions asked in the online survey inc
 
     - **Stated preference methods** use public surveys to ask beneficiaries to state their preferences for, generally hypothetical, changes in the provision of ecosystem services. These methods are widely applicable to value all ecosystem services but can suffer from bias due to survey design and the hypothetical nature of recorded preferences.
 
-    - **Market prices** are the prices of some ecosystem services can be obtained from markets or surveys of businesses and households. This approach is only applicable to ecosystem services that are traded in markets (e.g., extracted resources, carbon credits)
+    - **Market prices** are the prices of some ecosystem services can that be obtained from markets or surveys of businesses and households. This approach is only applicable to ecosystem services that are traded in markets (e.g., extracted resources, carbon credits).
 
     - **The replacement cost** estimates the value of an ecosystem services as the cost of replacing it with a human-made service. It is only applicable to ecosystem services that have human-made alternatives (e.g., coastal protection by seawalls, water supply by reservoirs).
 
@@ -484,16 +484,16 @@ This page gives more information on the questions asked in the online survey inc
 
     - **Index of general ecosystem condition**: This kind of index is an overarching measure of ecosystem condition. It is usually a combination of all or some of the indicators mentioned below. It is useful to give an overview of the condition of an ecosystem. It can also help in broad scale assessments of the linkages between levels of pressures and use, and trade-off analysis between ecosystem condition and ecosystem services.
 
-    - **Biotic indicators - Species**: Species condition indicators show how well species are doing in an ecosystem such as the size of the population, the reproductive success or their spatial distribution within the ecosystem. It can be very important to measure them to identify whether the level of use of ecosystem service exceeds the supply. For instance, species condition indicators based on  population recruitment will help determine whether harvest levels in fisheries and game are sustainable.
+    - **Biotic indicators - species**: Species condition indicators show how well species are doing in an ecosystem such as the size of the population, the reproductive success or their spatial distribution within the ecosystem. It can be very important to measure them to identify whether the level of use of ecosystem service exceeds the supply. For instance, species condition indicators based on  population recruitment will help determine whether harvest levels in fisheries and game are sustainable.
 
     - **Biotic indicators - structure**: Structural condition indicators show how well the physical structure of an ecosystem (i.e., whether a forest consists of tree, shrub and herb layers, and dead wood) is doing. For example, the amount of dead wood can inform on the supply of ecosystem services such as habitat provision for native biodiversity and vegetation cover on  soil retention and erosion control.
 
 
     - **Biotic indicators - function**: Functional condition indicators can inform about the level of specific ecological functions and processes of an ecosystem. These indicators are based on identifying and grouping species with similar ecological functional characteristics. For example, pollinators, organic matter decomposers, and herbivores. Diversity of functional groups is related to ecosystems’ multifunctionality, and the potential supply of multiple ecosystem services. Diversity within functional groups can ensure ecosystem resilience, which is key in facilitating sustainable supply of ecosystem services.
 
-    - **Abiotic - Physical indicators**: Abiotic physical condition indicators show levels of non-living physical components of an ecosystem such as the pH of the soil, or the salinity and temperature of water.  If affected, they can have an impact on the supply of ecosystem services. Abiotic physical indicators include for instance, the levels of the water table of wetlands and the water holding capacity of the soil. If these levels change, this will result in an impact on ecosystem services provided by wetlands including  changes in carbon storage and resilience to drought spells of croplands, respectively.
+    - **Abiotic - physical indicators**: Abiotic physical condition indicators show levels of non-living physical components of an ecosystem such as the pH of the soil, or the salinity and temperature of water.  If affected, they can have an impact on the supply of ecosystem services. Abiotic physical indicators include for instance, the levels of the water table of wetlands and the water holding capacity of the soil. If these levels change, this will result in an impact on ecosystem services provided by wetlands including  changes in carbon storage and resilience to drought spells of croplands, respectively.
 
-    - **Abiotic - Chemical indicators**: Abiotic chemical condition indicators show the chemical properties in water, soil and air of an ecosystem. Examples are levels of nitrates in soil and water  through the addition of fertilizers, or particulate matters in the air through pollution.  Changes in the chemical properties of an ecosystem impact the supply of their services such as habitat provision for biodiversity. These indicators can help with identifying areas with chemical imbalances to be addressed, or target areas for depollution.
+    - **Abiotic - chemical indicators**: Abiotic chemical condition indicators show the chemical properties in water, soil and air of an ecosystem. Examples are levels of nitrates in soil and water through the addition of fertilizers, or particulate matter in the air through pollution.  Changes in the chemical properties of an ecosystem impact the supply of their services such as habitat provision for biodiversity. These indicators can help with identifying areas with chemical imbalances to be addressed, or target areas for depollution.
 
 
     - **Landscape-level characteristics**: Landscape condition indicators help assess how an ecosystem is physically organised in space. They help with identifying whether ecosystems are fragmented in space, or support a good connectivity allowing species to move between different patches. This is notably critical to ensure the supply of ecosystem services such as habitat provision for biodiversity. These indicators are particularly helpful to guide landscape level land-use planning, conservation and restoration.
@@ -504,7 +504,7 @@ This page gives more information on the questions asked in the online survey inc
 
     To summarise several indicators, they can be assembled in so-called indices. These indices are composite measures representing the overall state or condition of an ecosystem. Indices are particularly useful when  the purpose is to assess how the general ecosystem condition state relates to the levels of supply of ecosystem service(s).
 
-    ndicators and indices can be compared to values in  a reference state of condition. Such comparisons help provide a general overview of how the properties of an ecosystem have evolved compared to a known reference state, thus indicating an increase or a decrease. These comparisons are useful to, for example, assess the general need for ecosystem restoration or to measure the effect of restoration actions.
+    Indicators and indices can be compared to values in  a reference state of condition. Such comparisons help provide a general overview of how the properties of an ecosystem have evolved compared to a known reference state, thus indicating an increase or a decrease. These comparisons are useful to, for example, assess the general need for ecosystem restoration or to measure the effect of restoration actions.
 
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
@@ -584,7 +584,7 @@ This page gives more information on the questions asked in the online survey inc
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?
-    The relationships between ecosystems and health can be highly dependent upon prevailing social and cultural contexts, traditions, worldviews or experiences. Understanding diverse perceptions ensures that the assessment results better account for community values and cultural priorities, and can add important detail to the assessment of health risks, benefits or outcomes. it is also key to ensuring that assessments of health-relevant ecosystem services address issues of health equity, and can also help avoid or resolve conflicts by revealing  broader contexts and  balancing competing interests.
+    The relationships between ecosystems and health can be highly dependent upon prevailing social and cultural contexts, traditions, worldviews or experiences. Understanding diverse perceptions ensures that the assessment results better account for community values and cultural priorities, and can add important detail to the assessment of health risks, benefits or outcomes. It is also key to ensuring that assessments of health-relevant ecosystem services address issues of health equity, and can also help avoid or resolve conflicts by revealing  broader contexts and  balancing competing interests.
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
     Visit our advanced content on health benefits in [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
@@ -718,7 +718,7 @@ This page gives more information on the questions asked in the online survey inc
 .. accordion:: Why is this question relevant to me?
     If you are interested in spatial variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a>
 
-    If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+    If you are interested in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
     If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
@@ -730,9 +730,9 @@ This page gives more information on the questions asked in the online survey inc
 .. accordion:: Give me an example answer
     If you are interested in spatial variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a>
 
-    If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+    If you are interested in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
-    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+    If you are interested in both temporal and spatial variations of ecosystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
 .. join_accordion::
     :close: true
@@ -746,7 +746,7 @@ This page gives more information on the questions asked in the online survey inc
 
     If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
-    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+    If you are interested in both temporal and spatial variations of ecosystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
 
 .. accordion:: Where can I find more questions to be more detailed in my Terms of Reference?
@@ -758,7 +758,7 @@ This page gives more information on the questions asked in the online survey inc
 
     If you are netersted in temporal variations of ecosystem services only, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
-    If you are interested in both temporal and spatial variations of ecisystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
+    If you are interested in both temporal and spatial variations of ecosystem services, go to: <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20vary%20across%20the%20space%3F,-Why%20is%20this">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide vary across the space?</a> and <a href="/informative-survey#:~:text=Should%20the%20ecosystem%20service%20assessment%20evaluate%20how%20the%20distribution%20of%20ecosystem%20service(s)%20and%20the%20benefits%20they%20provide%20change%20over%20time%3F">Should the ecosystem service assessment evaluate how the distribution of ecosystem service(s) and the benefits they provide change over time?</a>
 
 .. join_accordion::
     :close: true
@@ -930,7 +930,7 @@ This page gives more information on the questions asked in the online survey inc
 
     - **Validation of the results**:
 
-        - <u>Consult / participate</u>: stakeholders with specific and different source of expertise may be a strong support for validating the results of the an assessment. This gives more credibility and legitimacy to the results. It also ensures that they are understood by future potential users and compliant with their use(s).
+        - <u>Consult / participate</u>: stakeholders with specific and different source of expertise may be a strong support for validating the results of the assessment. This gives more credibility and legitimacy to the results. It also ensures that they are understood by future potential users and compliant with their use(s).
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
 
@@ -946,11 +946,11 @@ This page gives more information on the questions asked in the online survey inc
 
         - <u>Inform</u>: provide updates and transparency on the progress of the assessment.
 
-    - **Communication and dissemination of the results*:
+    - **Communication and dissemination of the results**:
 
         - <u>Consult / participate</u>: stakeholders can directly participate in the co-creation and dissemination of the key messages from the results of the assessment. Alternatively, they can also be used as channels of dissemination and communication of the results to a larger audience.
 
-        - <u>Inform</u>: support a communication that directly speaks to stakeholders, hwich in turn can help with a potential uptake of the results of the assessment.
+        - <u>Inform</u>: support a communication that directly speaks to stakeholders, which in turn can help with a potential uptake of the results of the assessment.
 
 .. accordion:: Why is this question relevant to me?
     Stakeholder involvement provides legitimacy to the assessment process, it also ensures that results are communicated properly and that everyone impacted by the assessment is being included. Finally, it facilitates continuous feedback on methods, results and data used, which participates in the validation of the assessment.
@@ -976,7 +976,7 @@ This page gives more information on the questions asked in the online survey inc
 
     - **Newsletters or email updates**: This format is very relevant to inform the stakeholders on the progress of the assessment.
 
-    - **Websites**: This format is very relevant to inform the stakeholders on the progress of the assessment, the events to come, or the communicating and disseminating the results.
+    - **Websites**: This format is very relevant to inform the stakeholders on the progress of the assessment, the events to come, or the communication and dissemination the results.
 
     - **Webinars**: This format facilitates direct communication and interaction with stakeholders. It helps inform stakeholders on the progress of the assessment, the events to come, or communicating and disseminating results.
 

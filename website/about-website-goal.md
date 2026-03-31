@@ -5,6 +5,6 @@ The primary goal of this website is to provide you with all the support you need
 
 -	the <b>Methodology</b> section focused on detailing the technical characteristics and overall methodological process of the ecosystem service assessment; 
 
--	the <b>Evaluation Criteria</b> section whose goal is to precise the criteria according to which an ecosystem service assessment will be assessed by a commissioner. 
+-	the <b>Evaluation Criteria</b> section whose goal is to precise the criteria according to which a proposal from a contractor will be assessed by a commissioner. 
 
-In addition to the support available in writing these sections, this website also provides more general information about general basic concepts on ecosystem services and the commissioning process.
+In addition to the support available in writing these sections, this website also provides more general information about basic concepts on ecosystem services and the commissioning process.
