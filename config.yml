@@ -8,15 +8,15 @@ nav:
         link: /about-website
       - name: What is the goal of this website?
         link: /about-website-goal
-      - name: What is SELINA?
+      - name: What is SELINA about?
         link: /about-selina
   - name: Our guidance and associated concepts
     link: /
     children:
       - name: Our writing guidance
         link: /intro-writing-guidance
-      - name: Commissionning with our guidance
-        link: /intro-commissionning
+      - name: Commissioning with our guidance
+        link: /intro-commissioning
       - name: Concepts behind ecosystem service assessments
         link: /intro-es-concepts
   - name: Create your Terms of Reference
