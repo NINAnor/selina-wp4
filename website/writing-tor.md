@@ -20,7 +20,10 @@
 ## How would like to create your Terms of Reference?
 You have two options to create your Terms of Reference:
 
-1. Take our [online survey](/survey) to automatically generate your Terms of Reference. Due to resources constraints though, this survey only covers the most important sections of the Frame & Scope template and excludes Evaluation Criteria template. But it covers entirely our Methodology template!
+1. Take our [online survey](/survey) to automatically generate your Terms of Reference as a Word document. Due to resource constraints though, this Terms of Reference does not include:
+
+    * the detailed description of the expected outputs and their format. So your Terms of Reference will have this section empty.
+    * the evaluation criteria section. For that, we recommend you to refer to our PDF template described in option 2 below, it has a very nice checklist you can use!
 
 2. Use [PDF templates](/static/SELINA_ToR_pdf_templates.pdf). This gives you more control but also requires more effort. To better understand how these templates work, they can be described as follows:
 
