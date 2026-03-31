@@ -8,7 +8,7 @@ nav:
         link: /about-website
       - name: What is the goal of this website?
         link: /about-website-goal
-      - name: What is EU SELINA project?
+      - name: What is SELINA project?
         link: /about-selina
   - name: Our guidance and associated concepts
     link: /
@@ -25,7 +25,7 @@ nav:
         link: /writing-tor
       - name: Start writing your Terms of Reference
         link: /survey
-      - name: Survey FAQ
+      - name: Additional information
         link: /informative-survey
   - name: Examples
     link: /examples-tor
