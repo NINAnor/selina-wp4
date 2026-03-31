@@ -48,5 +48,10 @@
     background-image: url('/static/hero.webp');
     background-position: center center;
     background-size: cover;
-    height: calc(100vh - (var(--spacing) * 24) - 1rem);
+    height: calc(100dvh - (var(--spacing) * 24) - 1rem);
+}
+
+.prose table {
+    display: block;
+    overflow-x: auto;
 }

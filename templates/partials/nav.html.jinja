@@ -1,21 +1,44 @@
 <div class="bg-base-100 shadow-sm px-5 z-10">
-        <div class="navbar justify-between">
-            <a class="" href="/">
-                <img src="/static/logo.svg" alt="{{ CONFIG['title'] }}" class="h-24" />
-            </a>
-            <div class="flex align-items-center">
-                <ul class="menu menu-horizontal px-1">
-                    {% for e in CONFIG['nav'] %}
-                        {% with item=e, depth=0 %}
-                        {% include 'partials/nav-item.html.jinja'  %}
-                        {% endwith %}
-                    {% endfor %}
-                    {% if MODE == 'dev' %}
-                    {% with item={'name': 'Last submission', 'link': '/survey-debug'}, depth=0 %}
-                    {% include 'partials/nav-item.html.jinja'  %}
+    <div class="navbar justify-between">
+        <a class="" href="/">
+            <img src="/static/logo.svg" alt="{{ CONFIG['title'] }}" class="h-12 md:h-24" />
+        </a>
+
+        <!-- Desktop menu: visible on lg and above -->
+        <div class="hidden lg:flex items-center">
+            <ul class="menu menu-horizontal px-1">
+                {% for e in CONFIG['nav'] %}
+                    {% with item=e, depth=0 %}
+                    {% include 'partials/nav-item.html.jinja' %}
                     {% endwith %}
-                    {% endif %}
-                </ul>
-            </div>
+                {% endfor %}
+                {% if MODE == 'dev' %}
+                {% with item={'name': 'Last submission', 'link': '/survey-debug'}, depth=0 %}
+                {% include 'partials/nav-item.html.jinja' %}
+                {% endwith %}
+                {% endif %}
+            </ul>
+        </div>
+
+        <!-- Mobile hamburger: visible below lg -->
+        <div class="dropdown dropdown-end lg:hidden">
+            <button tabindex="0" class="btn btn-ghost btn-square" aria-label="Open navigation menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-10 w-72 max-w-[calc(100vw-2rem)] shadow-lg p-2 mt-2">
+                {% for e in CONFIG['nav'] %}
+                    {% with item=e, depth=1 %}
+                    {% include 'partials/nav-item.html.jinja' %}
+                    {% endwith %}
+                {% endfor %}
+                {% if MODE == 'dev' %}
+                {% with item={'name': 'Last submission', 'link': '/survey-debug'}, depth=1 %}
+                {% include 'partials/nav-item.html.jinja' %}
+                {% endwith %}
+                {% endif %}
+            </ul>
         </div>
     </div>
+</div>
