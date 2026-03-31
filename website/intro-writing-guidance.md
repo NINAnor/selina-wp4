@@ -1,17 +1,10 @@
 # What does our writing support look like?
-Our guidance supports you in the writing of a Terms of Reference for a call for tender to commission an ecosystem service assessment. It is based on a series of three PDF templates, one for each Terms of Reference section that we identified as the most challenging: Frame & Scope, Methodology, and Evaluation Criteria. 
-
-* The <b><u>Frame & Scope, and Methodology templates</u></b> are formatted as lists of questions that the commissioners can answer. Each question is associated to descriptions and examples to facilitate comprehension, as well as preformatted text to help build a Terms of Reference. This text can be directly copy-pasted and refined by the commissioners to better fit their context. 
-
-* The <b><u>Evaluation Criteria template</u></b> presents a series of tables with evaluation criteria that the commissionners can choose from. As previously, preformatted text is available. This template also support very nicely the evaluation of proposals by highlighting the alignement between the criteria the commissionners chose and the ones displayed in the proposals.
-
-We recommend these templates to be used chronologically as Frame & Scope, then Methodology, and finally Evaluation Criteria. The next section [Commissioning an ecosystem service assessment with our guidance](/intro-commissionning) details why this is important.
+Our guidance supports you in the writing of a Terms of Reference for a call for tender to commission an ecosystem service assessment. It is based on a series of three templates, one for each Terms of Reference section that we identified as the most challenging: Frame & Scope, Methodology, and Evaluation Criteria. 
 
 This website operationalise these templates in two ways:
 
-1. Take an [online survey](/survey) that autmatically generates your Terms of Reference based on your answers!
+1. An online survey that autmatically generates your Terms of Reference based on your answers!
 
-2. If you prefer having more control, just use our [PDF templates](/static/SELINA_ToR_pdf_templates.pdf) and amend the available preformatted text to write your Terms fo Reference yourself :)
+2. PDF templates if you prefer having more control. With them, you write your Terms of Reference yourself through a series of questions and can choose to use, amend or discard some text that we preformatted for you. 
 
-Choose the option that suits you the most in [Create your Terms of Reference](/writing-tor).
-
+Discover more by going to [Create your Terms of Reference](/writing-tor).
