@@ -1839,5 +1839,7 @@
   ],
   "showPreviewBeforeComplete": true,
   "previewMode": "answeredQuestions",
-  "headerView": "advanced"
+  "headerView": "advanced",
+  "showProgressBar": "both",
+  "progressBarType": "pages"
 }
