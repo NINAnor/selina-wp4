@@ -3,7 +3,7 @@ You want to know more about ecosystem services?
 
 Are you curious about what people mean when talking about "ecosystem service assessment"?
 
-Do you need to hire an external contract to do an ecosystem service assessment but don't know where to start?
+Do you need to hire an external contractor to do an ecosystem service assessment but don't know where to start?
 
 Are you scoping for the needs of your own ecosystem services assessment?
 
