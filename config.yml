@@ -10,7 +10,7 @@ nav:
         link: /about-website-goal
       - name: What is EU SELINA project?
         link: /about-selina
-  - name: Learn more about
+  - name: Our guidance and associated concepts
     link: /
     children:
       - name: Our writing guidance
@@ -23,7 +23,7 @@ nav:
     children:
       - name: Read me first
         link: /writing-tor
-      - name: Survey
+      - name: Start writing your Terms of Reference
         link: /survey
       - name: Survey FAQ
         link: /informative-survey
@@ -36,7 +36,7 @@ home:
   title: Understand what you need, to get what you want 
   subtitle: Welcome to your discovery of ecosystem service assessment, a clear guide to write a tender tailored to your needs. 
   cta_text: Start creating your Terms fo Reference now!
-  cta_url: /survey
+  cta_url: /writing-tor
 
 footer:
   text: SELINA receives funding from the European Union's Horizon Europe research and innovation programme under grant agreement No 101060415. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission. Neither the EU nor the EC can be held responsible for them.
