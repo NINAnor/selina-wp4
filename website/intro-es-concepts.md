@@ -7,7 +7,7 @@ Let's begin your journey in the concepts underlying ecosystem service assessment
 4. What do we mean by uncertainty of the results and why should it be quantified?
 5. How do all the above concepts influence each other?
 
-Below, you will find answers to each of these questions. If you wish to know more about them, we recommend you to go through the advanced material of [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
+Below, you will find answers to each of these questions. We know it's a lot of content so maybe **start by picking one question** and come back later for more! After reading everything and becoming an expert, you can always learn more about these concepts by exploring the advanced material of [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
 
 ## 1. What do we measure in an ecosystem service and why are ecosystem condition and capacity relevant for this?
 .. join_accordion::
