@@ -23,7 +23,7 @@ nav:
     children:
       - name: Read me first
         link: /writing-tor
-      - name: Start writing your Terms of Reference
+      - name: Write your Terms of Reference with our online survey
         link: /survey
       - name: Additional information
         link: /informative-survey
