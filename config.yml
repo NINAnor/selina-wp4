@@ -4,8 +4,6 @@ nav:
     link: /
   - name: About
     children:
-      - name: Is this website for you?
-        link: /about-website
       - name: What is the goal of this website?
         link: /about-website-goal
       - name: What is SELINA about?
@@ -35,8 +33,22 @@ nav:
 home:
   title: Understand what you need, to get what you want
   subtitle: Welcome to your discovery of ecosystem service assessment, a clear guide to write a tender tailored to your needs.
-  cta_text: Start creating your Terms fo Reference now!
+  cta_text: Read Me First
   cta_url: /writing-tor
+
+who_is_this_for:
+  title: "Is this website for you?"
+  closing: "Then this website is for you!"
+  cards:
+    - icon: "fa-solid fa-lightbulb"
+      heading: "New to the topic?"
+      description: "Want to know more about ecosystem services, or curious about what \"ecosystem service assessment\" actually means?"
+    - icon: "fa-solid fa-clipboard-list"
+      heading: "Commissioning an assessment?"
+      description: "Hiring a contractor, writing a tender, or evaluating proposals for an ecosystem service assessment?"
+    - icon: "fa-solid fa-magnifying-glass"
+      heading: "Doing your own assessment?"
+      description: "Scoping the needs of your assessment or planning to carry it out yourself?"
 
 footer:
   text: SELINA receives funding from the European Union's Horizon Europe research and innovation programme under grant agreement No 101060415. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission. Neither the EU nor the EC can be held responsible for them.

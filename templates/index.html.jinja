@@ -1,5 +1,9 @@
 {% extends "base.html.jinja" %}
 
+{% block head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
+{% endblock %}
+
 {% block content %}
 <section id="hero" class="pt-5">
     <div class="flex justify-center items-center h-full">
@@ -12,6 +16,25 @@
                 </a>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="who-is-this-for" class="py-16 bg-base-100">
+    <div class="max-w-screen-xl mx-auto px-4 lg:px-12 text-center">
+        <h2 class="text-3xl font-bold mb-12">{{ CONFIG.who_is_this_for.title }}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {% for card in CONFIG.who_is_this_for.cards %}
+            <div class="card bg-base-200 shadow-sm">
+                <div class="card-body items-center text-center">
+                    <i class="{{ card.icon }} fa-3x text-primary mb-4"></i>
+                    <h3 class="card-title">{{ card.heading }}</h3>
+                    <p>{{ card.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="mt-12 text-xl font-semibold">{{ CONFIG.who_is_this_for.closing }}</p>
+        <a href="{{ CONFIG.home.cta_url }}" class="btn btn-accent mt-4">{{ CONFIG.home.cta_text }}</a>
     </div>
 </section>
 
