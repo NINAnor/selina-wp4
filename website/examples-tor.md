@@ -5,25 +5,25 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 .. join_accordion::
 
 .. accordion:: Description of the case
-    The National Park Mainland is a 5,000 ha large nature area in the east of Belgium. It connects three municipalities and consists mainly of forests, heathland, grasslands, inland dunes and brook valleys. It maintains a rich and rare biodiversity and also offers large recreational opportunities for all ages. 
+    The National Park Mainland is a 5,000 ha large nature area in the east of Belgium. It connects three municipalities and consists mainly of forests, heathland, grasslands, inland dunes and brook valleys. It maintains a rich and rare biodiversity and also offers large recreational opportunities for all ages.
 
-    In 2023 it became a National Park. For this nomination, the nature area needed a long-term Masterplan and an Operational plan for the next six years. To assess the progress towards the goals outlined in the Masterplan, an ecosystem assessment was set up, mapping stakeholders, land use, ecosystem condition, and ecosystem services. 
+    In 2023 it became a National Park. For this nomination, the nature area needed a long-term Masterplan and an Operational plan for the next six years. To assess the progress towards the goals outlined in the Masterplan, an ecosystem assessment was set up, mapping stakeholders, land use, ecosystem condition, and ecosystem services.
 
     In the templates, we answer the questions as if a tender for carrying out this ecosystem assessment was sent out by the managing authority, namely the Agency of Nature and Forest in Flanders. We particularly focus on the ecosystem service assessment. The overall request is to assess a bundle of ecosystem services and to also take into account trade-offs between them.
 
 .. accordion:: Terms of Reference - Frame & Scope
 
     **1. Context and purpose of the assessment** \
-    The National Park Mainland is a 5,000 ha large nature area in the east of Belgium. It connects three municipalities and consists mainly of forests, heathland, grasslands, inland dunes and brook valleys. It maintains a rich and rare biodiversity and also offers large recreational opportunities for all ages. In 2023 it became a National Park. A long-term Masterplan and an Operational plan for the next 6 years were developed. 
+    The National Park Mainland is a 5,000 ha large nature area in the east of Belgium. It connects three municipalities and consists mainly of forests, heathland, grasslands, inland dunes and brook valleys. It maintains a rich and rare biodiversity and also offers large recreational opportunities for all ages. In 2023 it became a National Park. A long-term Masterplan and an Operational plan for the next 6 years were developed.
 
-    The primary objective is to measure the progress towards the goals of the Masterplan and report this to the National Park Bureau. In addition, it also demonstrates the importance of the National Park label for nature restoration and the local community. 
-    
-    Relevant policies to be considered in this assessment include the criteria set to assess the National Parks set by the National Park Bureau and the EU Nature Restoration Regulation with particular attention to the Flemish Nature restoration plan (expected 2026). 
+    The primary objective is to measure the progress towards the goals of the Masterplan and report this to the National Park Bureau. In addition, it also demonstrates the importance of the National Park label for nature restoration and the local community.
+
+    Relevant policies to be considered in this assessment include the criteria set to assess the National Parks set by the National Park Bureau and the EU Nature Restoration Regulation with particular attention to the Flemish Nature restoration plan (expected 2026).
 
     **2. Intended impacts and outputs**\
     The results of this assessment will be primarily used by the commissioner: i) to monitor and evaluate the success of restoration of ecosystems in National Park Mainland, ii) to report the benefits of these measures to The National Park Bureau, stakeholders, and the public.
 
-    Results will also be made available and usable for partners within the National Park Mainland strategic board. It is anticipated that these parties will primarily use the direct outputs of the assessment as a communication tool showing the value of nature for society and underpin the restoration measures taken. The approach and methodology may be used by other National Parks. 
+    Results will also be made available and usable for partners within the National Park Mainland strategic board. It is anticipated that these parties will primarily use the direct outputs of the assessment as a communication tool showing the value of nature for society and underpin the restoration measures taken. The approach and methodology may be used by other National Parks.
 
     Although recommendations for further governance of the National Park are not explicitly requested, outputs of the ecosystem service assessment are expected to directly impact the operational Plan of National Park Mainland.  The results of the ecosystem assessment will underline the importance of nature into the socio-economic fabric of the municipalities and will inform local budget and policy decisions on conservation measures.  Beyond the direct impacts mentioned above, the outcomes of this assessment should also affect public awareness, fostering community support for further actions.
 
@@ -35,7 +35,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     - Grassland
     - Heathland
     - Inland wetland
-    - Sparsely vegetated areas/land dunes 
+    - Sparsely vegetated areas/land dunes
 
     Inherent to the ecosystem service approach it is best to assess the total bundle of ecosystem services relevant for National Park Mainland. The relevance will be defined together with different stakeholders in the area. Their definition can be found in CICES.
 
@@ -44,13 +44,13 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     <u>Geographical and temporal scale</u>\
     The ecosystem service assessment is to be conducted in the geographical location and local scale of the National Park Mainland. If possible regional scale for ecosystems such as flood protection.
 
-    Within the geographical and spatial extent of this ecosystem service assessment, the results should be presented as spatially explicit as possible within the context of available data. The assessment should be conducted over the years 2024-2030. Results should be reported for each year within this time period, so the temporal variations in the level of supply of the ecosystem services and related benefits could be evaluated. 
+    Within the geographical and spatial extent of this ecosystem service assessment, the results should be presented as spatially explicit as possible within the context of available data. The assessment should be conducted over the years 2024-2030. Results should be reported for each year within this time period, so the temporal variations in the level of supply of the ecosystem services and related benefits could be evaluated.
 
     <u>Biophysical an monetary value</u>\
-    The ecosystem service assessment should measure ecosystem service in biophysical and where possible monetary terms. Supply and use should be measured. The demand is not necessarily requested but could be interesting to know for certain ecosystem services such as pollination and recreation to detect deficits. The assessment needs to measure all relevant ecosystem services qualitatively and where data is available quantitatively. 
+    The ecosystem service assessment should measure ecosystem service in biophysical and where possible monetary terms. Supply and use should be measured. The demand is not necessarily requested but could be interesting to know for certain ecosystem services such as pollination and recreation to detect deficits. The assessment needs to measure all relevant ecosystem services qualitatively and where data is available quantitatively.
 
     <u>Social and health values</u>\
-    The ecosystem service assessment should measure the social values. It will also consider the value of ecosystem services in terms of their relevance to human health using relevant metrics, especially health benefits and risks of contact with nature.  If data are available health outcomes could be included. Forest health will be measured through the forest condition assessment that will be included in this assessment. 
+    The ecosystem service assessment should measure the social values. It will also consider the value of ecosystem services in terms of their relevance to human health using relevant metrics, especially health benefits and risks of contact with nature.  If data are available health outcomes could be included. Forest health will be measured through the forest condition assessment that will be included in this assessment.
 
     <u>Sustainability and ecosystem condition</u>\
     he ecosystem service assessment should include an evaluation of the condition of forest ecosystems. It should include analyses to highlight and understand the influence of this ecosystem condition on the supply of the ecosystem service(s) of interest. In their proposal, the contractor will clearly describe and justify the methodology that will be used.  The evaluation of ecosystem condition in this assessment should encompass the following aspects: a general index of ecosystem condition, biotic indicators (species, structure, function), abiotic indicators (physical and chemical), and landscape-level characteristics. The assessment shall identify and evaluate sustainable use levels for the ecosystem services wood production, and recreation.
@@ -59,7 +59,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     The assessment should evaluate the spatial variation in the condition of the ecosystems and the supply levels of carbon sequestration services over the spatial extent, scales, time period and temporal scale considered in this assessment. Results should provide recommendations for maintaining and / or enhancing the supply of the ecosystem services of interest without negatively affecting ecosystem condition.
 
     <u>Scenarios</u>\
-    The ecosystem service assessment should include a scenario analysis to measure the impact of the restoration measures. Scenarios that should be considered are: Land use and land cover changes following the operational plan. 
+    The ecosystem service assessment should include a scenario analysis to measure the impact of the restoration measures. Scenarios that should be considered are: Land use and land cover changes following the operational plan.
 
     The specific deliverables required in this assessment are:
     - An executive summary designed for informing national and local policymakers.
@@ -71,7 +71,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     <b><u>4. Stakeholder engagement</u></b> \
     Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project.
 
-    Key stakeholders who could be involved are the three municipalities on which National Park Mainland lays, Nature organisations and farmers should be involved.  It will enhance the integration of local knowledge and legitimacy of the results. Other scientists doing research in National Park Mainland should also be involved in order to exchange data and validate results of the assessment. 
+    Key stakeholders who could be involved are the three municipalities on which National Park Mainland lays, Nature organisations and farmers should be involved.  It will enhance the integration of local knowledge and legitimacy of the results. Other scientists doing research in National Park Mainland should also be involved in order to exchange data and validate results of the assessment.
 
 
 .. accordion:: Terms of Reference - Methodology
@@ -80,8 +80,8 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     <u>Valuation</u>\
     The study should design and apply value transfer methods to estimate the economic value of each identified ecosystem service. Transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and/or the use of published value transfer functions.
 
-    The ecosystem service assessment should also measure the contribution of the ecosystem service(s) of interest to the economic development of the area of interest. Particular economic indicators of interest are impacts on the recreation sector and local employment. 
-    The ecosystem service assessment should report the attitudes, perceptions, and values of social groups toward the ecosystem service(s) of interest. The results should lead to deliver actionable insights based on stakeholder preference. 
+    The ecosystem service assessment should also measure the contribution of the ecosystem service(s) of interest to the economic development of the area of interest. Particular economic indicators of interest are impacts on the recreation sector and local employment.
+    The ecosystem service assessment should report the attitudes, perceptions, and values of social groups toward the ecosystem service(s) of interest. The results should lead to deliver actionable insights based on stakeholder preference.
 
     <u>Ecosystem condition</u>\
     It should include analyses to highlight and understand the influence of the ecosystem condition on the supply of the ecosystem service(s) of interest. In their proposal, the contractor will clearly describe and justify the methodology that will be used.  The evaluation of ecosystem condition in this assessment should encompass the following aspects: biotic indicators (species, structure, function), abiotic indicators (physical and chemical), and landscape-level characteristics. These will be combined in a general index of ecosystem condition
@@ -93,7 +93,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     The ecosystem services assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out both internally to the contractor’s organisation, and involved third parties such as stakeholders. The validation process of the ecosystem services assessment should notably include a comparison of the results with other key published data including studies done in National Park Mainland.
 
     **4. Stakeholder engagement** \
-    Stakeholders are expected to be involved in different stages of the ecosystem service assessment including identification of relevant ecosystem services, valuing certain ecosystem services, validation and communication of the results. This can be done through the existing advisory board, scientific expert group and focus groups. 
+    Stakeholders are expected to be involved in different stages of the ecosystem service assessment including identification of relevant ecosystem services, valuing certain ecosystem services, validation and communication of the results. This can be done through the existing advisory board, scientific expert group and focus groups.
 
 .. accordion:: Terms of Reference - Evaluation Criteria
     **1. Frame & Scope**\
@@ -116,7 +116,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     - Quantify indicators of the contribution of ecosystem service(s) to economic development;
     - The approach taken to document and report uncertainties in relation to decision-making, modelling and scenarios if applicable;
     - The approach taken to validate the methodology and results of the ecosystems service assessment;
-    - The approach taken and timeline to inform, consult and involve stakeholders throughout the ecosystem service assessment. The foreseen ways of engaging with the stakeholders and  the relevant stakeholders in alignment with the scope of the assessment, will be assessed in the stakeholder analysis. 
+    - The approach taken and timeline to inform, consult and involve stakeholders throughout the ecosystem service assessment. The foreseen ways of engaging with the stakeholders and  the relevant stakeholders in alignment with the scope of the assessment, will be assessed in the stakeholder analysis.
 
 
 
@@ -162,10 +162,10 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     <u>Spatial and temporal characteristics</u> \
     The ecosystem service assessment is to be conducted in Spain at the national level. Within the geographical and spatial extent of this ecosystem service assessment, the results should be presented as fully spatially explicit and aggregated at the administrative scale of Autonomous Communities.
-    The ecosystem service assessment should be conducted using the most recent available data. The results should be reported on an annual basis if possible and should measure ecosystem service in biophysical terms. 
+    The ecosystem service assessment should be conducted using the most recent available data. The results should be reported on an annual basis if possible and should measure ecosystem service in biophysical terms.
 
     <u>Ecosystem modeling characteristics and valuation of services</u> \
-    The ecosystem service assessment should measure the supply of the ecosystem service carbon sequestration using relevant metrics. The assessment should also evaluate which ecosystem condition characteristics would need to be maintained to enable the sustainable supply of this service, to ensure long-term provision and to inform conservation priorities. It should also include a separate  evaluation of the condition of the ecosystem(s) providing the service of interest.  
+    The ecosystem service assessment should measure the supply of the ecosystem service carbon sequestration using relevant metrics. The assessment should also evaluate which ecosystem condition characteristics would need to be maintained to enable the sustainable supply of this service, to ensure long-term provision and to inform conservation priorities. It should also include a separate  evaluation of the condition of the ecosystem(s) providing the service of interest.
     The results of the assessment will be presented as (i) maps of carbon sequestration capacity and condition of forest across Spain, (ii) tables summarising forest carbon sequestration and condition metrics nationally and by region.
 
 
@@ -195,7 +195,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     **1. Frame & Scope**\
     The proposals sent by the applicants will be evaluated according to its respect of the frame & scope defined in the call, as well as the approach(es) chosen to include the criteria of importance. In particular, high importance will be given to:
 
-    - The inclusion of actionable recommendations for decision-making and policy planning; 
+    - The inclusion of actionable recommendations for decision-making and policy planning;
     - The alignment with the specified ecosystem type (forests) and ecosystem service (carbon sequestration);
     - The correspondence with the national geographic scope and administrative scale (Autonomous Communities);
     - The use of biophysical metrics to quantify carbon sequestration;
@@ -245,7 +245,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     Results should also be made available and usable by EU funders (e.g. LIFE program), local municipalities (Anthering, Weitwörth) and Universities. These parties are expected to primarily use the direct outputs of the assessment as for informing spatial planning and flood risk reduction strategies, as well as for advancing the scientific knowledge about floodplain restoration and its link to hydrological ecosystem service supply.
 
     <u>Intended impacts of the assessment</u> \
-    Outputs of the ecosystem service assessment are intended to directly impact the Department for Nature and Environmental Protection of the Federal State of Salzburg about the impacts (positive / negative) of the restoration measures that have been conducted in the area. 
+    Outputs of the ecosystem service assessment are intended to directly impact the Department for Nature and Environmental Protection of the Federal State of Salzburg about the impacts (positive / negative) of the restoration measures that have been conducted in the area.
 
     The outputs of the ecosystem service assessment are also expected to bring insights to: local spatial planning policy-makers by integrating the benefits of restored floodplain ecosystems into development plans; to regional policy-makers by standardizing hydrological ecosystem services mapping and assessment methods for other floodplain areas in Salzburg, and by supporting regional conservation policies; to national policy-makers by integrating hydrological ecosystem services into national ecosystem services accounts and updating Austria’s water management strategies through providing replicable methods.
 
@@ -263,13 +263,13 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     - Forests and woodlands (softwood and hardwood riparian forests);
     - Grasslands.
 
-    The ecosystem services that should be evaluated in this assessment are flood protection and groundwater recharge (defined by the latest version of CICES). 
+    The ecosystem services that should be evaluated in this assessment are flood protection and groundwater recharge (defined by the latest version of CICES).
 
     <u>Spatial and temporal characteristics</u> \
     The ecosystem service assessment is to be conducted in Salzach river floodplain (Natura 2000 area; UL: N 47°56’12” / E 12°56’24”; LR: N 47°52’17” / E 13°00’22”). The results of the ecosystem service assessment should be fully spatially explicit. The ecosystem service assessment should cover the period 2000–2025 and the results should be reported yearly.
 
     <u>Ecosystem modeling characteristics and valuation of services</u> \
-    The ecosystem service assessment should measure ecosystem service in biophysical terms, and should not measure the economic value of ecosystem service in monetary terms. 
+    The ecosystem service assessment should measure ecosystem service in biophysical terms, and should not measure the economic value of ecosystem service in monetary terms.
 
     The ecosystem service assessment should only measure the supply and not use and demand of the ecosystem services of interest.
 
@@ -284,7 +284,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the flood regulation and groundwater recharge and the benefits they provide. In their proposal, the contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs.
 
     <u>Spatial and temporal characteristics</u> \
-    The assessment should evaluate the variations of supply of the ecosystem services of interest over the spatial scales considered in this assessment, and quantify trends (e.g., increases, decreases). In their proposal, the contractor will clearly describe and justify the methodology (including the metrics and indicators) that will be used. 
+    The assessment should evaluate the variations of supply of the ecosystem services of interest over the spatial scales considered in this assessment, and quantify trends (e.g., increases, decreases). In their proposal, the contractor will clearly describe and justify the methodology (including the metrics and indicators) that will be used.
 
     The assessment should evaluate the variations of supply of the ecosystem services of interest over the time period and assessment frequency considered in this assessment. Results should highlight trends, identify key drivers of change, and provide recommendations for maintaining or enhancing these benefits. In their proposal, the contractor will clearly describe and justify the methodology (including the metrics and indicators) that will be used.
 
@@ -347,21 +347,21 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     Relevant policies which should be considered for this assessment include the EU Nature Restoration Regulation, Regional Legislative Decree (DLR) n.º 6/98/A, de 13 de abril (Protection of the regional forest heritage), DLR n.º 27/2022/A, de 28 de novembro (Legal framework for the classification of trees of public interest in the Autonomous Region of the Azores), DL n.º 4/2024, de 5 de janeiro (Establishes the voluntary carbon market and sets the rules for its operation), DLR n.º 15/2012/A, de 2 de abril (Legal framework for nature conservation and biodiversity protection) and DLR n.º 4/2024/A, de 10 de julho - Action 7.2.18 (A0249) - Maintenance of the Certification System for the Forest Perimeter and Regional Woodlands.
 
-    The ecosystem service assessment should aim at providing recommendations within the outlined decision-making and policy context. 
+    The ecosystem service assessment should aim at providing recommendations within the outlined decision-making and policy context.
 
     **2. Intended impacts and outputs** \
     <u>Uses and users</u> \
     This assessment will be used by the commissioner to guide forest management practices to optimize carbon sequestration capacity of forests and heathlands of São Miguel island.
 
-    The ensuing results should be usable for the Regional Directorate of Forest Resources and Spatial Planning for updating their forest inventory and managing the plantation forests within the Forest Perimeter and Regional Woodlands areas. Meanwhile, the Regional Secretariat for the Environment and Climate Action of the Government of the Azores, may use the results to guide restoration/conservation efforts according to the carbon sequestration capacity of native and exotic species. Research institutions might delve deeper into validating models and exploring synergies and trade-offs with other ecosystem services. 
-    
+    The ensuing results should be usable for the Regional Directorate of Forest Resources and Spatial Planning for updating their forest inventory and managing the plantation forests within the Forest Perimeter and Regional Woodlands areas. Meanwhile, the Regional Secretariat for the Environment and Climate Action of the Government of the Azores, may use the results to guide restoration/conservation efforts according to the carbon sequestration capacity of native and exotic species. Research institutions might delve deeper into validating models and exploring synergies and trade-offs with other ecosystem services.
+
     <u>Intended impacts of the assessment</u> \
     The main intended impacts of the ecosystem service assessment at the level of the outlined relevant policies at the regional scale are as follows:
-    
-    - Supplying spatial data to prioritize restoration and climate mitigation under the Nature Restoration Regulation. 
-    - Under DL No. 4/2024, it provides accurate carbon data to support the issuance of credible credits, improve validation and market trust, inform official methodologies, guide fair pricing, and design financial incentives for broader participation. 
-    - Under DLR No. 4/2024/A (Action 7.2.18), it ensures forest management practices, including timber harvesting and replantation, meet FSC standards, strengthening forest certification and sustainable policies. 
-    - For DLR No. 15/2012/A, it quantifies carbon storage to guide sustainable forestry that maintains biodiversity and supports climate mitigation. 
+
+    - Supplying spatial data to prioritize restoration and climate mitigation under the Nature Restoration Regulation.
+    - Under DL No. 4/2024, it provides accurate carbon data to support the issuance of credible credits, improve validation and market trust, inform official methodologies, guide fair pricing, and design financial incentives for broader participation.
+    - Under DLR No. 4/2024/A (Action 7.2.18), it ensures forest management practices, including timber harvesting and replantation, meet FSC standards, strengthening forest certification and sustainable policies.
+    - For DLR No. 15/2012/A, it quantifies carbon storage to guide sustainable forestry that maintains biodiversity and supports climate mitigation.
     - Under DLR No. 27/2022/A, it supports the classification of trees, species, and habitats of public interest by providing carbon sequestration data, enhancing conservation efforts.
 
     <u>Formats of the deliverables</u> \
@@ -389,7 +389,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     The assessment should focus on the supply of carbon sequestration while evaluating condition features necessary for enabling its sustainable use. A separate evaluation of forests and heathlands condition should also be done.
 
     The results of the assessment will be presented as maps of carbon sequestration capacity and condition of forests and heathlands in São Miguel island and tables summarising forest and heathland carbon sequestration and condition metrics in the same area.
-    
+
     **4. Stakeholder engagement**\
     No stakeholder engagement is expected in this specific assessment by the contractor.
 
@@ -397,7 +397,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     **1. Methodological characteristics** \
     <u>Sustainability and ecosystem condition</u> \
-    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the supply of the ecosystem service of interest. In their proposal, the contractor will clearly describe and justify the methodology that will be used. The assessment shall identify and define sustainable supply levels for the ecosystem service under assessment. This includes determining thresholds or reference values that reflect the levels at which the ecosystem service can be maintained over time. The assessment must clearly describe and justify the methodology that will be used to establish these levels and the data sources that will inform the analysis. 
+    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the supply of the ecosystem service of interest. In their proposal, the contractor will clearly describe and justify the methodology that will be used. The assessment shall identify and define sustainable supply levels for the ecosystem service under assessment. This includes determining thresholds or reference values that reflect the levels at which the ecosystem service can be maintained over time. The assessment must clearly describe and justify the methodology that will be used to establish these levels and the data sources that will inform the analysis.
 
     The evaluation of ecosystem condition in this assessment should include a general index of  ecosystem condition, biotic indicators (species, structure, function) and landscape-level characteristics.
 
@@ -461,13 +461,13 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     Municipal budgets in the current administrative period have been reduced. Municipalities have frozen recruiting due to budget shortfalls. Recreation area management is being rationalized.  Participatory updating with civil society of the recreation area mapping is human resource intensive.
 
-    The Municipal agencies in charge of mapping and managing recreation areas need statistics to document the importance of recreation areas, as support for continued funding of mapping, monitoring and management of the areas.   
-    
+    The Municipal agencies in charge of mapping and managing recreation areas need statistics to document the importance of recreation areas, as support for continued funding of mapping, monitoring and management of the areas.
+
     The capital city is a national “front runners” in mapping and valuation of recreation areas and municipal green accounts, using the Environment Agency Guidance on Recreation Area Mapping and Valuation.
 
-    The country  is currently preparing to report its first ecosystem accounts at a national level to EUROSTAT (regulation 691/2011) in 2026 (for the year 2024).  The first round of reporting does not include outdoor recreation services.  Outdoor recreation services have been shown to be the most economically valuable ecosystem services in national accounts in the UK (reference).  Public health and equal access of local populations to recreation areas are potential strong policy motivations that have not been sufficiently connected to recreation area management.  The Public Health Agency has developed guidance on impact assessment of health in projects which has the potential to be linked to ecosystem accounts. 
+    The country  is currently preparing to report its first ecosystem accounts at a national level to EUROSTAT (regulation 691/2011) in 2026 (for the year 2024).  The first round of reporting does not include outdoor recreation services.  Outdoor recreation services have been shown to be the most economically valuable ecosystem services in national accounts in the UK (reference).  Public health and equal access of local populations to recreation areas are potential strong policy motivations that have not been sufficiently connected to recreation area management.  The Public Health Agency has developed guidance on impact assessment of health in projects which has the potential to be linked to ecosystem accounts.
 
-    The UN System of Environmental Economic Accounting – Ecosystem Accounting Chapter 13 suggests using thematic accounts to support policy sectors, in ways that are not necessarily compatible with national accounts.  There are potential synergies for municipalities in connecting recreation area mapping and accounting to economic, health and social accessibility indicators.  
+    The UN System of Environmental Economic Accounting – Ecosystem Accounting Chapter 13 suggests using thematic accounts to support policy sectors, in ways that are not necessarily compatible with national accounts.  There are potential synergies for municipalities in connecting recreation area mapping and accounting to economic, health and social accessibility indicators.
 
     County municipal agencies have the responsibility to support municipalities in common planning methodologies. Therefore, the municipality is calling on proposal to demonstrate how thematic recreation accounts can be leveraged to support municipal mapping, monitoring and management of recreation areas, also demonstrating the relevance for national level ecosystem accounting efforts
 
@@ -476,25 +476,25 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     <u>Uses and users</u> \
     The results of this assessment are produced for the municipal administrations to monitor physical recreation activity by recreation area and  estimate contribution of recreation areas to outdoor physical exercise and public health outcomes.
     Results will be made available and usable by municipalities, the county, the Region Recreation Council County administrations, Environment Agency - Recreation, Geodata, Environmental Economics units, National Statistics Office
-    Expected uses for municipalities include: 
+    Expected uses for municipalities include:
     - demonstrating that the mapping of recreation areas by municipalities is a basis for outdoor recreation accounting at county/national level; and
     - putting recreation and health benefits “on the map” to support municipal budgets
 
-    At national level the project aims to support the National Statistics Office by demonstrating a method for including everyday recreation in national accounts.  The project results may also be used by the National environment agency: to report on meeting targets of the National Biodiversity and Strategy Action Plan: 
-    - target #1 land use planning that respects the right of local communities 
+    At national level the project aims to support the National Statistics Office by demonstrating a method for including everyday recreation in national accounts.  The project results may also be used by the National environment agency: to report on meeting targets of the National Biodiversity and Strategy Action Plan:
+    - target #1 land use planning that respects the right of local communities
     - target #3 protect areas important for biodiversity and ecosystem services.
 
     Potential other users of the outcomes of the assessment include local and national media.
 
     <u>Intended impacts of the assessment</u> \
     The immediate impacts of the assessment results are expected at several levels:
-    - At county level the assessment will demonstrate a standardised mapping and accounting guidance to municipalities for recreation areas.  At municipal level the assessment is expected to  put public outdoor recreation area values “on the planning map”, increasing their protection in the planning process, and to increase funding for public recreation area management.  
+    - At county level the assessment will demonstrate a standardised mapping and accounting guidance to municipalities for recreation areas.  At municipal level the assessment is expected to  put public outdoor recreation area values “on the planning map”, increasing their protection in the planning process, and to increase funding for public recreation area management.
     - At national level the results are expected to contribute to changing national ecosystem accounting standards, with a method to identify everyday recreation value in satellite/thematic national accounts.
 
     Beyond the results of the report the outcomes of this assessment should have impacts in providing map and accounting data to empower civil society local communities to be actively involved in municipal planning.
 
     <u>Formats of the deliverables</u> \
-    Three main formats for the outputs are envisaged: 
+    Three main formats for the outputs are envisaged:
     - a report documenting the methodology for thematic recreation accounts
     - map of outdoor recreation areas their physical use, economic values and health attributions;
     - tables recording:  provision of recreation services per recreation area, and physical use by recreation area, physical activity not in recreation area. The reporting tables should be compared to the format.
@@ -502,7 +502,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     Additionally, the contractor will be expected to:
     - produce a short video explaining the importance of outdoor recreation for environmental justice, health and the economy for diffusion on social media;
     - run a workshop explaining the methodology to municipalities in the County;
-    - produce an electronic publication on the commissioner’s website for public information.  
+    - produce an electronic publication on the commissioner’s website for public information.
 
     **3. General methodological characteristics** \
     <u>Ecosystem type(s) and service(s)</u> \
@@ -540,7 +540,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     **4. Stakeholder engagement** \
     Specific engagements with stakeholders is expected during the development of the ecosystem service assessment. The contractor is expected to do a stakeholder analysis to identify key stakeholders (apart from the Commissioner of this Tender) who should be engaged in the assessment.
 
-    These stakeholders should notably include - Environment and Planning Agencies of the Municipality, the County, and the National Environment Agency, Units responsible for Geodata and Recreation 
+    These stakeholders should notably include - Environment and Planning Agencies of the Municipality, the County, and the National Environment Agency, Units responsible for Geodata and Recreation
 
     Consultation with the stakeholders would be relevant at different stages of the ecosystem service assessment to ensure its relevance. For example, the above mentioned stakeholders could advise on the data selection, validation of methodology and results.
 
@@ -549,14 +549,14 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     **1. Methodological characteristics** \
     <u>Monetary valuation</u> \
-    Monetary valuation of recreation should be carried out for the purposes of awareness raising of the inhabitants and the city council about the magnitude of economic value of time spent in recreation areas and the economic value of health benefits that can be ascribed to outdoor recreation areas. The change in outdoor recreation activity over time in total for the municipality (last 4 years) should be estimated. In estimating monetary values of change the alternative or counterfactual scenario for the population of lacking access to outdoor recreation should be defined. 
+    Monetary valuation of recreation should be carried out for the purposes of awareness raising of the inhabitants and the city council about the magnitude of economic value of time spent in recreation areas and the economic value of health benefits that can be ascribed to outdoor recreation areas. The change in outdoor recreation activity over time in total for the municipality (last 4 years) should be estimated. In estimating monetary values of change the alternative or counterfactual scenario for the population of lacking access to outdoor recreation should be defined.
 
     The Consultant should compare different valuation methods to provide more robust arguments for the economic value of recreation in the municipality.  Discuss the distribution of monetary use value for public budgets compared to private households.  Provide justification for the use of monetary valuation methods relative to the different purposes outline above, making clear what the pros and cons are of each method.
 
     <u>Sustainability and ecosystem condition</u> +
-    Ecosystem condition assessments are based on the evaluation of the levels of ecosystem properties. The properties of the ecosystem  will, in turn, determine the levels of ecosystem services supply and use. Degraded ecosystems may have lost their capacity to supply ecosystem services. Maintaining ecosystems in good condition is central to sustainability. 
+    Ecosystem condition assessments are based on the evaluation of the levels of ecosystem properties. The properties of the ecosystem  will, in turn, determine the levels of ecosystem services supply and use. Degraded ecosystems may have lost their capacity to supply ecosystem services. Maintaining ecosystems in good condition is central to sustainability.
 
-    The Contractor should identify which indicators can be used to (i) monitor ecosystem condition for recreation users, and (ii) monitor recreation impacts on habitat condition for biodiversity, (iii) compatibility of condition indicators with the criteria in the national guidance method for mapping recreation areas. 
+    The Contractor should identify which indicators can be used to (i) monitor ecosystem condition for recreation users, and (ii) monitor recreation impacts on habitat condition for biodiversity, (iii) compatibility of condition indicators with the criteria in the national guidance method for mapping recreation areas.
 
     Sustainable use of ecosystem services means that the ecosystem services won’t be used until depletion and will still be available for future generations.  Sustainable supply of ecosystem services means that they will continue to be provided long-term and be available for future generations. Defining sustainable levels refers to the evaluation and identification of maximum use and supply of ecosystem services above which the ecosystem condition and ability to deliver services for future generations is maintained.
 
@@ -594,7 +594,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     There are no obvious independent data sources for recreation accounts compiled at the level of the city.  Validation will take place qualitatively through stakeholder engagement.  See below.
 
     **4. Stakeholder engagement**\
-    Stakeholders should be informed, consulted or participate in the ecosystem service assessment. Stakeholders are any group, organisation or individual who are interested in and / or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. 
+    Stakeholders should be informed, consulted or participate in the ecosystem service assessment. Stakeholders are any group, organisation or individual who are interested in and / or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders.
 
     The Contractor should make proposals covering the following engagement methods:
 
@@ -610,16 +610,16 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     - Communication and dissemination of the results: outline how stakeholders can directly participate in the co-creation and dissemination of the key messages from the results of the assessment. Alternatively, they can also be used as channels of dissemination and communication of the results to a larger audience;
 
-    - Newsletters or email updates: the Contractor should produce a newsletter quarterly to inform stakeholders of project progress; 
+    - Newsletters or email updates: the Contractor should produce a newsletter quarterly to inform stakeholders of project progress;
 
     - Websites: the Contractor should establish a storymap disseminating the main results from the assessment;
 
     - Webinars  and stakeholder events: The Contractor should inform the stakeholders on the progress of the assessment, the events to come, or the communicating and disseminating the results;
 
-    - The Contractor should establish an Advisory board to obtain feedback from the stakeholders throughout the assessment process. 
+    - The Contractor should establish an Advisory board to obtain feedback from the stakeholders throughout the assessment process.
 
 .. accordion:: Terms of Reference - Evaluation Criteria
-    
+
     **1. Frame & Scope** \
     The Proposal by the Contractor will be evaluated according to the following scope (what to include in the proposal):   (30% importance)
 
@@ -638,35 +638,35 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     **2. Methodology**\
     The Proposal by the Contractor will be evaluated according to the following methodological requirements:  (70% importance)
 
-    <u>Economic valuation</u> 
+    <u>Economic valuation</u>
     - Comparison of different valuation methods;
-    - Discussion of assumptions, pros and cons of methods. 
+    - Discussion of assumptions, pros and cons of methods.
 
-    <u>Ecosystem condition</u> 
+    <u>Ecosystem condition</u>
     - Quantify relevant dimensions of ecosystem condition.
 
-    <u>Social characteristics</u> 
-    - Disaggregate results of the ecosystem service assessment by social groups to identify beneficiaries; 
+    <u>Social characteristics</u>
+    - Disaggregate results of the ecosystem service assessment by social groups to identify beneficiaries;
     - Assess and report the attitudes, perceptions, and values of social groups towards ecosystem services;
     - Health characteristics;
     - Measure of health benefits;
     - Measure of health outcomes.
 
-    <u>Spatial and temporal characteristics</u> 
-    - Evaluate the spatial distribution of ecosystem service(s) and / or benefits; 
+    <u>Spatial and temporal characteristics</u>
+    - Evaluate the spatial distribution of ecosystem service(s) and / or benefits;
     - Evaluate the temporal distribution of ecosystem service(s) and / or benefits;
     - Include relevant scenarios.
 
-    <u>Uncertainty</u> 
-    - Assess and document uncertainties arising in the ecosystem service assessment; 
+    <u>Uncertainty</u>
+    - Assess and document uncertainties arising in the ecosystem service assessment;
     - Include a clear reporting format for uncertainties.
 
-    <u>Validation</u> 
-    - Include a clear workplan and timeline for the validation of the scope, methodology, and / or results of the ecosystem service assessment; 
+    <u>Validation</u>
+    - Include a clear workplan and timeline for the validation of the scope, methodology, and / or results of the ecosystem service assessment;
     - Involvement of stakeholders in the validation process of the ecosystem service assessment.
 
-    <u>Stakeholder engagement</u> 
-    - Include a clear workplan and timeline to inform, consult and / or make stakeholders participate in the ecosystem service assessment;  
+    <u>Stakeholder engagement</u>
+    - Include a clear workplan and timeline to inform, consult and / or make stakeholders participate in the ecosystem service assessment;
     - Propose relevant modes of stakeholder involvement throughout the ecosystem service assessment.
 
 .. join_accordion::
@@ -692,7 +692,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     - Characterizing and assessing the current status of ecosystem and ecosystem services (ES). The stocktaking of existing information and knowledge is the first step in MSP;
 
-    - Developing strategic goals and priorities for MSP. The ES results support the development of goals and priorities when balancing nature conservation interests with socio-economic development needs; 
+    - Developing strategic goals and priorities for MSP. The ES results support the development of goals and priorities when balancing nature conservation interests with socio-economic development needs;
 
     - Identifying spatial planning solutions. The ES assessment results guide sea use toward areas that contribute most to human well-being, provide various benefits, and at the same time highlight the most valuable areas for biodiversity conservation and sustainable resource use. They also support conducting trade-off analyses to identify optimal solutions;
 
@@ -704,7 +704,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     - Latvian Marine Environment Protection and Management Law, article 14 requires that ecosystem approach shall be applied in the maritime spatial planning process;
 
     - Latvian Governmental regulations No 740 “Procedures for the Development, Implementation and Monitoring of the Maritime Spatial Plan” explicitly requires to include assessment results of the ecosystem services (point 14.7).
-    
+
     The assessment of the wild fish provisioning services will also support the knowledge base for the implementation of such EU policies/legislation: Marine Strategy Framework Directive 2008/56/EC; EU Nature Restoration Law (2022/869/EU); EU Biodiversity Strategy 2030.
 
     Further on, the information and knowledge is needed during the implementation of the MSP - in the licensing process for assessing development proposals for particular sea use (e.g., offshore wind park, aquaculture).
@@ -714,9 +714,9 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     <u>Uses & users</u> \
     The results of this assessment are prepared for the Spatial Planning Department of the Ministry of Smart Administration and Regional Development of Latvia, which serves as the Maritime Spatial Planning authority for the country.
 
-    Results will be made available and usable by other relevant stakeholders, e.g., Water resource department of the Ministry of Climate and Energy; Energy department of the Ministry of Climate and Energy Fishery Department of the Ministry of agriculture; Nature Conservation Agency; Regional planning authorities. 
+    Results will be made available and usable by other relevant stakeholders, e.g., Water resource department of the Ministry of Climate and Energy; Energy department of the Ministry of Climate and Energy Fishery Department of the Ministry of agriculture; Nature Conservation Agency; Regional planning authorities.
 
-    Any other public authority which is involved in the licensing process of economic activities in the marine environment can use the results in assessing trade-offs and impacts. 
+    Any other public authority which is involved in the licensing process of economic activities in the marine environment can use the results in assessing trade-offs and impacts.
 
     <u>Expected impacts of the assessment</u> \
     The immediate impacts of the assessment results are expected to address the following themes:
@@ -736,7 +736,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     The ES assessment results could potentially inform fishery policy that shapes coastal fishery regulations including preparing the ecosystem overview (ICES). These results could also be linked to nature conservation policy, such as establishing protected areas or no-go zones to safeguard critical habitats for wild fish, particularly in coastal waters, from economic activities. The marine policy has different spatial needs compared to MSP, yet some knowledge could be uptaken for establishing a programme of measures.
 
     <u>Formats of outputs</u> \
-    The following main formats for the outputs are envisaged: 
+    The following main formats for the outputs are envisaged:
 
     - The Report, including Executive summary, documenting the methodology of the assessment;
 
@@ -753,7 +753,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     <u>Ecosystem type(s) and service(s)</u> \
     Ecosystem type of interest: Marine and coastal ecosystems.
 
-    Ecosystem services of interest (according to CICES v5.2 classification): 
+    Ecosystem services of interest (according to CICES v5.2 classification):
     - 1.1.6.1 Wild animals (terrestrial and aquatic) used for nutritional purposes (CICES V5.2);
     - 1.1.6.1 Fish landing (tons/year) is a core “use” indicator to be used for the ES assessment;
 
@@ -764,14 +764,14 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     2.2.2.3 Maintenance of nursery and spawning areas are semi-quantitative (relative values)
 
     <u>Spatial and temporal characteristics</u> \
-    The ecosystem service assessment is to be conducted for marine and coastal waters of the 
+    The ecosystem service assessment is to be conducted for marine and coastal waters of the
     Baltic Sea of Latvia. As maps are an expected output format, the assessment should be spatially explicit.
 
     The assessment shall cover the following time periods:
 
     - 1.1.6.1. Fish landing (tons/year), the annual trend data (statistics) since 2004; spatial data for the last 6 years' period to be linked to the HELCOM HOLAS assessment periods;
 
-    - Maintenance of nursery and spawning areas- the information could be status quo, available depending on the recent up-dates of habitat map. 
+    - Maintenance of nursery and spawning areas- the information could be status quo, available depending on the recent up-dates of habitat map.
 
     <u>Ecosystem modeling characteristics and valuation of services</u> \
     Ecosystem condition metrics need to be identified. Recently, some studies conducted in the country have explored the relationships between fish stock parameters and factors such as salinity and temperature. The findings from these studies could be integrated into the assessment of provisioning services. However, the high level of uncertainty in the modeling results should be carefully considered.
@@ -779,7 +779,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     Sustainability of use should be taken into account in this assessment through maximum sustainable yield (MSY) indicator.
 
     <u>Valuation of ecosystem services</u> \
-    Assessment of wild fish provisioning services are expected to be measured in biophysical terms. 
+    Assessment of wild fish provisioning services are expected to be measured in biophysical terms.
 
     **4. Stakeholder engagement** \
     The MSP and Coastal Planning Coordination Group, established by the Commissioner, will be involved in discussions on the ecosystem service assessment results.
@@ -807,17 +807,17 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
 
     For temporality of the results, they also differ depending on the ES:
 
-    - Wild fish provisioning in terms of landing shall be presented on an annual basis per commercial species. 
+    - Wild fish provisioning in terms of landing shall be presented on an annual basis per commercial species.
     - Maintenance of nursery and spawning habitats, the information could be available depending on up-dates of habitat mapping for different species (commercial and protected species);
 
     The Contractor should note that the first ES assessment of fishery covered the period of 2004-2013; the updated assessment: 2014-2022. It would be important to link the assessment periods to HELCOM HOLAS assessment and MSFD cycle - 6 year period.
-    
+
     **2. Uncertainty** \
     A brief summary on uncertainties in ES assessments, tailored for decision-makers and stakeholders, should be produced.  The Commissioner may request advanced technical documentation as appendices, detailing data, models, and uncertainty analysis.
 
     **3. Validation** \
     <u>External validation of the results</u> \
-    The validation process will involve stakeholders, particularly from the fisheries sector. Dedicated stakeholder events or expert meetings should be organized to support this process. 
+    The validation process will involve stakeholders, particularly from the fisheries sector. Dedicated stakeholder events or expert meetings should be organized to support this process.
 
     <u>Validation of the results with published reference data</u> \
     It is recommended that the results are compared with studies conducted within the HELCOM framework or other international projects carrying out similar research. The assessment needs to be coherent with the information from other countries, to have an ecosystem approach, to ensure upscaling needs.  Cooperation on ICES assessments should be considered to facilitate an international evaluation.
@@ -825,7 +825,7 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     **4. Stakeholder engagement** \
     The Commission has identified the stakeholders to be involved in the ecosystem service (ES) assessment process. The MSP and Coastal Planning Coordination Group, established by the Commissioner, will participate in the following steps of the ES assessment: validation of results, interpretation of results, and communication and dissemination of findings. The primary form of engagement will be through consultation and / or the provision of information.
 
-    Stakeholder engagement is expected to be organized through a range of activities, including stakeholder events such as forums, coordination group meetings, and expert group meetings. 
+    Stakeholder engagement is expected to be organized through a range of activities, including stakeholder events such as forums, coordination group meetings, and expert group meetings.
 
 .. accordion:: Terms of Reference - Evaluation Criteria
 
@@ -845,24 +845,24 @@ Below are six examples of study cases for which the Frame & Scope, Methodology a
     **2. Methodology** \
     The Proposal by the Contractor will be evaluated according to the following methodological requirements:  (70% importance):
 
-    <u>Sustainability and ecosystem condition</u> 
+    <u>Sustainability and ecosystem condition</u>
     - Quantify the impact of ecosystem condition on ecosystem service supply;
     - Define and evaluate  sustainable levels for the use and / or supply of ecosystem services;
     - Quantify relevant dimensions of ecosystem condition.
 
-    <u>Spatial and temporal characteristics</u> 
+    <u>Spatial and temporal characteristics</u>
     - Evaluate the spatial distribution of ecosystem service(s);
     - Evaluate the temporal distribution of ecosystem service(s).
 
-    <u>Uncertainty</u> 
+    <u>Uncertainty</u>
     - Assess and document uncertainties arising in the ecosystem service assessment to be made available upon request by the Commissioner.
 
-    <u>Validation</u> 
+    <u>Validation</u>
     - Include a clear workplan and timeline for the validation results of the ecosystem service assessment;
     - Involvement of stakeholders in the validation process of the ecosystem service assessment.
 
-    <u>Stakeholder engagement</u> 
-    - Include a clear workplan and timeline to inform and consult stakeholders in the ecosystem service assessment; 
+    <u>Stakeholder engagement</u>
+    - Include a clear workplan and timeline to inform and consult stakeholders in the ecosystem service assessment;
     - Propose relevant modes of stakeholder involvement throughout the ecosystem service assessment.
 
 .. join_accordion::

@@ -118,7 +118,7 @@ Below, you will find answers to each of these questions. We know it's a lot of c
     <img src="static/website_figure4.svg" alt="Figure 4 - Interlinkages between main ecosystem service assessments design features.">
     <figcaption><b>Figure 4 - Interlinkages between main ecosystem service assessments design features.</b></figcaption>
     </figure>
-    
+
     The Terms of Reference templates displayed in this document guide commissioners to consider all these assessment design features. These concepts are not stand-alone features. Decisions on certain design features have implications for others. Managing these interdependencies in the design of ecosystem service assessments require some iterations between Terms of Reference templates and their associated questions to ensure consistency in the final Terms of Reference. The Terms of Reference templates hyperlinks allow commissioners to move back and forth between questions and concepts, facilitating reflections and adjustments.
 
 .. accordion:: Examples of interlinkages

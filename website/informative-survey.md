@@ -643,7 +643,7 @@ This page gives more information on the questions asked in the online survey inc
 .. join_accordion::
     :close: true
 
-#### Which interrelationship(s) is(are) of interest in this assessment? 
+#### Which interrelationship(s) is(are) of interest in this assessment?
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?

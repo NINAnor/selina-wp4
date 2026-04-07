@@ -27,7 +27,7 @@ You have two options to create your Terms of Reference:
 
 2. Use [PDF templates](/static/SELINA_ToR_pdf_templates.pdf). This gives you more control but also requires more effort. To better understand how these templates work, they can be described as follows:
 
-    * The **Frame & Scope, and Methodology templates** are formatted as lists of questions that the commissioners can answer. Each question is associated to descriptions and examples to facilitate comprehension, as well as preformatted text to help build a Terms of Reference. This text can be directly copy-pasted and refined by the commissioners to better fit their context. 
+    * The **Frame & Scope, and Methodology templates** are formatted as lists of questions that the commissioners can answer. Each question is associated to descriptions and examples to facilitate comprehension, as well as preformatted text to help build a Terms of Reference. This text can be directly copy-pasted and refined by the commissioners to better fit their context.
 
     * The **Evaluation Criteria template** presents a series of tables with evaluation criteria that the commissioners can choose from. As previously, preformatted text is available. This template also support very nicely the evaluation of proposals by highlighting the alignment between the criteria the commissioners chose and the ones displayed in the proposals.
 

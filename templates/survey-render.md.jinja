@@ -16,7 +16,7 @@
 
    {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
 
-   {{ fs_context_social_1d }}  
+   {{ fs_context_social_1d }}
 
 {% elif fs_purpose_1a or fs_context_policy_1b or fs_context_social_1d %} {# if one of the answers is empty #}
 
@@ -24,8 +24,8 @@
 
    {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
 
-   {{ fs_context_social_1d }} 
-   
+   {{ fs_context_social_1d }}
+
 {% endif %}
 
 {% if fs_context_decision_1e|lower == 'yes' %} {# if asking for recommandations is yes #}
@@ -35,7 +35,7 @@
 {% elif fs_context_decision_1e|lower == 'maybe' %} {# if asking for recommandations is maybe #}
 
    Based on the results, the ecosystem service assessment might aim at providing recommendations on ***[text to be completed by the Commissioner]***.
-   
+
 {% endif %}
 
 
@@ -63,7 +63,7 @@
 ### 1.3 General methodological characteristics
 
 {# ET missing and ES list missing #}
-{% if not fs_meth_et_31a.et_list and not fs_meth_et_31a.et_class and not fs_meth_es_31b.es_list and not fs_meth_es_31b.es_class %} 
+{% if not fs_meth_et_31a.et_list and not fs_meth_et_31a.et_class and not fs_meth_es_31b.es_list and not fs_meth_es_31b.es_class %}
 #### 1.3.1 Ecosystem type(s) and service(s)
 
 The choice of the ecosystem types and services to be included as well as the choice of both the ecosystem type and ecosystem service classifications to be used are left to the Contractor. In their proposal, the Contractor will explain their choices in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
@@ -83,7 +83,7 @@ The choice of the ecosystem types to be included as well as the choice of the ec
 
 #### 1.3.1 Ecosystem type(s) and service(s)
 
-The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. 
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}.
 
 The choice of the ecosystem types to be included as well as the choice of both the ecosystem type and ecosystem service classifications to be used to define the ecosystem type(s) and service(s) of interest are left to the Contractor. In their proposal, the Contractor will explain their choices in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
 
@@ -114,7 +114,7 @@ The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_li
 
 The choice of the ecosystem services to be included as well as the choice of ecosystem service classification to be used are left to the Contractor.
 
-The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. The ecosystem service classification to be used is left to the choice of the Contractor. 
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. The ecosystem service classification to be used is left to the choice of the Contractor.
 
 In their proposal, the Contractor will explain their choices in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
 
@@ -126,7 +126,7 @@ In their proposal, the Contractor will explain their choices in regards to the d
 
 The choice of the ecosystem types and ecosystem services to be included as well as the choice of ecosystem service classification to be used are left to the Contractor.
 
-The ecosystem type(s) of interest should be preferably defined with {{fs_meth_et_31a.et_class}}. The ecosystem service classification to be used is left to the choice of the Contractor. 
+The ecosystem type(s) of interest should be preferably defined with {{fs_meth_et_31a.et_class}}. The ecosystem service classification to be used is left to the choice of the Contractor.
 
 In their proposal, the Contractor will explain their choices in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
 
@@ -174,9 +174,9 @@ The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_li
 
 #### 1.3.1 Ecosystem type(s) and service(s)
 
-The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. 
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}.
 
-The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. 
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}.
 
 The choice of both the ecosystem type and ecosystem service classifications to be used to define the ecosystem type(s) and service(s) of interest is left to the Contractor. In their proposal, the Contractor will explain the relevance of the chosen classifications for the decision-making context and purpose of the assessment.
 
@@ -200,7 +200,7 @@ In their proposal, the Contractor will explain their choices in regards to the d
 
 #### 1.3.1 Ecosystem type(s) and service(s)
 
-The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. {{fs_meth_es_31b.es_class}} should be preferably used to define them. 
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. {{fs_meth_es_31b.es_class}} should be preferably used to define them.
 
 The choice of the ecosystem types to be included is left to the Contractor. {{fs_meth_et_31a.et_class}} should be preferably used to define them.
 
@@ -213,7 +213,7 @@ In their proposal, the Contractor will explain their choices in regards to the d
 
 #### 1.3.1 Ecosystem type(s) and service(s)
 
-{{fs_meth_es_31b.es_class}} should be preferably used to define ecosystem services, while {{fs_meth_et_31a.et_class}} should be preferably used to define ecosystem types. 
+{{fs_meth_es_31b.es_class}} should be preferably used to define ecosystem services, while {{fs_meth_et_31a.et_class}} should be preferably used to define ecosystem types.
 
 The choice of the ecosystem types and services to be included in this assessment is left to the Contractor. In their proposal, the Contractor will explain their choices in regards to the decision-making context and purpose of the assessment, as well as limitations in data availability.
 
@@ -225,7 +225,7 @@ The choice of the ecosystem types and services to be included in this assessment
 
 #### 1.3.1 Ecosystem type(s) and service(s)
 
-The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}. 
+The ecosystem service(s) of interest in this assessment are: {{fs_meth_es_31b.es_list}}.
 
 {{fs_meth_et_31a.et_class}} should be preferably used to define ecosystem types.
 
@@ -238,7 +238,7 @@ The choice of the ecosystem types to be included in this assessment as well as t
 
 #### 1.3.1 Ecosystem type(s) and service(s)
 
-The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}. 
+The ecosystem type(s) of interest in this assessment are: {{fs_meth_et_31a.et_list}}.
 
 {{fs_meth_es_31b.es_class}} should be preferably used to define ecosystem services.
 
@@ -564,8 +564,8 @@ In this assessment, we are also interested in the value of the ecosystem service
 
 
 {# Condition #}
-{% if (fs_meth_cond_34g in ["yes", "maybe"]) or (fs_meth_cond_confirmation == "no") %} 
-Finally, the assessment should include an evaluation of the condition of the ecosystem(s) providing the ecosystem service(s) of interest. 
+{% if (fs_meth_cond_34g in ["yes", "maybe"]) or (fs_meth_cond_confirmation == "no") %}
+Finally, the assessment should include an evaluation of the condition of the ecosystem(s) providing the ecosystem service(s) of interest.
 
 {% endif %}
 
@@ -593,7 +593,7 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 {% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["yes", "maybe"]) and (not fs_stake_id_4c) %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 
-Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project. 
+Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project.
 
 {% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and ((fs_stake_analysis_4a in ["no", "dontknow"]) or (not fs_stake_analysis_4a)) and (not fs_stake_id_4c) %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
@@ -620,54 +620,54 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 {# Identify valuation method #}
 
 {% if me_econ_valuation_11a %} {# Need to add this as if skipped, the variable is not in the output datasets and everything bugs #}
-   {% if me_econ_valuation_11a.prim == "yes" %} 
+   {% if me_econ_valuation_11a.prim == "yes" %}
    {% set val_meth_list = [] %}
 
-      {% if me_valuation_methods.rev_prev in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.rev_prev in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Revealed prefence methods"] %}
       {% endif %}
 
-      {% if me_valuation_methods.stat_pref in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.stat_pref in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Stated preference methods"] %}
       {% endif %}
 
-      {% if me_valuation_methods.mark_price in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.mark_price in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Market prices"] %}
       {% endif %}
 
-      {% if me_valuation_methods.repl_cost in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.repl_cost in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Replacement cost"] %}
       {% endif %}
 
-      {% if me_valuation_methods.dam_cost in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.dam_cost in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Damage cost avoided"] %}
       {% endif %}
 
-      {% if me_valuation_methods.soc_cost in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.soc_cost in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Social cost of carbon"] %}
       {% endif %}
 
-      {% if me_valuation_methods.net_fact in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.net_fact in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Net factor income"] %}
       {% endif %}
 
-      {% if me_valuation_methods.prod_fn in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.prod_fn in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Production function"] %}
       {% endif %}
 
-      {% if me_valuation_methods.hed_pric in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.hed_pric in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Hedonic pricing"] %}
       {% endif %}
 
-      {% if me_valuation_methods.trav_cost in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.trav_cost in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Travel cost method"] %}
       {% endif %}
 
-      {% if me_valuation_methods.cont_val in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.cont_val in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Contingent valuation"] %}
       {% endif %}
 
-      {% if me_valuation_methods.choice_mod in ["yes", "maybe"] %} 
+      {% if me_valuation_methods.choice_mod in ["yes", "maybe"] %}
       {% set val_meth_list = val_meth_list + ["Choice modelling"] %}
       {% endif %}
 
@@ -684,7 +684,7 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 
 The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
 
-{% elif (me_econ_valuation_11a and me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %} 
+{% elif (me_econ_valuation_11a and me_econ_valuation_11a.value == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -694,12 +694,12 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 {# Methods #}
 {# Both valuation methods #}
-{% if me_expertise_needed_1 == "yes" %} 
-   {% if me_econ_valuation_11a and me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
+{% if me_expertise_needed_1 == "yes" %}
+   {% if me_econ_valuation_11a and me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
-   The study should design and apply both value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service. 
+   The study should design and apply both value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service.
 
    <b>For value transfer methods**, transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
 
@@ -707,7 +707,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 
    {# Transfer methods only #}
-   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["no", "dontknow"] %} 
+   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value in ["yes", "maybe"] and me_econ_valuation_11a.prim in ["no", "dontknow"] %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -715,29 +715,29 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 
    {# Primary methods only #}
-   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value in ["no", "dontknow"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %} 
+   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value in ["no", "dontknow"] and me_econ_valuation_11a.prim in ["yes", "maybe"] %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
-   The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. Preferrence is given to {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+   The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. Preferrence is given to {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
 
    {# Other #}
-   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value == "no" and me_econ_valuation_11a.prim == "no" %} 
+   {% elif me_econ_valuation_11a and me_econ_valuation_11a.value == "no" and me_econ_valuation_11a.prim == "no" %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
-   The study should design and apply {{other_valuation}} to estimate the economic value of each identified ecosystem service. 
+   The study should design and apply {{other_valuation}} to estimate the economic value of each identified ecosystem service.
 
    {% endif %}
 {% endif %}
 
 
 {# Economic indicators #}
-{% if me_econo_id %} 
+{% if me_econo_id %}
 In addition, the results of the assessment should measure the contribution of the ecosystem service(s) of interest to the economic development of the area of interest. Particular economic indicators of interest are {{me_econo_id}}.
 
-{% elif (me_econ_dev_11b in ["yes", "maybe"]) and me_econo_id == "" %} 
+{% elif (me_econ_dev_11b in ["yes", "maybe"]) and me_econo_id == "" %}
 In addition, the results of the assessment should measure the contribution of the ecosystem service(s) of interest to the economic development of the area of interest. The choice of the economic indicators are left to the Contrator. In their proposal, the Contractor should clearly describe and justify the economic indicators that will be used, with regards to the decision-making and purpose of the assessment.
 {% endif %}
 
@@ -790,7 +790,7 @@ The Contractor may deviate from the suggestions described above. In that case, t
 
 {# For condition alone #}
 
-{% if me_eco_con_12a in ["yes", "maybe"] and (not me_sust_level_12b or me_sust_level_12b in ["", "no", "dontknow"])%} 
+{% if me_eco_con_12a in ["yes", "maybe"] and (not me_sust_level_12b or me_sust_level_12b in ["", "no", "dontknow"])%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
    {% if me_expertise_needed == "no" %}
@@ -810,7 +810,7 @@ The Contractor may deviate from the suggestions described above. In that case, t
 
 {# For sustainability alone #}
 
-{% if me_sust_level_12b in ["yes", "maybe"] and (not me_eco_con_12a or me_eco_con_12a in ["", "no", "dontknow"])%} 
+{% if me_sust_level_12b in ["yes", "maybe"] and (not me_eco_con_12a or me_eco_con_12a in ["", "no", "dontknow"])%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
@@ -820,7 +820,7 @@ The ecosystem service assessment should define the sustainable levels for [suppl
 
 
 {# For sustainability and condition #}
-{% if me_eco_con_12a in ["yes", "maybe"] and me_sust_level_12b in ["yes", "maybe"]%} 
+{% if me_eco_con_12a in ["yes", "maybe"] and me_sust_level_12b in ["yes", "maybe"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
    {% if me_expertise_needed == "no" %}
@@ -833,7 +833,7 @@ The ecosystem service assessment should define the sustainable levels for [suppl
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
-   
+
    The condition indicators of relevance are: {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
    In their proposal, the Contractor may deviate from the indicators suggested above. In these cases, they will clearly describe and justify the methodology that will be used.
    {% endif %}
@@ -845,19 +845,19 @@ The ecosystem service assessment should define the sustainable levels for [suppl
 
 {# Social characteristics #}
 {% if me_soc_groups_13a or me_soc_groups_13b %}
-{% if me_soc_groups_13a in ["yes", "maybe"] and me_soc_groups_13b in ["no", "dontknow"] %} 
+{% if me_soc_groups_13a in ["yes", "maybe"] and me_soc_groups_13b in ["no", "dontknow"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Social characteristics
 
 The ecosystem service assessment should measure the distribution of the ecosystem service(s) of interest by social groups or variables (e.g. income, age, gender). Dependency(ies) on and / or access(es) to ecosystem services should be clearly reported using measurable indicators (e.g., demand, proximity, frequency use, and availability) to identify which groups face the greatest barriers or are most dependent on specific ecosystem services. In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
- 
+
 {% elif me_soc_groups_13a in ["no", "dontknow"] and me_soc_groups_13b in ["yes", "maybe"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Social characteristics
 
-The ecosystem service assessment should report the attitudes, perceptions, and values of social groups towards the ecosystem service(s) of interest. The results should lead to deliver actionable insights based on stakeholder preference. In their proposal, the Contractor will clearly describe and justify the methodology that will be used. 
+The ecosystem service assessment should report the attitudes, perceptions, and values of social groups towards the ecosystem service(s) of interest. The results should lead to deliver actionable insights based on stakeholder preference. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
 
 {% elif me_soc_groups_13a in ["yes", "maybe"] and me_soc_groups_13b in ["yes", "maybe"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
@@ -866,7 +866,7 @@ The ecosystem service assessment should report the attitudes, perceptions, and v
 
 The ecosystem service assessment should include social aspects in two different ways:
 
-- measure the distribution of the ecosystem service(s) of interest by social groups or variables (e.g. income, age, gender). Dependency(ies) on and / or access(es) to ecosystem services should be clearly reported using measurable indicators (e.g., demand, proximity, frequency use, and availability) to identify which groups face the greatest barriers or are most dependent on specific ecosystem services. 
+- measure the distribution of the ecosystem service(s) of interest by social groups or variables (e.g. income, age, gender). Dependency(ies) on and / or access(es) to ecosystem services should be clearly reported using measurable indicators (e.g., demand, proximity, frequency use, and availability) to identify which groups face the greatest barriers or are most dependent on specific ecosystem services.
 
 - report the attitudes, perceptions, and values of these social groups towards the ecosystem service(s) of interest.
 
@@ -896,15 +896,15 @@ In their proposal, the Contractor will clearly describe and justify the methodol
 
 
 {# Health dimensions alone #}
-{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%} 
+{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
-{% elif (me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%} 
+{% elif (me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -918,16 +918,16 @@ The ecosystem service assessment should consider the health dimension. The choic
 
 {# Health dimensions and attitudes #}
 
-{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"]%} 
+{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
 The ecosystem service assessment should capture social groups' attitudes, perceptions, and values toward specific ecosystem services of relevance to the health dimension(s) defined above, focusing on their social, cultural, and economic importance.
 
-{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"] %} 
+{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["no", "dontknow"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -940,17 +940,17 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 {# Health dimensions and ES/ET links #}
 
-{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["yes", "maybe"]%} 
+{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["yes", "maybe"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
 In this assessment, we are interested in identifying linkages between the health dimension(s) described above and the ecosystem services and / or types. The strength, direction and / or sustainability of these linkages should also be clearly highlighted and described. In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
 
 
-{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["yes", "maybe"]%} 
+{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["yes", "maybe"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -965,12 +965,12 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 {# Health dimensions and attidtudes and ES/ET links #}
 
-{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["yes", "maybe"]%} 
+{% if (me_health_aspects_14a.h_risks in ["yes", "maybe"] or  me_health_aspects_14a.h_benefits in ["yes", "maybe"] or me_health_aspects_14a.h_outcomes in ["yes", "maybe"]) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["yes", "maybe"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. 
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
 In this assessment, we are interested to:
 
@@ -981,7 +981,7 @@ In this assessment, we are interested to:
 In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
 
 
-{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["yes", "maybe"]%} 
+{% elif ((me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes)) and me_health_social_14b in ["yes", "maybe"] and me_health_eco_14c in ["yes", "maybe"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
@@ -1002,15 +1002,15 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 
 {# Relationships between ecosystem services #}
-{% if me_eco_relations_15a in ["yes", "maybe"] %} 
+{% if me_eco_relations_15a in ["yes", "maybe"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
    {% if (me_eco_relations_15b.inter_es in ["no", "dontknow"] or not me_eco_relations_15b.inter_es) and (me_eco_relations_15b.inter_benef in ["no", "dontknow"] or not me_eco_relations_15b.inter_benef) and (me_eco_relations_15b.inter_es_benef in ["no", "dontknow", ""] or not me_eco_relations_15b.inter_es_benef) %}
 #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
 
    The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the ecosystem service(s) of interest and / or benefits provided by ecosystem services. The choice of the most appropriate type of interrelationship(s): between ecosystem services, between benefits, or between ecosystem services and their benefits, is left to the Contractor.
-   
-   In their proposal, the Contractor will clearly explain their choice of the interrelationship(s) that should be focused on in accordance to the decision-making context and purpose of the assessment. They will also describe and justify their methodology that will be used to identify and quantify these trade-offs. 
+
+   In their proposal, the Contractor will clearly explain their choice of the interrelationship(s) that should be focused on in accordance to the decision-making context and purpose of the assessment. They will also describe and justify their methodology that will be used to identify and quantify these trade-offs.
 
    {% else %}
    {% set inter_aspects = [] %}
@@ -1026,21 +1026,21 @@ The choice of the appropriate health dimension(s) and their associated indicator
       {% if me_eco_relations_15b.inter_es_benef in ["yes", "maybe"] %}
          {% set inter_aspects = inter_aspects + ["ecosystem services and their benefits"] %}
       {% endif %}
-   
+
    {% endif %}
 
 
 #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
 
    The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. The choice of the most appropriate type of interrelationship(s): between ecosystem services, between benefits, or between ecosystem services and their benefits, is left to the Contractor.
-   
-   In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs. 
+
+   In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs.
 
 {% endif %}
 
 
 {# Spatial and temporal characteristics #}
-{% if me_spatial_benefits_16a in ["yes", "maybe"] or me_time_benefits_16b in ["yes", "maybe"] %} 
+{% if me_spatial_benefits_16a in ["yes", "maybe"] or me_time_benefits_16b in ["yes", "maybe"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 {% endif %}
 
@@ -1048,7 +1048,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 
 {# Spatial and temporal characteristics #}
-{% if me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"] or me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"] %} 
+{% if me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"] or me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"] %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Spatial and temporal characteristics
@@ -1062,7 +1062,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
       {% if me_spatial_benefits_16a.space_benef in ["yes", "maybe"] %}
       {% set space_aspects = space_aspects + ["benefits"] %}
       {% endif %}
-   
+
 
 {% set time_aspects = [] %}
 
@@ -1110,32 +1110,32 @@ The assessment should evaluate the temporal variations in the levels of {{aspect
 The assessment should evaluate the spatial and temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest and their associated benefits over the spatial extent and scale(s) as well as the time period and temporal scale(s) considered in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
 
 {% elif (me_spatial_benefits_16a.space_es in ["yes", "maybe"] or me_spatial_benefits_16a.space_benef in ["yes", "maybe"]) and (me_time_benefits_16b.time_es in ["yes", "maybe"] or me_time_benefits_16b.time_benef in ["yes", "maybe"]) and not time_aspects == space_aspects %}
-   
+
    {% if time_aspects == "ecosystem services" and (space_aspects == "ecosystem services" and  space_aspects == "benefits") %}
    The assessment should evaluate the spatial and temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scale(s) as well as the time period and temporal scale(s) considered in this assessment. In addition, the spatial variations of the benefits of the ecosystem service(s) of relevance should also be assessed. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
 
    {% elif time_aspects == "benefits" and (space_aspects == "ecosystem services" and  space_aspects == "benefits") %}
    The assessment should evaluate the spatial variations in the levels of {{aspect}} of the ecosystem service(s) of interest and their associated benefits over the spatial extent and scale(s) considered in this assessment. In addition, both the spatial and temporal variations of the benefits of the ecosystem service(s) of relevance should also be assessed. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
-   
+
 
    {% elif time_aspects == "ecosystem services" and space_aspects == "benefits" %}
    The assessment should evaluate the temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the time period and temporal scale(s) considered in this assessment. In addition, the spatial variations of the benefits of the ecosystem service(s) of relevance should also be assessed over the spatial extent and scale(s) defined in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
-   
+
 
    {% elif time_aspects == "benefits" and space_aspects == "ecosystem services" %}
    The assessment should evaluate the spatial variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scale(s) considered in this assessment. In addition, the temporal variations of the benefits of the ecosystem service(s) of relevance should also be assessed over the time period and temporal scale(s) defined in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
-   
+
 
    {% elif (time_aspects == "ecosystem services" and time_aspects == "benefits") and space_aspects == "ecosystem services" %}
    The assessment should evaluate the spatial and temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the spatial extent and scale(s) as well as the time period and temporal scale(s) considered in this assessment. In addition, the temporal variations of the benefits of the ecosystem service(s) of relevance should also be assessed over the time period and temporal scale(s) defined in this assessment. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
-  
+
 
    {% elif (time_aspects == "ecosystem services" and time_aspects == "benefits") and space_aspects == "benefits" %}
    The assessment should evaluate the temporal variations in the levels of {{aspect}} of the ecosystem service(s) of interest over the time period and temporal scale(s) considered in this assessment. In addition, both the temporal and spatial variations of the benefits of the ecosystem service(s) of relevance should also be assessed. Results should highlight trends and identify key drivers of change. In their proposal, the Contractor will clearly describe and justify the methodology that will be used.
-  
+
 
    {% endif %}
-   
+
 
 {% endif %}
 
@@ -1149,11 +1149,11 @@ The above mentioned variations will have to be specifically put in relation with
 
 {% elif me_time_space_sustainability_16c in ["yes", "maybe"] and me_time_space_condition_16d in ["yes", "maybe"]%}
 
-The above mentioned variations will have to be specifically put in relation with sustainable {{aspect}}. The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition. 
+The above mentioned variations will have to be specifically put in relation with sustainable {{aspect}}. The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition.
 
 {% elif me_time_space_sustainability_16c in ["no", "dontknow"] and me_time_space_condition_16d in ["yes", "maybe"]%}
 
-The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition. 
+The assessment should also provide recommendations for maintaining or enhancing the {{aspect}} of the ecosystem service(s) of interest without negatively affecting the ecosystem condition.
 
 {% endif %}
 {% endif %}
@@ -1164,7 +1164,7 @@ The assessment should also provide recommendations for maintaining or enhancing 
 {# Scenarios #}
 {% if fs_meth_scenario_35a in ["yes", "maybe"] or fs_meth_scenario_confirmation == "no" %}
 
-{% if me_scenarios_17a|length > 0 %} 
+{% if me_scenarios_17a|length > 0 %}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 
 #### 2.1.{{meth_subsection_counter}} Scenario(s) characteristics
@@ -1185,7 +1185,7 @@ The ecosystem service assessment should include a scenario analysis to ***[text 
 
 
 {# Uncertainties #}
-{% if me_uncertainties_2a in ["yes", "maybe"] or me_uncertainty_confirmation == "no" %} 
+{% if me_uncertainties_2a in ["yes", "maybe"] or me_uncertainty_confirmation == "no" %}
 
 ### 3. Uncertainties
 
@@ -1264,7 +1264,7 @@ The ecosystem service assessment should evaluate and document uncertainty arisin
 
 
 {# Validation #}
-{% if me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] or me_validation_3b in ["yes", "maybe"] %} 
+{% if me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] or me_validation_3b in ["yes", "maybe"] %}
 
 ### 4. Validation
 {% endif %}
@@ -1303,7 +1303,7 @@ The ecosystem service assessment should include a validation process to ensure t
 {# Stakeholder engagement #}
 
 {% if fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no" %}
-{% if (me_stakeholder_engage_4a.dev_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_res in ["yes", "maybe"] or me_stakeholder_engage_4a.data_col in ["yes", "maybe"] or me_stakeholder_engage_4a.inter_res in ["yes", "maybe"] or me_stakeholder_engage_4a.com_res in ["yes", "maybe"] or me_stakeholder_engage_4a.other in ["yes", "maybe"]) and (me_stakeholder_engage_4b.news_let in ["yes", "maybe"] or me_stakeholder_engage_4b.websites in ["yes", "maybe"] or me_stakeholder_engage_4b.webinars in ["yes", "maybe"] or me_stakeholder_engage_4b.forums in ["yes", "maybe"] or me_stakeholder_engage_4b.advisory in ["yes", "maybe"] or me_stakeholder_engage_4b.pub_cons in ["yes", "maybe"] or me_stakeholder_engage_4b.workshops in ["yes", "maybe"] or me_stakeholder_engage_4b.other in ["yes", "maybe"]) %} 
+{% if (me_stakeholder_engage_4a.dev_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_res in ["yes", "maybe"] or me_stakeholder_engage_4a.data_col in ["yes", "maybe"] or me_stakeholder_engage_4a.inter_res in ["yes", "maybe"] or me_stakeholder_engage_4a.com_res in ["yes", "maybe"] or me_stakeholder_engage_4a.other in ["yes", "maybe"]) and (me_stakeholder_engage_4b.news_let in ["yes", "maybe"] or me_stakeholder_engage_4b.websites in ["yes", "maybe"] or me_stakeholder_engage_4b.webinars in ["yes", "maybe"] or me_stakeholder_engage_4b.forums in ["yes", "maybe"] or me_stakeholder_engage_4b.advisory in ["yes", "maybe"] or me_stakeholder_engage_4b.pub_cons in ["yes", "maybe"] or me_stakeholder_engage_4b.workshops in ["yes", "maybe"] or me_stakeholder_engage_4b.other in ["yes", "maybe"]) %}
 
 {% set step_stake = [] %}
 
@@ -1381,7 +1381,7 @@ Stakeholder engagement should preferably include {% for method in meth_stake %} 
 
 
 
-{% elif (me_stakeholder_engage_4a.dev_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_res in ["yes", "maybe"] or me_stakeholder_engage_4a.data_col in ["yes", "maybe"] or me_stakeholder_engage_4a.inter_res in ["yes", "maybe"] or me_stakeholder_engage_4a.com_res in ["yes", "maybe"] or me_stakeholder_engage_4a.other in ["yes", "maybe"]) and (me_stakeholder_engage_4b.news_let in ["no", "dontknow"] and me_stakeholder_engage_4b.websites in ["no", "dontknow"] and me_stakeholder_engage_4b.webinars in ["no", "dontknow"] and me_stakeholder_engage_4b.forums in ["no", "dontknow"] and me_stakeholder_engage_4b.advisory in ["no", "dontknow"] and me_stakeholder_engage_4b.pub_cons in ["no", "dontknow"] and me_stakeholder_engage_4b.workshops in ["no", "dontknow"] and me_stakeholder_engage_4b.other in ["no", "dontknow"]) %} 
+{% elif (me_stakeholder_engage_4a.dev_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_meth in ["yes", "maybe"] or me_stakeholder_engage_4a.val_res in ["yes", "maybe"] or me_stakeholder_engage_4a.data_col in ["yes", "maybe"] or me_stakeholder_engage_4a.inter_res in ["yes", "maybe"] or me_stakeholder_engage_4a.com_res in ["yes", "maybe"] or me_stakeholder_engage_4a.other in ["yes", "maybe"]) and (me_stakeholder_engage_4b.news_let in ["no", "dontknow"] and me_stakeholder_engage_4b.websites in ["no", "dontknow"] and me_stakeholder_engage_4b.webinars in ["no", "dontknow"] and me_stakeholder_engage_4b.forums in ["no", "dontknow"] and me_stakeholder_engage_4b.advisory in ["no", "dontknow"] and me_stakeholder_engage_4b.pub_cons in ["no", "dontknow"] and me_stakeholder_engage_4b.workshops in ["no", "dontknow"] and me_stakeholder_engage_4b.other in ["no", "dontknow"]) %}
 
 {% set step_stake = [] %}
 
@@ -1417,12 +1417,12 @@ Stakeholder engagement should preferably include {% for method in meth_stake %} 
 
 A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {% for method in step_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
-The way(s) of including stakeholders in the above mentioned step(s) are left to the Contractor. In their proposal, the Contractor will describe the different channels of communication they would like to use to engage with stakeholders. 
+The way(s) of including stakeholders in the above mentioned step(s) are left to the Contractor. In their proposal, the Contractor will describe the different channels of communication they would like to use to engage with stakeholders.
 
 
 
 
-{% elif (me_stakeholder_engage_4a.dev_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_res in ["no", "dontknow"] or me_stakeholder_engage_4a.data_col in ["no", "dontknow"] or me_stakeholder_engage_4a.inter_res in ["no", "dontknow"] or me_stakeholder_engage_4a.com_res in ["no", "dontknow"] or me_stakeholder_engage_4a.other in ["no", "dontknow"]) and (me_stakeholder_engage_4b.news_let in ["yes", "maybe"] or me_stakeholder_engage_4b.websites in ["yes", "maybe"] or me_stakeholder_engage_4b.webinars in ["yes", "maybe"] or me_stakeholder_engage_4b.forums in ["yes", "maybe"] or me_stakeholder_engage_4b.advisory in ["yes", "maybe"] or me_stakeholder_engage_4b.pub_cons in ["yes", "maybe"] or me_stakeholder_engage_4b.workshops in ["yes", "maybe"] or me_stakeholder_engage_4b.other in ["yes", "maybe"]) %} 
+{% elif (me_stakeholder_engage_4a.dev_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_res in ["no", "dontknow"] or me_stakeholder_engage_4a.data_col in ["no", "dontknow"] or me_stakeholder_engage_4a.inter_res in ["no", "dontknow"] or me_stakeholder_engage_4a.com_res in ["no", "dontknow"] or me_stakeholder_engage_4a.other in ["no", "dontknow"]) and (me_stakeholder_engage_4b.news_let in ["yes", "maybe"] or me_stakeholder_engage_4b.websites in ["yes", "maybe"] or me_stakeholder_engage_4b.webinars in ["yes", "maybe"] or me_stakeholder_engage_4b.forums in ["yes", "maybe"] or me_stakeholder_engage_4b.advisory in ["yes", "maybe"] or me_stakeholder_engage_4b.pub_cons in ["yes", "maybe"] or me_stakeholder_engage_4b.workshops in ["yes", "maybe"] or me_stakeholder_engage_4b.other in ["yes", "maybe"]) %}
 
 {% set meth_stake = [] %}
 
@@ -1463,9 +1463,9 @@ The way(s) of including stakeholders in the above mentioned step(s) are left to 
 
 A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. Stakeholder engagement should preferably include {% for method in meth_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***. The choice of the step(s) at which the stakeholders should be involved in during the assessment is left to the Contractor. In their proposal, the Contractor should describe at which steps the stakeholders should be involved in and why.
 
-{% elif (me_stakeholder_engage_4a.dev_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_res in ["no", "dontknow"] or me_stakeholder_engage_4a.data_col in ["no", "dontknow"] or me_stakeholder_engage_4a.inter_res in ["no", "dontknow"] or me_stakeholder_engage_4a.com_res in ["no", "dontknow"] or me_stakeholder_engage_4a.other in ["no", "dontknow"]) and (me_stakeholder_engage_4b.news_let in ["no", "dontknow"] or me_stakeholder_engage_4b.websites in ["no", "dontknow"] or me_stakeholder_engage_4b.webinars in ["no", "dontknow"] or me_stakeholder_engage_4b.forums in ["no", "dontknow"] or me_stakeholder_engage_4b.advisory in ["no", "dontknow"] or me_stakeholder_engage_4b.pub_cons in ["no", "dontknow"] or me_stakeholder_engage_4b.workshops in ["no", "dontknow"] or me_stakeholder_engage_4b.other in ["no", "dontknow"]) %} 
+{% elif (me_stakeholder_engage_4a.dev_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_res in ["no", "dontknow"] or me_stakeholder_engage_4a.data_col in ["no", "dontknow"] or me_stakeholder_engage_4a.inter_res in ["no", "dontknow"] or me_stakeholder_engage_4a.com_res in ["no", "dontknow"] or me_stakeholder_engage_4a.other in ["no", "dontknow"]) and (me_stakeholder_engage_4b.news_let in ["no", "dontknow"] or me_stakeholder_engage_4b.websites in ["no", "dontknow"] or me_stakeholder_engage_4b.webinars in ["no", "dontknow"] or me_stakeholder_engage_4b.forums in ["no", "dontknow"] or me_stakeholder_engage_4b.advisory in ["no", "dontknow"] or me_stakeholder_engage_4b.pub_cons in ["no", "dontknow"] or me_stakeholder_engage_4b.workshops in ["no", "dontknow"] or me_stakeholder_engage_4b.other in ["no", "dontknow"]) %}
 
-A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. The choice of the step(s) at which the stakeholders should be involved at during the assessment, as well as the way(s) they should be engaged with is left to the Contractor. In their proposal, the Contractor will describe at which steps the stakeholders are expectes to be involved in and why, as well as the different channels of communication they would like to use to engage with stakeholders. 
+A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. The choice of the step(s) at which the stakeholders should be involved at during the assessment, as well as the way(s) they should be engaged with is left to the Contractor. In their proposal, the Contractor will describe at which steps the stakeholders are expectes to be involved in and why, as well as the different channels of communication they would like to use to engage with stakeholders.
 
 
 {% endif %}

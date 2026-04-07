@@ -7,9 +7,9 @@ A commissioning process can take many forms depending on your institutional stru
 </figure>
 
 
-Our writing guidance aims at supporting steps **1. Write a Terms of Reference**, and **4. Evaluate and rank proposals**. 
+Our writing guidance aims at supporting steps **1. Write a Terms of Reference**, and **4. Evaluate and rank proposals**.
 
-If you use our PDF templates, we recommend you to use them chorologically as follows: (1) the Frame & Scope template; (2) the Methodology template; and (3) the Evaluation Criteria template. The Evaluation Criteria template allows you to both write the evaluation criteria section of your Terms of Reference, but it also supports you in evaluating the proposals directly! (Figure 2) 
+If you use our PDF templates, we recommend you to use them chorologically as follows: (1) the Frame & Scope template; (2) the Methodology template; and (3) the Evaluation Criteria template. The Evaluation Criteria template allows you to both write the evaluation criteria section of your Terms of Reference, but it also supports you in evaluating the proposals directly! (Figure 2)
 
 If you use our online survey, you do not need to worry about this order as it has been set for you already!
 
