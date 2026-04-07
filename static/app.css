@@ -3107,6 +3107,17 @@
   display: block;
   overflow-x: auto;
 }
+.sd-body__navigation::after {
+  content: '';
+  flex-basis: 100%;
+  order: 1;
+}
+.sd-body__navigation .sv-action:not(.nav-button) {
+  order: 0;
+}
+.sd-body__navigation .nav-button {
+  order: 2;
+}
 #scroll-to-top {
   position: fixed;
   bottom: 1.5rem;
