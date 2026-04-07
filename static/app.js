@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const questionElement = options.htmlElement;
     let titleElement = questionElement.querySelector('.sd-question__title');
 
-      if (titleElement && options.question.title && !options.question.title.match(/^\*(warning|note):\s/i)) {
+      if (titleElement && options.question.title && !options.question.title.match(/^\*?(warning|note):\s/i)) {
         titleElement = titleElement.querySelector('.sv-title-actions__title') || titleElement;
         appendInfoLink(options.question.title, titleElement);
       }
