@@ -4,4 +4,29 @@
 <div class="prose lg:prose-2xl prose-neutral prose-headings:text-neutral mx-auto mt-5 px-4">
     {{ content|safe }}
 </div>
+
+<button
+  id="scroll-to-top"
+  class="btn btn-primary btn-circle shadow-lg"
+  aria-label="Scroll to top"
+  onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 15l-6-6-6 6"/>
+  </svg>
+</button>
+
+<script>
+  (function () {
+    const btn = document.getElementById('scroll-to-top');
+    function updateVisibility() {
+      const isTaller = document.documentElement.scrollHeight > window.innerHeight;
+      const isDown = window.scrollY > 300;
+      btn.classList.toggle('visible', isTaller && isDown);
+    }
+    window.addEventListener('scroll', updateVisibility, { passive: true });
+    window.addEventListener('resize', updateVisibility, { passive: true });
+    updateVisibility();
+  })();
+</script>
 {% endblock %}
