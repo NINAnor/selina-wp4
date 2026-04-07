@@ -101,48 +101,50 @@ document.addEventListener("DOMContentLoaded", function () {
     innerCss: "sd-btn"
   });
 
-  survey.addNavigationItem({
-    id: "sv-nav-download-page",
-    title: "Download survey configuration",
-    action: () => {
-      downloadSurveyData(survey);
-    },
-    css: "nav-button",
-    innerCss: "sd-btn"
-  });
+  if (window.isDevMode) {
+    survey.addNavigationItem({
+      id: "sv-nav-download-page",
+      title: "Download survey configuration",
+      action: () => {
+        downloadSurveyData(survey);
+      },
+      css: "nav-button",
+      innerCss: "sd-btn"
+    });
 
-  survey.addNavigationItem({
-    id: "sv-nav-upload-state",
-    title: "Upload survey state",
-    action: () => {
-      const fileInput = document.createElement("input");
-      fileInput.type = "file";
-      fileInput.accept = ".json,application/json";
-      fileInput.style.display = "none";
-      fileInput.addEventListener("change", (event) => {
-        const file = event.target.files[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = (e) => {
-            try {
-              const data = JSON.parse(e.target.result);
-              survey.data = data;
-              localStorage.setItem(STORAGE_ITEM_DATA_KEY, JSON.stringify(data));
-            } catch (error) {
-              console.error("Failed to parse JSON file:", error);
-              alert("Invalid JSON file. Please upload a valid survey state file.");
-            }
-          };
-          reader.readAsText(file);
-        }
-        document.body.removeChild(fileInput);
-      });
-      document.body.appendChild(fileInput);
-      fileInput.click();
-    },
-    css: "nav-button",
-    innerCss: "sd-btn"
-  });
+    survey.addNavigationItem({
+      id: "sv-nav-upload-state",
+      title: "Upload survey state",
+      action: () => {
+        const fileInput = document.createElement("input");
+        fileInput.type = "file";
+        fileInput.accept = ".json,application/json";
+        fileInput.style.display = "none";
+        fileInput.addEventListener("change", (event) => {
+          const file = event.target.files[0];
+          if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+              try {
+                const data = JSON.parse(e.target.result);
+                survey.data = data;
+                localStorage.setItem(STORAGE_ITEM_DATA_KEY, JSON.stringify(data));
+              } catch (error) {
+                console.error("Failed to parse JSON file:", error);
+                alert("Invalid JSON file. Please upload a valid survey state file.");
+              }
+            };
+            reader.readAsText(file);
+          }
+          document.body.removeChild(fileInput);
+        });
+        document.body.appendChild(fileInput);
+        fileInput.click();
+      },
+      css: "nav-button",
+      innerCss: "sd-btn"
+    });
+  }
 
   DOMPurify.addHook("afterSanitizeAttributes", function (node) {
     // set all elements owning target to target=_blank
@@ -161,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   survey.addNavigationItem({
     id: "sv-nav-clear-all",
-    title: "Clear All",
+    title: "Clear survey",
     action: () => {
       if (confirm("Are you sure you want to clear all survey data? This action cannot be undone.")) {
         survey.clear();
