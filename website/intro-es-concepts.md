@@ -89,7 +89,7 @@ Below, you will find answers to each of these questions. We know it's a lot of c
 .. join_accordion::
     :close: true
 
-## 4. What do we mean by uncertainty of the results and why whould it be quantified?
+## 4. What do we mean by uncertainty of the results and why should it be quantified?
 .. join_accordion::
 
 .. accordion:: A mini-glossary to help...
@@ -109,7 +109,7 @@ Below, you will find answers to each of these questions. We know it's a lot of c
 .. join_accordion::
     :close: true
 
-## 5. How do all the the above concepts influence each other?
+## 5. How do all the above concepts influence each other?
 .. join_accordion::
 .. accordion:: Relevance
     All the concepts presented above are important to know because they are key design features of integrated ecosystem assessments in general. In particular, biophysical ecosystem service assessments are strengthened by adequately considering (i) spatial resolution and scaling, (ii) ecosystem condition, (iii) capacity, potential, supply-use of ecosystem services (iv) and uncertainty analysis and documentation. The integration of plural values in ecosystem assessments is strengthened by considering economic, social and health benefits[^10]. Figure 4 below illustrates that there are linkages between all these assessment design features.
