@@ -3,7 +3,8 @@ const STORAGE_ITEM_UI_STATE_KEY = "my-survey-state";
 
 const IGNORE_REGEXES = [
   /^(<b>)?\*?(warning|note):(<\/b>)?\s*/i,
-  /^do you have the expertise/i
+  /^do you have the expertise/i,
+  /^selected th(at|e) primary valuation/i,
 ];
 
 
