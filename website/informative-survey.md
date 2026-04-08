@@ -616,7 +616,7 @@ This page gives more information on the questions asked in the online survey inc
 .. join_accordion::
     :close: true
 
-#### Should the ecosystem service assessment identify potential interrelationships between ecosystem services and the benefits they provide?
+#### Should the ecosystem service assessment identify potential interrelationships between ecosystem services and / or the benefits they provide?
 
 .. join_accordion::
 
