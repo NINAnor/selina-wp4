@@ -1311,15 +1311,15 @@
           "rows": [
             {
               "value": "inter_es",
-              "text": "Interrelationships bewteen ecosystems services"
+              "text": "Interrelationships between ecosystems services"
             },
             {
               "value": "inter_benef",
-              "text": "Interrelationships bewteen benefits"
+              "text": "Interrelationships between benefits"
             },
             {
               "value": "inter_es_benef",
-              "text": "Interrelationships bewteen ecosystem services and their benefits"
+              "text": "Interrelationships between ecosystem services and their benefits"
             }
           ]
         }
