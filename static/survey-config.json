@@ -1859,7 +1859,7 @@
     },
     {
       "name": "page_end",
-      "description": "<b>Well done! You finally made it to the end of the Terms of Reference survey!</b> \nWe will now show you a preview of your answers so you can check them and amend them if needed. Once you are done, click on <b>Complete</b>.",
+      "description": "<b>Well done! You finally made it to the end of the Terms of Reference survey!</b> \nWe will now show you a preview of your answers so you can check them and amend them if needed. Once you are done, click on <b>Complete</b>. This will generate your draft Terms of Reference as a Word document.",
       "elements": [
         {
           "type": "html",
