@@ -802,13 +802,14 @@
           "type": "panel",
           "name": "panel7",
           "visibleIf": "{me_expertise_needed_1} = 'yes' ",
+          "innerIndent": 3,
           "elements": [
             {
               "type": "matrix",
               "name": "me_econ_valuation_11a",
               "visibleIf": "{me_expertise_needed_1} = 'yes' ",
               "title": "Which economic valuation method(s) should be applied in the ecosystem service assessment?\n",
-              "description": "Select what applies. Choosing the type of primary valuation methods is voluntary, if the commissioners don’t have sufficient knowledge. \nValue transfer methods use existing study results to estimate values for new sites, usually faster and cheaper alternative to primary valuation. \r\nPrimary valuation methods produce new or original information generally using primary data for the specific location of the assessment. \n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+              "description": "Select what applies. \n<b>Value transfer methods</b> use existing study results to estimate values for new sites, usually faster and cheaper alternative to primary valuation. \r\n<b>Primary valuation methods</b> produce new or original information generally using primary data for the specific location of the assessment.",
               "isRequired": true,
               "columns": [
                 {
@@ -870,12 +871,13 @@
           "type": "panel",
           "name": "panel8",
           "visibleIf": "{me_econ_valuation_11a.prim} = 'yes' ",
+          "innerIndent": 3,
           "elements": [
             {
               "type": "matrix",
               "name": "me_valuation_methods",
               "visibleIf": "{me_primary_valuation_condition} = 'yes' ",
-              "title": "Please select the relevant primary valuation method(s) from the list below",
+              "title": "Please select the primary valuation method(s) that you want to be applied from the list below",
               "isRequired": true,
               "columns": [
                 {
@@ -950,6 +952,7 @@
           "visibleIf": "{me_valuation_methods.other} anyof ['yes', 'maybe']",
           "title": "You selected 'Other', please specify the economic valuation method(s) that are of interest in the assessment:",
           "description": "<b>Note:</b> Your response will be visible in the Terms of reference.",
+          "indent": 3,
           "clearInvisibleValues": "none"
         },
         {
@@ -983,6 +986,7 @@
           "visibleIf": "{me_econ_dev_11b} anyof ['yes', 'maybe']",
           "title": "Please specify the economic indicator(s) that are of interest in the assessment:",
           "description": "<b>Note:</b> Your response will be visible in the Terms of reference.",
+          "indent": 3,
           "clearInvisibleValues": "none"
         }
       ]
@@ -1067,6 +1071,7 @@
           "visibleIf": "{me_expertise_needed} = 'yes' ",
           "title": "What aspects of ecosystem condition are you interested in? ",
           "description": "Ecosystem condition encompasses a lot of different dimensions. Select those of interest in this assessment.",
+          "indent": 3,
           "isRequired": true,
           "columns": [
             {
@@ -1176,8 +1181,8 @@
         {
           "type": "matrix",
           "name": "me_health_aspects_14a",
-          "title": "What aspects of health are you interested in?\n ",
-          "description": "Select what applies.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "title": "What aspects of health are you interested in?",
+          "description": "Select what applies.",
           "isRequired": true,
           "columns": [
             {
@@ -1266,7 +1271,7 @@
     },
     {
       "name": "page12",
-      "description": "<b>C.5 Relationships between ecosystem services</b>",
+      "description": "<b>C.5 Interrelationships between ecosystem services</b>",
       "elements": [
         {
           "type": "radiogroup",
@@ -1298,6 +1303,7 @@
           "name": "me_eco_relations_15b",
           "visibleIf": "{me_eco_relations_15a} anyof ['yes','maybe']",
           "title": "Which interrelationship(s) is(are) of interest in this assessment?",
+          "indent": 3,
           "isRequired": true,
           "columns": [
             {
@@ -1531,6 +1537,7 @@
           "visibleIf": "({fs_meth_scenario_35a} = 'no' or {fs_meth_scenario_35a} = 'dontknow') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe' or {me_uncertainty_confirmation} = 'no')",
           "title": "What is the preferred reporting format to document uncertainties?",
           "description": "Select what applies.",
+          "indent": 3,
           "isRequired": true,
           "columns": [
             {
@@ -1574,7 +1581,8 @@
           "name": "me_uncertainties_2b_dup",
           "visibleIf": "({fs_meth_scenario_35a} = 'yes' or {fs_meth_scenario_35a} = 'maybe') and ({me_uncertainties_2a} = 'yes' or {me_uncertainties_2a} = 'maybe' or {me_uncertainty_confirmation} = 'no')",
           "title": "What is the preferred reporting format to document uncertainties?",
-          "description": "Select what applies.\n\n<b>Note:</b> Your response will be visible in the Terms of reference. ",
+          "description": "Select what applies.",
+          "indent": 3,
           "isRequired": true,
           "columns": [
             {
@@ -1621,6 +1629,7 @@
           "type": "comment",
           "name": "me_uncertainties_2b_other",
           "visibleIf": "({me_uncertainties_2b.other} anyof ['yes', 'maybe']) or ({me_uncertainties_2b_dup.other} anyof ['yes', 'maybe'])",
+          "indent": 3,
           "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>Note:</b> Your response will be visible in the Terms of reference."
         }
       ]
@@ -1668,7 +1677,7 @@
           "type": "radiogroup",
           "name": "me_validation_3b",
           "title": "Should the results be compared to other published reference data in the validation process?\n",
-          "description": "Reference data are baseline or benchmark datasets or already published figures that will be used to compare the results of the ecosystem service assessment. Commissioners might want to list some key datasets or figures they would like the results to be comparable with. Alternatively, stakeholders can be consulted to identify these references",
+          "description": "Reference data are baseline or benchmark datasets or already published figures that will be used to compare the results of the ecosystem service assessment. Commissioners might want to list some key datasets or figures they would like the results to be comparable with. Alternatively, stakeholders can be consulted to identify these references.",
           "isRequired": true,
           "choices": [
             {
@@ -1695,6 +1704,7 @@
           "visibleIf": "{me_validation_3b} = 'no' and\n{me_validation_3a.intern} = 'no' and\n{me_validation_3a.extern} = 'no'",
           "title": "<b>Note:</b> Validation of the results gives an estimation of their quality. Your answer to this question means that the results of the ecosystem service assessment will not be validated. The section will thus be absent from your Terms of Reference. Do you confirm that this corresponds to your needs?",
           "isRequired": true,
+          "indent": 3,
           "choices": [
             {
               "value": "yes",
@@ -1721,7 +1731,7 @@
           "type": "matrix",
           "name": "me_stakeholder_engage_4a",
           "title": "At which step(s) of the ecosystem service assessment should the stakeholders be informed, consulted, or participate?\r",
-          "description": "Identify when the stakeholders should be informed, consulted or participate in the ecosystem service assessment. Stakeholders are any group, organisation or individual who are interested in and / or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Select what applies.\nIdentify when the stakeholders should be informed, consulted or participate in the ecosystem service assessment. Stakeholders are any group, organisation or individual who are interested in and / or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders.",
           "isRequired": true,
           "columns": [
             {
@@ -1776,7 +1786,8 @@
           "type": "comment",
           "name": "me_stakeholder_engage_4a_other",
           "visibleIf": "{me_stakeholder_engage_4a.other} = 'yes' or\n{me_stakeholder_engage_4a.other} = 'maybe'\n",
-          "title": "You selected “Other”. Please specify when the stakeholders should be involved in the assessment.\n"
+          "title": "You selected “Other”. Please specify when the stakeholders should be involved in the assessment.\n",
+          "indent": 3
         },
         {
           "type": "matrix",
@@ -1841,7 +1852,8 @@
           "type": "comment",
           "name": "me_stakeholder_engage_4b_other",
           "visibleIf": "{me_stakeholder_engage_4b.other} anyof ['yes', 'maybe']",
-          "title": "You selected “Other”. Please specify how the stakeholders should be involved."
+          "title": "You selected “Other”. Please specify how the stakeholders should be involved.",
+          "indent": 3
         }
       ]
     },
