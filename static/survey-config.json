@@ -2,7 +2,7 @@
   "title": "Create your Terms of Reference for a tailored ecosystem service assessment",
   "logo": "",
   "logoHeight": "60px",
-  "completedHtml": "<h3>Thank you for your feedback</h3><a href='/'>back to home page</a>",
+  "completedHtml": "<h3>Thank you for your efforts! A Terms of Reference has been automatically downloaded as Word document for you to read and amend further. Check your downloads :)</h3><a href='/'>back to home page</a>",
   "pages": [
     {
       "name": "page18",
@@ -1833,6 +1833,16 @@
           "name": "me_stakeholder_engage_4b_other",
           "visibleIf": "{me_stakeholder_engage_4b.other} anyof ['yes', 'maybe']",
           "title": "You selected “Other”. Please specify how the stakeholders should be involved."
+        }
+      ]
+    },
+    {
+      "name": "page_end",
+      "description": "<b>Well done! You have completed the Terms of Reference survey! </b> We will now show you a preview of your answers so you can check them and amend them if needed.",
+      "elements": [
+        {
+          "type": "html",
+          "name": "question_none"
         }
       ]
     }
