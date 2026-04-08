@@ -1,6 +1,12 @@
 const STORAGE_ITEM_DATA_KEY = "my-survey-data";
 const STORAGE_ITEM_UI_STATE_KEY = "my-survey-state";
 
+const IGNORE_REGEXES = [
+  /^(<b>)?\*?(warning|note):(<\/b>)?\s*/i,
+  /^do you have the expertise/i
+];
+
+
 document.addEventListener("DOMContentLoaded", function () {
   console.log('starting survey...')
 
@@ -187,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
   survey.onAfterRenderQuestion.add((sender, options) => {
     const questionElement = options.htmlElement;
     let titleElement = questionElement.querySelector('.sd-question__title');
-      if (titleElement && options.question.title && !options.question.title.match(/^(<b>)?\*?(warning|note):(<\/b>)?\s*/i)) {
+      if (titleElement && options.question.title && ! IGNORE_REGEXES.some((regex) => options.question.title.match(regex))) {
         titleElement = titleElement.querySelector('.sv-title-actions__title') || titleElement;
         appendInfoLink(options.question.title, titleElement);
       }
