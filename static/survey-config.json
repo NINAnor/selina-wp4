@@ -2,7 +2,7 @@
   "title": "Create your Terms of Reference for a tailored ecosystem service assessment",
   "logo": "",
   "logoHeight": "60px",
-  "completedHtml": "<h3>Thank you for your efforts! A Terms of Reference has been automatically downloaded as Word document for you to read and amend further. Check your downloads :)</h3><a href='/'>back to home page</a>",
+  "completedHtml": "<h3>Thank you for your efforts!<p><b>A Terms of Reference has been automatically downloaded as a Word document for you to read and amend further. Check your downloads :)</b></p></h3><a href='/'>back to home page</a>",
   "pages": [
     {
       "name": "page18",
@@ -1838,7 +1838,7 @@
     },
     {
       "name": "page_end",
-      "description": "<b>Well done! You have completed the Terms of Reference survey! </b> We will now show you a preview of your answers so you can check them and amend them if needed.",
+      "description": "<b>Well done! You finally made it to the end of the Terms of Reference survey!</b> \nWe will now show you a preview of your answers so you can check them and amend them if needed. Once you are done, click on <b>Complete</b>.",
       "elements": [
         {
           "type": "html",
