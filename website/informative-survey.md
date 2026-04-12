@@ -738,7 +738,7 @@ This page gives more information on the questions asked in the online survey inc
     :close: true
 
 
-#### Should the ecosystem service provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition?
+#### Should the ecosystem service assessment provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition?
 .. join_accordion::
 
 .. accordion:: Why is this question relevant to me?

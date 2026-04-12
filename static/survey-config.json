@@ -1480,7 +1480,7 @@
           "type": "radiogroup",
           "name": "me_time_space_condition_16d",
           "visibleIf": "{me_sust_level_12b} anyof ['yes', 'maybe'] and ({fs_meth_cond_34g} anyof ['yes','maybe'] or {fs_meth_cond_confirmation} = 'no') and ({me_spatial_benefits_16a.space_es} anyof ['yes','maybe'] or {me_time_benefits_16b.time_es} anyof ['yes','maybe'])",
-          "title": "Should the ecosystem service provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition",
+          "title": "Should the ecosystem service assesment provide recommendations for maintaining or enhancing the supply / use of the ecosystem services without negatively affecting the ecosystem condition",
           "description": "Providing recommendations means identifying and describing actionable suggestions to improve or bridge an existing gap of a strategy or situation.",
           "isRequired": true,
           "choices": [
