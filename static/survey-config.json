@@ -34,7 +34,7 @@
           "type": "comment",
           "name": "fs_purpose_1a",
           "title": "What is(are) the purpose(s) of the ecosystem service assessment? Is it part of a decision-making process? If so, at which step(s) of this process is the assessment needed?",
-          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n<b>Note:</b> Your response will be visible in the [Terms of reference.](/informative-survey#test-1)",
+          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.",
           "isRequired": true,
           "autoGrow": true
         },
@@ -42,14 +42,14 @@
           "type": "comment",
           "name": "fs_context_policy_1b",
           "title": "Which relevant policies should be considered for the ecosystem service assessment given the decision-making step and primary objective?",
-          "description": "Identify the international and national policies that should be considered in the ecosystem service assessment.\n\n<b>Note:</b> Your response will be visible as written here in the Terms of Reference.\n",
+          "description": "Identify the international and national policies that should be considered in the ecosystem service assessment.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true
         },
         {
           "type": "comment",
           "name": "fs_context_social_1d",
           "title": "What is the social / demographic context of the ecosystem service assessment?\n",
-          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true
         },
         {
@@ -87,7 +87,7 @@
           "type": "multipletext",
           "name": "fs_meth_es_31b",
           "title": "What ecosystem service(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. Ecosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. Ecosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
           "items": [
             {
               "name": "es_list",
@@ -103,7 +103,7 @@
           "type": "multipletext",
           "name": "fs_meth_et_31a",
           "title": "What ecosystem type(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. Ecosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. Ecosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
           "items": [
             {
               "name": "et_list",
@@ -125,7 +125,7 @@
           "type": "multipletext",
           "name": "fs_meth_sp_ext_32a",
           "title": "What is(are) the geographical location(s) and total area(s) (i.e., spatial extent) of the ecosystem service assessment?\n",
-          "description": "Identify the geographical location(s) and total area of each location (e.g., 5,000 m2, 1 km2, 10 ha) in which the assessment should be conducted. The geographical location and the total area form the spatial extent.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Identify the geographical location(s) and total area of each location (e.g., 5,000 m2, 1 km2, 10 ha) in which the assessment should be conducted. The geographical location and the total area form the spatial extent.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true,
           "items": [
             {
@@ -163,13 +163,13 @@
           "type": "text",
           "name": "fs_meth_sp_agg_ecolo",
           "visibleIf": "(({fs_meth_sp_scale_32b} = 'ecolo'))",
-          "title": "You indicated that the results should be aggregated at ecological scales. Please specify the ecological groups that are meaningful to the assessment. \n\n<b>Note:</b> Your response will be visible in the Terms of reference."
+          "title": "You indicated that the results should be aggregated at ecological scales. Please specify the ecological groups that are meaningful to the assessment. \n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here."
         },
         {
           "type": "comment",
           "name": "fs_meth_sp_agg_admin",
           "visibleIf": "(({fs_meth_sp_scale_32b} = 'admin'))",
-          "title": "You indicated that the results should be aggregated at administrative scales. Please specify the administrative groups that are meaningful to the assessment. \n\n<b>Note:</b> Your response will be visible in the Terms of reference."
+          "title": "You indicated that the results should be aggregated at administrative scales. Please specify the administrative groups that are meaningful to the assessment. \n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here."
         }
       ]
     },
@@ -181,7 +181,7 @@
           "type": "multipletext",
           "name": "fs_meth_temp_33a",
           "title": "What is the time period and temporal scale(s) to be considered in the ecosystem service assessment?\n",
-          "description": "Identify the total time period (or interval) for which the ecosystem service assessment is to be conducted. It may also be a single (e.g., annual) assessment without repetition. Then specify the temporal scale, in which you need the results reported. The temporal scale represents the unit of time in which the results should be presented (aggregated if needed) such as by year, by quarter, by month, etc.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Identify the total time period (or interval) for which the ecosystem service assessment is to be conducted. It may also be a single (e.g., annual) assessment without repetition. Then specify the temporal scale, in which you need the results reported. The temporal scale represents the unit of time in which the results should be presented (aggregated if needed) such as by year, by quarter, by month, etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true,
           "items": [
             {
@@ -845,7 +845,7 @@
               "name": "me_econ_valuation_condition",
               "visibleIf": "{me_econ_valuation_11a.value} = 'no' and\n{me_econ_valuation_11a.prim} = 'no'",
               "title": "You answered “No” to both methods proposed above. Please specify the methods you would like to recommend for you assessment.\n\n",
-              "description": "<b>Note:</b> Your response will be visible in the Terms of reference.",
+              "description": "<b>Note:</b> Your draft Terms of Reference will display your answer as written here.",
               "isRequired": true
             },
             {
@@ -959,7 +959,7 @@
           "name": "other_valuation",
           "visibleIf": "{me_valuation_methods.other} anyof ['yes', 'maybe']",
           "title": "You selected 'Other', please specify the economic valuation method(s) that are of interest in the assessment:",
-          "description": "<b>Note:</b> Your response will be visible in the Terms of reference.",
+          "description": "<b>Note:</b> Your draft Terms of Reference will display your answer as written here.",
           "indent": 3,
           "clearInvisibleValues": "none"
         },
@@ -993,7 +993,7 @@
           "name": "me_econo_id",
           "visibleIf": "{me_econ_dev_11b} anyof ['yes', 'maybe']",
           "title": "Please specify the economic indicator(s) that are of interest in the assessment:",
-          "description": "<b>Note:</b> Your response will be visible in the Terms of reference.",
+          "description": "<b>Note:</b> Your draft Terms of Reference will display your answer as written here.",
           "indent": 3,
           "clearInvisibleValues": "none"
         }
@@ -1662,7 +1662,7 @@
           "name": "me_uncertainties_2b_other",
           "visibleIf": "({me_uncertainties_2b.other} anyof ['yes', 'maybe']) or ({me_uncertainties_2b_dup.other} anyof ['yes', 'maybe'])",
           "indent": 3,
-          "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>Note:</b> Your response will be visible in the Terms of reference."
+          "title": "You selected “Other”. Please specify the reporting of uncertainties that should be applied in the assessment. \n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here."
         }
       ]
     },
@@ -1674,7 +1674,7 @@
           "type": "matrix",
           "name": "me_validation_3a",
           "title": "How should the methodology and results of the ecosystem service assessment be validated?",
-          "description": "Select what applies. Validating the methodology means ensuring that the metrics, data, choice of scenarios and analyses, and stakeholder involvement plan chosen meet the goals of the commissioners. Validating the results of the assessment means verifying that the findings are accurate, reliable, and answer the goals of the commissioners.\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Select what applies. Validating the methodology means ensuring that the metrics, data, choice of scenarios and analyses, and stakeholder involvement plan chosen meet the goals of the commissioners. Validating the results of the assessment means verifying that the findings are accurate, reliable, and answer the goals of the commissioners.",
           "isRequired": true,
           "columns": [
             {
@@ -1825,7 +1825,7 @@
           "type": "matrix",
           "name": "me_stakeholder_engage_4b",
           "title": "What methods should be used for involving stakeholders in the ecosystem service assessment?",
-          "description": "Describe how the stakeholders should be involved. Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:\n\n<b>Note:</b> Your response will be visible in the Terms of reference.\n",
+          "description": "Describe how the stakeholders should be involved. Stakeholders are any group, organisation or individual who are interested in and / or will or might be affected by ecosystem services and any change made to their flows. In the context of an ecosystem service assessment, stakeholders notably include those who directly or indirectly benefit from the service, those who try to regulate the use, the experts in the science of ecosystem services, or the data holders. For this, the commissioner can choose from the table below:",
           "isRequired": true,
           "columns": [
             {
