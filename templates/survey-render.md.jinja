@@ -534,40 +534,42 @@ The assessment should measure the {{aspect}} of the economic value of the ecosys
 
 {# Social and health #}
 
+{% if fs_meth_health_34e_1 in ["yes", "maybe"]}
 {# Determine focus of health #}
-{% if (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Human health only #}
-{% set health_focus = "human health" %}
+   {% if (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Human health only #}
+   {% set health_focus = "human health" %}
 
-{% elif (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Animal health only #}
-{% set health_focus = "animal health" %}
+   {% elif (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Animal health only #}
+   {% set health_focus = "animal health" %}
 
-{% elif fs_meth_health_34e.plant_health in ["yes", "maybe"] and (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Plant health only #}
-{% set health_focus = "plant health" %}
+   {% elif fs_meth_health_34e.plant_health in ["yes", "maybe"] and (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Plant health only #}
+   {% set health_focus = "plant health" %}
 
-{% elif (fs_meth_health_34e.one_health in ["yes", "maybe"]) %} {# One health only #}
-{% set health_focus = "One Health" %}
+   {% elif (fs_meth_health_34e.one_health in ["yes", "maybe"]) %} {# One health only #}
+   {% set health_focus = "One Health" %}
 
-{% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.plant_health in ["yes", "maybe"]) %} {# One health only #}
-{% set health_focus = "One Health" %}
+   {% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.plant_health in ["yes", "maybe"]) %} {# One health only #}
+   {% set health_focus = "One Health" %}
 
-{% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# human and animal only #}
-{% set health_focus = "human and animal health" %}
+   {% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# human and animal only #}
+   {% set health_focus = "human and animal health" %}
 
-{% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["yes", "maybe"]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# human and plant only #}
-{% set health_focus = "human and plant health" %}
+   {% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["yes", "maybe"]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# human and plant only #}
+   {% set health_focus = "human and plant health" %}
 
-{% elif (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.plant_health in ["yes", "maybe"]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# plant and animal only #}
-{% set health_focus = "plant and animal health" %}
+   {% elif (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.animal_health in ["yes", "maybe"]) and (fs_meth_health_34e.plant_health in ["yes", "maybe"]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# plant and animal only #}
+   {% set health_focus = "plant and animal health" %}
 
-{% elif (fs_meth_health_confirmation == "no") and (fs_meth_health_34e.human_health == "no") and (fs_meth_health_34e.animal_health == "no") and (fs_meth_health_34e.plant_health == "no") and (fs_meth_health_34e.one_health == "no") %} {# undetermined only #}
-{% set health_focus = "***[the health focus has not be specific, text to be completed by the Commissioner]***" %}
+   {% elif (fs_meth_health_confirmation == "no") and (fs_meth_health_34e.human_health == "no") and (fs_meth_health_34e.animal_health == "no") and (fs_meth_health_34e.plant_health == "no") and (fs_meth_health_34e.one_health == "no") %} {# undetermined only #}
+   {% set health_focus = "***[the health focus has not be specific, text to be completed by the Commissioner]***" %}
 
+   {% endif %}
 {% endif %}
 
 
 
 {# Social benefits and Health #}
-{% if ((fs_meth_social_34d in ["yes", "maybe"]) or (fs_meth_social_confirmation == "no")) and ((fs_meth_health_34e.human_health in ["yes", "maybe"]) or (fs_meth_health_34e.animal_health in ["yes", "maybe"]) or (fs_meth_health_34e.plant_health in ["yes", "maybe"]) or (fs_meth_health_34e.one_health in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no") and (fs_meth_social_confirmation in ["yes", "dontknow"])) %} {# biophy and econo first #}
+{% if ((fs_meth_social_34d in ["yes", "maybe"]) or (fs_meth_social_confirmation == "no")) and ((fs_meth_health_34e_1 in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no"))%} {# biophy and econo first #}
 In this assessment, we are also interested in the health and social values of the ecosystem service(s) of interest. By health we more specifically refer to the relevance of the service(s) towards {{health_focus}}. These should be measured using relevant metrics. More details are provided in the Methodology section of this document.
 
 {# Social benefits only #}
@@ -575,7 +577,7 @@ In this assessment, we are also interested in the health and social values of th
 In this assessment, we are also interested in the social value of the ecosystem service(s) of interest. This should be measured using relevant metrics. More details are provided in the Methodology section of this document.
 
 {# Health only #}
-{% elif (fs_meth_health_34e.human_health in ["yes", "maybe"]) or (fs_meth_health_34e.animal_health in ["yes", "maybe"]) or (fs_meth_health_34e.plant_health in ["yes", "maybe"]) or (fs_meth_health_34e.one_health in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no") and (fs_meth_social_confirmation in ["yes", "dontknow"])%} {# biophy and econo first #}
+{% elif (fs_meth_health_34e_1 in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no") and (fs_meth_social_confirmation in ["yes", "dontknow"])%} {# biophy and econo first #}
 In this assessment, we are also interested in the value of the ecosystem service(s) of interest in terms of their relevance to health. By health we more specifically refer to {{health_focus}}. This should be measured using relevant metrics. More details are provided in the Methodology section of this document.
 
 {% endif %}
@@ -760,22 +762,6 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
    {% endif %}
 
 {% endif %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 {# Economic indicators #}
