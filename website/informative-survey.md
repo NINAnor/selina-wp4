@@ -910,7 +910,7 @@ This page gives more information on the questions asked in the online survey inc
 
 ### Stakeholder engagement
 
-#### How should the methodology and results of the ecosystem service assessment be validated?
+#### At which step(s) of the ecosystem service assessment should the stakeholders be informed, consulted, or participate?
 
 .. join_accordion::
 
