@@ -534,7 +534,7 @@ The assessment should measure the {{aspect}} of the economic value of the ecosys
 
 {# Social and health #}
 
-{% if fs_meth_health_34e_1 in ["yes", "maybe"]}
+{% if fs_meth_health_34e_1 in ["yes", "maybe"]%}
 {# Determine focus of health #}
    {% if (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Human health only #}
    {% set health_focus = "human health" %}
@@ -691,6 +691,10 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
       {% set val_meth_list = val_meth_list + ["Choice modelling"] %}
       {% endif %}
 
+      {% if me_valuation_methods.other in ["yes", "maybe"] %}
+      {% set val_meth_list = val_meth_list + [other_valuation] %}
+      {% endif %}
+
    {% endif %}
 
 {% endif %}
@@ -754,7 +758,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 
 {# Don't know #}
-   {% if (me_econ_valuation_11a.value_trans == "dontknow" or not me_econ_valuation_11a.value_trans) and (me_econ_valuation_11a.prim == "dontknow" or not ne_econ_valuation_11a.prim) %}
+   {% if (me_econ_valuation_11a.value_trans == "dontknow" or not me_econ_valuation_11a.value_trans) and (me_econ_valuation_11a.prim == "dontknow" or not me_econ_valuation_11a.prim) %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
