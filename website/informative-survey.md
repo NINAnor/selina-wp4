@@ -1,4 +1,4 @@
-# Survey FAQ
+# Additional information on the Terms of Reference online survey
 This page gives more information on the questions asked in the online survey including additional explanations on the relevance of questions and examples of answers. The overall example taken to answer all of the questions is the [Belgian case study](/examples-tor#:~:text=Assessing%20multiple%20ecosystems%20and%20their%20trade%2Doffs%3A%20a%20Belgian%20case%20study) described in [Examples](/examples-tor).
 
 ## Frame & Scope survey questions
