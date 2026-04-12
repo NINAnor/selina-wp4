@@ -701,12 +701,6 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
 The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
-
-{% elif (me_econ_valuation_11a and me_econ_valuation_11a.value_trans == "dontknow" and me_econ_valuation_11a.prim == "dontknow") %}
-{% set meth_subsection_counter = meth_subsection_counter + 1 %}
-#### 2.1.{{meth_subsection_counter}} Economic valuation
-
-The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
 {% endif %}
 
 
@@ -716,7 +710,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 {# Single method valuation methods #}
 {# Transfer methods only #}
    
-   {% if me_econ_valuation_11a.value_trans and me_econ_valuation_11a.value_trans in ["yes", "maybe"] and (me_econ_valuation_11a.prim in ["no", "dontknow"] or (not me_econ_valuation_11a.prim)) %}
+   {% if (me_econ_valuation_11a.value_trans and me_econ_valuation_11a.value_trans in ["yes", "maybe"]) and (me_econ_valuation_11a.prim in ["no", "dontknow"] or (not me_econ_valuation_11a.prim)) %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -725,7 +719,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 
 {# Primary methods only #}
-   {% if ((not me_econ_valuation_11a.value_trans) or me_econ_valuation_11a.value_trans in ["no", "dontknow"]) and (me_econ_valuation_11a and me_econ_valuation_11a.prim in ["yes", "maybe"]) %}
+   {% if ((not me_econ_valuation_11a.value_trans) or me_econ_valuation_11a.value_trans in ["no", "dontknow"]) and (me_econ_valuation_11a.prim and me_econ_valuation_11a.prim in ["yes", "maybe"]) %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -754,6 +748,15 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
    The study should design and apply {{other_valuation}} to estimate the economic value of each identified ecosystem service.
 
+   {% endif %}
+
+
+{# Don't know #}
+   {% if (me_econ_valuation_11a.value_trans == "dontknow" or not me_econ_valuation_11a.value_trans) and (me_econ_valuation_11a.prim == "dontknow" or not ne_econ_valuation_11a.prim) %}
+   {% set meth_subsection_counter = meth_subsection_counter + 1 %}
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+The choice of the valuation method(s) to be applied is left to the Contractor. In their proposal, the Contractor will justify their choice(s) in regards to the decision-making and context of the assessment, as well as the data availability.
    {% endif %}
 
 {% endif %}
