@@ -147,15 +147,15 @@
           "choices": [
             {
               "value": "full_sp",
-              "text": "Fully spatially explicit: <i>the assessment maps detailed spatial patterns and interactions to support site-specific management but demands more resources.</i>"
+              "text": "Fully spatially explicit: <i>the assessment maps detailed spatial patterns and interactions to support site-specific management.</i>"
             },
             {
               "value": "ecolo",
-              "text": "Aggregation at ecological scale: <i>the assessment aggregates ecosystem types and services by groups that are ecologically meaningful, presenting one averaged figure.</i>"
+              "text": "Aggregation at ecological scale: <i>the assessment aggregates ecosystem types and services by groups that are ecologically meaningful.</i>"
             },
             {
               "value": "admin",
-              "text": "Aggregation at administrative scale: <i>the assessment averages ecosystem service results by administrative areas, making it useful for policy, governance, and resource management decisions at those levels.</i>"
+              "text": "Aggregation at administrative scale: <i>the assessment averages ecosystem service results by administrative areas.</i>"
             }
           ]
         },
@@ -1891,6 +1891,7 @@
     },
     {
       "name": "page_end",
+      "title": "D. Survey Preview",
       "description": "<b>Well done! You finally made it to the end of the Terms of Reference survey!</b> \nWe will now show you a preview of your answers so you can check them and amend them if needed. Once you are done, click on <b>Complete</b>. This will generate your draft Terms of Reference as a Word document.",
       "elements": [
         {
