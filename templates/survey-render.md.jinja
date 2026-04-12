@@ -7,6 +7,14 @@
 {%- endif %}
 {%- endmacro %}
 
+{# Prep a macro for main section numbering #}
+{% set main_section_counter = main_section_counter|default(0) %}
+
+{# Prep a macro for Methodology subsections numbering #}
+{% set me_subsection_counter = me_subsection_counter|default(0) %}
+
+{# Prep a macro for Methodology - methodological characteristics subsections numbering #}
+{% set meth_subsection_counter = meth_subsection_counter|default(0) %}
 
 
 # Terms of Reference
@@ -20,8 +28,8 @@
 
 
 
-
-## 1. Frame & Scope
+{% set main_section_counter = main_section_counter + 1 %}
+## {{main_section_counter}} Frame & Scope
 ### 1.1 Context and Purpose
 {% if fs_purpose_1a and fs_context_policy_1b and fs_context_social_1d %} {# if none of the answers are empty #}
 
@@ -621,11 +629,10 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 
 
 
-
-## 2. Methodology
-### 2.1 Methodological characteristics
-{% set meth_subsection_counter = meth_subsection_counter|default(0) %}
-
+{% set main_section_counter = main_section_counter + 1 %}
+## {{main_section_counter}} Methodology
+{% set me_subsection_counter = me_subsection_counter + 1 %}
+### 2.{{me_subsection_counter}}  Methodological characteristics
 
 {# Economic valuation #}
 {# Identify valuation method #}
@@ -1198,7 +1205,8 @@ The ecosystem service assessment should include a scenario analysis to ***[text 
 {# Uncertainties #}
 {% if me_uncertainties_2a in ["yes", "maybe"] or me_uncertainty_confirmation == "no" %}
 
-### 3. Uncertainties
+{% set me_subsection_counter = me_subsection_counter + 1 %}
+### 2.{{me_subsection_counter}} Uncertainties
 
 {# List the format of uncertainties if you selected scenarios #}
 
@@ -1277,7 +1285,8 @@ The ecosystem service assessment should evaluate and document uncertainty arisin
 {# Validation #}
 {% if me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] or me_validation_3b in ["yes", "maybe"] %}
 
-### 4. Validation
+{% set me_subsection_counter = me_subsection_counter + 1 %}
+### 2.{{me_subsection_counter}} Validation
 {% endif %}
 
 {% if me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] %}
@@ -1386,8 +1395,8 @@ The ecosystem service assessment should include a validation process to ensure t
    {% set meth_stake = meth_stake + [me_stakeholder_engage_4b_other] %}
    {% endif %}
 
-
-### 5. Stakeholder engagement
+{% set me_subsection_counter = me_subsection_counter + 1 %}
+### 2.{{me_subsection_counter}} Stakeholder engagement
 
 A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {{ join_natural(step_stake) }}.
 
@@ -1428,7 +1437,8 @@ Stakeholder engagement should preferably include {{ join_natural(meth_stake) }}.
    {% set step_stake = step_stake + [me_stakeholder_engage_4a_other] %}
    {% endif %}
 
-### 5. Stakeholder engagement
+{% set main_section_counter = main_section_counter + 1 %}
+## {{main_section_counter}} Stakeholder engagement
 
 A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {% for method in step_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{method}} {% endfor %}.
 
@@ -1473,8 +1483,8 @@ The way(s) of including stakeholders in the above mentioned step(s) are left to 
    {% set meth_stake = meth_stake + [me_stakeholder_engage_4b_other] %}
    {% endif %}
 
-
-### 5. Stakeholder engagement
+{% set main_section_counter = main_section_counter + 1 %}
+## {{main_section_counter}} Stakeholder engagement
 
 A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. Stakeholder engagement should preferably include {{ join_natural(meth_stake) }}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***. The choice of the step(s) at which the stakeholders should be involved in during the assessment is left to the Contractor. In their proposal, the Contractor should describe at which steps the stakeholders should be involved in and why.
 
