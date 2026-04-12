@@ -5,13 +5,13 @@ Our writing guidance is very handy, user-friendly, and can accommodate a wide va
 
 * We recommend that you read the [important concepts underlying ecosystem service assessments](/intro-es-concepts), prior to using our online survey or PDF templates. Despite our best efforts in popularising our templates, being aware of the implications of choosing one assessment feature over another is essential to make sure you obtain the assessment that corresponds to your goals. The information we display in this website is minimal though and, if you wish to read more about it, we recommend you to go through the advanced material of [our report](https://project-selina.eu/library?type=1&Filter%5Bsort%5D=title+asc&search=guidelines).
 
-* The online survey version of the guidance is not 100% complete compared to the PDF templates. This is due to the limited resources we had to build this awesome website. But don't worry, we still made sure you would have the essential! The online survey will cover the most important sections of the Frame & Scope PDF template, and the Methodology PDF template is fully integrated in the online survey. We had to exclude the Evaluation Criteria section though, but the PDF template is very easy to use so we have no doubt you will do just fine!
+* The online survey version of the guidance is not 100% complete compared to the PDF templates. For the sake of expediency, the online survey only covers the most important sections of the Frame & Scope PDF template but fully integrates the Methodology PDF template. We chose to exclude the Evaluation Criteria PDF template. Just go [here](/static/SELINA_ToR_pdf_templates.pdf) if you wish to consult it after you drafted your Terms of Reference with our online survey. We have no doubt you will do just fine with it!
 
 * Our guidance does not tell you how to commission an integrated ecosystem assessment;
 
 * Our guidance does not support you in compiling, assessing, interpreting and disseminating the results of an ecosystem service assessment;
 
-* Our guidance does not help you with how to implement the results of your ecosystem service assessment in decision-making;
+* Our guidance does not help you with how to implement the results of your ecossystem service assessment in decision-making;
 
 * Our guidance does not provide with indication on how to set up a budget and timelines for an ecosystem service assessment;
 
