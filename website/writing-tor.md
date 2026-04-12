@@ -29,7 +29,7 @@ You have two options to create your Terms of Reference:
 
     * The **Frame & Scope, and Methodology templates** are formatted as lists of questions that the commissioners can answer. Each question is associated to descriptions and examples to facilitate comprehension, as well as preformatted text to help build a Terms of Reference. This text can be directly copy-pasted and refined by the commissioners to better fit their context.
 
-    * The **Evaluation Criteria template** presents a series of tables with evaluation criteria that the commissioners can choose from. As previously, preformatted text is available. This template also support very nicely the evaluation of proposals by highlighting the alignment between the criteria the commissioners chose and the ones displayed in the proposals.
+    * The **Evaluation Criteria template** presents a series of tables with evaluation criteria that the commissioners can choose from. As previously, preformatted text is available. This template also supports the evaluation of proposals by highlighting the alignment between the criteria the commissioners chose and the ones displayed in the proposals.
 
 
 If you choose to use our templates and start from scratch, we recommend you to use them chronologically: Frame & Scope, Methodology and Evaluation Criteria. If you already know what you are looking for, or have done the survey before, feel free to use them independently or modularly! The section [Commissioning an ecosystem service assessment with our guidance](/intro-commissionning) details how to use these PDF templates in a commissioning process.
