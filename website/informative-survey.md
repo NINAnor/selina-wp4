@@ -175,7 +175,7 @@ This page gives more information on the questions asked in the online survey inc
 
 .. join_accordion::
 .. accordion:: Why is this question relevant to me?
-    Biophysical valuation enables us to assess the physical/material contribution of ecosystems to human well-being as well as helps to identify how ecosystem characteristics affect the level of ecosystem services. Biophysical ecosystem service assessments can also enable us to evaluate whether the levels of use of ecosystem services correspond with those of the ecosystem’s capacity to supply services.
+    Biophysical valuation enables us to assess the physical/material contribution of ecosystems to human well-being as well as helps to identify how ecosystem characteristics affect the level of ecosystem services. For example, Carbon sequestration can be measured in tons of carbon per hectar (tC/ha), tomber provision as the annual increment in cubic meter per hectar (m3/ha) etc.  Biophysical ecosystem service assessments can also enable us to evaluate whether the levels of use of ecosystem services correspond with those of the ecosystem’s capacity to supply services.
 
 .. accordion:: Give me an example answer
     Yes, ecosystem services need  to be measured in biophysical terms.
