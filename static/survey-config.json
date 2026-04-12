@@ -851,7 +851,7 @@
               ],
               "rows": [
                 {
-                  "value": "value",
+                  "value": "value_trans",
                   "text": "Value transfer methods"
                 },
                 {
