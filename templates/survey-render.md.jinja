@@ -1,3 +1,14 @@
+
+{# Prep a macro to display listed elements in sentences #}
+{% macro join_natural(items) %}
+{%- if items | length == 1 %}{{ items[0] }}
+{%- elif items | length == 2 %}{{ items[0] }} and {{ items[1] }}
+{%- else %}{{ items[:-1] | join(", ") }} and {{ items[-1] }}
+{%- endif %}
+{%- endmacro %}
+
+
+
 # Terms of Reference
 
 *This Terms of Reference has been automatically-generated based on a writing guidance developed by SELINA. In this document:*
@@ -703,7 +714,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
    <b>For value transfer methods**, transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
 
-   <b>For primary valuation methods**, preferrence is given to: {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+   <b>For primary valuation methods**, preferrence is given to: {{ join_natural(val_meth_list) }}.
 
 
    {# Transfer methods only #}
@@ -719,7 +730,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
-   The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. Preferrence is given to {% for method in val_meth_list %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+   The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. Preferrence is given to: {{ join_natural(val_meth_list) }}.
 
 
    {# Other #}
@@ -801,7 +812,7 @@ The Contractor may deviate from the suggestions described above. In that case, t
    {% elif me_expertise_needed == "yes"%}
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
-   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The condition indicators of relevance are: {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The condition indicators of relevance are: {{ join_natural(cond_idx) }}.
    In their proposal, the Contractor may deviate from the indicators suggested above. In these cases, they will clearly describe and justify the methodology that will be used.
    {% endif %}
 
@@ -834,7 +845,7 @@ The ecosystem service assessment should define the sustainable levels for [suppl
 
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
 
-   The condition indicators of relevance are: {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+   The condition indicators of relevance are: {{ join_natural(cond_idx) }}.
    In their proposal, the Contractor may deviate from the indicators suggested above. In these cases, they will clearly describe and justify the methodology that will be used.
    {% endif %}
 {% endif %}
@@ -902,7 +913,7 @@ In their proposal, the Contractor will clearly describe and justify the methodol
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in cond_idx %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {{ join_natural(health_aspect) }}.
 
 {% elif (me_health_aspects_14a.h_risks in ["no", "dontknow"] or not me_health_aspects_14a.h_risks) and (me_health_aspects_14a.h_benefits in ["no", "don't know"] or not me_health_aspects_14a.h_benefits) and (me_health_aspects_14a.h_outcomes in ["no", "dontknow"] or me_health_aspects_14a.h_outcomes) and me_health_social_14b in ["no", "dontknow"] and me_health_eco_14c in ["no", "dontknow"]%}
 {% set meth_subsection_counter = meth_subsection_counter + 1 %}
@@ -923,7 +934,7 @@ The ecosystem service assessment should consider the health dimension. The choic
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {{ join_natural(health_aspect) }}.
 
 The ecosystem service assessment should capture social groups' attitudes, perceptions, and values toward specific ecosystem services of relevance to the health dimension(s) defined above, focusing on their social, cultural, and economic importance.
 
@@ -945,7 +956,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {{ join_natural(health_aspect) }}.
 
 In this assessment, we are interested in identifying linkages between the health dimension(s) described above and the ecosystem services and / or types. The strength, direction and / or sustainability of these linkages should also be clearly highlighted and described. In their proposal, the Contractor will clearly describe and justify the methodology (including indicators and metrics) that will be used.
 
@@ -970,7 +981,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 #### 2.1.{{meth_subsection_counter}} Health characteristics
 
-The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {% for method in health_aspect %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+The ecosystem service assessment should consider the health dimension. In particular it should include an evaluation of {{ join_natural(health_aspect) }}.
 
 In this assessment, we are interested to:
 
@@ -1032,7 +1043,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
 
-   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {{ join_natural(inter_aspects) }}.
 
    In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs.
 
@@ -1223,7 +1234,7 @@ The ecosystem service assessment should include a scenario analysis to ***[text 
    {% set uncertainties_format = uncertainties_format + [me_uncertainties_2b_other] %}
    {% endif %}
 
-The ecosystem service assessment should evaluate and document uncertainty arising in the assessment. The Contractor should clearly discuss the reliability of the methods and results in the context of their uncertainty and what it means for the decision-making that would arise from any of the results of this assessment. The preferred format to report such uncertainties are: {% for method in uncertainties_format %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+The ecosystem service assessment should evaluate and document uncertainty arising in the assessment. The Contractor should clearly discuss the reliability of the methods and results in the context of their uncertainty and what it means for the decision-making that would arise from any of the results of this assessment. The preferred format to report such uncertainties are: {{ join_natural(uncertainties_format) }}.
 
 
 
@@ -1254,7 +1265,7 @@ The ecosystem service assessment should evaluate and document uncertainty arisin
    {% set uncertainties_format = uncertainties_format + [me_uncertainties_2b_other] %}
    {% endif %}
 
-The ecosystem service assessment should evaluate and document uncertainty arising in the assessment. The Contractor should clearly discuss the reliability of the methods and results in the context of their uncertainty and what it means for the decision-making that would arise from any of the results of this assessment. The preferred format to report such uncertainties are: {% for method in uncertainties_format %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+The ecosystem service assessment should evaluate and document uncertainty arising in the assessment. The Contractor should clearly discuss the reliability of the methods and results in the context of their uncertainty and what it means for the decision-making that would arise from any of the results of this assessment. The preferred format to report such uncertainties are: {{ join_natural(uncertainties_format) }}.
 
 
 {% endif %}
@@ -1281,10 +1292,10 @@ The ecosystem service assessment should evaluate and document uncertainty arisin
    {% set validation = validation + ["externally with the involvement of third parties such as stakeholders"] %}
    {% endif %}
 
-The ecosystem service assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out {% for method in validation %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. The potential contractor should clearly describe the validation process that they expect to put in place during the assessment.
+The ecosystem service assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out {{ join_natural(validation) }}. The potential contractor should clearly describe the validation process that they expect to put in place during the assessment.
 
 {% elif me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"] and me_validation_3b in ["no", "dontknow"]%}
-The ecosystem service assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out {% for method in validation %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. The potential contractor should clearly describe the validation process that they expect to put in place during the assessment.
+The ecosystem service assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out {{ join_natural(validation) }}. The potential contractor should clearly describe the validation process that they expect to put in place during the assessment.
 
 The validation process of the ecosystem service assessment should also include a comparison of the results with other key published data including ***[test to be added by the Commissiner if relevant: list the key data and figures that should be compared with the assessment results]***. The potential differences should be discussed and explained.
 
@@ -1374,9 +1385,9 @@ The ecosystem service assessment should include a validation process to ensure t
 
 ### 5. Stakeholder engagement
 
-A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {% for method in step_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {{ join_natural(step_stake) }}.
 
-Stakeholder engagement should preferably include {% for method in meth_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***
+Stakeholder engagement should preferably include {{ join_natural(meth_stake) }}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***
 
 
 
@@ -1430,27 +1441,27 @@ The way(s) of including stakeholders in the above mentioned step(s) are left to 
    {% set meth_stake = meth_stake + ["newsletters or email updates"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.val_meth in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.websites in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["a project website"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.val_res in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.webinars in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["webinars"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.data_col in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.forums in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["stakeholder events such as forums"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.inter_res in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.advisory in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["advisory bords / experts groups / focus groups / steering committees"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.com_res in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.pub_cons in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["public consultations"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.other in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.workshops in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["workshops"] %}
    {% endif %}
 
@@ -1461,7 +1472,7 @@ The way(s) of including stakeholders in the above mentioned step(s) are left to 
 
 ### 5. Stakeholder engagement
 
-A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. Stakeholder engagement should preferably include {% for method in meth_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{method}} {% endfor %}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***. The choice of the step(s) at which the stakeholders should be involved in during the assessment is left to the Contractor. In their proposal, the Contractor should describe at which steps the stakeholders should be involved in and why.
+A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. Stakeholder engagement should preferably include {{ join_natural(meth_stake) }}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***. The choice of the step(s) at which the stakeholders should be involved in during the assessment is left to the Contractor. In their proposal, the Contractor should describe at which steps the stakeholders should be involved in and why.
 
 {% elif (me_stakeholder_engage_4a.dev_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_res in ["no", "dontknow"] or me_stakeholder_engage_4a.data_col in ["no", "dontknow"] or me_stakeholder_engage_4a.inter_res in ["no", "dontknow"] or me_stakeholder_engage_4a.com_res in ["no", "dontknow"] or me_stakeholder_engage_4a.other in ["no", "dontknow"]) and (me_stakeholder_engage_4b.news_let in ["no", "dontknow"] or me_stakeholder_engage_4b.websites in ["no", "dontknow"] or me_stakeholder_engage_4b.webinars in ["no", "dontknow"] or me_stakeholder_engage_4b.forums in ["no", "dontknow"] or me_stakeholder_engage_4b.advisory in ["no", "dontknow"] or me_stakeholder_engage_4b.pub_cons in ["no", "dontknow"] or me_stakeholder_engage_4b.workshops in ["no", "dontknow"] or me_stakeholder_engage_4b.other in ["no", "dontknow"]) %}
 
