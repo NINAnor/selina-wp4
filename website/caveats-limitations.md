@@ -18,3 +18,5 @@ Our writing guidance aims to be user-friendly, and to accommodate a wide variety
 * Our guidance does not support you in defining an ecosystem service assessment within a specific budget and timelines;
 
 * If you have specific standards requested by international and national reporting, we recommend you to follow the standards specified by the reporting.
+
+* <b>But... Our guidance does help you to ask the right questions to outline a ToR and tender. Good luck! :) </b>
