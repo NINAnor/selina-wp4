@@ -493,11 +493,38 @@
           ]
         },
         {
+          "type": "radiogroup",
+          "name": "fs_meth_health_34e_1",
+          "title": "Should the ecosystem services be valued in terms of their relevance to health?",
+          "description": "Ecosystem services are crucial to health, including the health dimension in an ecosystem service assessment allows to take into account the wider impacts of changes in ecosystem services on the society and the environment. The health scope will inform the selection of assessment methodology, stakeholder engagement and reporting.",
+          "isRequired": true,
+          "clearInvisibleValues": "none",
+          "choices": [
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "maybe",
+              "text": "Maybe"
+            },
+            {
+              "value": "dontknow",
+              "text": "I don't know"
+            }
+          ]
+        },
+        {
           "type": "matrix",
           "name": "fs_meth_health_34e",
-          "title": "Should the ecosystem services be valued in terms of their relevance to health? If yes, should the assessment look at human, animal, or plant health, or take a One Health approach combining all three with ecosystem health?",
-          "description": "Ecosystem services are crucial to health, including the health dimension in an ecosystem service assessment allows to take into account the wider impacts of changes in ecosystem services on the society and the environment. The health scope will inform the selection of assessment methodology, stakeholder engagement and reporting. The One Health approach is an approach that recognises the interconnection between people, animals, plants and their shared environment.",
+          "title": "Should the assessment look at human, animal, or plant health, or take a One Health approach combining all three with ecosystem health?",
+          "description": "The One Health approach is an approach that recognises the interconnection between people, animals, plants and their shared environment.",
           "isRequired": true,
+          "visibleIf": "{fs_meth_health_34e_1} anyof ['yes', 'maybe']",
           "clearInvisibleValues": "none",
           "columns": [
             {
@@ -537,32 +564,25 @@
           ]
         },
         {
-          "type": "panel",
-          "name": "panel1",
-          "visibleIf": "{fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow']",
-          "innerIndent": 3,
-          "elements": [
+          "type": "radiogroup",
+          "name": "fs_meth_health_confirmation",
+          "visibleIf": "({fs_meth_health_34e_1} anyof ['no', 'dontknow']) or ({fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow'])",
+          "title": "<b>Note:</b> Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?",
+          "isRequired": true,
+          "indent": 3,
+          "clearInvisibleValues": "none",
+          "choices": [
             {
-              "type": "radiogroup",
-              "name": "fs_meth_health_confirmation",
-              "visibleIf": "{fs_meth_health_34e.human_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.animal_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.plant_health} anyof ['no','dontknow'] and\n{fs_meth_health_34e.one_health} anyof ['no','dontknow']",
-              "title": "<b>Note:</b> Your answer to this question means that we will not ask you any further questions on health. Your Terms of Reference will then not include any sections on health. Do you confirm this corresponds to your needs?",
-              "isRequired": true,
-              "clearInvisibleValues": "none",
-              "choices": [
-                {
-                  "value": "yes",
-                  "text": "Yes"
-                },
-                {
-                  "value": "no",
-                  "text": "No"
-                },
-                {
-                  "value": "no",
-                  "text": "I really don't know"
-                }
-              ]
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            },
+            {
+              "value": "no",
+              "text": "I really don't know"
             }
           ]
         },
