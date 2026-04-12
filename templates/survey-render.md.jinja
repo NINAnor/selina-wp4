@@ -523,7 +523,7 @@ The assessment should measure the {{aspect}} of the economic value of the ecosys
 {% set health_focus = "animal health" %}
 
 {% elif fs_meth_health_34e.plant_health in ["yes", "maybe"] and (fs_meth_health_34e.human_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Plant health only #}
-{% set health_focus = "human health" %}
+{% set health_focus = "plant health" %}
 
 {% elif (fs_meth_health_34e.one_health in ["yes", "maybe"]) %} {# One health only #}
 {% set health_focus = "One Health" %}
@@ -588,14 +588,14 @@ The ecosystem service assessment should include a scenario analysis to ***[if po
 {% if (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["yes", "maybe"]) and fs_stake_id_4c %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 
-Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project. Key stakeholders who could be involved are {{fs_stake_analysis_4c}}.
+Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project. Key stakeholders who could be involved are {{fs_stake_id_4c}}.
 
 {% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["yes", "maybe"]) and (not fs_stake_id_4c) %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 
 Stakeholders are expected to be involved throughout the ecosystem service assessment. Prior to starting the assessment, the applicant will be asked to conduct a detailed stakeholder analysis to identify the key stakeholders that will be involved in the development of the project.
 
-{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and ((fs_stake_analysis_4a in ["no", "dontknow"]) or (not fs_stake_analysis_4a)) and (not fs_stake_id_4c) %} {# Stakeholders #}
+{% elif (fs_stake_involv_4b in ["yes", "maybe"] or fs_meth_stakeholder_confirmation == "no") and (fs_stake_analysis_4a in ["no", "dontknow"] or (not fs_stake_analysis_4a)) and (not fs_stake_id_4c) %} {# Stakeholders #}
 ### 1.4 Stakeholder Engagement
 
 Stakeholders are expected to be involved throughout the ecosystem service assessment. The choice of the key stakeholders to be involved is left to the Contractor. In their proposal, the Contractor shall explain the main reason for choosing a particular stakeholder.
@@ -796,7 +796,7 @@ The Contractor may deviate from the suggestions described above. In that case, t
    {% if me_expertise_needed == "no" %}
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
-   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor will clearly describe and justify their choice sof indicators and methodology in elation to the deciion-amking context and purpose, as well as the data availability and / or quality.
+   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor will clearly describe and justify their choices of indicators and methodology in relation to the decicion-making context and purpose, as well as the data availability and / or quality.
 
    {% elif me_expertise_needed == "yes"%}
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
@@ -827,7 +827,7 @@ The ecosystem service assessment should define the sustainable levels for [suppl
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
    The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
-   The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor will clearly describe and justify their choice sof indicators and methodology in elation to the deciion-amking context and purpose, as well as the data availability and / or quality.
+   The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor will clearly describe and justify their choices of indicators and methodology in relation to the decision-making context and purpose, as well as the data availability and / or quality.
 
    {% elif me_expertise_needed == "yes"%}
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
@@ -1032,7 +1032,7 @@ The choice of the appropriate health dimension(s) and their associated indicator
 
 #### 2.1.{{meth_subsection_counter}} Relationships between ecosystem services
 
-   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. The choice of the most appropriate type of interrelationship(s): between ecosystem services, between benefits, or between ecosystem services and their benefits, is left to the Contractor.
+   The ecosystem service assessment should identify and quantify the strength of potential interrelationships between the {% for method in inter_aspects %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
 
    In their proposal, the Contractor will clearly describe and justify the methodology that will be used to identify and quantify these trade-offs.
 
@@ -1343,27 +1343,27 @@ The ecosystem service assessment should include a validation process to ensure t
    {% set meth_stake = meth_stake + ["newsletters or email updates"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.val_meth in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.websites in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["a project website"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.val_res in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.webinars in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["webinars"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.data_col in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.forums in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["stakeholder events such as forums"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.inter_res in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.advisory in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["advisory bords / experts groups / focus groups / steering committees"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.com_res in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.pub_cons in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["public consultations"] %}
    {% endif %}
 
-   {% if me_stakeholder_engage_4b.other in ["yes", "maybe"] %}
+   {% if me_stakeholder_engage_4b.workshops in ["yes", "maybe"] %}
    {% set meth_stake = meth_stake + ["workshops"] %}
    {% endif %}
 
@@ -1415,7 +1415,7 @@ Stakeholder engagement should preferably include {% for method in meth_stake %} 
 
 ### 5. Stakeholder engagement
 
-A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {% for method in step_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}.
+A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment including {% for method in step_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{method}} {% endfor %}.
 
 The way(s) of including stakeholders in the above mentioned step(s) are left to the Contractor. In their proposal, the Contractor will describe the different channels of communication they would like to use to engage with stakeholders.
 
@@ -1461,7 +1461,7 @@ The way(s) of including stakeholders in the above mentioned step(s) are left to 
 
 ### 5. Stakeholder engagement
 
-A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. Stakeholder engagement should preferably include {% for method in meth_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{ method }} {% endfor %}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***. The choice of the step(s) at which the stakeholders should be involved in during the assessment is left to the Contractor. In their proposal, the Contractor should describe at which steps the stakeholders should be involved in and why.
+A clear strategy should be put in place to inform, consult and facilitate stakeholders’ participation at different stages of the assessment. Stakeholder engagement should preferably include {% for method in meth_stake %} {% if loop.index0 > 0 %} {% if loop.last %}{{ " and " }}{% else %}{{ ", " }}{% endif %} {% endif %} {{method}} {% endfor %}. ***[text to be added by the Commissioner if relevant: reason(s) for which the format(s) has(have) been chosen]***. The choice of the step(s) at which the stakeholders should be involved in during the assessment is left to the Contractor. In their proposal, the Contractor should describe at which steps the stakeholders should be involved in and why.
 
 {% elif (me_stakeholder_engage_4a.dev_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_meth in ["no", "dontknow"] or me_stakeholder_engage_4a.val_res in ["no", "dontknow"] or me_stakeholder_engage_4a.data_col in ["no", "dontknow"] or me_stakeholder_engage_4a.inter_res in ["no", "dontknow"] or me_stakeholder_engage_4a.com_res in ["no", "dontknow"] or me_stakeholder_engage_4a.other in ["no", "dontknow"]) and (me_stakeholder_engage_4b.news_let in ["no", "dontknow"] or me_stakeholder_engage_4b.websites in ["no", "dontknow"] or me_stakeholder_engage_4b.webinars in ["no", "dontknow"] or me_stakeholder_engage_4b.forums in ["no", "dontknow"] or me_stakeholder_engage_4b.advisory in ["no", "dontknow"] or me_stakeholder_engage_4b.pub_cons in ["no", "dontknow"] or me_stakeholder_engage_4b.workshops in ["no", "dontknow"] or me_stakeholder_engage_4b.other in ["no", "dontknow"]) %}
 
