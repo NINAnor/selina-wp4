@@ -1717,11 +1717,11 @@
           "rows": [
             {
               "value": "intern",
-              "text": "Internal validation: does not involve third parties such as external stakeholders"
+              "text": "Internal validation: within your organisation"
             },
             {
               "value": "extern",
-              "text": "External validation: involve external third parties such as stakeholders"
+              "text": "External validation: outside your organisation"
             }
           ]
         },
