@@ -788,7 +788,7 @@
     {
       "name": "page20",
       "title": "C. Methodology",
-      "description": "This section focuses on the methodology of your ecosystem service assessment. It identifies the methodological features of your ecosystem service assessment based on the answers you provided in the Frame & Scope section.\n\n",
+      "description": "This section focuses on the methodology of your ecosystem service assessment. It identifies the methodological features of your ecosystem service assessment based on your selection of topics in the Frame & Scope section.\n\n",
       "elements": [
         {
           "type": "html",
