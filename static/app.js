@@ -5,6 +5,7 @@ const IGNORE_REGEXES = [
   /^(<b>)?\*?(warning|note):(<\/b>)?\s*/i,
   /^do you have the expertise/i,
   /^selected th(at|e) primary valuation/i,
+  /^you (indicated|answered)/i
 ];
 
 
