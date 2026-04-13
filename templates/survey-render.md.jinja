@@ -715,7 +715,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 {# Single method valuation methods #}
 {# Transfer methods only #}
-   
+
    {% if (me_econ_valuation_11a.value_trans and me_econ_valuation_11a.value_trans in ["yes", "maybe"]) and (me_econ_valuation_11a.prim in ["no", "dontknow"] or (not me_econ_valuation_11a.prim)) %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
@@ -745,7 +745,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
    **For primary valuation methods**, preferrence is given to: {{ join_natural(val_meth_list) }}.
 
-   {% endif %} 
+   {% endif %}
 
 {# Other #}
    {% if me_econ_valuation_11a.value_trans == "no" and me_econ_valuation_11a.prim == "no" %}
