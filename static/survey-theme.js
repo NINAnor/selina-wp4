@@ -104,7 +104,8 @@ window.THEME = {
         "--sjs-primary-forecolor-light": "rgba(255, 255, 255, 0.25)",
         "--sjs-special-red": "rgba(229, 10, 62, 1)",
         "--sjs-special-red-light": "rgba(229, 10, 62, 0.1)",
-        "--sjs-font-pagedescription-size": "25px",
+        "--sjs-font-pagedescription-size": "20px",
+        "--sjs-font-pagetitle-size": "25px"
     },
     "header": {
         "height": 0,
