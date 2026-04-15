@@ -452,10 +452,10 @@ The results should be reported ***[text to be completed by the Commissioner: tem
 
 {# Sustainability #}
 {% if (fs_meth_sust_34f == "yes")  or (fs_meth_sust_confirmation == "no") %} {# biophy and econo first #}
-{% set sustainability = "The assessment should also evaluate the sustainable " ~ aspect ~ " of the(these) service(s), to ***[text to be adde by the Commissioner if relevant: specify why sustainability is important for the decision-making within which the assessment fits]***" %}
+{% set sustainability = "The assessment should also evaluate the sustainable " ~ aspect ~ " of the(these) service(s), to ***[text to be added by the Commissioner if relevant: specify why sustainability is important for the decision-making within which the assessment fits]***" %}
 
 {% elif fs_meth_sust_34f == "maybe"  %} {# biophy and econo first #}
-{% set sustainability = "The assessment might also evaluate the sustainable " ~ aspect ~ " of the(these) service(s), to ***[text to be adde by the Commissioner if relevant: should specify why sustainability is important for the decision-making within which the assessment fits]***" %}
+{% set sustainability = "The assessment might also evaluate the sustainable " ~ aspect ~ " of the(these) service(s), to ***[text to be added by the Commissioner if relevant: should specify why sustainability is important for the decision-making within which the assessment fits]***" %}
 
 {% elif fs_meth_sust_confirmation in ["yes", "dontknow"]  %} {# biophy and econo first #}
 {% set sustainability = "" %}
