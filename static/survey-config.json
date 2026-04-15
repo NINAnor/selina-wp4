@@ -777,11 +777,12 @@
           ]
         },
         {
-          "type": "text",
+          "type": "comment",
           "name": "fs_stake_id_4c",
           "title": "If key stakeholders have already been identified for direct involvement in the ecosystem service assessment: who are they and why have they been selected?\n",
           "description": "Identify the stakeholders who should be consulted during the development of the assessment. This can be based on an earlier stakeholder analysis or primary considerations that are important from the commissioners’ perspective.\n",
-          "clearInvisibleValues": "none"
+          "clearInvisibleValues": "none",
+          "autoGrow": true
         }
       ]
     },
@@ -1510,10 +1511,11 @@
       "title": "<b>C.7 Scenario characteristics</b>",
       "elements": [
         {
-          "type": "text",
+          "type": "comment",
           "name": "me_scenarios_17a",
           "title": "What scenarios should be taken into account in the ecosystem service assessments?",
-          "description": "List and describe the scenarios that should be taken into account, for example scenario description 1, scenario description 2, etc. If you are unsure, leave the answer blank. Even a broad description of goals for which the scenarios are required is sufficient. In modelling, future scenarios represent a range of potential futures that one would like to predict. \nSkip this question if you really don't know."
+          "description": "List and describe the scenarios that should be taken into account, for example scenario description 1, scenario description 2, etc. If you are unsure, leave the answer blank. Even a broad description of goals for which the scenarios are required is sufficient. In modelling, future scenarios represent a range of potential futures that one would like to predict. \nSkip this question if you really don't know.",
+          "autoGrow": true
         }
       ]
     },
