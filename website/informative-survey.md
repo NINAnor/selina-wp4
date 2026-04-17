@@ -823,7 +823,7 @@ This page gives more information on the questions asked in the online survey inc
 
 .. accordion:: Mini-glossary of terms
 
-    - **Uncertainty section / report**: Ask the potential contractors to document uncertainties in a separate section of the main report or as a separate short deliverable. A structured report can use clear language and summary tables to highlight uncertainties across results, data sources, and models.
+    - **Uncertainty section / report**: Ask the potential contractors to document uncertainties in a separate section of the main report or as a separate short deliverable. A structured report can use clear language and summary tables to highlight uncertainties across results, data sources, and models. This format is usually more detailed and technic than a decision-relevant summary that is more focused towards decision-making (see below).
 
     - **Visual summary**: Contractors should report uncertainties using visual tools like confidence maps, interval bars in plots, or a traffic light system (green-orange-red) to show result reliability. These visual cues make uncertainties easier to understand, especially for those with less experience.
 
