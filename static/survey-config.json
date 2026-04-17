@@ -87,7 +87,8 @@
           "type": "multipletext",
           "name": "fs_meth_es_31b",
           "title": "What ecosystem service(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. Ecosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. You can skip the classification if you are unsure! \nEcosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "isRequired": true,
           "items": [
             {
               "name": "es_list",
@@ -103,7 +104,8 @@
           "type": "multipletext",
           "name": "fs_meth_et_31a",
           "title": "What ecosystem type(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. Ecosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. You can skip the classification if you are unsure! \nEcosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "isRequired": true,
           "items": [
             {
               "name": "et_list",
