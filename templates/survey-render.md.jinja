@@ -31,17 +31,11 @@
 {% set main_section_counter = main_section_counter + 1 %}
 ## {{main_section_counter}} Frame & Scope
 ### 1.1 Context and Purpose
-{% if fs_purpose_1a and fs_context_policy_1b and fs_context_social_1d %} {# if none of the answers are empty #}
+{% if fs_purpose_1a and fs_context_policy_1b and fs_context_social_1d %} {# all questions are mandatory s they can't be empty #}
 
-   {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
+   {{ fs_purpose_1a }}
 
-   {{ fs_context_social_1d }}
-
-{% elif fs_purpose_1a or fs_context_policy_1b or fs_context_social_1d %} {# if one of the answers is empty #}
-
-   ***Warning:** The answers provided did not give enough information, so this section has only be partially written.*
-
-   {{ fs_purpose_1a }} {{ fs_context_policy_1b }}
+   Relevant policies to be considered in this assessment include: {{ fs_context_policy_1b }}.
 
    {{ fs_context_social_1d }}
 
