@@ -34,7 +34,7 @@
           "type": "comment",
           "name": "fs_purpose_1a",
           "title": "What is(are) the purpose(s) of the ecosystem service assessment? Is it part of a decision-making process? If so, at which step(s) of this process is the assessment needed?",
-          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.",
+          "description": "Identify the purpose of the assessment: what will the results of the assessment help you achieve? If part of a decision-making process, identify the step(s) for which you require this assessment: what will the results of this assessment help you achieve in terms of decision-making?\n\n<b>Note:</b> Write complete paragrpahs. Your draft Terms of Reference will display your answer as written here.",
           "isRequired": true,
           "autoGrow": true
         },
@@ -49,7 +49,7 @@
           "type": "comment",
           "name": "fs_context_social_1d",
           "title": "What is the social / demographic context of the ecosystem service assessment?\n",
-          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "description": "Identify the key social and demographic characteristics of the area and / or populations interacting with the ecosystems to be assessed. These characteristics may include age distribution, cultural and ethnic composition, income levels, education, livelihood types etc.\n\n<b>Note:</b> Write complete paragrpahs. Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true
         },
         {
@@ -87,7 +87,7 @@
           "type": "multipletext",
           "name": "fs_meth_es_31b",
           "title": "What ecosystem service(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. You can skip the classification if you are unsure! \nEcosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "description": "Identify and define the ecosystem service(s) that should be focused on in the assessment. You can skip the classification if you are unsure! \nEcosystem services are the contributions of ecosystems that support economic activities and other aspects of human well-being, such as urban cooling, flood protection, pollination, timber and food provision etc.\n\n<b>Note:</b> List your ecosystem services. Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true,
           "items": [
             {
@@ -104,7 +104,7 @@
           "type": "multipletext",
           "name": "fs_meth_et_31a",
           "title": "What ecosystem type(s) is(are) of interest in the ecosystem service assessment?\n",
-          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. You can skip the classification if you are unsure! \nEcosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>Note:</b> Your draft Terms of Reference will display your answer as written here.\n",
+          "description": "Identify and define the ecosystem type(s) that should be focused on in the assessment. You can skip the classification if you are unsure! \nEcosystem types refer to different environments where living things interact with each other and their surroundings. Examples of ecosystem types include forests, city parks, wetlands, sand dunes etc.\n\n<b>Note:</b> List your ecosystem types. Your draft Terms of Reference will display your answer as written here.\n",
           "isRequired": true,
           "items": [
             {
