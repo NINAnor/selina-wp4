@@ -534,7 +534,7 @@ The assessment should measure the {{aspect}} of the economic value of the ecosys
 
 {# Social and health #}
 
-{% if fs_meth_health_34e_1 in ["yes", "maybe"]%}
+{% if fs_meth_health_34e_1 in ["yes", "maybe"] %}
 {# Determine focus of health #}
    {% if (fs_meth_health_34e.human_health in ["yes", "maybe"]) and (fs_meth_health_34e.animal_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.plant_health in ["no", "dontknow", ""]) and (fs_meth_health_34e.one_health in ["no", "dontknow", ""]) %} {# Human health only #}
    {% set health_focus = "human health" %}
@@ -569,15 +569,15 @@ The assessment should measure the {{aspect}} of the economic value of the ecosys
 
 
 {# Social benefits and Health #}
-{% if ((fs_meth_social_34d in ["yes", "maybe"]) or (fs_meth_social_confirmation == "no")) and ((fs_meth_health_34e_1 in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no"))%} {# biophy and econo first #}
+{% if ((fs_meth_social_34d in ["yes", "maybe"]) or (fs_meth_social_confirmation == "no")) and ((fs_meth_health_34e_1 in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no"))%}
 In this assessment, we are also interested in the health and social values of the ecosystem service(s) of interest. By health we more specifically refer to the relevance of the service(s) towards {{health_focus}}. These should be measured using relevant metrics. More details are provided in the Methodology section of this document.
 
 {# Social benefits only #}
-{% elif ((fs_meth_social_34d in ["yes", "maybe"]) or (fs_meth_social_confirmation == "no")) and (fs_meth_health_confirmation in ["yes", "dontknow"]) %} {# biophy and econo first #}
+{% elif ((fs_meth_social_34d in ["yes", "maybe"]) or (fs_meth_social_confirmation == "no")) and (fs_meth_health_confirmation in ["yes", "dontknow"]) %}
 In this assessment, we are also interested in the social value of the ecosystem service(s) of interest. This should be measured using relevant metrics. More details are provided in the Methodology section of this document.
 
 {# Health only #}
-{% elif (fs_meth_health_34e_1 in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no") and (fs_meth_social_confirmation in ["yes", "dontknow"])%} {# biophy and econo first #}
+{% elif (fs_meth_health_34e_1 in ["yes", "maybe"]) or (fs_meth_health_confirmation == "no") and (fs_meth_social_confirmation in ["yes", "dontknow"])%}
 In this assessment, we are also interested in the value of the ecosystem service(s) of interest in terms of their relevance to health. By health we more specifically refer to {{health_focus}}. This should be measured using relevant metrics. More details are provided in the Methodology section of this document.
 
 {% endif %}
@@ -915,7 +915,7 @@ In their proposal, the Contractor will clearly describe and justify the methodol
 
 
 {# Health characteristics #}
-{% if fs_meth_health_34e.human_health in ["yes","maybe"] or fs_meth_health_34e.animal_health in ["yes","maybe"] or fs_meth_health_34e.plant_health in ["yes","maybe"] or fs_meth_health_34e.one_health in ["yes","maybe"] or fs_meth_health_confirmation == "no"  %}
+{% if fs_meth_health_34e_1 in ["yes","maybe"] or fs_meth_health_confirmation == "no"  %}
 {% set health_aspect = [] %}
 
 {% if me_health_aspects_14a.h_benefits in ["yes", "maybe"] %}
@@ -1328,11 +1328,11 @@ The ecosystem service assessment should validate the methodology and results of 
 {% elif (me_validation_3a.intern in ["yes", "maybe"] or me_validation_3a.extern in ["yes", "maybe"]) and me_validation_3b in ["yes", "maybe"]%}
 The ecosystem service assessment should validate the methodology and results of the ecosystem service assessment. The validation process should involve the commissioners. It should be carried out {{ join_natural(validation) }}. The potential contractor should clearly describe the validation process that they expect to put in place during the assessment.
 
-The validation process of the ecosystem service assessment should also include a comparison of the results with other key published data including ***[test to be added by the Commissiner if relevant: list the key data and figures that should be compared with the assessment results]***. The potential differences should be discussed and explained.
+The validation process of the ecosystem service assessment should also include a comparison of the results with other key published data including ***[test to be added by the Commissioner if relevant: list the key data and figures that should be compared with the assessment results]***. The potential differences should be discussed and explained.
 
 {% elif (me_validation_3a.intern in ["no", "dontknow"] and me_validation_3a.extern in ["no", "dontknow"]) and me_validation_3b in ["yes", "maybe"]%}
 
-The validation process of the ecosystem service assessment should also include a comparison of the results with other key published data including ***[test to be added by the Commissiner if relevant: list the key data and figures that should be compared with the assessment results]***. The potential differences should be discussed and explained.
+The validation process of the ecosystem service assessment should also include a comparison of the results with other key published data including ***[test to be added by the Commissioner if relevant: list the key data and figures that should be compared with the assessment results]***. The potential differences should be discussed and explained.
 
 {% elif (me_validation_3a.intern in ["no", "dontknow"] and me_validation_3a.extern in ["no", "dontknow"]) and me_validation_3b in ["no", "dontknow"] and me_validation_3b_confirmation == "no" %}
 
