@@ -238,7 +238,7 @@
               "type": "radiogroup",
               "name": "fs_meth_biophy_confirmation",
               "visibleIf": "(({fs_meth_biophy_34a} = 'no') or ({fs_meth_biophy_34a} = 'dontknow')) or ({fs_meth_biophy_34a} = 'Maybe')",
-              "title": "<b>Note:</b> Measuring ecosystem services in biophysical terms is at the foundation of all other measures of ecosystems services such as economic valuation, or health and social benefits of these services. Do you confirm that you do not wish any biophysical measure of ecosystems services?",
+              "title": "<b>Note:</b> Measuring ecosystem services in biophysical terms is at the foundation of all other measures of ecosystems services such as economic valuation, or health and social benefits of these services. Are you sure of your answer above?",
               "isRequired": true,
               "clearInvisibleValues": "none",
               "choices": [
