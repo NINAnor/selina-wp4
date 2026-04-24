@@ -5,7 +5,8 @@ const IGNORE_REGEXES = [
   /^(<b>)?\*?(warning|note):(<\/b>)?\s*/i,
   /^do you have the expertise/i,
   /^selected th(at|e) primary valuation/i,
-  /^you (indicated|answered)/i
+  /^you (indicated|answered)/i,
+  /^please specify/i
 ];
 
 
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     infoLink.target = '_blank';
     infoLink.rel = 'noopener noreferrer';
     infoLink.className = 'inline-flex ml-2';
-    infoLink.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>';
+    infoLink.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>';
     infoLink.title = 'More information';
     element.appendChild(infoLink);
   }
@@ -179,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.removeItem(STORAGE_ITEM_UI_STATE_KEY);
       }
     },
-    css: "nav-button",
+    css: "nav-button nav-button-danger",
     innerCss: "sd-btn"
   });
 

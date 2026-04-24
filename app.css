@@ -71,6 +71,11 @@
     order: 2;
 }
 
+.sd-body__navigation .nav-button-danger .sd-btn {
+    background-color: var(--color-error);
+    color: var(--color-error-content);
+}
+
 #scroll-to-top {
     position: fixed;
     bottom: 1.5rem;
