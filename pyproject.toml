@@ -20,7 +20,7 @@ dependencies = [
   "django-environ",
   "pandoc>=2.4,<3",
   "fastapi[standard]>=0.125.0,<0.126",
-  "mistune>=3.1.4",
+  "mistune>=3.2.1",
   "structlog>=25.5.0,<26",
   "pyyaml>=6.0.3",
   "python-slugify>=8.0.4"
