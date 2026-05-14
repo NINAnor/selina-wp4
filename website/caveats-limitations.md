@@ -19,4 +19,4 @@ Our writing guidance aims to be user-friendly, and to accommodate a wide variety
 
 * If you have specific standards requested by international and national reporting, we recommend you to follow the standards specified by the reporting.
 
-* <b>But... Our guidance does help you to ask the right questions to outline a ToR and tender. Good luck! :) </b>
+* <b>But... Our guidance does help you to ask the right questions to outline a description of work in a Terms of Reference and tender. Good luck! :) </b>
