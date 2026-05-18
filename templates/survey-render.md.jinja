@@ -634,7 +634,7 @@ Stakeholders are expected to be involved throughout the ecosystem service assess
 {# Identify valuation method #}
 
 {% if me_econ_valuation_11a %} {# Need to add this as if skipped, the variable is not in the output datasets and everything bugs #}
-   {% if me_econ_valuation_11a.prim == "yes" %}
+   {% if me_primary_valuation_condition in ["yes"]%}
    {% set val_meth_list = [] %}
 
       {% if me_valuation_methods.rev_prev in ["yes", "maybe"] %}
@@ -719,7 +719,7 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
 
 {# Primary methods only #}
-   {% if ((not me_econ_valuation_11a.value_trans) or me_econ_valuation_11a.value_trans in ["no", "dontknow"]) and (me_econ_valuation_11a.prim and me_econ_valuation_11a.prim in ["yes", "maybe"]) %}
+   {% if ((not me_econ_valuation_11a.value_trans) or me_econ_valuation_11a.value_trans in ["no", "dontknow"]) and (me_primary_valuation_condition in ["yes"]) %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -727,9 +727,26 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
 
    {% endif %}
 
+   {% if ((not me_econ_valuation_11a.value_trans) or me_econ_valuation_11a.value_trans in ["no", "dontknow"]) and (me_econ_valuation_11a.prim and me_econ_valuation_11a.prim in ["maybe"]) %}
+   {% set meth_subsection_counter = meth_subsection_counter + 1 %}
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+   The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. The choice of the method(s) is left to the Contractor.
+
+   {% endif %}
+
+   {% if ((not me_econ_valuation_11a.value_trans) or me_econ_valuation_11a.value_trans in ["no", "dontknow"]) and (me_primary_valuation_condition in ["no"]) %}
+   {% set meth_subsection_counter = meth_subsection_counter + 1 %}
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+   The study should design and apply primary valuation methods to estimate the economic value of each identified ecosystem service. The choice of the method(s) is left to the Contractor.
+
+   {% endif %}
+
+
 
 {# Both valuation methods #}
-   {% if (me_econ_valuation_11a.value_trans in ["yes", "maybe"]) and (me_econ_valuation_11a.prim in ["yes", "maybe"]) %}
+   {% if (me_econ_valuation_11a.value_trans in ["yes", "maybe"]) and (me_primary_valuation_condition in ["yes"]) %}
    {% set meth_subsection_counter = meth_subsection_counter + 1 %}
 #### 2.1.{{meth_subsection_counter}} Economic valuation
 
@@ -738,6 +755,18 @@ The choice of the valuation method(s) to be applied is left to the Contractor. I
    **For value transfer methods**, transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
 
    **For primary valuation methods**, preferrence is given to: {{ join_natural(val_meth_list) }}.
+
+   {% endif %}
+
+   {% if (me_econ_valuation_11a.value_trans in ["yes", "maybe"]) and (me_econ_valuation_11a.prim in ["maybe"] or me_primary_valuation_condition in ["no"])) %}
+   {% set meth_subsection_counter = meth_subsection_counter + 1 %}
+#### 2.1.{{meth_subsection_counter}} Economic valuation
+
+   The study should design and apply both value transfer methods and primary valuation methods to estimate the economic value of each identified ecosystem service.
+
+   **For value transfer methods**, transferred values should be adjusted to reflect the characteristics of the study site in terms of ecosystem extent, condition, population of beneficiaries and income level. This could involve the use of available databases of ecosystem service values and / or the use of published value transfer functions.
+
+   **For primary valuation methods**, the choice of the method(s) is left to the Contractor.
 
    {% endif %}
 
@@ -845,7 +874,7 @@ The Contractor may deviate from the suggestions described above. In that case, t
 
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
-The ecosystem service assessment should define the sustainable levels for [supply, use] of the ecosystem service(s) of interest. In their proposal, the Contractor shall clearly describe and justify the methodology that will be used to identify and define these levels.
+The ecosystem service assessment should define the sustainable levels for **[Commissioners to choose one of both: supply, use]** of the ecosystem service(s) of interest. In their proposal, the Contractor shall clearly describe and justify the methodology that will be used to identify and define these levels.
 {% endif %}
 
 
@@ -856,13 +885,13 @@ The ecosystem service assessment should define the sustainable levels for [suppl
    {% if me_expertise_needed == "no" %}
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
-   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
+   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for **[Commissioners to choose one of both: supply, use]** of the ecosystem service(s) of relevance.
    The choice of the appropriate condition indicator(s) is left to the Contractor. In their proposal, the Contractor shall clearly describe and justify their choices of indicators and methodology in relation to the decision-making context and purpose, as well as the data availability and / or quality.
 
    {% elif me_expertise_needed == "yes"%}
 #### 2.1.{{meth_subsection_counter}} Sustainability and condition
 
-   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for [supply, use] of the ecosystem service(s) of relevance.
+   The ecosystem service assessment should include analyses to highlight and understand the influence of ecosystem condition on the {{aspect}} of the ecosystem service(s) of interest. The assessment will use then the results on condition to define the sustainable levels for **[Commissioners to choose one of both: supply, use]** of the ecosystem service(s) of relevance.
 
    The condition indicators of relevance are: {{ join_natural(cond_idx) }}.
    In their proposal, the Contractor may deviate from the indicators suggested above. In these cases, they will clearly describe and justify the methodology that will be used.
