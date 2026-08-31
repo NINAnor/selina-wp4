@@ -20,7 +20,7 @@
 ## How would like to create your Terms of Reference?
 You have two options to create your Terms of Reference:
 
-1. Use [ESToR](/survey) (our online survey) to automatically generate your Terms of Reference as a Word document. Due to resource constraints though, this Terms of Reference does not include:
+1. Use [ESToR](/estor) (our online survey) to automatically generate your Terms of Reference as a Word document. Due to resource constraints though, this Terms of Reference does not include:
 
     * the detailed description of the expected outputs and their format. So your Terms of Reference will have this section empty.
     * the evaluation criteria section. For that, we recommend you to refer to our PDF template described in option 2 below, it has a very nice checklist you can use!
