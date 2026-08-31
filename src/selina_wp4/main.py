@@ -197,7 +197,7 @@ def submit(request_body: dict[Any, Any]):
         )
 
 
-@app.get("/survey")
+@app.get("/estor")
 async def survey(request: Request):
     return templates.TemplateResponse(
         request=request, name="survey.html.jinja", context={"config": SURVEY_CONFIG}
