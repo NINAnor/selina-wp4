@@ -22,7 +22,7 @@ nav:
       - name: Read me first
         link: /writing-tor
       - name: Write your Terms of Reference with ESToR
-        link: /survey
+        link: /estor
       - name: Additional information on ESToR survey
         link: /informative-estor
   - name: Examples
