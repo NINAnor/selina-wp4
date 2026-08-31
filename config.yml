@@ -21,10 +21,10 @@ nav:
     children:
       - name: Read me first
         link: /writing-tor
-      - name: Write your Terms of Reference with our online survey
+      - name: Write your Terms of Reference with ESToR
         link: /survey
-      - name: Additional information on our Terms of Reference survey
-        link: /informative-survey
+      - name: Additional information on ESToR survey
+        link: /informative-estor
   - name: Examples
     link: /examples-tor
   - name: Caveats and limitations
