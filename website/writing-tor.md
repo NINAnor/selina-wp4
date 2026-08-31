@@ -20,7 +20,7 @@
 ## How would like to create your Terms of Reference?
 You have two options to create your Terms of Reference:
 
-1. Take our [online survey](/survey) to automatically generate your Terms of Reference as a Word document. Due to resource constraints though, this Terms of Reference does not include:
+1. Use [ESToR](/survey) (our online survey) to automatically generate your Terms of Reference as a Word document. Due to resource constraints though, this Terms of Reference does not include:
 
     * the detailed description of the expected outputs and their format. So your Terms of Reference will have this section empty.
     * the evaluation criteria section. For that, we recommend you to refer to our PDF template described in option 2 below, it has a very nice checklist you can use!
@@ -32,7 +32,7 @@ You have two options to create your Terms of Reference:
     * The **Evaluation Criteria template** presents a series of tables with evaluation criteria that the commissioners can choose from. As previously, preformatted text is available. This template also supports the evaluation of proposals by highlighting the alignment between the criteria the commissioners chose and the ones displayed in the proposals.
 
 
-If you choose to use our templates and start from scratch, we recommend you to use them chronologically: Frame & Scope, Methodology and Evaluation Criteria. If you already know what you are looking for, or have done the survey before, feel free to use them independently or modularly! The section [Commissioning an ecosystem service assessment with our guidance](/intro-commissionning) details how to use these PDF templates in a commissioning process.
+If you choose to use our templates and start from scratch, we recommend you to use them chronologically: Frame & Scope, Methodology and Evaluation Criteria. If you already know what you are looking for, or have gone through ESToR before, feel free to use them independently or modularly! The section [Commissioning an ecosystem service assessment with our guidance](/intro-commissionning) details how to use these PDF templates in a commissioning process.
 
 
 ## References
