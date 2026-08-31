@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (response.ok) {
         const blob = await response.blob();
-        downloadFile(blob, "survey-result");
+        downloadFile(blob, "ESToR_draft_description_of_work");
       } else {
         const errorText = await response.text();
         console.error("Submission failed:", response.status, errorText);
