@@ -73,7 +73,10 @@
 
 .sd-body__navigation .nav-button-danger .sd-btn {
     background-color: var(--color-error);
-    color: var(--color-error-content);
+}
+
+.sd-body__navigation .nav-button-danger .sd-btn .sd-action__title {
+    color: white !important;
 }
 
 #scroll-to-top {
