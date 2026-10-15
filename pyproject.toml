@@ -12,7 +12,7 @@ dev = [
 
 [project]
 authors = [
-  {name = "ninanor", email = "ninanor@nina.no"}
+  { name = "ninanor", email = "ninanor@nina.no" }
 ]
 # PEP 621 project metadata
 # See https://www.python.org/dev/peps/pep-0621/
@@ -40,11 +40,11 @@ pandoc = ">=3.8.3,<4"
 pnpm = ">=10.28.0,<11"
 
 [tool.pixi.environments]
-default = {solve-group = "default"}
-dev = {features = ["dev"], solve-group = "default"}
+default = { solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
 
 [tool.pixi.pypi-dependencies]
-selina_wp4 = {path = ".", editable = true}
+selina_wp4 = { path = ".", editable = true }
 
 [tool.pixi.tasks]
 dev = "uvicorn --reload selina_wp4.main:app --reload-dir ."
