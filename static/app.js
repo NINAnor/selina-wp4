@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .replace(/&/g, '%26')
       .replace(/,/g, '%2C');
     const infoLink = document.createElement('a');
-    infoLink.href = `/informative-survey#:~:text=${textFragment}`;
+    infoLink.href = `/informative-estor#:~:text=${textFragment}`;
     infoLink.target = '_blank';
     infoLink.rel = 'noopener noreferrer';
     infoLink.className = 'inline-flex ml-2';
